@@ -104,13 +104,13 @@ export default function Randomizer({ SidebarWrapper }) {
   };
 
   const getDynamicFontSize = (text) => {
-    if (inputType === 'numbers') return '12rem';
+    if (inputType === 'numbers') return 'clamp(8rem, 35vw, 22rem)';
     const len = String(text).length;
-    if (len <= 4) return '8rem';
-    if (len <= 8) return '6rem';
-    if (len <= 12) return '4.5rem';
-    if (len <= 20) return '3rem';
-    return '2.2rem';
+    if (len <= 4) return 'clamp(6rem, 25vw, 15rem)';
+    if (len <= 8) return 'clamp(4.5rem, 18vw, 10rem)';
+    if (len <= 12) return 'clamp(3rem, 12vw, 7rem)';
+    if (len <= 20) return 'clamp(2rem, 8vw, 4.5rem)';
+    return 'clamp(1.5rem, 6vw, 3rem)';
   };
 
   const resetHistory = () => {

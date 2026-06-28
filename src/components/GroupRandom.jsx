@@ -253,7 +253,7 @@ export default function GroupRandom({ SidebarWrapper }) {
               </div>
               <div className="mega-group-members" style={{ gap: '1.5rem' }}>
                 {groups[currentGroupIndex].map((member, idx) => (
-                  <span key={idx} className="mega-chip" style={{ padding: '1.5rem 2rem', fontSize: 'clamp(1.2rem, 3vw, 2.5rem)', wordBreak: 'break-word', maxWidth: '100%', whiteSpace: 'normal', textAlign: 'center', lineHeight: '1.3', animation: 'none', opacity: 1, transform: 'none' }}>
+                  <span key={idx} className="mega-chip" style={{ padding: inputType === 'numbers' ? '2rem 3rem' : '1.5rem 2rem', fontSize: inputType === 'numbers' ? 'clamp(3rem, 10vw, 6rem)' : 'clamp(1.8rem, 5vw, 3.5rem)', wordBreak: 'break-word', maxWidth: '100%', whiteSpace: 'normal', textAlign: 'center', lineHeight: '1.3', animation: 'none', opacity: 1, transform: 'none' }}>
                     {member}
                   </span>
                 ))}
