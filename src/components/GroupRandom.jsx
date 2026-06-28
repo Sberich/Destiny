@@ -19,20 +19,26 @@ export default function GroupRandom({ SidebarWrapper }) {
     return () => clearInterval(intervalRef.current);
   }, []);
 
+  const rainbowColors = ['#ff0000', '#ff7f00', '#ffff00', '#00ff00', '#00bfff', '#4b0082', '#9400d3', '#ff1493'];
+
   const fireConfetti = () => {
-    const duration = 3000;
+    const duration = 4000;
     const end = Date.now() + duration;
     (function frame() {
-      confetti({ particleCount: 5, angle: 60, spread: 55, origin: { x: 0, y: 0.8 }, colors: ['#d4af37', '#f9d854', '#ffffff'] });
-      confetti({ particleCount: 5, angle: 120, spread: 55, origin: { x: 1, y: 0.8 }, colors: ['#d4af37', '#f9d854', '#ffffff'] });
+      confetti({ particleCount: 8, angle: 60, spread: 55, startVelocity: 80, origin: { x: 0, y: 1 }, colors: rainbowColors });
+      confetti({ particleCount: 8, angle: 120, spread: 55, startVelocity: 80, origin: { x: 1, y: 1 }, colors: rainbowColors });
       if (Date.now() < end) requestAnimationFrame(frame);
     }());
   };
 
   const fireSmallConfetti = () => {
-    // Fire a massive burst from both sides
-    confetti({ particleCount: 300, angle: 60, spread: 100, startVelocity: 60, origin: { x: 0, y: 1 }, colors: ['#d4af37', '#f9d854', '#ffffff'] });
-    confetti({ particleCount: 300, angle: 120, spread: 100, startVelocity: 60, origin: { x: 1, y: 1 }, colors: ['#d4af37', '#f9d854', '#ffffff'] });
+    const duration = 1500; // 1.5 second burst for intermediate groups
+    const end = Date.now() + duration;
+    (function frame() {
+      confetti({ particleCount: 6, angle: 60, spread: 60, startVelocity: 85, origin: { x: 0, y: 1 }, colors: rainbowColors });
+      confetti({ particleCount: 6, angle: 120, spread: 60, startVelocity: 85, origin: { x: 1, y: 1 }, colors: rainbowColors });
+      if (Date.now() < end) requestAnimationFrame(frame);
+    }());
   };
 
   const getItems = () => {

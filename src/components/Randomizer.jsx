@@ -21,21 +21,24 @@ export default function Randomizer({ SidebarWrapper }) {
   const fireConfetti = () => {
     const duration = 3000;
     const end = Date.now() + duration;
+    const rainbowColors = ['#ff0000', '#ff7f00', '#ffff00', '#00ff00', '#00bfff', '#4b0082', '#9400d3', '#ff1493'];
 
     (function frame() {
       confetti({
-        particleCount: 5,
+        particleCount: 8,
         angle: 60,
         spread: 55,
-        origin: { x: 0, y: 0.8 },
-        colors: ['#d4af37', '#f9d854', '#ffffff']
+        startVelocity: 80,
+        origin: { x: 0, y: 1 },
+        colors: rainbowColors
       });
       confetti({
-        particleCount: 5,
+        particleCount: 8,
         angle: 120,
         spread: 55,
-        origin: { x: 1, y: 0.8 },
-        colors: ['#d4af37', '#f9d854', '#ffffff']
+        startVelocity: 80,
+        origin: { x: 1, y: 1 },
+        colors: rainbowColors
       });
 
       if (Date.now() < end) {
