@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldGradient" x1="10%" y1="0%" x2="90%" y2="100%">
+      <stop offset="0%" stop-color="#fff6cc" />
+      <stop offset="25%" stop-color="#f9d854" />
+      <stop offset="50%" stop-color="#d4af37" />
+      <stop offset="75%" stop-color="#b58d22" />
+      <stop offset="100%" stop-color="#8a6d1c" />
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="dropShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000" flood-opacity="0.9"/>
+    </filter>
+  </defs>
+  
+  <g filter="url(#dropShadow)">
+    <g filter="url(#glow)">
+      <path d="M50,5 C28,5 12,20 12,41 L31,41 C31,30 38,22 50,22 C61,22 69,29 69,38 C69,47 61,52 53,56 C44,62 40,70 40,80 L40,83 L59,83 L59,80 C59,71 64,66 73,61 C83,55 90,48 90,38 C90,19 72,5 50,5 Z M40,88 L60,88 L60,105 L40,105 L40,88 Z" 
+            fill="url(#goldGradient)" />
+    </g>
+  </g>
+</svg>
