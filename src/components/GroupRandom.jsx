@@ -2,6 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import confetti from 'canvas-confetti';
 
 export default function GroupRandom({ SidebarWrapper }) {
+  const [inputType, setInputType] = useState('numbers');
+  const [namesText, setNamesText] = useState('');
   const [min, setMin] = useState(1);
   const [max, setMax] = useState(40);
   const [groupSize, setGroupSize] = useState(4);
@@ -33,8 +35,23 @@ export default function GroupRandom({ SidebarWrapper }) {
     confetti({ particleCount: 300, angle: 120, spread: 100, startVelocity: 60, origin: { x: 1, y: 1 }, colors: ['#d4af37', '#f9d854', '#ffffff'] });
   };
 
+  const getItems = () => {
+    if (inputType === 'names') {
+      return namesText.split('\n').map(n => n.trim()).filter(n => n);
+    }
+    const arr = [];
+    for (let i = min; i <= max; i++) arr.push(i);
+    return arr;
+  };
+
   const handleStartSort = () => {
-    if (min > max) {
+    const items = getItems();
+    
+    if (items.length === 0) {
+      alert("Please provide some names to group.");
+      return;
+    }
+    if (inputType === 'numbers' && min > max) {
       alert("From number must be less than or equal to To number.");
       return;
     }
@@ -50,8 +67,7 @@ export default function GroupRandom({ SidebarWrapper }) {
     setGroups([]);
 
     // Calculate Groups in background
-    const arr = [];
-    for (let i = min; i <= max; i++) arr.push(i);
+    let arr = [...items];
 
     for (let i = arr.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -141,14 +157,44 @@ export default function GroupRandom({ SidebarWrapper }) {
   return (
     <>
       <SidebarWrapper>
-        <div className="input-group">
-          <label>From Number</label>
-          <input type="number" value={min} onChange={e => setMin(Number(e.target.value))} />
+        <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem', background: 'rgba(0,0,0,0.4)', borderRadius: '8px', padding: '4px' }}>
+          <button 
+            style={{ flex: 1, background: inputType === 'numbers' ? 'rgba(212, 175, 55, 0.2)' : 'transparent', border: 'none', color: inputType === 'numbers' ? 'var(--gold-light)' : 'var(--text-muted)', padding: '0.5rem', borderRadius: '4px', cursor: 'pointer', fontWeight: 600, transition: 'all 0.2s' }}
+            onClick={() => setInputType('numbers')}
+          >
+            Numbers
+          </button>
+          <button 
+            style={{ flex: 1, background: inputType === 'names' ? 'rgba(212, 175, 55, 0.2)' : 'transparent', border: 'none', color: inputType === 'names' ? 'var(--gold-light)' : 'var(--text-muted)', padding: '0.5rem', borderRadius: '4px', cursor: 'pointer', fontWeight: 600, transition: 'all 0.2s' }}
+            onClick={() => setInputType('names')}
+          >
+            Names
+          </button>
         </div>
-        <div className="input-group">
-          <label>To Number</label>
-          <input type="number" value={max} onChange={e => setMax(Number(e.target.value))} />
-        </div>
+
+        {inputType === 'numbers' ? (
+          <>
+            <div className="input-group">
+              <label>From Number</label>
+              <input type="number" value={min} onChange={e => setMin(Number(e.target.value))} />
+            </div>
+            <div className="input-group">
+              <label>To Number</label>
+              <input type="number" value={max} onChange={e => setMax(Number(e.target.value))} />
+            </div>
+          </>
+        ) : (
+          <div className="input-group">
+            <label>List of Names (One per line)</label>
+            <textarea 
+              value={namesText} 
+              onChange={e => setNamesText(e.target.value)}
+              placeholder="John&#10;Mary&#10;Peter..."
+              style={{ width: '100%', height: '120px', background: 'rgba(0, 0, 0, 0.4)', border: '1px solid rgba(255,255,255,0.08)', color: 'var(--gold-light)', padding: '0.5rem 0.8rem', borderRadius: '8px', outline: 'none', resize: 'none', fontFamily: 'inherit' }}
+            />
+          </div>
+        )}
+
         <div className="input-group">
           <label>People per Group</label>
           <input type="number" value={groupSize} onChange={e => setGroupSize(Number(e.target.value))} />
@@ -201,7 +247,7 @@ export default function GroupRandom({ SidebarWrapper }) {
               </div>
               <div className="mega-group-members" style={{ gap: '1.5rem' }}>
                 {groups[currentGroupIndex].map((member, idx) => (
-                  <span key={idx} className="mega-chip" style={{ padding: '1.5rem 2rem', fontSize: '2.5rem', animation: 'none', opacity: 1, transform: 'none' }}>
+                  <span key={idx} className="mega-chip" style={{ padding: '1.5rem 2rem', fontSize: 'clamp(1.2rem, 3vw, 2.5rem)', wordBreak: 'break-word', maxWidth: '100%', whiteSpace: 'normal', textAlign: 'center', lineHeight: '1.3', animation: 'none', opacity: 1, transform: 'none' }}>
                     {member}
                   </span>
                 ))}
