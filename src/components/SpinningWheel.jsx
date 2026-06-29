@@ -1,17 +1,30 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import confetti from 'canvas-confetti';
 
 export default function SpinningWheel({ SidebarWrapper }) {
   const [inputType, setInputType] = useState('numbers');
-  const [namesText, setNamesText] = useState('');
+  const [namesText, setNamesText] = useState(() => localStorage.getItem('savedNames') || '');
   const [min, setMin] = useState(1);
   const [max, setMax] = useState(10);
-  
   const [isSpinning, setIsSpinning] = useState(false);
   const [rotation, setRotation] = useState(0);
   const [winner, setWinner] = useState(null);
-  
   const [wheelTheme, setWheelTheme] = useState('luxury');
+
+  // Sync namesText to localStorage whenever it changes
+  useEffect(() => {
+    localStorage.setItem('savedNames', namesText);
+  }, [namesText]);
+
+  // Handle Pastel Mode body class
+  useEffect(() => {
+    if (wheelTheme === 'pastel') {
+      document.body.classList.add('pastel-mode');
+    } else {
+      document.body.classList.remove('pastel-mode');
+    }
+    return () => document.body.classList.remove('pastel-mode');
+  }, [wheelTheme]);
 
   const getItems = () => {
     if (inputType === 'names') {
@@ -22,7 +35,15 @@ export default function SpinningWheel({ SidebarWrapper }) {
     return arr;
   };
   
-  const items = getItems();
+  // Memoize shuffled items so they don't jump around on every tick of the spin animation
+  const items = useMemo(() => {
+    const arr = getItems();
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }, [namesText, inputType, min, max]);
   
   const fireConfetti = () => {
     const duration = 4000;
@@ -107,15 +128,19 @@ export default function SpinningWheel({ SidebarWrapper }) {
       currentItems.splice(indexToRemove, 1);
     }
     
-    // Update the textarea with the remaining items
     setNamesText(currentItems.join('\n'));
     
-    // If they were in numbers mode, switch to names mode so the custom list is used
     if (inputType === 'numbers') {
       setInputType('names');
     }
     
     setWinner(null);
+  };
+
+  const handleClearNames = () => {
+    if (confirm("Are you sure you want to clear all names?")) {
+      setNamesText('');
+    }
   };
 
   return (
@@ -152,19 +177,26 @@ export default function SpinningWheel({ SidebarWrapper }) {
         </div>
 
         {inputType === 'numbers' ? (
-          <>
-            <div className="input-group">
-              <label>From Number</label>
+          <div style={{ display: 'flex', gap: '0.5rem' }}>
+            <div className="input-group" style={{ flex: 1 }}>
+              <label>From</label>
               <input type="number" value={min} onChange={e => setMin(Number(e.target.value))} />
             </div>
-            <div className="input-group">
-              <label>To Number</label>
+            <div className="input-group" style={{ flex: 1 }}>
+              <label>To</label>
               <input type="number" value={max} onChange={e => setMax(Number(e.target.value))} />
             </div>
-          </>
+          </div>
         ) : (
-          <div className="input-group">
-            <label>List of Names (One per line)</label>
+          <div className="input-group" style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+            <label style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%' }}>
+              <span>List of Names</span>
+              <button 
+                onClick={handleClearNames}
+                style={{ background: 'transparent', border: '1px solid #ff4444', color: '#ff4444', padding: '2px 8px', borderRadius: '4px', fontSize: '0.7rem', cursor: 'pointer' }}>
+                CLEAR
+              </button>
+            </label>
             <textarea 
               value={namesText} 
               onChange={e => setNamesText(e.target.value)}
@@ -251,7 +283,7 @@ export default function SpinningWheel({ SidebarWrapper }) {
             </div>
           </div>
         )}
-        
+
       </main>
       
       {/* Winner Modal */}

@@ -26,18 +26,18 @@ export default function App() {
           <button className="close-btn" onClick={() => setIsMenuOpen(false)}>×</button>
         </div>
 
-        <div className="tabs-vertical">
+        <div className="tabs-minimal">
           <button className={`tab-btn ${activeTab === 'single' ? 'active' : ''}`} onClick={() => {setActiveTab('single'); setIsMenuOpen(false);}}>
-            Single / Unique
+            Single
           </button>
           <button className={`tab-btn ${activeTab === 'list' ? 'active' : ''}`} onClick={() => {setActiveTab('list'); setIsMenuOpen(false);}}>
             List All
           </button>
           <button className={`tab-btn ${activeTab === 'group' ? 'active' : ''}`} onClick={() => {setActiveTab('group'); setIsMenuOpen(false);}}>
-            Group Random
+            Group
           </button>
           <button className={`tab-btn ${activeTab === 'wheel' ? 'active' : ''}`} onClick={() => {setActiveTab('wheel'); setIsMenuOpen(false);}}>
-            Wheel of Destiny
+            Wheel
           </button>
         </div>
 

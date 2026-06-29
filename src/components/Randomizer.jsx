@@ -3,7 +3,17 @@ import confetti from 'canvas-confetti';
 
 export default function Randomizer({ SidebarWrapper }) {
   const [inputType, setInputType] = useState('numbers');
-  const [namesText, setNamesText] = useState('');
+  const [namesText, setNamesText] = useState(() => localStorage.getItem('savedNames') || '');
+
+  useEffect(() => {
+    localStorage.setItem('savedNames', namesText);
+  }, [namesText]);
+
+  const handleClearNames = () => {
+    if (confirm("Are you sure you want to clear all names?")) {
+      setNamesText('');
+    }
+  };
   const [min, setMin] = useState(1);
   const [max, setMax] = useState(100);
   const [isUnique, setIsUnique] = useState(false);
@@ -138,24 +148,31 @@ export default function Randomizer({ SidebarWrapper }) {
         </div>
 
         {inputType === 'numbers' ? (
-          <>
-            <div className="input-group">
-              <label>From Number</label>
+          <div style={{ display: 'flex', gap: '0.5rem' }}>
+            <div className="input-group" style={{ flex: 1 }}>
+              <label>From</label>
               <input type="number" value={min} onChange={e => setMin(Number(e.target.value))} />
             </div>
-            <div className="input-group">
-              <label>To Number</label>
+            <div className="input-group" style={{ flex: 1 }}>
+              <label>To</label>
               <input type="number" value={max} onChange={e => setMax(Number(e.target.value))} />
             </div>
-          </>
+          </div>
         ) : (
-          <div className="input-group">
-            <label>List of Names (One per line)</label>
+          <div className="input-group" style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+            <label style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%' }}>
+              <span>List of Names</span>
+              <button 
+                onClick={handleClearNames}
+                style={{ background: 'transparent', border: '1px solid #ff4444', color: '#ff4444', padding: '2px 8px', borderRadius: '4px', fontSize: '0.7rem', cursor: 'pointer' }}>
+                CLEAR
+              </button>
+            </label>
             <textarea 
               value={namesText} 
               onChange={e => setNamesText(e.target.value)}
               placeholder="John&#10;Mary&#10;Peter..."
-              style={{ width: '100%', height: '120px', background: 'rgba(0, 0, 0, 0.4)', border: '1px solid rgba(255,255,255,0.08)', color: 'var(--gold-light)', padding: '0.5rem 0.8rem', borderRadius: '8px', outline: 'none', resize: 'none', fontFamily: 'inherit' }}
+              style={{ width: '100%', height: '200px', background: 'rgba(0, 0, 0, 0.4)', border: '1px solid rgba(255,255,255,0.08)', color: 'var(--gold-light)', padding: '0.5rem 0.8rem', borderRadius: '8px', outline: 'none', resize: 'none', fontFamily: 'inherit' }}
             />
           </div>
         )}
