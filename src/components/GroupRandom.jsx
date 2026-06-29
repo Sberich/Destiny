@@ -265,16 +265,34 @@ export default function GroupRandom({ SidebarWrapper }) {
             </button>
 
             {/* Current Group Card */}
-            <div className="mega-group-card reveal-flash" style={{ flex: 1, minHeight: '350px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }} key={currentGroupIndex}>
-              <div className="mega-group-header" style={{ fontSize: '2.5rem', marginBottom: '2.5rem' }}>
+            <div className="mega-group-card reveal-flash" style={{ flex: 1, minHeight: '350px', maxHeight: '80vh', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start' }} key={currentGroupIndex}>
+              <div className="mega-group-header" style={{ fontSize: '2.5rem', marginBottom: '1.5rem', flexShrink: 0 }}>
                 Group {currentGroupIndex + 1}
               </div>
-              <div className="mega-group-members" style={{ gap: '1.5rem' }}>
-                {groups[currentGroupIndex].map((member, idx) => (
-                  <span key={idx} className="mega-chip" style={{ padding: inputType === 'numbers' ? '2rem 3rem' : '1.5rem 2rem', fontSize: inputType === 'numbers' ? 'clamp(3rem, 10vw, 6rem)' : 'clamp(1.8rem, 5vw, 3.5rem)', wordBreak: 'break-word', maxWidth: '100%', whiteSpace: 'normal', textAlign: 'center', lineHeight: '1.3', animation: 'none', opacity: 1, transform: 'none' }}>
-                    {member}
-                  </span>
-                ))}
+              <div className="mega-group-members" style={{ gap: '1rem', overflowY: 'auto', padding: '0.5rem', flex: 1, alignContent: 'center' }}>
+                {groups[currentGroupIndex].map((member, idx) => {
+                  const memberCount = groups[currentGroupIndex].length;
+                  const isNames = inputType === 'names';
+                  
+                  // Scale down font and padding if there are many members
+                  let chipPadding = isNames ? '1.5rem 2rem' : '2rem 3rem';
+                  let chipFontSize = isNames ? 'clamp(1.5rem, 4vw, 2.5rem)' : 'clamp(3rem, 10vw, 6rem)';
+                  
+                  if (isNames && memberCount > 3) {
+                    chipPadding = '0.8rem 1.2rem';
+                    chipFontSize = 'clamp(1.2rem, 3vw, 1.8rem)';
+                  }
+                  if (isNames && memberCount > 6) {
+                    chipPadding = '0.5rem 1rem';
+                    chipFontSize = 'clamp(1rem, 2vw, 1.4rem)';
+                  }
+
+                  return (
+                    <span key={idx} className="mega-chip" style={{ padding: chipPadding, fontSize: chipFontSize, wordBreak: 'break-word', maxWidth: '100%', whiteSpace: 'normal', textAlign: 'center', lineHeight: '1.3', animation: 'none', opacity: 1, transform: 'none' }}>
+                      {member}
+                    </span>
+                  );
+                })}
               </div>
             </div>
 
