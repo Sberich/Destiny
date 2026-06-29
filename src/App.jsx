@@ -2,62 +2,45 @@ import React, { useState } from 'react';
 import Randomizer from './components/Randomizer';
 import ListAll from './components/ListAll';
 import GroupRandom from './components/GroupRandom';
-import './index.css';
+import SpinningWheel from './components/SpinningWheel';
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState('random');
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [activeTab, setActiveTab] = useState('single');
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const toggleSidebar = () => setIsSidebarOpen(!isSidebarOpen);
-  const closeSidebar = () => setIsSidebarOpen(false);
-
+  // Reusable Sidebar Wrapper to keep state inside components but UI consistent
   const SidebarWrapper = ({ children }) => (
     <>
-      {/* Floating Toggle Button */}
-      <button className="menu-toggle-btn" onClick={toggleSidebar}>
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <line x1="3" y1="12" x2="21" y2="12"></line>
-          <line x1="3" y1="6" x2="21" y2="6"></line>
-          <line x1="3" y1="18" x2="21" y2="18"></line>
-        </svg>
+      <button className="menu-toggle-btn" onClick={() => setIsMenuOpen(true)}>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
       </button>
 
-      {/* Overlay */}
-      <div 
-        className={`sidebar-overlay ${isSidebarOpen ? 'show' : ''}`} 
-        onClick={closeSidebar}
-      />
-
-      {/* Drawer */}
-      <aside className={`sidebar-drawer ${isSidebarOpen ? 'open' : ''}`}>
+      <div className={`sidebar-overlay ${isMenuOpen ? 'show' : ''}`} onClick={() => setIsMenuOpen(false)}></div>
+      
+      <aside className={`sidebar-drawer ${isMenuOpen ? 'open' : ''}`}>
         <div className="sidebar-header">
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-            <img src="/app-icon.svg" alt="Destiny Logo" style={{ width: '28px', height: '28px' }} />
+            <img src="/app-icon.svg" alt="Destiny Logo" style={{ width: '24px', height: '24px' }} />
             <h1 className="app-title">Destiny</h1>
           </div>
-          <button className="close-btn" onClick={closeSidebar}>&times;</button>
+          <button className="close-btn" onClick={() => setIsMenuOpen(false)}>×</button>
         </div>
-        
+
         <div className="tabs-vertical">
-          <button 
-            className={`tab-btn ${activeTab === 'random' ? 'active' : ''}`} 
-            onClick={() => { setActiveTab('random'); }}
-          >
+          <button className={`tab-btn ${activeTab === 'single' ? 'active' : ''}`} onClick={() => {setActiveTab('single'); setIsMenuOpen(false);}}>
             Single / Unique
           </button>
-          <button 
-            className={`tab-btn ${activeTab === 'list' ? 'active' : ''}`} 
-            onClick={() => { setActiveTab('list'); }}
-          >
-            List All Number
+          <button className={`tab-btn ${activeTab === 'list' ? 'active' : ''}`} onClick={() => {setActiveTab('list'); setIsMenuOpen(false);}}>
+            List All
           </button>
-          <button 
-            className={`tab-btn ${activeTab === 'group' ? 'active' : ''}`} 
-            onClick={() => { setActiveTab('group'); }}
-          >
+          <button className={`tab-btn ${activeTab === 'group' ? 'active' : ''}`} onClick={() => {setActiveTab('group'); setIsMenuOpen(false);}}>
             Group Random
           </button>
+          <button className={`tab-btn ${activeTab === 'wheel' ? 'active' : ''}`} onClick={() => {setActiveTab('wheel'); setIsMenuOpen(false);}}>
+            Wheel of Destiny
+          </button>
         </div>
+
         <div className="controls-section">
           {children}
         </div>
@@ -67,9 +50,10 @@ export default function App() {
 
   return (
     <div className="dashboard-layout">
-      {activeTab === 'random' && <Randomizer SidebarWrapper={SidebarWrapper} />}
+      {activeTab === 'single' && <Randomizer SidebarWrapper={SidebarWrapper} />}
       {activeTab === 'list' && <ListAll SidebarWrapper={SidebarWrapper} />}
       {activeTab === 'group' && <GroupRandom SidebarWrapper={SidebarWrapper} />}
+      {activeTab === 'wheel' && <SpinningWheel SidebarWrapper={SidebarWrapper} />}
     </div>
   );
 }

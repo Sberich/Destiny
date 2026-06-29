@@ -570,3 +570,157 @@ h1.app-title {
     height: 250px;
   }
 }
+
+/* Wheel of Destiny Styles */
+.wheel-container {
+  position: relative;
+  width: 90vw;
+  max-width: 600px;
+  height: 90vw;
+  max-height: 600px;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 
+    0 0 50px rgba(212, 175, 55, 0.2),
+    0 0 100px rgba(212, 175, 55, 0.1),
+    inset 0 0 30px rgba(0, 0, 0, 0.8);
+  border: 8px solid var(--gold-dark);
+  background: var(--bg-color);
+}
+
+.wheel-container::before {
+  content: '';
+  position: absolute;
+  top: -12px;
+  left: -12px;
+  right: -12px;
+  bottom: -12px;
+  border-radius: 50%;
+  border: 4px solid var(--gold-light);
+  box-shadow: 0 0 30px rgba(212, 175, 55, 0.5);
+  pointer-events: none;
+  z-index: 5;
+  transition: all 0.3s ease;
+}
+
+.wheel-container.theme-pastel::before {
+  border-color: #fff;
+  box-shadow: 0 0 30px rgba(255, 179, 186, 0.8);
+}
+
+.wheel {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  transition: transform 8s cubic-bezier(0.1, 0.9, 0.2, 1);
+  will-change: transform;
+}
+
+.wheel-slice {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(50% 50%, 100% 0, 100% 100%);
+  transform-origin: 50% 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.wheel-slice-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: 0 0;
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.wheel-pointer {
+  position: absolute;
+  top: 50%;
+  right: -45px;
+  transform: translateY(-50%) rotate(90deg);
+  width: 90px;
+  height: 110px;
+  z-index: 10;
+  filter: drop-shadow(0 5px 15px rgba(0,0,0,0.9));
+}
+
+.wheel-pointer path {
+  fill: #f9d854;
+  stroke: #fff;
+  stroke-width: 2;
+}
+
+.wheel-center-dot {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  background: radial-gradient(circle at 30% 30%, var(--gold-light), var(--gold-dark));
+  border-radius: 50%;
+  z-index: 10;
+  box-shadow: 
+    0 0 20px rgba(0,0,0,0.8),
+    inset 0 0 10px rgba(255,255,255,0.5);
+  border: 4px solid var(--bg-color);
+}
+
+.wheel-winner-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.65);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: fadeInModal 0.5s ease forwards;
+}
+
+@keyframes fadeInModal {
+  from { opacity: 0; backdrop-filter: blur(0px); }
+  to { opacity: 1; backdrop-filter: blur(10px); }
+}
+
+.winner-text {
+  font-size: clamp(2.5rem, 8vw, 8rem);
+  font-weight: 900;
+  color: #fff;
+  text-shadow: 
+    0 0 30px rgba(212,175,55,1),
+    0 0 80px rgba(212,175,55,0.6);
+  animation: winnerPop 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+  margin-bottom: 2rem;
+  text-align: center;
+  word-break: break-word;
+  padding: 0 2rem;
+}
+
+@keyframes winnerPop {
+  0% { transform: scale(0.5); opacity: 0; }
+  60% { transform: scale(1.1); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@media (max-width: 900px) {
+  .wheel-container {
+    width: 80vw;
+    height: 80vw;
+  }
+}
