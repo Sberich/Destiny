@@ -3,6 +3,7 @@ import Randomizer from './components/Randomizer';
 import ListAll from './components/ListAll';
 import GroupRandom from './components/GroupRandom';
 import SpinningWheel from './components/SpinningWheel';
+import CountdownTimer from './components/CountdownTimer';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('single');
@@ -39,6 +40,9 @@ export default function App() {
           <button className={`tab-btn ${activeTab === 'wheel' ? 'active' : ''}`} onClick={() => {setActiveTab('wheel'); setIsMenuOpen(false);}}>
             Wheel
           </button>
+          <button className={`tab-btn ${activeTab === 'timer' ? 'active' : ''}`} onClick={() => {setActiveTab('timer'); setIsMenuOpen(false);}}>
+            Timer
+          </button>
         </div>
 
         <div className="controls-section">
@@ -54,6 +58,7 @@ export default function App() {
       {activeTab === 'list' && <ListAll SidebarWrapper={SidebarWrapper} />}
       {activeTab === 'group' && <GroupRandom SidebarWrapper={SidebarWrapper} />}
       {activeTab === 'wheel' && <SpinningWheel SidebarWrapper={SidebarWrapper} />}
+      {activeTab === 'timer' && <CountdownTimer SidebarWrapper={SidebarWrapper} />}
     </div>
   );
 }

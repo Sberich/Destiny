@@ -550,6 +550,25 @@ h1.app-title {
   100% { transform: scale(1) translateY(0); opacity: 1; box-shadow: 0 0 50px rgba(212,175,55,0.2); border-color: var(--gold-primary); filter: brightness(1); }
 }
 
+.pulse-finished {
+  animation: pulseFinished 1s infinite alternate;
+}
+
+@keyframes pulseFinished {
+  0% { transform: scale(1); box-shadow: 0 0 30px rgba(212, 175, 55, 0.4); }
+  100% { transform: scale(1.05); box-shadow: 0 0 100px rgba(255, 68, 68, 0.8); border-color: #ff4444; }
+}
+
+.timer-text-finished {
+  animation: timerPulse 1s infinite alternate;
+  color: #ff4444 !important;
+}
+
+@keyframes timerPulse {
+  0% { transform: scale(1); text-shadow: 0 0 30px rgba(255, 68, 68, 0.4); }
+  100% { transform: scale(1.05); text-shadow: 0 0 80px rgba(255, 68, 68, 1); }
+}
+
 /* Responsive */
 @media (max-width: 900px) {
   .mega-number {
