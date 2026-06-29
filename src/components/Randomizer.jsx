@@ -200,7 +200,7 @@ export default function Randomizer({ SidebarWrapper }) {
             onClick={!isSpinning ? handleRandomize : undefined}
             title="Click to Randomize!"
           >
-            <div className={`mega-number ${isSpinning ? 'spinning' : ''} ${isFinal ? 'final' : ''}`} style={{ fontSize: getDynamicFontSize(currentNumber), wordBreak: 'break-word', overflowWrap: 'break-word', padding: '0 2rem', textAlign: 'center', lineHeight: '1.2' }}>
+            <div className={`mega-number ${isSpinning ? 'spinning' : ''} ${isFinal ? 'final' : ''}`} style={{ fontSize: getDynamicFontSize(currentNumber), whiteSpace: 'nowrap', padding: '0 2rem', textAlign: 'center', lineHeight: '1.2' }}>
               {currentNumber}
             </div>
           </div>
