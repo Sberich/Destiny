@@ -1,13 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import confetti from 'canvas-confetti';
 
-export default function Randomizer({ SidebarWrapper }) {
-  const [inputType, setInputType] = useState('numbers');
-  const [namesText, setNamesText] = useState(() => localStorage.getItem('savedNames') || '');
-
-  useEffect(() => {
-    localStorage.setItem('savedNames', namesText);
-  }, [namesText]);
+export default function Randomizer({ SidebarWrapper, namesText, setNamesText }) {
+  const [inputType, setInputType] = useState('names');
 
   const handleClearNames = () => {
     if (confirm("Are you sure you want to clear all names?")) {

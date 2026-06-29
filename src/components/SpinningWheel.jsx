@@ -1,9 +1,8 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import confetti from 'canvas-confetti';
 
-export default function SpinningWheel({ SidebarWrapper }) {
-  const [inputType, setInputType] = useState('numbers');
-  const [namesText, setNamesText] = useState(() => localStorage.getItem('savedNames') || '');
+export default function SpinningWheel({ SidebarWrapper, namesText, setNamesText }) {
+  const [inputType, setInputType] = useState('names');
   const [min, setMin] = useState(1);
   const [max, setMax] = useState(10);
   const [isSpinning, setIsSpinning] = useState(false);

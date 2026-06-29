@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 
-export default function ListAll({ SidebarWrapper }) {
-  const [inputType, setInputType] = useState('numbers');
-  const [namesText, setNamesText] = useState('');
+export default function ListAll({ SidebarWrapper, namesText, setNamesText }) {
+  const [inputType, setInputType] = useState('names');
   const [min, setMin] = useState(1);
   const [max, setMax] = useState(100);
   const [items, setItems] = useState([]);

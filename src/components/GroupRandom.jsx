@@ -1,13 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import confetti from 'canvas-confetti';
 
-export default function GroupRandom({ SidebarWrapper }) {
-  const [inputType, setInputType] = useState('numbers');
-  const [namesText, setNamesText] = useState(() => localStorage.getItem('savedNames') || '');
-
-  useEffect(() => {
-    localStorage.setItem('savedNames', namesText);
-  }, [namesText]);
+export default function GroupRandom({ SidebarWrapper, namesText, setNamesText }) {
+  const [inputType, setInputType] = useState('names');
 
   const handleClearNames = () => {
     if (confirm("Are you sure you want to clear all names?")) {
@@ -29,6 +24,14 @@ export default function GroupRandom({ SidebarWrapper }) {
   useEffect(() => {
     return () => clearInterval(intervalRef.current);
   }, []);
+
+  useEffect(() => {
+    setGroups([]);
+    setIsComplete(false);
+    setCurrentGroupIndex(0);
+    setMaxRevealedIndex(0);
+    setIsSpinning(false);
+  }, [namesText]);
 
   const rainbowColors = ['#ff0000', '#ff7f00', '#ffff00', '#00ff00', '#00bfff', '#4b0082', '#9400d3', '#ff1493'];
 
