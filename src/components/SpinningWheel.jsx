@@ -50,7 +50,7 @@ export default function SpinningWheel({ SidebarWrapper }) {
     const end = Date.now() + duration;
     // If pastel, use softer bright colors, otherwise normal rainbow
     const colors = wheelTheme === 'pastel' 
-      ? ['#ffb3ba', '#ffdfba', '#ffffba', '#baffc9', '#bae1ff', '#e8c9ff'] 
+      ? ['#ff758c', '#ff7eb3', '#8e2de2', '#00c6ff', '#f9d423', '#ff4e50'] // Vibrant candy colors for better contrast
       : ['#ff0000', '#ff7f00', '#ffff00', '#00ff00', '#00bfff', '#4b0082', '#9400d3', '#ff1493'];
       
     (function frame() {
