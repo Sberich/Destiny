@@ -75,7 +75,8 @@ export default function SpinningWheel({ namesText, setNamesText }) {
     
     const baseRot = rotation % 360;
     // Target is 90 degrees (RIGHT side) instead of 0 (TOP)
-    const targetBase = 90 - (winningIndex * sliceAngle) + randomOffset;
+    // We want the CENTER of the slice (winningIndex * sliceAngle + sliceAngle / 2) to land at 90 degrees.
+    const targetBase = 90 - (winningIndex * sliceAngle + sliceAngle / 2) + randomOffset;
     
     // 10 extra full spins for a longer, more dramatic build-up
     const extraSpins = 360 * 10;

@@ -596,10 +596,8 @@ h1.app-title {
 /* Wheel of Destiny Styles */
 .wheel-container {
   position: relative;
-  width: 90vw;
-  max-width: 600px;
-  height: 90vw;
-  max-height: 600px;
+  width: min(90vw, 80vh, 850px);
+  height: min(90vw, 80vh, 850px);
   margin: 0 auto;
   border-radius: 50%;
   box-shadow: 
@@ -687,10 +685,10 @@ h1.app-title {
 .wheel-pointer {
   position: absolute;
   top: 50%;
-  right: -45px;
+  right: -5%;
   transform: translateY(-50%) rotate(90deg);
-  width: 90px;
-  height: 110px;
+  width: clamp(60px, 10%, 100px);
+  height: clamp(80px, 12%, 120px);
   z-index: 10;
   filter: drop-shadow(0 5px 15px rgba(0,0,0,0.9));
 }
@@ -706,8 +704,8 @@ h1.app-title {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 60px;
-  height: 60px;
+  width: clamp(40px, 8%, 80px);
+  height: clamp(40px, 8%, 80px);
   background: radial-gradient(circle at 30% 30%, var(--gold-light), var(--gold-dark));
   border-radius: 50%;
   z-index: 10;
