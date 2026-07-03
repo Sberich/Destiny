@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import confetti from 'canvas-confetti';
+import Sidebar from './Sidebar';
 
-export default function GroupRandom({ SidebarWrapper, namesText, setNamesText }) {
+export default function GroupRandom({ namesText, setNamesText }) {
   const [inputType, setInputType] = useState('names');
 
   const handleClearNames = () => {
@@ -75,8 +76,8 @@ export default function GroupRandom({ SidebarWrapper, namesText, setNamesText })
       alert("From number must be less than or equal to To number.");
       return;
     }
-    if (groupSize < 1) {
-      alert("Group size must be at least 1.");
+    if (isNaN(groupSize) || groupSize < 1) {
+      alert("Group size must be a valid number of at least 1.");
       return;
     }
 
@@ -176,7 +177,7 @@ export default function GroupRandom({ SidebarWrapper, namesText, setNamesText })
 
   return (
     <>
-      <SidebarWrapper>
+      <Sidebar>
         <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem', background: 'rgba(0,0,0,0.4)', borderRadius: '8px', padding: '4px' }}>
           <button 
             style={{ flex: 1, background: inputType === 'numbers' ? 'rgba(212, 175, 55, 0.2)' : 'transparent', border: 'none', color: inputType === 'numbers' ? 'var(--gold-light)' : 'var(--text-muted)', padding: '0.5rem', borderRadius: '4px', cursor: 'pointer', fontWeight: 600, transition: 'all 0.2s' }}
@@ -230,7 +231,7 @@ export default function GroupRandom({ SidebarWrapper, namesText, setNamesText })
         {isComplete && (
           <button className="btn-secondary" onClick={handleReset}>Reset Groups</button>
         )}
-      </SidebarWrapper>
+      </Sidebar>
 
       <main className="stage">
         

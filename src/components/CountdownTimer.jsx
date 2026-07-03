@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import confetti from 'canvas-confetti';
+import Sidebar from './Sidebar';
 
-export default function CountdownTimer({ SidebarWrapper }) {
+export default function CountdownTimer() {
   const [inputMinutes, setInputMinutes] = useState(5);
   const [inputSeconds, setInputSeconds] = useState(0);
   
@@ -10,6 +11,7 @@ export default function CountdownTimer({ SidebarWrapper }) {
   const [isFinished, setIsFinished] = useState(false);
   
   const timerRef = useRef(null);
+  const audioCtxRef = useRef(null);
 
   // Load initial time when inputs change (and not running)
   useEffect(() => {
@@ -42,7 +44,9 @@ export default function CountdownTimer({ SidebarWrapper }) {
 
   const playAlarm = () => {
     try {
-      const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      const audioCtx = audioCtxRef.current;
+      if (!audioCtx) return;
+
       const oscillator = audioCtx.createOscillator();
       const gainNode = audioCtx.createGain();
       
@@ -72,6 +76,12 @@ export default function CountdownTimer({ SidebarWrapper }) {
       
       oscillator.start(startTime);
       oscillator.stop(startTime + duration);
+      
+      oscillator.onended = () => {
+        if (audioCtx.state !== 'closed') {
+          audioCtx.close();
+        }
+      };
     } catch (e) {
       console.error("Audio not supported", e);
     }
@@ -104,12 +114,30 @@ export default function CountdownTimer({ SidebarWrapper }) {
   };
 
   const handleStart = () => {
+    const totalTime = inputMinutes * 60 + inputSeconds;
+    if (timeLeft === 0 && totalTime === 0) {
+      alert("Please set a time greater than 0.");
+      return;
+    }
+
+    // AudioContext priming on user gesture
+    if (!audioCtxRef.current || audioCtxRef.current.state === 'closed') {
+      try {
+        audioCtxRef.current = new (window.AudioContext || window.webkitAudioContext)();
+      } catch (e) {
+        console.error(e);
+      }
+    }
+    if (audioCtxRef.current && audioCtxRef.current.state === 'suspended') {
+      audioCtxRef.current.resume();
+    }
+
     if (timeLeft === 0 && !isFinished) {
-      setTimeLeft(inputMinutes * 60 + inputSeconds);
+      setTimeLeft(totalTime);
     }
     if (isFinished) {
       setIsFinished(false);
-      setTimeLeft(inputMinutes * 60 + inputSeconds);
+      setTimeLeft(totalTime);
     }
     setIsRunning(true);
   };
@@ -132,7 +160,7 @@ export default function CountdownTimer({ SidebarWrapper }) {
 
   return (
     <>
-      <SidebarWrapper>
+      <Sidebar>
         <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1.5rem' }}>
           <div className="input-group" style={{ flex: 1, minWidth: 0 }}>
             <label style={{ whiteSpace: 'nowrap' }}>Minutes</label>
@@ -173,7 +201,7 @@ export default function CountdownTimer({ SidebarWrapper }) {
             RESET
           </button>
         </div>
-      </SidebarWrapper>
+      </Sidebar>
 
       <main className="stage">
         <div className="stage-center" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>

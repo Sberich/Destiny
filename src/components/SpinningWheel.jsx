@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import confetti from 'canvas-confetti';
+import Sidebar from './Sidebar';
 
-export default function SpinningWheel({ SidebarWrapper, namesText, setNamesText }) {
+export default function SpinningWheel({ namesText, setNamesText }) {
   const [inputType, setInputType] = useState('names');
   const [min, setMin] = useState(1);
   const [max, setMax] = useState(10);
@@ -10,10 +11,7 @@ export default function SpinningWheel({ SidebarWrapper, namesText, setNamesText 
   const [winner, setWinner] = useState(null);
   const [wheelTheme, setWheelTheme] = useState('luxury');
 
-  // Sync namesText to localStorage whenever it changes
-  useEffect(() => {
-    localStorage.setItem('savedNames', namesText);
-  }, [namesText]);
+  // Sync namesText to localStorage removed (managed centrally now)
 
   // Handle Pastel Mode body class
   useEffect(() => {
@@ -144,17 +142,19 @@ export default function SpinningWheel({ SidebarWrapper, namesText, setNamesText 
 
   return (
     <>
-      <SidebarWrapper>
+      <Sidebar>
         <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '0.5rem', background: 'rgba(0,0,0,0.4)', borderRadius: '8px', padding: '4px' }}>
           <button 
             style={{ flex: 1, background: inputType === 'numbers' ? 'rgba(212, 175, 55, 0.2)' : 'transparent', border: 'none', color: inputType === 'numbers' ? 'var(--gold-light)' : 'var(--text-muted)', padding: '0.5rem', borderRadius: '4px', cursor: 'pointer', fontWeight: 600, transition: 'all 0.2s' }}
             onClick={() => setInputType('numbers')}
+            disabled={isSpinning}
           >
             Numbers
           </button>
           <button 
             style={{ flex: 1, background: inputType === 'names' ? 'rgba(212, 175, 55, 0.2)' : 'transparent', border: 'none', color: inputType === 'names' ? 'var(--gold-light)' : 'var(--text-muted)', padding: '0.5rem', borderRadius: '4px', cursor: 'pointer', fontWeight: 600, transition: 'all 0.2s' }}
             onClick={() => setInputType('names')}
+            disabled={isSpinning}
           >
             Names
           </button>
@@ -179,11 +179,23 @@ export default function SpinningWheel({ SidebarWrapper, namesText, setNamesText 
           <div style={{ display: 'flex', gap: '0.5rem' }}>
             <div className="input-group" style={{ flex: 1 }}>
               <label>From</label>
-              <input type="number" value={min} onChange={e => setMin(Number(e.target.value))} />
+              <input 
+                type="number" 
+                value={min} 
+                onChange={e => setMin(Number(e.target.value))}
+                className="number-input"
+                disabled={isSpinning}
+              />
             </div>
-            <div className="input-group" style={{ flex: 1 }}>
+            <div style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
               <label>To</label>
-              <input type="number" value={max} onChange={e => setMax(Number(e.target.value))} />
+              <input 
+                type="number" 
+                value={max} 
+                onChange={e => setMax(Number(e.target.value))}
+                className="number-input"
+                disabled={isSpinning}
+              />
             </div>
           </div>
         ) : (
@@ -199,12 +211,13 @@ export default function SpinningWheel({ SidebarWrapper, namesText, setNamesText 
             <textarea 
               value={namesText} 
               onChange={e => setNamesText(e.target.value)}
-              placeholder="John&#10;Mary&#10;Peter..."
+              placeholder="Enter names here, one per line..."
+              disabled={isSpinning}
               style={{ width: '100%', height: '200px', background: 'rgba(0, 0, 0, 0.4)', border: '1px solid rgba(255,255,255,0.08)', color: 'var(--gold-light)', padding: '0.5rem 0.8rem', borderRadius: '8px', outline: 'none', resize: 'none', fontFamily: 'inherit' }}
             />
           </div>
         )}
-      </SidebarWrapper>
+      </Sidebar>
       
       <main className="stage" style={{ overflow: 'hidden' }}>
         

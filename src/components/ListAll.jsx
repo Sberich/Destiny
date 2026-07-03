@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import Sidebar from './Sidebar';
 
-export default function ListAll({ SidebarWrapper, namesText, setNamesText }) {
+export default function ListAll({ namesText, setNamesText }) {
   const [inputType, setInputType] = useState('names');
   const [min, setMin] = useState(1);
   const [max, setMax] = useState(100);
@@ -37,7 +38,7 @@ export default function ListAll({ SidebarWrapper, namesText, setNamesText }) {
 
   return (
     <>
-      <SidebarWrapper>
+      <Sidebar>
         <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem', background: 'rgba(0,0,0,0.4)', borderRadius: '8px', padding: '4px' }}>
           <button 
             style={{ flex: 1, background: inputType === 'numbers' ? 'rgba(212, 175, 55, 0.2)' : 'transparent', border: 'none', color: inputType === 'numbers' ? 'var(--gold-light)' : 'var(--text-muted)', padding: '0.5rem', borderRadius: '4px', cursor: 'pointer', fontWeight: 600, transition: 'all 0.2s' }}
@@ -77,7 +78,7 @@ export default function ListAll({ SidebarWrapper, namesText, setNamesText }) {
         )}
 
         <button className="btn-primary" onClick={handleGenerateList}>Generate List</button>
-      </SidebarWrapper>
+      </Sidebar>
 
       <main className="stage">
         {items.length === 0 ? (

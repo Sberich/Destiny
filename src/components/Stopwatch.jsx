@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
+import Sidebar from './Sidebar';
 
-export default function Stopwatch({ SidebarWrapper }) {
+export default function Stopwatch() {
   const [isRunning, setIsRunning] = useState(false);
   const [elapsed, setElapsed] = useState(0);
   const [laps, setLaps] = useState([]);
@@ -55,13 +56,13 @@ export default function Stopwatch({ SidebarWrapper }) {
 
   return (
     <>
-      <SidebarWrapper>
+      <Sidebar>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', marginTop: '1rem' }}>
           <button className="btn-secondary" onClick={handleReset} disabled={elapsed === 0}>
             RESET TIMER
           </button>
         </div>
-      </SidebarWrapper>
+      </Sidebar>
 
       <main className="stage">
         <div className="stage-center" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>

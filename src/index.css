@@ -9,6 +9,7 @@
   --gold-dark: #9e7f1e;
   --text-main: #f5f5f5;
   --text-muted: #888;
+  --surface-color: rgba(0, 0, 0, 0.6);
   --shadow-gold: 0 0 30px rgba(212, 175, 55, 0.2);
   --shadow-gold-hover: 0 0 50px rgba(212, 175, 55, 0.5);
 }
@@ -622,6 +623,24 @@ h1.app-title {
   pointer-events: none;
   z-index: 5;
   transition: all 0.3s ease;
+}
+
+/* History Chip in Randomizer */
+.history-chip {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-muted);
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 0.9rem;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Animations */
+@keyframes pulseOpacity {
+  0% { opacity: 0.3; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.05); }
+  100% { opacity: 0.3; transform: scale(1); }
 }
 
 .wheel-container.theme-pastel::before {
