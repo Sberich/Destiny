@@ -7,7 +7,11 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="theme-color" content="#08050e" />
   <meta name="robots" content="noindex, nofollow, noarchive" />
-  <title>Destiny Lab</title>
+  <title>Destiny Velvet ✦ Private Romance</title>
+
+  <!-- Favicon & Touch Icon -->
+  <link rel="icon" type="image/svg+xml" href="velvet-favicon.svg" />
+  <link rel="apple-touch-icon" href="velvet-favicon.svg" />
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -149,63 +153,160 @@
       text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     }
 
-    /* Categories Bar - Mobile Smooth Touch Swipe */
-    .category-scroll {
-      display: flex;
-      gap: 10px;
-      overflow-x: scroll;
-      overflow-y: hidden;
-      padding: 6px 4px 16px;
-      margin-bottom: 20px;
-      scrollbar-width: none;
-      -ms-overflow-style: none;
-      -webkit-overflow-scrolling: touch; /* Momentum inertia touch scrolling on iOS */
-      scroll-behavior: smooth;
-      touch-action: pan-x; /* Prioritizes horizontal swipe on mobile */
-      overscroll-behavior-x: contain;
-      cursor: grab;
+    /* Category Dropdown (Midnight Velvet & Rose Gold) */
+    .category-dropdown-container {
+      position: relative;
+      max-width: 380px;
+      margin: 0 auto 20px;
       user-select: none;
       -webkit-user-select: none;
-      -webkit-tap-highlight-color: transparent;
-      width: 100%;
-      box-sizing: border-box;
-    }
-    .category-scroll:active {
-      cursor: grabbing;
-    }
-    .category-scroll::-webkit-scrollbar {
-      display: none;
     }
 
-    .cat-chip {
-      flex-shrink: 0;
-      background: rgba(24, 13, 38, 0.75);
-      border: 1px solid rgba(226, 149, 120, 0.25);
-      border-radius: 20px;
-      padding: 8px 16px;
-      font-size: 0.88rem;
-      color: var(--text-muted);
-      cursor: pointer;
-      transition: all 0.25s ease;
+    .cat-dropdown-trigger {
       display: flex;
       align-items: center;
-      gap: 6px;
-      white-space: nowrap;
+      justify-content: space-between;
+      background: linear-gradient(135deg, rgba(28, 14, 44, 0.9), rgba(15, 6, 25, 0.96));
+      border: 1px solid rgba(226, 149, 120, 0.35);
+      border-radius: 24px;
+      padding: 10px 18px;
+      cursor: pointer;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.45);
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
       -webkit-tap-highlight-color: transparent;
     }
 
-    .cat-chip.active {
-      background: linear-gradient(135deg, var(--wine), rgba(255, 46, 147, 0.4));
-      color: #fff;
+    .cat-dropdown-trigger:hover, .cat-dropdown-trigger:active {
       border-color: var(--rose-gold);
-      box-shadow: 0 0 14px rgba(226, 149, 120, 0.4);
+      background: linear-gradient(135deg, rgba(38, 18, 58, 0.95), rgba(20, 8, 33, 0.98));
+      box-shadow: 0 0 16px rgba(226, 149, 120, 0.3);
+    }
+
+    .cat-trigger-content {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .cat-trigger-label {
+      font-size: 0.72rem;
+      color: #ff94c8;
+      background: rgba(255, 46, 147, 0.18);
+      border: 1px solid rgba(255, 46, 147, 0.35);
+      border-radius: 10px;
+      padding: 2px 7px;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+    }
+
+    .cat-trigger-icon {
+      font-size: 1.15rem;
+    }
+
+    .cat-trigger-name {
+      font-size: 0.92rem;
+      font-weight: 600;
+      color: var(--champagne);
+    }
+
+    .cat-trigger-arrow {
+      font-size: 0.95rem;
+      color: var(--rose-gold);
+      transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .category-dropdown-container.open .cat-trigger-arrow {
+      transform: rotate(180deg);
+    }
+
+    .category-dropdown-container.open .cat-dropdown-trigger {
+      border-color: var(--rose-gold);
+      box-shadow: 0 0 20px rgba(226, 149, 120, 0.35);
+    }
+
+    .cat-dropdown-menu {
+      position: absolute;
+      top: calc(100% + 8px);
+      left: 0;
+      right: 0;
+      background: rgba(18, 8, 30, 0.97);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1.5px solid var(--rose-gold);
+      border-radius: 20px;
+      padding: 8px;
+      box-shadow: 0 14px 40px rgba(0, 0, 0, 0.85), 0 0 25px rgba(226, 149, 120, 0.25);
+      display: none;
+      flex-direction: column;
+      gap: 4px;
+      z-index: 80;
+      max-height: 340px;
+      overflow-y: auto;
+      scrollbar-width: thin;
+      scrollbar-color: var(--rose-gold) transparent;
+      animation: dropdownFadeIn 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.2);
+    }
+
+    @keyframes dropdownFadeIn {
+      from { opacity: 0; transform: translateY(-8px) scale(0.98); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    .category-dropdown-container.open .cat-dropdown-menu {
+      display: flex;
+    }
+
+    .cat-menu-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 14px;
+      border-radius: 14px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .cat-menu-item:hover, .cat-menu-item:active {
+      background: rgba(226, 149, 120, 0.15);
+    }
+
+    .cat-menu-item.active {
+      background: linear-gradient(135deg, var(--wine), rgba(255, 46, 147, 0.35));
+      border: 1px solid rgba(226, 149, 120, 0.35);
+      box-shadow: 0 0 12px rgba(226, 149, 120, 0.25);
+    }
+
+    .cat-item-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .cat-item-icon {
+      font-size: 1.2rem;
+    }
+
+    .cat-item-name-th {
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #dfd4ec;
+    }
+
+    .cat-menu-item.active .cat-item-name-th {
+      color: var(--champagne);
       font-weight: 600;
     }
 
-    .cat-end-spacer {
-      flex-shrink: 0;
-      width: 32px;
-      height: 1px;
+    .cat-item-check {
+      font-size: 0.85rem;
+      color: var(--rose-gold);
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+
+    .cat-menu-item.active .cat-item-check {
+      opacity: 1;
     }
 
     /* =========================================
@@ -226,17 +327,23 @@
     }
 
     .card-scene {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 3 / 4.1;
       perspective: 1000px;
-      aspect-ratio: 3 / 4;
+      -webkit-perspective: 1000px;
     }
 
     .mystery-card {
+      position: absolute;
+      inset: 0;
       width: 100%;
       height: 100%;
-      position: relative;
       transform-style: preserve-3d;
-      transition: transform 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      -webkit-transform-style: preserve-3d;
+      transition: transform 0.65s cubic-bezier(0.2, 0.85, 0.35, 1.2);
       cursor: pointer;
+      border-radius: 18px;
     }
 
     .mystery-card.flipped {
@@ -245,18 +352,20 @@
 
     .card-face {
       position: absolute;
+      inset: 0;
       width: 100%;
       height: 100%;
       backface-visibility: hidden;
       -webkit-backface-visibility: hidden;
       border-radius: 18px;
       border: 1px solid var(--glass-border);
-      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.55);
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       overflow: hidden;
+      box-sizing: border-box;
     }
 
     /* Card Front (Foil & Mystery Pattern) */
@@ -294,50 +403,93 @@
     /* Card Back (Revealed Result) */
     .card-back {
       background: linear-gradient(160deg, #241031, #100619);
-      border: 1px solid var(--rose-gold);
+      border: 1.5px solid var(--rose-gold);
       transform: rotateY(180deg);
-      padding: 12px;
+      padding: 10px;
       text-align: center;
       justify-content: space-between;
+      box-sizing: border-box;
     }
 
     .card-thumb-wrap {
       width: 100%;
       flex: 1;
+      min-height: 0;
       display: flex;
       align-items: center;
       justify-content: center;
       overflow: hidden;
       border-radius: 10px;
-      background: rgba(0, 0, 0, 0.3);
-      margin-bottom: 8px;
+      background: rgba(0, 0, 0, 0.35);
+      margin-bottom: 6px;
     }
 
     .card-thumb-wrap img {
-      width: 90%;
-      height: 90%;
+      max-width: 100%;
+      max-height: 100%;
+      width: auto;
+      height: auto;
       object-fit: contain;
     }
 
     .card-back-name-en {
-      font-size: 0.85rem;
+      font-size: 0.82rem;
       font-weight: 700;
       color: var(--champagne);
       line-height: 1.2;
     }
 
     .card-back-name-th {
-      font-size: 0.75rem;
+      font-size: 0.72rem;
       color: var(--text-muted);
       margin-top: 2px;
     }
 
     .card-stars {
       display: flex;
+      justify-content: center;
       gap: 3px;
-      font-size: 0.75rem;
+      font-size: 0.72rem;
       color: #ffd166;
-      margin-top: 4px;
+      margin-top: 3px;
+    }
+
+    /* Shuffle & Deal Animation */
+    @keyframes cardDealFly {
+      0% {
+        opacity: 0;
+        transform: translateY(-45px) scale(0.65) rotate(-12deg);
+      }
+      65% {
+        transform: translateY(6px) scale(1.03) rotate(2deg);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0) scale(1) rotate(0);
+      }
+    }
+
+    .card-dealing {
+      animation: cardDealFly 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.2) both;
+    }
+
+    @keyframes deckGather {
+      0% {
+        transform: scale(1);
+        opacity: 1;
+      }
+      50% {
+        transform: scale(0.85) rotate(-3deg);
+        opacity: 0.6;
+      }
+      100% {
+        transform: scale(0.7) rotate(6deg);
+        opacity: 0;
+      }
+    }
+
+    .card-gathering {
+      animation: deckGather 0.26s ease-in forwards;
     }
 
     /* =========================================
@@ -564,11 +716,12 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 9px 8px;
+      padding: 8px 6px;
       border-bottom: 1px solid rgba(255, 255, 255, 0.06);
       border-radius: 8px;
       transition: all 0.2s ease;
       cursor: pointer;
+      gap: 6px;
     }
     .indicator-item:hover, .indicator-item:active {
       background: rgba(226, 149, 120, 0.12);
@@ -582,36 +735,39 @@
       align-items: baseline;
       gap: 5px;
       min-width: 0;
+      flex-shrink: 1;
+      overflow: hidden;
     }
     .ind-icon {
-      font-size: 0.95rem;
+      font-size: 0.9rem;
       align-self: center;
       flex-shrink: 0;
     }
     .ind-name-th {
-      font-size: 0.85rem;
+      font-size: 0.8rem;
       color: #dfd4ec;
       font-weight: 500;
       white-space: nowrap;
     }
     .ind-name-en {
-      font-size: 0.72rem;
+      font-size: 0.68rem;
       color: #ffb8d9;
       opacity: 0.85;
       white-space: nowrap;
       font-family: 'Outfit', sans-serif;
-      letter-spacing: 0.3px;
+      letter-spacing: 0.2px;
     }
 
     .ind-dots {
       display: flex;
-      gap: 5px;
+      gap: 4px;
       align-items: center;
+      flex-shrink: 0;
     }
 
     .dot {
-      width: 11px;
-      height: 11px;
+      width: 9.5px;
+      height: 9.5px;
       border-radius: 50%;
       background: rgba(255, 255, 255, 0.12);
       border: 1px solid rgba(255, 255, 255, 0.22);
@@ -619,27 +775,28 @@
 
     .dot.active-clit {
       background: #ff2e93;
-      box-shadow: 0 0 8px #ff2e93;
+      box-shadow: 0 0 6px #ff2e93;
       border-color: #ff94c8;
     }
 
     .dot.active-gspot {
       background: #ffd166;
-      box-shadow: 0 0 8px #ffd166;
+      box-shadow: 0 0 6px #ffd166;
       border-color: #fff0a8;
     }
 
     .ind-angle-badge {
       display: inline-flex;
       align-items: center;
-      gap: 4px;
-      font-size: 0.74rem;
+      gap: 3px;
+      font-size: 0.72rem;
       color: var(--champagne);
       background: rgba(226, 149, 120, 0.14);
       border: 1px solid rgba(226, 149, 120, 0.35);
-      border-radius: 12px;
-      padding: 2px 8px;
+      border-radius: 10px;
+      padding: 2px 7px;
       white-space: nowrap;
+      flex-shrink: 0;
     }
 
     .modal-tips {
@@ -996,27 +1153,30 @@
       gap: 10px;
     }
     .mini-tip-icon {
-      font-size: 1.6rem;
+      font-size: 1.35rem;
+      flex-shrink: 0;
     }
     .mini-tip-title {
-      font-size: 1.05rem;
+      font-size: 0.94rem;
       font-weight: 700;
       color: var(--champagne);
+      white-space: nowrap;
     }
     .mini-tip-score {
-      font-size: 0.78rem;
+      font-size: 0.76rem;
       color: #ff94c8;
       font-weight: 600;
     }
     .mini-tip-close {
-      width: 32px;
-      height: 32px;
+      width: 28px;
+      height: 28px;
       border-radius: 50%;
       background: rgba(255, 255, 255, 0.1);
       border: 1px solid var(--glass-border);
       color: #fff;
-      font-size: 1.05rem;
+      font-size: 0.95rem;
       cursor: pointer;
+      flex-shrink: 0;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -1283,8 +1443,22 @@
       </div>
     </div>
 
-    <!-- Category Filter Bar (8 Categories) -->
-    <div class="category-scroll" id="categories-bar"></div>
+    <!-- Category Filter Dropdown (Midnight Velvet Custom Select) -->
+    <div class="category-dropdown-container" id="category-dropdown-wrap">
+      <div class="cat-dropdown-trigger" id="cat-dropdown-trigger" onclick="toggleCatDropdown(event)">
+        <div class="cat-trigger-content">
+          <span class="cat-trigger-label">หมวดหมู่</span>
+          <span class="cat-trigger-icon" id="cat-trigger-icon">✨</span>
+          <span class="cat-trigger-name" id="cat-trigger-name">ทั้งหมด (All)</span>
+        </div>
+        <span class="cat-trigger-arrow" id="cat-trigger-arrow">▾</span>
+      </div>
+
+      <!-- Dropdown Menu Panel -->
+      <div class="cat-dropdown-menu" id="cat-dropdown-menu">
+        <!-- Injected via JS -->
+      </div>
+    </div>
 
     <!-- MODE 1: 3D Mystery Card Flip (6 Cards) -->
     <section id="section-cards">
@@ -1354,7 +1528,7 @@
         <div class="indicator-item" onclick="openMiniTip('clitoral')" title="แตะอ่านเทคนิคสัมผัส">
           <div class="ind-left">
             <span class="ind-icon">🌸</span>
-            <span class="ind-name-th">การกระตุ้นคลิตอริส</span>
+            <span class="ind-name-th">กระตุ้นคลิตอริส</span>
             <span class="ind-name-en">(Clitoral)</span>
           </div>
           <div class="ind-dots" id="clitoral-dots"></div>
@@ -1362,7 +1536,7 @@
         <div class="indicator-item" onclick="openMiniTip('gspot')" title="แตะอ่านเทคนิคจุดจี">
           <div class="ind-left">
             <span class="ind-icon">✨</span>
-            <span class="ind-name-th">การกระตุ้นจุดจีสปอต</span>
+            <span class="ind-name-th">กระตุ้นจุดจีสปอต</span>
             <span class="ind-name-en">(G-Spot)</span>
           </div>
           <div class="ind-dots" id="gspot-dots"></div>
@@ -1597,125 +1771,81 @@
       }
     }
 
-    /* Filter by Category - Mobile Smooth Touch Swipe & Select */
-    function renderCategoriesBar() {
-      const container = document.getElementById('categories-bar');
-      if (!container) return;
+    /* ========================================================
+       CATEGORY DROPDOWN LOGIC (Midnight Velvet Custom Select)
+       ======================================================== */
+    function toggleCatDropdown(e) {
+      if (e) e.stopPropagation();
+      const wrap = document.getElementById('category-dropdown-wrap');
+      if (!wrap) return;
+      const isOpen = wrap.classList.toggle('open');
+      playTone(isOpen ? 480 : 420, 'sine', 0.05);
+    }
 
-      const existingChips = container.querySelectorAll('.cat-chip');
-      if (existingChips.length === 0) {
-        container.innerHTML = '';
-        const fallbackCats = [
-          { id: 'all', nameTh: 'ทั้งหมด', icon: '✨' },
-          { id: 'classic', nameTh: 'คลาสสิก มาตรฐาน', icon: '🏆' },
-          { id: 'chill', nameTh: 'ผ่อนคลาย สบายๆ', icon: '🛋️' },
-          { id: 'romantic', nameTh: 'โรแมนติก แนบชิด', icon: '💖' },
-          { id: 'her_lead', nameTh: 'ฝ่ายหญิงคุมเกม', icon: '👑' },
-          { id: 'him_lead', nameTh: 'ฝ่ายชายคุมเกม', icon: '🦁' },
-          { id: 'quick', nameTh: 'รวดเร็ว ฉับไว', icon: '⚡' },
-          { id: 'adventurous', nameTh: 'ท้าทาย ผาดโผน', icon: '🔥' }
-        ];
-        const cats = (window.COUPLES_CATEGORIES && window.COUPLES_CATEGORIES.length > 0)
-          ? window.COUPLES_CATEGORIES
-          : fallbackCats;
+    function closeCatDropdown() {
+      const wrap = document.getElementById('category-dropdown-wrap');
+      if (wrap) wrap.classList.remove('open');
+    }
 
-        cats.forEach(cat => {
-          const chip = document.createElement('div');
-          chip.className = `cat-chip ${cat.id === currentCategory ? 'active' : ''}`;
-          chip.dataset.catId = cat.id;
-          chip.innerHTML = `<span>${cat.icon}</span> <span>${cat.nameTh}</span>`;
-          
-          chip.addEventListener('click', (e) => {
-            if (container._isDragging) return;
-            selectCategory(cat.id);
-          });
-
-          container.appendChild(chip);
-        });
-
-        // Trailing spacer so the final category (🔥 ท้าทาย ผาดโผน) can be scrolled cleanly into view away from screen edge
-        const spacer = document.createElement('div');
-        spacer.className = 'cat-end-spacer';
-        container.appendChild(spacer);
-
-        setupCategoryScrollGestures(container);
-      } else {
-        existingChips.forEach(chip => {
-          const isActive = (chip.dataset.catId === currentCategory);
-          chip.classList.toggle('active', isActive);
-          if (isActive) {
-            chip.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
-          }
-        });
+    document.addEventListener('click', (e) => {
+      const wrap = document.getElementById('category-dropdown-wrap');
+      if (wrap && !wrap.contains(e.target)) {
+        closeCatDropdown();
       }
+    });
+
+    function renderCategoriesBar() {
+      const menu = document.getElementById('cat-dropdown-menu');
+      if (!menu) return;
+
+      const fallbackCats = [
+        { id: 'all', nameTh: 'ทั้งหมด', icon: '✨' },
+        { id: 'classic', nameTh: 'คลาสสิก มาตรฐาน', icon: '🏆' },
+        { id: 'chill', nameTh: 'ผ่อนคลาย สบายๆ', icon: '🛋️' },
+        { id: 'romantic', nameTh: 'โรแมนติก แนบชิด', icon: '💖' },
+        { id: 'her_lead', nameTh: 'ฝ่ายหญิงคุมเกม', icon: '👑' },
+        { id: 'him_lead', nameTh: 'ฝ่ายชายคุมเกม', icon: '🦁' },
+        { id: 'quick', nameTh: 'รวดเร็ว ฉับไว', icon: '⚡' },
+        { id: 'adventurous', nameTh: 'ท้าทาย ผาดโผน', icon: '🔥' }
+      ];
+      const cats = (window.COUPLES_CATEGORIES && window.COUPLES_CATEGORIES.length > 0)
+        ? window.COUPLES_CATEGORIES
+        : fallbackCats;
+
+      // Update trigger display
+      const currentCatObj = cats.find(c => c.id === currentCategory) || cats[0];
+      const iconEl = document.getElementById('cat-trigger-icon');
+      const nameEl = document.getElementById('cat-trigger-name');
+      if (iconEl) iconEl.textContent = currentCatObj.icon;
+      if (nameEl) nameEl.textContent = currentCatObj.nameTh;
+
+      menu.innerHTML = '';
+      cats.forEach(cat => {
+        const item = document.createElement('div');
+        const isActive = (cat.id === currentCategory);
+        item.className = `cat-menu-item ${isActive ? 'active' : ''}`;
+        item.innerHTML = `
+          <div class="cat-item-left">
+            <span class="cat-item-icon">${cat.icon}</span>
+            <span class="cat-item-name-th">${cat.nameTh}</span>
+          </div>
+          <span class="cat-item-check">✓</span>
+        `;
+        item.onclick = (e) => {
+          e.stopPropagation();
+          selectCategory(cat.id);
+        };
+        menu.appendChild(item);
+      });
     }
 
     function selectCategory(catId) {
-      if (currentCategory === catId) return;
       currentCategory = catId;
       renderCategoriesBar();
       dealCards();
       shuffleWheelSlices();
       playTone(520, 'sine', 0.08);
-    }
-
-    function setupCategoryScrollGestures(slider) {
-      slider._isDragging = false;
-      let isDown = false;
-      let startX = 0;
-      let scrollLeft = 0;
-      let touchStartX = 0;
-      let touchStartY = 0;
-
-      // Mouse drag for Desktop / Emulation
-      slider.addEventListener('mousedown', (e) => {
-        isDown = true;
-        slider._isDragging = false;
-        slider.style.cursor = 'grabbing';
-        startX = e.pageX - slider.offsetLeft;
-        scrollLeft = slider.scrollLeft;
-      });
-
-      window.addEventListener('mouseup', () => {
-        if (!isDown) return;
-        isDown = false;
-        slider.style.cursor = 'grab';
-        setTimeout(() => { slider._isDragging = false; }, 80);
-      });
-
-      slider.addEventListener('mousemove', (e) => {
-        if (!isDown) return;
-        e.preventDefault();
-        const x = e.pageX - slider.offsetLeft;
-        const walk = (x - startX) * 1.5;
-        if (Math.abs(walk) > 6) {
-          slider._isDragging = true;
-        }
-        slider.scrollLeft = scrollLeft - walk;
-      });
-
-      // Mobile Touch Gesture Tracking
-      slider.addEventListener('touchstart', (e) => {
-        if (e.touches.length === 1) {
-          touchStartX = e.touches[0].clientX;
-          touchStartY = e.touches[0].clientY;
-          slider._isDragging = false;
-        }
-      }, { passive: true });
-
-      slider.addEventListener('touchmove', (e) => {
-        if (e.touches.length === 1) {
-          const deltaX = Math.abs(e.touches[0].clientX - touchStartX);
-          const deltaY = Math.abs(e.touches[0].clientY - touchStartY);
-          if (deltaX > 8 && deltaX > deltaY) {
-            slider._isDragging = true;
-          }
-        }
-      }, { passive: true });
-
-      slider.addEventListener('touchend', () => {
-        setTimeout(() => { slider._isDragging = false; }, 100);
-      }, { passive: true });
+      closeCatDropdown();
     }
 
     function getFilteredPositions() {
@@ -1724,14 +1854,65 @@
     }
 
     /* ========================================================
-       MODE 1: 3D CARD FLIP (6 CARDS)
+       MODE 1: 3D CARD FLIP (6 CARDS) WITH LUXURY DEAL ANIMATION
        ======================================================== */
-    function dealCards() {
+    let isDealingCards = false;
+
+    function dealCards(withAnimation = true) {
+      if (isDealingCards) return;
+      const grid = document.getElementById('cards-grid');
+      if (!grid) return;
+
       const pool = getFilteredPositions();
-      // Randomly sample up to 6 distinct items
       const shuffled = [...pool].sort(() => 0.5 - Math.random());
       currentCardsHand = shuffled.slice(0, Math.min(6, shuffled.length));
 
+      if (!withAnimation || grid.children.length === 0) {
+        renderCardsDOM();
+        return;
+      }
+
+      isDealingCards = true;
+
+      // 1. Existing cards gathering effect
+      const existingCards = grid.querySelectorAll('.mystery-card');
+      existingCards.forEach((c, idx) => {
+        c.classList.add('card-gathering');
+        c.style.animationDelay = `${idx * 25}ms`;
+      });
+
+      // Shuffling sound effect
+      playShuffleSound();
+
+      setTimeout(() => {
+        renderCardsDOM();
+
+        // 2. Flying deal-in staggered animation
+        const newScenes = grid.querySelectorAll('.card-scene');
+        newScenes.forEach((scene, idx) => {
+          scene.classList.add('card-dealing');
+          scene.style.animationDelay = `${idx * 65}ms`;
+          setTimeout(() => {
+            playTone(480 + (idx * 50), 'sine', 0.045);
+          }, idx * 65);
+        });
+
+        setTimeout(() => {
+          newScenes.forEach(s => s.classList.remove('card-dealing'));
+          isDealingCards = false;
+        }, 6 * 65 + 460);
+      }, 250);
+    }
+
+    function playShuffleSound() {
+      [280, 420, 340, 520, 460].forEach((freq, idx) => {
+        setTimeout(() => {
+          playTone(freq, 'triangle', 0.04);
+        }, idx * 45);
+      });
+    }
+
+    function renderCardsDOM() {
       const grid = document.getElementById('cards-grid');
       grid.innerHTML = '';
 
@@ -2009,21 +2190,21 @@
       if (type === 'clitoral') {
         card.classList.add('pink-glow');
         document.getElementById('mini-tip-icon').textContent = '🌸';
-        document.getElementById('mini-tip-title').textContent = 'เคล็ดลับบดคลึง & สัมผัสคลิตอริส';
+        document.getElementById('mini-tip-title').textContent = 'เคล็ดลับสัมผัสคลิตอริส';
         document.getElementById('mini-tip-score').textContent = `ความเข้มข้นสัมผัส: ${item.clitoral || 4}/5 ดาว`;
         document.getElementById('mini-tip-desc').textContent = `เทคนิคหน้างานสำหรับท่า ${item.name}: เน้นการทิ้งน้ำหนักสะโพกให้กระดูกเชิงกรานแนบสนิท พร้อมบดคลึงจังหวะเป็นวงกลมเบาๆ จะช่วยส่งกระแสความเสียวซ่านได้ต่อเนื่องที่สุด`;
         document.getElementById('mini-tip-advice').textContent = anatomy.clitoralTipTh || 'สามารถใช้ปลายนิ้วช่วยนวดวนเบาๆ เป็นจังหวะตามการเคลื่อนไหวเพื่อเร่งเร้าคลื่นอารมณ์';
       } else if (type === 'gspot') {
         card.classList.add('gold-glow');
         document.getElementById('mini-tip-icon').textContent = '✨';
-        document.getElementById('mini-tip-title').textContent = 'เคล็ดลับช้อนมุม & เจาะจงจุดจี';
+        document.getElementById('mini-tip-title').textContent = 'เคล็ดลับเจาะจงจุดจี';
         document.getElementById('mini-tip-score').textContent = `ความลึกซึ้งสัมผัส: ${item.gspot || 4}/5 ดาว`;
         document.getElementById('mini-tip-desc').textContent = `เทคนิคหน้างานสำหรับท่า ${item.name}: โน้มหรือช้อนปลายองศาเข้าหาผนังหน้าท้องช่วงล่าง หากใช้หมอนหนุนสะโพกขึ้นเล็กน้อย จะช่วยให้ทุกแรงส่งกระทบจุดจีสปอตได้อย่างแม่นยำเต็มพิกัด`;
         document.getElementById('mini-tip-advice').textContent = anatomy.gspotTipTh || 'จังหวะเน้นบดช่วงปลายจะกระตุ้นคลื่นความสุขสมได้ลึกซึ้งกว่าการสอดใส่แบบปกติ';
       } else if (type === 'angle') {
         card.classList.add('rose-glow');
         document.getElementById('mini-tip-icon').textContent = '📐';
-        document.getElementById('mini-tip-title').textContent = 'เทคนิคปรับองศา & สรีระร่างกาย';
+        document.getElementById('mini-tip-title').textContent = 'เทคนิคปรับองศาสรีระ';
         document.getElementById('mini-tip-score').textContent = `ระดับความยาก: ${'★'.repeat(item.difficulty || 1)}`;
         document.getElementById('mini-tip-desc').textContent = `แนวองศาที่เหมาะสม: ${item.angle || anatomy.angleDetailTh || 'ระนาบตรงระดับปานกลาง'}`;
         document.getElementById('mini-tip-advice').textContent = 'เทคนิค: ผ่อนคลายกล้ามเนื้ออุ้งเชิงกราน ขยับตามจังหวะลมหายใจของกันและกันเพื่อลดแรงต้านและเพิ่มความแนบแน่น';
@@ -2255,13 +2436,15 @@
 
       // 2. Shooting Stars / Meteor Shower
       const meteors = [];
+      const meteorPalette = ['#ffffff', '#ffe5b4', '#ffd1dc', '#ff94c8', '#f5d0c5', '#e29578'];
 
       function createMeteor() {
-        const startX = Math.random() * (width * 1.1);
-        const startY = Math.random() * (height * 0.35);
-        const angle = (Math.PI / 4) + (Math.random() - 0.5) * 0.2; // ~45 deg diagonal
-        const speed = Math.random() * 9 + 13; // 13-22px per frame
-        const length = Math.random() * 110 + 80; // 80-190px tail
+        const startX = (Math.random() * (width * 1.25)) - (width * 0.15);
+        const startY = (Math.random() * (height * 0.45)) - 40;
+        const angle = (Math.PI / 4) + (Math.random() - 0.5) * 0.22; // ~45 deg diagonal glide
+        const speed = Math.random() * 2.2 + 4.2; // Graceful, slow romantic gliding (4.2 - 6.4 px/frame)
+        const length = Math.random() * 90 + 140; // 140-230px tail
+        const color = meteorPalette[Math.floor(Math.random() * meteorPalette.length)];
         return {
           x: startX,
           y: startY,
@@ -2269,13 +2452,29 @@
           vy: Math.sin(angle) * speed,
           length: length,
           alpha: 1,
-          decay: Math.random() * 0.014 + 0.009,
-          thickness: Math.random() * 1.3 + 1.2,
-          color: (Math.random() > 0.45) ? '#ffe5b4' : '#ff94c8'
+          decay: Math.random() * 0.0035 + 0.0035, // Glides for 2.5 - 3.8s
+          thickness: Math.random() * 1.2 + 1.2,
+          color: color
         };
       }
 
-      let nextMeteorTime = performance.now() + 1000;
+      function spawnMeteorCluster() {
+        meteors.push(createMeteor());
+        // 45% chance of twin shooting star
+        if (Math.random() < 0.45) {
+          setTimeout(() => {
+            meteors.push(createMeteor());
+          }, Math.random() * 180 + 90);
+        }
+        // 22% chance of triplet shooting star
+        if (Math.random() < 0.22) {
+          setTimeout(() => {
+            meteors.push(createMeteor());
+          }, Math.random() * 320 + 220);
+        }
+      }
+
+      let nextMeteorTime = performance.now() + 600;
 
       function renderSky(now) {
         ctx.clearRect(0, 0, width, height);
@@ -2317,13 +2516,10 @@
           ctx.restore();
         });
 
-        // Spawn Meteors on schedule (every 1.8 to 3.8s)
+        // Spawn Meteors frequently (every 0.6s to 1.4s) with clusters
         if (now > nextMeteorTime) {
-          meteors.push(createMeteor());
-          if (Math.random() < 0.28) {
-            setTimeout(() => { meteors.push(createMeteor()); }, 220);
-          }
-          nextMeteorTime = now + (Math.random() * 2000 + 1800);
+          spawnMeteorCluster();
+          nextMeteorTime = now + (Math.random() * 800 + 600);
         }
 
         // Render Meteors (Shooting Stars)
@@ -2333,7 +2529,7 @@
           m.y += m.vy;
           m.alpha -= m.decay;
 
-          if (m.alpha <= 0 || m.x > width + 150 || m.y > height + 150) {
+          if (m.alpha <= 0 || m.x > width + 220 || m.y > height + 220) {
             meteors.splice(i, 1);
             continue;
           }
@@ -2345,14 +2541,14 @@
 
           const grad = ctx.createLinearGradient(tailX, tailY, m.x, m.y);
           grad.addColorStop(0, 'rgba(255, 255, 255, 0)');
-          grad.addColorStop(0.5, m.color);
+          grad.addColorStop(0.6, m.color);
           grad.addColorStop(1, '#ffffff');
 
           ctx.globalAlpha = Math.max(0, m.alpha);
           ctx.strokeStyle = grad;
           ctx.lineWidth = m.thickness;
           ctx.lineCap = 'round';
-          ctx.shadowBlur = 12;
+          ctx.shadowBlur = 14;
           ctx.shadowColor = m.color;
 
           ctx.beginPath();
@@ -2360,10 +2556,12 @@
           ctx.lineTo(m.x, m.y);
           ctx.stroke();
 
-          // Bright star head
+          // Bright star head with diamond halo
           ctx.fillStyle = '#ffffff';
+          ctx.shadowBlur = 16;
+          ctx.shadowColor = '#ffffff';
           ctx.beginPath();
-          ctx.arc(m.x, m.y, m.thickness + 0.7, 0, Math.PI * 2);
+          ctx.arc(m.x, m.y, m.thickness + 0.8, 0, Math.PI * 2);
           ctx.fill();
 
           ctx.restore();
