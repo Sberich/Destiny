@@ -16,6 +16,8 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Position illustrations are hotlinked from this host: open the connection early -->
+  <link rel="preconnect" href="https://couplesexposition.com" />
   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Outfit:wght@300;400;600;700&family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
   <style>
@@ -514,6 +516,7 @@
       width: 100%;
       height: 100%;
       border-radius: 50%;
+      will-change: transform; /* wheel is rotated by the GPU, never redrawn per frame */
       box-shadow: 0 0 40px rgba(226, 149, 120, 0.25), 0 0 80px rgba(255, 46, 147, 0.15);
       border: 4px solid var(--rose-gold);
     }
@@ -689,6 +692,14 @@
     .modal-img-wrap:hover img {
       transform: scale(1.18);
     }
+    /* Hide the previous position's picture until the new one has loaded,
+       so a name is never shown next to the wrong image */
+    .modal-img-wrap img {
+      transition: transform 0.35s ease, opacity 0.25s ease;
+    }
+    .modal-img-wrap img.img-loading {
+      opacity: 0;
+    }
 
     .modal-title-en {
       font-size: 1.45rem;
@@ -808,6 +819,21 @@
       padding: 9px 12px;
       border-radius: 0 12px 12px 0;
       margin-bottom: 12px;
+    }
+
+    .modal-caution-box {
+      display: none;
+      align-items: center;
+      gap: 9px;
+      background: linear-gradient(135deg, rgba(255, 180, 0, 0.12), rgba(255, 100, 50, 0.12));
+      border: 1px solid rgba(255, 200, 80, 0.4);
+      border-radius: 12px;
+      padding: 8px 12px;
+      margin-bottom: 12px;
+      color: #ffe5b4;
+      font-size: 0.78rem;
+      line-height: 1.42;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
     }
 
     /* Interactive Deep-Dive Button (Single-Line Clean & Sleek) */
@@ -1523,29 +1549,35 @@
       <div class="modal-title-en" id="modal-name-en">Missionary</div>
       <div class="modal-title-th" id="modal-name-th">มิชชันนารี (คลาสสิกมาตรฐาน)</div>
 
+      <!-- Caution / Safety Badge (Shown when position has safety tips) -->
+      <div class="modal-caution-box" id="modal-caution">
+        <span class="caution-icon">⚠️</span>
+        <span id="modal-caution-text"></span>
+      </div>
+
       <!-- Anatomical Indicators (Single-Line Minimalist Bilingual Rows) -->
       <div class="indicators-box">
         <div class="indicator-item" onclick="openMiniTip('clitoral')" title="แตะอ่านเทคนิคสัมผัส">
           <div class="ind-left">
             <span class="ind-icon">🌸</span>
-            <span class="ind-name-th">กระตุ้นคลิตอริส</span>
-            <span class="ind-name-en">(Clitoral)</span>
+            <span class="ind-name-th" id="clit-label-th">กระตุ้นคลิตอริส</span>
+            <span class="ind-name-en" id="clit-label-en">(Clitoral)</span>
           </div>
           <div class="ind-dots" id="clitoral-dots"></div>
         </div>
         <div class="indicator-item" onclick="openMiniTip('gspot')" title="แตะอ่านเทคนิคจุดจี">
           <div class="ind-left">
-            <span class="ind-icon">✨</span>
-            <span class="ind-name-th">กระตุ้นจุดจีสปอต</span>
-            <span class="ind-name-en">(G-Spot)</span>
+            <span class="ind-icon" id="gspot-icon">✨</span>
+            <span class="ind-name-th" id="gspot-label-th">กระตุ้นจุดจีสปอต</span>
+            <span class="ind-name-en" id="gspot-label-en">(G-Spot)</span>
           </div>
           <div class="ind-dots" id="gspot-dots"></div>
         </div>
         <div class="indicator-item" onclick="openMiniTip('angle')" title="แตะอ่านเทคนิคปรับองศา">
           <div class="ind-left">
             <span class="ind-icon">📐</span>
-            <span class="ind-name-th">มุมองศาการสอดใส่</span>
-            <span class="ind-name-en">(Angle)</span>
+            <span class="ind-name-th" id="angle-label-th">มุมองศาการสอดใส่</span>
+            <span class="ind-name-en" id="angle-label-en">(Angle)</span>
           </div>
           <div class="ind-angle-badge" id="modal-angle">
             แตะอ่านทริค 💬
@@ -1673,8 +1705,50 @@
        STATE & CONTROLS
        ======================================================== */
     let currentPinInput = '';
-    const CORRECT_PIN = '2467';
-    localStorage.setItem('destiny_467_pin', '2467');
+    const CORRECT_PIN = '2467'; // client-side screen lock only: anyone can read it via view-source
+
+    /* ---- Helpers ---- */
+    const escapeHTML = (s) => String(s).replace(/[&<>"']/g, (c) =>
+      ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+    // Unbiased partial Fisher-Yates (replaces sort(() => 0.5 - Math.random()), which is biased and sorts all 444 items)
+    function sampleN(arr, n) {
+      const a = arr.slice();
+      const k = Math.min(n, a.length);
+      for (let i = 0; i < k; i++) {
+        const j = i + Math.floor(Math.random() * (a.length - i));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a.slice(0, k);
+    }
+
+    // Blurred overlays re-blur whatever is animating behind them on every frame.
+    // Track whether any overlay is open so the background sky can pause meanwhile.
+    let overlayOpen = false;
+    const OVERLAY_IDS = ['result-modal', 'edu-modal', 'mini-tip-modal', 'lightbox-modal'];
+    function syncOverlayFlag() {
+      overlayOpen = OVERLAY_IDS.some((id) => {
+        const el = document.getElementById(id);
+        return el && el.style.display === 'flex';
+      });
+    }
+    function watchOverlays() {
+      const mo = new MutationObserver(syncOverlayFlag);
+      OVERLAY_IDS.forEach((id) => {
+        const el = document.getElementById(id);
+        if (el) mo.observe(el, { attributes: true, attributeFilter: ['style'] });
+      });
+    }
+
+    // Load an illustration into an <img>, hiding the old picture until the new one is ready
+    function loadImageInto(img, item) {
+      img.classList.add('img-loading');
+      img.onload = () => img.classList.remove('img-loading');
+      img.onerror = function () { handleImageError(this); };
+      img.alt = item.name;
+      img.src = item.imageUrl;
+      if (img.complete && img.naturalWidth > 0) img.classList.remove('img-loading');
+    }
     let currentMode = 'cards'; // 'cards' | 'wheel'
     let currentCategory = 'all';
     let currentCardsHand = [];
@@ -1688,6 +1762,7 @@
     let timerDurationSeconds = 1 * 60;
     let timerRemainingSeconds = 1 * 60;
     let timerInterval = null;
+    let timerEndAt = 0; // wall-clock end time, so throttled/background tabs don't make the timer drift
     let audioCtx = null;
 
     // Panic Button Shortcut
@@ -1755,6 +1830,7 @@
       dealCards();
       setupWheel();
       initStardust();
+      watchOverlays();
     }
 
     /* Switch between Cards and Wheel Mode */
@@ -1842,7 +1918,7 @@
     function selectCategory(catId) {
       currentCategory = catId;
       renderCategoriesBar();
-      dealCards();
+      dealCards(true, true); // force: a category change must never be ignored mid-animation
       shuffleWheelSlices();
       playTone(520, 'sine', 0.08);
       closeCatDropdown();
@@ -1857,17 +1933,18 @@
        MODE 1: 3D CARD FLIP (6 CARDS) WITH LUXURY DEAL ANIMATION
        ======================================================== */
     let isDealingCards = false;
+    let dealToken = 0; // lets a newer deal cancel the timers of an older one
 
-    function dealCards(withAnimation = true) {
-      if (isDealingCards) return;
+    function dealCards(withAnimation = true, force = false) {
+      if (isDealingCards && !force) return;
       const grid = document.getElementById('cards-grid');
       if (!grid) return;
 
-      const pool = getFilteredPositions();
-      const shuffled = [...pool].sort(() => 0.5 - Math.random());
-      currentCardsHand = shuffled.slice(0, Math.min(6, shuffled.length));
+      currentCardsHand = sampleN(getFilteredPositions(), 6);
+      const token = ++dealToken;
 
       if (!withAnimation || grid.children.length === 0) {
+        isDealingCards = false;
         renderCardsDOM();
         return;
       }
@@ -1885,6 +1962,7 @@
       playShuffleSound();
 
       setTimeout(() => {
+        if (token !== dealToken) return;
         renderCardsDOM();
 
         // 2. Flying deal-in staggered animation
@@ -1898,6 +1976,7 @@
         });
 
         setTimeout(() => {
+          if (token !== dealToken) return;
           newScenes.forEach(s => s.classList.remove('card-dealing'));
           isDealingCards = false;
         }, 6 * 65 + 460);
@@ -1939,12 +2018,12 @@
         back.className = 'card-face card-back';
         back.innerHTML = `
           <div class="card-thumb-wrap">
-            <img src="${item.imageUrl}" alt="${item.name}" onerror="handleImageError(this)" />
+            <img src="${escapeHTML(item.imageUrl)}" alt="${escapeHTML(item.name)}" decoding="async" onerror="handleImageError(this)" />
           </div>
           <div>
-            <div class="card-back-name-en">${item.name}</div>
-            <div class="card-back-name-th">${item.nameTh.split('(')[0]}</div>
-            <div class="card-stars">${'★'.repeat(item.difficulty)}</div>
+            <div class="card-back-name-en">${escapeHTML(item.name)}</div>
+            <div class="card-back-name-th">${escapeHTML(item.nameTh.split('(')[0])}</div>
+            <div class="card-stars" title="ระดับความยาก">${'★'.repeat(item.difficulty)}</div>
           </div>
         `;
 
@@ -1974,76 +2053,94 @@
     /* ========================================================
        MODE 2: ROMANTIC SPINNING WHEEL
        ======================================================== */
+    const WHEEL_COLORS = [
+      '#2a1038', '#1a0724', '#381347', '#170622',
+      '#43144d', '#20092d', '#4d164f', '#1c0827'
+    ];
+    // 4 dreamy pastel colours that pop against the dark velvet
+    const WHEEL_TEXT_COLORS = ['#ffc8dd', '#d8c2ff', '#bbf2d8', '#ffe5b4'];
+    const WHEEL_POINTER_DEG = 270; // pointer is at the top = -90° = 270° in canvas angles
+    let wheelRefreshPending = false; // category changed while the wheel was spinning
+    let lastTickIndex = -1;
+    let lastTickTime = 0;
+
     function setupWheel() {
       shuffleWheelSlices();
+      // 'Outfit' is only used by the wheel canvas, so the DOM never requests it.
+      // Load it explicitly, then redraw the face so text uses the right font and is measured correctly.
+      if (document.fonts && document.fonts.load) {
+        document.fonts.load("700 30px 'Outfit'").then(renderWheelFace).catch(() => {});
+      }
     }
 
     function shuffleWheelSlices() {
-      if (isSpinning) return;
-      const pool = getFilteredPositions();
-      const shuffled = [...pool].sort(() => 0.5 - Math.random());
-      // 16 slices per set for large, crisp, beautiful text on mobile & desktop
-      wheelItems = shuffled.slice(0, Math.min(16, Math.max(12, shuffled.length)));
+      if (isSpinning) {
+        wheelRefreshPending = true; // apply as soon as the spin ends instead of silently dropping it
+        return;
+      }
+      wheelRefreshPending = false;
+      wheelItems = sampleN(getFilteredPositions(), 16);
       drawWheel();
     }
 
-    function drawWheel() {
+    // Which slice is under the pointer for a given wheel rotation (radians)?
+    // Slice i covers [rotation + i*s, rotation + (i+1)*s) in canvas angles (0° = 3 o'clock, clockwise).
+    function sliceIndexAtPointer(rotationRad, n) {
+      const s = 360 / n;
+      let a = (WHEEL_POINTER_DEG - (rotationRad * 180 / Math.PI)) % 360;
+      if (a < 0) a += 360;
+      return Math.floor(a / s) % n;
+    }
+
+    // Draws the wheel face ONCE per item set (rotation 0). Spinning only changes a CSS transform,
+    // so there is no per-frame canvas work, no shadowBlur cost and no re-rasterising of the text.
+    function renderWheelFace() {
       const canvas = document.getElementById('wheel-canvas');
       if (!canvas) return;
       const ctx = canvas.getContext('2d');
       const numSlices = wheelItems.length;
+      const size = canvas.width;
+      ctx.clearRect(0, 0, size, size);
       if (numSlices === 0) return;
 
-      const size = canvas.width;
       const center = size / 2;
       const radius = center - 16;
       const sliceAngle = (2 * Math.PI) / numSlices;
+      const textEdge = radius - 26;   // right edge of the label (near the rim)
+      const hubClear = 90;            // keep labels clear of the SPIN button
+      const maxTextWidth = textEdge - hubClear;
 
-      ctx.clearRect(0, 0, size, size);
-
-      // Draw slices
       for (let i = 0; i < numSlices; i++) {
-        const startAngle = wheelRotation + i * sliceAngle;
+        const startAngle = i * sliceAngle;
         const endAngle = startAngle + sliceAngle;
 
         ctx.beginPath();
         ctx.moveTo(center, center);
         ctx.arc(center, center, radius, startAngle, endAngle);
         ctx.closePath();
-
-        // Alternating luxury velvet colors
-        const colors = [
-          '#2a1038', '#1a0724', '#381347', '#170622', 
-          '#43144d', '#20092d', '#4d164f', '#1c0827'
-        ];
-        ctx.fillStyle = colors[i % colors.length];
+        ctx.fillStyle = WHEEL_COLORS[i % WHEEL_COLORS.length];
         ctx.fill();
-
         ctx.lineWidth = 1.4;
         ctx.strokeStyle = 'rgba(226, 149, 120, 0.45)';
         ctx.stroke();
 
-        // Large, bold, high-contrast typography with Romantic Pastel Palette
         ctx.save();
         ctx.translate(center, center);
         ctx.rotate(startAngle + sliceAngle / 2);
         ctx.textAlign = 'right';
+        ctx.fillStyle = WHEEL_TEXT_COLORS[i % WHEEL_TEXT_COLORS.length];
 
-        // 4 Dreamy Pastel Colors that pop gorgeously against dark velvet
-        const pastelPalette = [
-          '#ffc8dd', // Pastel Blossom Pink
-          '#d8c2ff', // Pastel Lavender Lilac
-          '#bbf2d8', // Pastel Mint Seafoam
-          '#ffe5b4'  // Pastel Warm Champagne
-        ];
-        ctx.fillStyle = pastelPalette[i % pastelPalette.length];
-
-        let displayName = wheelItems[i].name;
-        const fontSize = (displayName.length > 15) ? 25 : 30;
+        const displayName = wheelItems[i].name;
+        let fontSize = displayName.length > 15 ? 25 : 30;
         ctx.font = `bold ${fontSize}px 'Outfit', sans-serif`;
+        // Shrink long names until they fit between the hub and the rim
+        while (fontSize > 16 && ctx.measureText(displayName).width > maxTextWidth) {
+          fontSize -= 1;
+          ctx.font = `bold ${fontSize}px 'Outfit', sans-serif`;
+        }
         ctx.shadowColor = 'rgba(0, 0, 0, 0.95)';
         ctx.shadowBlur = 9;
-        ctx.fillText(displayName, radius - 26, fontSize / 3.2);
+        ctx.fillText(displayName, textEdge, fontSize / 3.2);
         ctx.restore();
       }
 
@@ -2055,6 +2152,16 @@
       ctx.stroke();
     }
 
+    function applyWheelRotation() {
+      const canvas = document.getElementById('wheel-canvas');
+      if (canvas) canvas.style.transform = `rotate(${wheelRotation}rad)`;
+    }
+
+    function drawWheel() {
+      renderWheelFace();
+      applyWheelRotation();
+    }
+
     function spinWheel() {
       if (isSpinning || wheelItems.length === 0) return;
 
@@ -2064,7 +2171,7 @@
       const numSlices = wheelItems.length;
       const sliceAngleDeg = 360 / numSlices;
 
-      // Smart Anti-Repeat: Filter out recently won positions
+      // Smart Anti-Repeat: filter out recently won positions
       const availableIndices = [];
       for (let i = 0; i < numSlices; i++) {
         if (!recentWinnerIds.includes(wheelItems[i].id)) {
@@ -2072,22 +2179,15 @@
         }
       }
 
-      // If all slices in the current wheel were recently picked, reset history to avoid lock
+      // If all slices in the current wheel were recently picked, fall back to all of them
       const candidateIndices = (availableIndices.length > 0) ? availableIndices : Array.from({length: numSlices}, (_, i) => i);
       const winningIndex = candidateIndices[Math.floor(Math.random() * candidateIndices.length)];
-      const winner = wheelItems[winningIndex];
+      const plannedWinner = wheelItems[winningIndex];
 
-      // Add to anti-repeat buffer (keep last 6 winners)
-      recentWinnerIds.push(winner.id);
-      if (recentWinnerIds.length > 6) {
-        recentWinnerIds.shift();
-      }
-
-      // Pointer is at TOP (270 degrees in canvas coordinates, or -90 deg)
-      // Natural landing jitter within the slice: ±35% of slice width (never identical spot)
+      // Natural landing jitter within the slice: ±35% of slice width (never on a boundary)
       const jitterDeg = (Math.random() - 0.5) * (sliceAngleDeg * 0.7);
       const targetSliceCenterDeg = winningIndex * sliceAngleDeg + sliceAngleDeg / 2 + jitterDeg;
-      const targetDeg = (270 - targetSliceCenterDeg + 360) % 360;
+      const targetDeg = (WHEEL_POINTER_DEG - targetSliceCenterDeg + 360) % 360;
 
       const spins = 6 + Math.floor(Math.random() * 3); // 6 to 8 full rotations
       const currentDeg = (wheelRotation * 180 / Math.PI) % 360;
@@ -2095,35 +2195,53 @@
 
       const startRotation = wheelRotation;
       const targetRotationRad = startRotation + (totalDegreesToAdd * Math.PI / 180);
-      const duration = 4600; // 4.6 seconds smooth natural deceleration
+      const duration = 4800;
       const startTime = performance.now();
+      lastTickIndex = sliceIndexAtPointer(startRotation, numSlices);
 
       function animateSpin(now) {
-        const elapsed = now - startTime;
-        const progress = Math.min(elapsed / duration, 1);
+        const progress = Math.min((now - startTime) / duration, 1);
 
-        // Cubic ease out
-        const easeOut = 1 - Math.pow(1 - progress, 3);
+        // Quartic ease-out: fast launch and a long, natural friction-style slow-down
+        const easeOut = 1 - Math.pow(1 - progress, 4);
         wheelRotation = startRotation + (targetRotationRad - startRotation) * easeOut;
-        drawWheel();
+        applyWheelRotation();
 
-        // Ticking audio
-        if (Math.random() < 0.25 * (1 - progress)) {
-          playTone(400, 'sine', 0.03);
+        // Click each time the pointer actually crosses into a new slice (like a real wheel's flapper)
+        const idx = sliceIndexAtPointer(wheelRotation, numSlices);
+        if (idx !== lastTickIndex) {
+          lastTickIndex = idx;
+          if (now - lastTickTime > 40) {
+            lastTickTime = now;
+            playTone(700 + 500 * (1 - progress), 'triangle', 0.03);
+          }
         }
 
         if (progress < 1) {
           requestAnimationFrame(animateSpin);
-        } else {
-          isSpinning = false;
-          document.getElementById('spin-btn').disabled = false;
-          playTone(600, 'sine', 0.25);
-
-          // Climax delay before auto modal popup
-          setTimeout(() => {
-            openModal(winner);
-          }, 650);
+          return;
         }
+
+        wheelRotation = targetRotationRad;
+        applyWheelRotation();
+        isSpinning = false;
+        document.getElementById('spin-btn').disabled = false;
+        playTone(600, 'sine', 0.25);
+        if (navigator.vibrate) navigator.vibrate(30);
+
+        // The slice physically under the pointer is the single source of truth for the result
+        const landed = wheelItems[sliceIndexAtPointer(wheelRotation, numSlices)];
+        if (landed.id !== plannedWinner.id) {
+          console.warn('Wheel landing differs from plan; using the slice under the pointer', landed.id, plannedWinner.id);
+        }
+        recentWinnerIds.push(landed.id);
+        if (recentWinnerIds.length > 6) recentWinnerIds.shift();
+
+        // Climax delay before auto modal popup
+        setTimeout(() => {
+          if (wheelRefreshPending) shuffleWheelSlices();
+          openModal(landed);
+        }, 650);
       }
 
       requestAnimationFrame(animateSpin);
@@ -2137,11 +2255,41 @@
       document.getElementById('last-winner-bar').style.display = 'flex';
       document.getElementById('last-winner-name').textContent = `${item.name} (${item.nameTh.split('(')[0]})`;
 
-      document.getElementById('modal-img').src = item.imageUrl;
+      loadImageInto(document.getElementById('modal-img'), item);
       document.getElementById('modal-name-en').textContent = item.name;
       document.getElementById('modal-name-th').textContent = item.nameTh;
-      document.getElementById('modal-angle').textContent = 'แตะอ่านทริค 💬';
       document.getElementById('modal-desc').textContent = item.descriptionTh;
+
+      // Caution / Safety Notice
+      const cautionEl = document.getElementById('modal-caution');
+      if (item.caution) {
+        document.getElementById('modal-caution-text').textContent = item.caution;
+        cautionEl.style.display = 'flex';
+      } else {
+        cautionEl.style.display = 'none';
+      }
+
+      // Clitoral & G-Spot Indicators (Adjusted dynamically for Oral vs Penetrative)
+      const isOral = (item.isPenetrative === false);
+      const gspotLabelTh = document.getElementById('gspot-label-th');
+      const gspotLabelEn = document.getElementById('gspot-label-en');
+      const angleLabelTh = document.getElementById('angle-label-th');
+      const angleLabelEn = document.getElementById('angle-label-en');
+      const angleBadge = document.getElementById('modal-angle');
+
+      if (isOral) {
+        if (gspotLabelTh) gspotLabelTh.textContent = 'สัมผัสเฉพาะจุด';
+        if (gspotLabelEn) gspotLabelEn.textContent = '(External)';
+        if (angleLabelTh) angleLabelTh.textContent = 'รูปแบบสัมผัส';
+        if (angleLabelEn) angleLabelEn.textContent = '(Touch Focus)';
+        angleBadge.textContent = 'สัมผัสภายนอก 💬';
+      } else {
+        if (gspotLabelTh) gspotLabelTh.textContent = 'กระตุ้นจุดจีสปอต';
+        if (gspotLabelEn) gspotLabelEn.textContent = '(G-Spot)';
+        if (angleLabelTh) angleLabelTh.textContent = 'มุมองศาการสอดใส่';
+        if (angleLabelEn) angleLabelEn.textContent = '(Angle)';
+        angleBadge.textContent = 'แตะอ่านทริค 💬';
+      }
 
       // Clitoral Dots
       const clitContainer = document.getElementById('clitoral-dots');
@@ -2192,22 +2340,36 @@
         document.getElementById('mini-tip-icon').textContent = '🌸';
         document.getElementById('mini-tip-title').textContent = 'เคล็ดลับสัมผัสคลิตอริส';
         document.getElementById('mini-tip-score').textContent = `ความเข้มข้นสัมผัส: ${item.clitoral || 4}/5 ดาว`;
-        document.getElementById('mini-tip-desc').textContent = `เทคนิคหน้างานสำหรับท่า ${item.name}: เน้นการทิ้งน้ำหนักสะโพกให้กระดูกเชิงกรานแนบสนิท พร้อมบดคลึงจังหวะเป็นวงกลมเบาๆ จะช่วยส่งกระแสความเสียวซ่านได้ต่อเนื่องที่สุด`;
+        document.getElementById('mini-tip-desc').textContent = anatomy.clitoralTextTh || `เทคนิคหน้างานสำหรับท่า ${item.name}: เน้นการทิ้งน้ำหนักสะโพกให้กระดูกเชิงกรานแนบสนิท พร้อมบดคลึงจังหวะเป็นวงกลมเบาๆ จะช่วยส่งกระแสความเสียวซ่านได้ต่อเนื่องที่สุด`;
         document.getElementById('mini-tip-advice').textContent = anatomy.clitoralTipTh || 'สามารถใช้ปลายนิ้วช่วยนวดวนเบาๆ เป็นจังหวะตามการเคลื่อนไหวเพื่อเร่งเร้าคลื่นอารมณ์';
       } else if (type === 'gspot') {
         card.classList.add('gold-glow');
         document.getElementById('mini-tip-icon').textContent = '✨';
-        document.getElementById('mini-tip-title').textContent = 'เคล็ดลับเจาะจงจุดจี';
-        document.getElementById('mini-tip-score').textContent = `ความลึกซึ้งสัมผัส: ${item.gspot || 4}/5 ดาว`;
-        document.getElementById('mini-tip-desc').textContent = `เทคนิคหน้างานสำหรับท่า ${item.name}: โน้มหรือช้อนปลายองศาเข้าหาผนังหน้าท้องช่วงล่าง หากใช้หมอนหนุนสะโพกขึ้นเล็กน้อย จะช่วยให้ทุกแรงส่งกระทบจุดจีสปอตได้อย่างแม่นยำเต็มพิกัด`;
-        document.getElementById('mini-tip-advice').textContent = anatomy.gspotTipTh || 'จังหวะเน้นบดช่วงปลายจะกระตุ้นคลื่นความสุขสมได้ลึกซึ้งกว่าการสอดใส่แบบปกติ';
+        if (item.isPenetrative === false) {
+          document.getElementById('mini-tip-title').textContent = 'การกระตุ้นจุดรับความรู้สึก';
+          document.getElementById('mini-tip-score').textContent = 'ระดับการสอดใส่: 0/5 (ท่วงท่าเน้นสัมผัสภายนอก/Oral)';
+          document.getElementById('mini-tip-desc').textContent = anatomy.gspotTextTh || 'ท่วงท่านี้เน้นการสัมผัสภายนอกหรือการใช้ปากเป็นหลัก จึงไม่มีการสอดใส่ทางช่องคลอดไปยังจุด G-Spot';
+          document.getElementById('mini-tip-advice').textContent = anatomy.gspotTipTh || 'หากต้องการกระตุ้นจุด G-Spot ควบคู่ไปด้วย สามารถใช้นิ้วมือนวดวนที่ผนังด้านหน้าขณะทำกิจกรรมเพื่อผสมผสานความสุขสมสองมิติ';
+        } else {
+          document.getElementById('mini-tip-title').textContent = 'เคล็ดลับเจาะจงจุดจี';
+          document.getElementById('mini-tip-score').textContent = `ความลึกซึ้งสัมผัส: ${item.gspot || 4}/5 ดาว`;
+          document.getElementById('mini-tip-desc').textContent = anatomy.gspotTextTh || `เทคนิคหน้างานสำหรับท่า ${item.name}: โน้มหรือช้อนปลายองศาเข้าหาผนังหน้าท้องช่วงล่าง หากใช้หมอนหนุนสะโพกขึ้นเล็กน้อย จะช่วยให้ทุกแรงส่งกระทบจุดจีสปอตได้อย่างแม่นยำเต็มพิกัด`;
+          document.getElementById('mini-tip-advice').textContent = anatomy.gspotTipTh || 'จังหวะเน้นบดช่วงปลายจะกระตุ้นคลื่นความสุขสมได้ลึกซึ้งกว่าการสอดใส่แบบปกติ';
+        }
       } else if (type === 'angle') {
         card.classList.add('rose-glow');
         document.getElementById('mini-tip-icon').textContent = '📐';
-        document.getElementById('mini-tip-title').textContent = 'เทคนิคปรับองศาสรีระ';
-        document.getElementById('mini-tip-score').textContent = `ระดับความยาก: ${'★'.repeat(item.difficulty || 1)}`;
-        document.getElementById('mini-tip-desc').textContent = `แนวองศาที่เหมาะสม: ${item.angle || anatomy.angleDetailTh || 'ระนาบตรงระดับปานกลาง'}`;
-        document.getElementById('mini-tip-advice').textContent = 'เทคนิค: ผ่อนคลายกล้ามเนื้ออุ้งเชิงกราน ขยับตามจังหวะลมหายใจของกันและกันเพื่อลดแรงต้านและเพิ่มความแนบแน่น';
+        if (item.isPenetrative === false) {
+          document.getElementById('mini-tip-title').textContent = 'รูปแบบสัมผัส & ศิลปะแห่งการผ่อนคลาย';
+          document.getElementById('mini-tip-score').textContent = `ระดับความยาก: ${'★'.repeat(item.difficulty || 1)}`;
+          document.getElementById('mini-tip-desc').textContent = item.angle || 'สัมผัสภายนอก / Oral Art: เน้นริมฝีปากและลิ้น ปรับจังหวะตามต้องการ';
+          document.getElementById('mini-tip-advice').textContent = 'เน้นการสื่อสารผ่านสายตาและจังหวะลมหายใจ สามารถใช้มือหรือของเล่นเสริมสัมผัสช่วยปลุกเร้าควบคู่กันได้';
+        } else {
+          document.getElementById('mini-tip-title').textContent = 'เทคนิคปรับองศาสรีระ';
+          document.getElementById('mini-tip-score').textContent = `ระดับความยาก: ${'★'.repeat(item.difficulty || 1)}`;
+          document.getElementById('mini-tip-desc').textContent = `แนวองศาที่เหมาะสม: ${item.angle || anatomy.angleDetailTh || 'ระนาบตรงระดับปานกลาง'}`;
+          document.getElementById('mini-tip-advice').textContent = 'เทคนิค: ผ่อนคลายกล้ามเนื้ออุ้งเชิงกราน ขยับตามจังหวะลมหายใจของกันและกันเพื่อลดแรงต้านและเพิ่มความแนบแน่น';
+        }
       }
 
       document.getElementById('mini-tip-modal').style.display = 'flex';
@@ -2335,23 +2497,31 @@
       }
     }
 
+    function remainingFromClock() {
+      return Math.max(0, Math.ceil((timerEndAt - Date.now()) / 1000));
+    }
+
     function startTimer() {
       if (timerRemainingSeconds <= 0) timerRemainingSeconds = timerDurationSeconds;
+      timerEndAt = Date.now() + timerRemainingSeconds * 1000;
       timerInterval = setInterval(() => {
-        timerRemainingSeconds--;
+        timerRemainingSeconds = remainingFromClock();
         updateTimerDisplay();
         if (timerRemainingSeconds <= 0) {
           pauseTimer();
           playAlarmTone();
+          if (navigator.vibrate) navigator.vibrate([200, 100, 200, 100, 400]);
           document.getElementById('timer-toggle-btn').textContent = "DONE!";
         }
-      }, 1000);
+      }, 250);
     }
 
     function pauseTimer() {
       if (timerInterval) {
+        timerRemainingSeconds = remainingFromClock(); // snapshot so RESUME continues from the exact second
         clearInterval(timerInterval);
         timerInterval = null;
+        updateTimerDisplay();
       }
     }
 
@@ -2405,6 +2575,7 @@
       stardustRunning = true;
 
       const ctx = canvas.getContext('2d');
+      const reduceMotion = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
       let width = canvas.width = window.innerWidth;
       let height = canvas.height = window.innerHeight;
 
@@ -2459,6 +2630,7 @@
       }
 
       function spawnMeteorCluster() {
+        if (meteors.length >= 5) return; // cap concurrent glow-heavy meteors
         meteors.push(createMeteor());
         // 45% chance of twin shooting star
         if (Math.random() < 0.45) {
@@ -2477,6 +2649,11 @@
       let nextMeteorTime = performance.now() + 600;
 
       function renderSky(now) {
+        // Freeze the sky while an overlay (with backdrop blur) is open or the tab is hidden
+        if (overlayOpen || document.hidden) {
+          requestAnimationFrame(renderSky);
+          return;
+        }
         ctx.clearRect(0, 0, width, height);
 
         // Render Twinkling Stars
@@ -2494,8 +2671,11 @@
           ctx.save();
           ctx.globalAlpha = currentAlpha;
           ctx.fillStyle = s.color;
-          ctx.shadowBlur = s.isDiamond ? 12 : 5;
-          ctx.shadowColor = s.color;
+          // shadowBlur is the most expensive canvas op: only the few sparkle stars get a glow
+          if (s.isDiamond) {
+            ctx.shadowBlur = 12;
+            ctx.shadowColor = s.color;
+          }
 
           ctx.beginPath();
           ctx.arc(s.x, s.y, s.radius, 0, Math.PI * 2);
@@ -2517,7 +2697,7 @@
         });
 
         // Spawn Meteors frequently (every 0.6s to 1.4s) with clusters
-        if (now > nextMeteorTime) {
+        if (!reduceMotion && now > nextMeteorTime) {
           spawnMeteorCluster();
           nextMeteorTime = now + (Math.random() * 800 + 600);
         }

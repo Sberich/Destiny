@@ -1,21 +1,3 @@
-/**
- * Destiny Velvet - 444 Illustrated Couples Positions Database
- * Full Curated & Educational Edition with High-Resolution Illustrations,
- * Stimulation ratings (Clitoral / G-Spot 1-5), Penetration angles,
- * and In-Depth Anatomy & Physiology educational guide for every position.
- */
-
-window.COUPLES_CATEGORIES = [
-  { id: 'all', nameTh: 'ทั้งหมด', nameEn: 'All Positions', icon: '✨' },
-  { id: 'classic', nameTh: 'คลาสสิก มาตรฐาน', nameEn: 'Classic', icon: '🏆' },
-  { id: 'chill', nameTh: 'ผ่อนคลาย สบายๆ', nameEn: 'Chill & Cozy', icon: '🛋️' },
-  { id: 'romantic', nameTh: 'โรแมนติก แนบชิด', nameEn: 'Romantic & Intimate', icon: '💖' },
-  { id: 'her_lead', nameTh: 'ฝ่ายหญิงคุมเกม', nameEn: 'Her in Control', icon: '👑' },
-  { id: 'him_lead', nameTh: 'ฝ่ายชายคุมเกม', nameEn: 'Him in Control', icon: '🦁' },
-  { id: 'quick', nameTh: 'รวดเร็ว ฉับไว', nameEn: 'Quick & Passionate', icon: '⚡' },
-  { id: 'adventurous', nameTh: 'ท้าทาย ผาดโผน', nameEn: 'Wild & Adventurous', icon: '🔥' }
-];
-
 window.COUPLES_POSITIONS = [
   {
     "id": "missionary",
@@ -23,8 +5,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "มิชชันนารี (คลาสสิกมาตรฐาน)",
     "category": "classic",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 3,
+    "clitoral": 5,
+    "gspot": 2,
     "angle": "แนวระนาบตรง ความลึกระดับปานกลาง ปลายทำมุมเฉียงขึ้นเล็กน้อย",
     "descriptionTh": "ท่าพื้นฐานที่สมบูรณ์แบบที่สุด เน้นความอบอุ่นและการสบตากัน สามารถใช้มือช่วยกระตุ้นจุดสัมผัสภายนอกได้อย่างสะดวก",
     "imageUrl": "https://couplesexposition.com/images/positions/missionary.webp",
@@ -45,7 +27,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มองตรงๆ ที่ระดับความลึกตื้นถึงปานกลาง โดยทำมุมเอียงขึ้นเล็กน้อย"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "Face-to-face intimacy with deep emotional connection.",
+    "isPenetrative": true
   },
   {
     "id": "doggy-style",
@@ -75,7 +61,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน"
       ],
       "angleDetailTh": "สอดใส่จากด้านหลังเป็นมุมลึก ปลายกระทบผนังด้านหน้าจุดจีสปอตโดยตรง"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A timeless classic with deep connection and intensity.",
+    "isPenetrative": true
   },
   {
     "id": "cowgirl",
@@ -84,7 +74,7 @@ window.COUPLES_POSITIONS = [
     "category": "her_lead",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 4,
+    "gspot": 2,
     "angle": "แนวดิ่งลงลึก สามารถปรับมุมโน้มตัวไปข้างหน้าหรือเอนหลังได้อย่างอิสระ",
     "descriptionTh": "ฝ่ายหญิงอยู่ด้านบน ควบคุมมุมองศา ความลึก และจังหวะได้ตามใจชอบ บดสัมผัสได้อย่างแนบแน่น",
     "imageUrl": "https://couplesexposition.com/images/positions/cowgirl.webp",
@@ -106,7 +96,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน"
       ],
       "angleDetailTh": "แนวดิ่งลงลึก สามารถปรับมุมโน้มตัวไปข้างหน้าหรือเอนหลังได้อย่างอิสระ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "Take control and set the pace with this empowering position.",
+    "isPenetrative": true
   },
   {
     "id": "sixty-nine",
@@ -115,9 +109,9 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 4,
-    "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
-    "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
+    "gspot": 0,
+    "angle": "สัมผัสภายนอก / Oral Art: เน้นริมฝีปาก ลิ้น และปลายนิ้ว ควบคุมจังหวะอิสระ",
+    "descriptionTh": "ท่วงท่า Oral Sex สุดคลาสสิกที่มอบความสุขสมให้แก่กันและกันไปพร้อมๆ กันอย่างกลมกลืนและสมดุล",
     "imageUrl": "https://couplesexposition.com/images/positions/sixty-nine.webp",
     "anatomy": {
       "suitableTh": [
@@ -126,18 +120,23 @@ window.COUPLES_POSITIONS = [
         "การกระตุ้นคลิตอริส",
         "การกระตุ้นจุดจีสปอต"
       ],
-      "clitoralTextTh": "การกระตุ้นคลิตอริสระดับยอดเยี่ยม จากการบดสัมผัสโดยตรงของกระดูกหัวหน่าวและแรงเสียดสีที่ตรงจุด",
+      "clitoralTextTh": "การกระตุ้นคลิตอริสอย่างตรงจุดและต่อเนื่องด้วยริมฝีปากและลิ้น มอบคลื่นความเสียวซ่านภายนอกที่ชัดเจน",
       "clitoralTipTh": "สามารถใช้มือช่วยสัมผัสลูบไล้หรือกดคลึงเป็นวงกลมเพื่อเร่งเร้าคลื่นความเสียวซ่านได้อย่างง่ายดาย",
-      "gspotTextTh": "การกระตุ้นจุด G-spot ระดับ 4/5 ด้วยมุมการสอดใส่ที่เฉียดเข้าหาผนังด้านหน้าได้อย่างเป็นธรรมชาติ",
-      "gspotTipTh": "สามารถใช้หมอนหนุนใต้สะโพกเพื่อยกองศาให้ปลายสัมผัสกระทบจุดจีได้อย่างแม่นยำยิ่งขึ้น",
+      "gspotTextTh": "ท่วงท่านี้เน้นการสัมผัสภายนอกหรือการใช้ปากเป็นหลัก จึงไม่มีการสอดใส่ทางช่องคลอดไปยังจุด G-Spot (หากต้องการกระตุ้นร่วมด้วย สามารถใช้นิ้วมือหรืออุปกรณ์ช่วยควบคู่กันได้)",
+      "gspotTipTh": "สามารถใช้นิ้วมือนวดวนสัมผัสจุดรับความรู้สึกด้านในขณะทำกิจกรรมเพื่อเพิ่มความสุขสมครบทุกมิติ",
       "musclesTh": [
         "กล้ามเนื้อก้น (Glutes)",
         "กล้ามเนื้อแกนกลางลำตัว (Core)",
         "กล้ามเนื้อสะโพก (Hip flexors)",
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
-      "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+      "angleDetailTh": "สัมผัสภายนอก / Oral Art: ควบคุมจังหวะสัมผัสได้อย่างอิสระ ไร้แรงกดทับภายใน"
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "Simultaneous oral pleasure in this classic position.",
+    "isPenetrative": false,
+    "focusType": "oral"
   },
   {
     "id": "prone-bone",
@@ -145,7 +144,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "โพรนโบน (ประกบระนาบแนบเนื้อ)",
     "category": "classic",
     "difficulty": 2,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "ระนาบแนวนอนราบขนาน สอดใส่จากด้านหลังในมุมแคบกระชับ",
     "descriptionTh": "ฝ่ายหญิงนอนคว่ำราบไปกับเตียง สัมผัสถึงความกระชับแนบแน่นและอบอุ่นทั่วแผ่นหลัง",
@@ -168,7 +167,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "ระนาบแนวนอนราบขนาน สอดใส่จากด้านหลังในมุมแคบกระชับ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A flat, face-down position for deep, grinding sensations.",
+    "isPenetrative": true
   },
   {
     "id": "reverse-cowgirl",
@@ -176,7 +179,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "รีเวิร์สคาวเกิร์ล (หันหลังคุมจังหวะ)",
     "category": "her_lead",
     "difficulty": 2,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "แนวดิ่งหันหลัง ปลายองศากระทบผนังจุดจีสปอตอย่างแม่นยำ",
     "descriptionTh": "ฝ่ายหญิงหันหลังให้ฝ่ายชาย ควบคุมมุมและความเร็วได้เต็มที่ ฝ่ายชายได้ชื่นชมแผ่นหลังและสะโพก",
@@ -199,7 +202,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "แนวดิ่งหันหลัง ปลายองศากระทบผนังจุดจีสปอตอย่างแม่นยำ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A fresh angle that brings a new dimension of pleasure.",
+    "isPenetrative": true
   },
   {
     "id": "amazon",
@@ -207,8 +214,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "อเมซอน (สาวแกร่งคุมเกม)",
     "category": "her_lead",
     "difficulty": 2,
-    "clitoral": 5,
-    "gspot": 4,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "ฝ่ายชายนอนชันเข่า ฝ่ายหญิงนั่งคร่อมคุมจังหวะและกดน้ำหนักลง",
     "descriptionTh": "ฝ่ายหญิงมีอำนาจเต็มที่ในการกำหนดจังหวะ บดคลึงได้ลึกซึ้งและแนบชิด",
     "imageUrl": "https://couplesexposition.com/images/positions/amazon.webp",
@@ -231,7 +238,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "ฝ่ายชายนอนชันเข่า ฝ่ายหญิงนั่งคร่อมคุมจังหวะและกดน้ำหนักลง"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A powerful, dominant position named after fierce warriors.",
+    "isPenetrative": true
   },
   {
     "id": "lotus",
@@ -239,7 +250,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "ดอกบัว (กอดนั่งสบตาแนบชิด)",
     "category": "her_lead",
     "difficulty": 2,
-    "clitoral": 4,
+    "clitoral": 3,
     "gspot": 4,
     "angle": "ท่านั่งโอบกอดสบตา สอดประสานเป็นแนวดิ่งลึกซึ้ง",
     "descriptionTh": "สุดยอดท่าแห่งความโรแมนติก ฝ่ายหญิงนั่งบนตักฝ่ายชาย ทั้งสองโอบกอดและสบตากันอย่างใกล้ชิด",
@@ -263,7 +274,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "ท่านั่งโอบกอดสบตา สอดประสานเป็นแนวดิ่งลึกซึ้ง"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A meditative, deeply connected seated embrace.",
+    "isPenetrative": true
   },
   {
     "id": "butterfly",
@@ -271,8 +286,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "ผีเสื้อ (ริมขอบเตียงเปิดมุมองศา)",
     "category": "quick",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 4,
+    "clitoral": 2,
+    "gspot": 5,
     "angle": "แนวตรงระดับสะโพก ฝ่ายหญิงยกสะโพกขึ้นริมขอบเตียง",
     "descriptionTh": "ช่วยให้ฝ่ายหญิงไม่ต้องรับน้ำหนัก ฝ่ายชายยืนหรือคุกเข่าควบคุมจังหวะได้อย่างสบาย",
     "imageUrl": "https://couplesexposition.com/images/positions/butterfly.webp",
@@ -294,7 +309,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน"
       ],
       "angleDetailTh": "แนวตรงระดับสะโพก ฝ่ายหญิงยกสะโพกขึ้นริมขอบเตียง"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "Lift the legs for deep penetration and eye contact.",
+    "isPenetrative": true
   },
   {
     "id": "spooning",
@@ -302,8 +321,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "ท่าช้อน (ประกบเคียงข้างอบอุ่น)",
     "category": "chill",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 3,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "นอนตะแคงไปในทิศทางเดียวกัน สอดใส่จากด้านหลังในมุมเฉียงผ่อนคลาย",
     "descriptionTh": "ไม่ต้องใช้แรงเยอะ เหมาะมากสำหรับวันสบายๆ หรือช่วงเช้าที่อยากคลอเคลียอบอุ่น",
     "imageUrl": "https://couplesexposition.com/images/positions/spooning.webp",
@@ -324,7 +343,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน"
       ],
       "angleDetailTh": "นอนตะแคงไปในทิศทางเดียวกัน สอดใส่จากด้านหลังในมุมเฉียงผ่อนคลาย"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "Cuddle close with this gentle, sensual side position.",
+    "isPenetrative": true
   },
   {
     "id": "scissor",
@@ -333,7 +356,7 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 3,
+    "gspot": 1,
     "angle": "มุมทะแยง 45 องศา สอดประสานขาไขว้กันแนบชิด",
     "descriptionTh": "นอนราบไม่ต้องออกแรงต้าน บดสัมผัสกระตุ้นจุดภายนอกได้อย่างต่อเนื่องและเป็นธรรมชาติ",
     "imageUrl": "https://couplesexposition.com/images/positions/scissor.webp",
@@ -355,7 +378,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน"
       ],
       "angleDetailTh": "มุมทะแยง 45 องศา สอดประสานขาไขว้กันแนบชิด"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "Intertwined legs create a tight, sensations-rich position.",
+    "isPenetrative": true
   },
   {
     "id": "cat",
@@ -364,7 +391,7 @@ window.COUPLES_POSITIONS = [
     "category": "quick",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 4,
+    "gspot": 1,
     "angle": "แนบระนาบแนบแน่นโดยฝ่ายชายขยับขึ้นสูงกว่าปกติ เพื่อให้เกิดการเสียดสีจุดคลิตอริสตลอดเวลา",
     "descriptionTh": "เน้นการบดคลึงเป็นจังหวะมากกว่าการเข้าออกเร็ว ผ่อนคลายแต่ถึงจุดสุดยอดได้ง่ายมาก",
     "imageUrl": "https://couplesexposition.com/images/positions/cat.webp",
@@ -386,7 +413,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน"
       ],
       "angleDetailTh": "แนบระนาบแนบแน่นโดยฝ่ายชายขยับขึ้นสูงกว่าปกติ เพื่อให้เกิดการเสียดสีจุดคลิตอริสตลอดเวลา"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "Coital Alignment Technique for enhanced clitoral stimulation.",
+    "isPenetrative": true
   },
   {
     "id": "helicopter",
@@ -394,8 +425,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "เฮลิคอปเตอร์ (หมุนมุมรอบทิศ)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 4,
-    "gspot": 4,
+    "clitoral": 2,
+    "gspot": 5,
     "angle": "หมุนเปลี่ยนองศาเป็นวงกลมขณะสอดประสาน",
     "descriptionTh": "สนุกสนานและแปลกใหม่ ช่วยสร้างเสียงหัวเราะและความตื่นเต้นไปพร้อมกัน",
     "imageUrl": "https://couplesexposition.com/images/positions/helicopter.webp",
@@ -418,7 +449,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "หมุนเปลี่ยนองศาเป็นวงกลมขณะสอดประสาน"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A spinning, dynamic position for adventurous couples.",
+    "isPenetrative": true
   },
   {
     "id": "pretzel",
@@ -426,8 +461,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "เพรทเซล (มุมบิดเกลียวเร้าใจ)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 4,
-    "gspot": 4,
+    "clitoral": 2,
+    "gspot": 5,
     "angle": "นอนตะแคงไขว้ขาสลับทิศ บิดเกลียวสะโพกเข้ามุมลึก",
     "descriptionTh": "ความกระชับระดับสูงสุด การบิดสะโพกทำให้เกิดมุมสัมผัสใหม่ที่ไม่เคยพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/pretzel.webp",
@@ -450,7 +485,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "นอนตะแคงไขว้ขาสลับทิศ บิดเกลียวสะโพกเข้ามุมลึก"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A twisted, pretzel-like leg position for unique angles.",
+    "isPenetrative": true
   },
   {
     "id": "full-nelson",
@@ -459,7 +498,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "สอดแขนใต้รักแร้ฝ่ายหญิงยกตัวขึ้น สอดใส่จากด้านหลังมุมลึก",
     "descriptionTh": "ความตื่นเต้นระดับสูงสุด ฝ่ายชายควบคุมการเคลื่อนไหวทั้งหมด ท้าทายและเร้าอารมณ์",
     "imageUrl": "https://couplesexposition.com/images/positions/full-nelson.webp",
@@ -482,7 +521,12 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "สอดแขนใต้รักแร้ฝ่ายหญิงยกตัวขึ้น สอดใส่จากด้านหลังมุมลึก"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A restraining position with arms held behind the head.",
+    "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
+    "isPenetrative": true
   },
   {
     "id": "piledriver",
@@ -490,8 +534,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "ไพล์ไดรเวอร์ (มุมสูงกายกรรม)",
     "category": "him_lead",
     "difficulty": 3,
-    "clitoral": 1,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "ฝ่ายหญิงกลับหัวขาพาดไหล่ฝั่งตรงข้าม แนวดิ่งสุดท้าทาย",
     "descriptionTh": "ต้องอาศัยความไว้ใจและความยืดหยุ่นสูง ให้ความรู้สึกแปลกใหม่ไม่เหมือนท่าใด",
     "imageUrl": "https://couplesexposition.com/images/positions/piledriver.webp",
@@ -514,7 +558,12 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "ฝ่ายหญิงกลับหัวขาพาดไหล่ฝั่งตรงข้าม แนวดิ่งสุดท้าทาย"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "An extreme position with legs pushed back for maximum depth.",
+    "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
+    "isPenetrative": true
   },
   {
     "id": "wheelbarrow",
@@ -523,7 +572,7 @@ window.COUPLES_POSITIONS = [
     "category": "him_lead",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 4,
+    "gspot": 5,
     "angle": "ฝ่ายหญิงใช้มือยันพื้น ฝ่ายชายยกขาขึ้นสอดใส่จากด้านหลัง",
     "descriptionTh": "ผาดโผนและเต็มไปด้วยพลัง เหมาะสำหรับคู่รักสายฟิตเนสที่ชอบความท้าทาย",
     "imageUrl": "https://couplesexposition.com/images/positions/wheelbarrow.webp",
@@ -546,7 +595,12 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "ฝ่ายหญิงใช้มือยันพื้น ฝ่ายชายยกขาขึ้นสอดใส่จากด้านหลัง"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "An adventurous lift that intensifies the experience.",
+    "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
+    "isPenetrative": true
   },
   {
     "id": "eiffel-tower",
@@ -554,7 +608,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Eiffel Tower (หอคอย - บดคลึงจุดสัมผัส)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -578,7 +632,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A three-person position with DP and oral stimulation.",
+    "isPenetrative": true
   },
   {
     "id": "reverse-cowboy",
@@ -609,7 +667,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A reversed cowgirl variation with the receiver facing away.",
+    "isPenetrative": true
   },
   {
     "id": "legs-on-shoulders",
@@ -617,7 +679,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "พาดขาบนบ่า (มุมมองชวนหลงใหล)",
     "category": "classic",
     "difficulty": 2,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมตรงยกสูง ปลายทำมุมพุ่งตรงสู่จุดสัมผัสภายใน",
     "descriptionTh": "สร้างความรู้สึกวาบหวามทั้งภาพตรงหน้าและการเคลื่อนไหวที่มั่นคง",
@@ -640,7 +702,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมตรงยกสูง ปลายทำมุมพุ่งตรงสู่จุดสัมผัสภายใน"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A modified missionary with legs raised for deeper angles.",
+    "isPenetrative": true
   },
   {
     "id": "butter-churner",
@@ -648,8 +714,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "เครื่องปั่นเนย (จังหวะมั่นคง)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "ฝ่ายหญิงนอนหงายยกตัวขึ้น ฝ่ายชายคุกเข่าควบคุมจังหวะในแนวดิ่ง",
     "descriptionTh": "มุมมองที่ตื่นตาตื่นใจและจังหวะที่มั่นคง ทรงพลัง",
     "imageUrl": "https://couplesexposition.com/images/positions/butter-churner.webp",
@@ -671,7 +737,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "ฝ่ายหญิงนอนหงายยกตัวขึ้น ฝ่ายชายคุกเข่าควบคุมจังหวะในแนวดิ่ง"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "An inverted position with legs over the head like churning butter.",
+    "isPenetrative": true
   },
   {
     "id": "crab",
@@ -679,8 +749,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "ปูเคียงคู่ (มุมพักผ่อนองศาต่ำ)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 3,
-    "gspot": 4,
+    "clitoral": 2,
+    "gspot": 5,
     "angle": "นั่งเอนหลังสลับทิศทาง ยกสะโพกขนานพื้น",
     "descriptionTh": "ช่วยให้ทั้งคู่ใช้แขนพยุงน้ำหนักตัวได้อย่างมั่นคง จังหวะช้าๆ นุ่มนวล",
     "imageUrl": "https://couplesexposition.com/images/positions/crab.webp",
@@ -703,7 +773,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "นั่งเอนหลังสลับทิศทาง ยกสะโพกขนานพื้น"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A crab-walk position facing upward for a unique angle.",
+    "isPenetrative": true
   },
   {
     "id": "bridge",
@@ -711,8 +785,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "สะพานโค้ง (ท้าทายความยืดหยุ่น)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 4,
+    "clitoral": 2,
+    "gspot": 5,
     "angle": "ฝ่ายหญิงแอ่นตัวเป็นสะพานโค้ง ฝ่ายชายคุกเข่าสอดใส่ในมุมเงย",
     "descriptionTh": "ท้าทายสรีระและความยืดหยุ่น เพิ่มความตื่นเต้นเร้าใจในค่ำคืนพิเศษ",
     "imageUrl": "https://couplesexposition.com/images/positions/bridge.webp",
@@ -735,7 +809,12 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "ฝ่ายหญิงแอ่นตัวเป็นสะพานโค้ง ฝ่ายชายคุกเข่าสอดใส่ในมุมเงย"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "An arched back position for deeper penetration angles.",
+    "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
+    "isPenetrative": true
   },
   {
     "id": "anvil",
@@ -744,7 +823,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 2,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "ยกขาฝ่ายหญิงพาดบ่าหรืออก มุมชันลึกถึงขีดสุด",
     "descriptionTh": "ฝ่ายชายควบคุมทิศทางได้อย่างเต็มที่ เข้าถึงความลึกระดับสูงสุดและกระชับแนบแน่น",
     "imageUrl": "https://couplesexposition.com/images/positions/anvil.webp",
@@ -766,7 +845,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "ยกขาฝ่ายหญิงพาดบ่าหรืออก มุมชันลึกถึงขีดสุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A heavy, pounding position for maximum intensity.",
+    "isPenetrative": true
   },
   {
     "id": "spider",
@@ -774,8 +857,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "แมงมุม (เผชิญหน้าคุมทิศทาง)",
     "category": "romantic",
     "difficulty": 2,
-    "clitoral": 4,
-    "gspot": 4,
+    "clitoral": 5,
+    "gspot": 1,
     "angle": "นั่งหันหน้าเข้าหากัน ฝ่ายหญิงใช้เท้ายันพื้นควบคุมจังหวะบดคลึง",
     "descriptionTh": "ควบคุมการโยกตัวได้อย่างอิสระโดยไม่ต้องออกแรงขามากเกินไป",
     "imageUrl": "https://couplesexposition.com/images/positions/spider.webp",
@@ -798,7 +881,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "นั่งหันหน้าเข้าหากัน ฝ่ายหญิงใช้เท้ายันพื้นควบคุมจังหวะบดคลึง"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "A face-to-face position with tangled legs like a spider.",
+    "isPenetrative": true
   },
   {
     "id": "splitting-bamboo",
@@ -806,8 +893,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Splitting Bamboo (มุมสรีระเปิดกว้าง)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/splitting-bamboo.webp",
@@ -830,7 +917,12 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A splitting position with legs wide for deep entry.",
+    "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
+    "isPenetrative": true
   },
   {
     "id": "catapult",
@@ -838,8 +930,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "เครื่องยิง (คล่องตัวฉับพลัน)",
     "category": "quick",
     "difficulty": 2,
-    "clitoral": 3,
-    "gspot": 4,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "ฝ่ายหญิงพาดขาข้างหนึ่งไว้บนบ่าฝ่ายชาย เข้าถึงมุมกระชับในทันที",
     "descriptionTh": "เปิดองศาได้อย่างรวดเร็ว สัมผัสลึกซึ้งโดยไม่ต้องเสียเวลาจัดท่า",
     "imageUrl": "https://couplesexposition.com/images/positions/catapult.webp",
@@ -862,7 +954,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "ฝ่ายหญิงพาดขาข้างหนึ่งไว้บนบ่าฝ่ายชาย เข้าถึงมุมกระชับในทันที"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A launching position for powerful, explosive sensations.",
+    "isPenetrative": true
   },
   {
     "id": "flatiron",
@@ -870,8 +966,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "เตารีด (ประกบชิดแนบแน่น)",
     "category": "classic",
     "difficulty": 2,
-    "clitoral": 3,
-    "gspot": 4,
+    "clitoral": 2,
+    "gspot": 5,
     "angle": "นอนคว่ำขาชิด ฝ่ายชายประกบทับด้านหลังในมุมแคบ",
     "descriptionTh": "สัมผัสความกระชับแนบแน่นและแรงกดที่สร้างความเสียวซ่านไปทั่วสะโพก",
     "imageUrl": "https://couplesexposition.com/images/positions/flatiron.webp",
@@ -893,7 +989,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "นอนคว่ำขาชิด ฝ่ายชายประกบทับด้านหลังในมุมแคบ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A flat, face-down position for gentle, grinding sensations.",
+    "isPenetrative": true
   },
   {
     "id": "downward-dog",
@@ -925,7 +1025,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "ยกสะโพกสูงสไตล์โยคะ สอดใส่จากด้านหลังในมุมเฉียงขึ้น"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A yoga-inspired position for deep, angled penetration.",
+    "isPenetrative": true
   },
   {
     "id": "london-bridge",
@@ -933,7 +1037,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "London Bridge (สะพานโค้ง - บดคลึงจุดสัมผัส)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -957,7 +1061,12 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A bridged position with the receiver arched like a bridge.",
+    "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
+    "isPenetrative": true
   },
   {
     "id": "corkscrew",
@@ -965,8 +1074,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "คอร์กสกรู (บิดสะโพกนุ่มนวล)",
     "category": "adventurous",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 3,
+    "clitoral": 2,
+    "gspot": 5,
     "angle": "ฝ่ายหญิงนอนตะแคงบิดสะโพกเล็กน้อย ฝ่ายชายประกบด้านหลัง",
     "descriptionTh": "กระชับกล้ามเนื้อโดยไม่ต้องเกร็ง ให้ความรู้สึกอบอุ่นแนบสนิท",
     "imageUrl": "https://couplesexposition.com/images/positions/corkscrew.webp",
@@ -988,7 +1097,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน"
       ],
       "angleDetailTh": "ฝ่ายหญิงนอนตะแคงบิดสะโพกเล็กน้อย ฝ่ายชายประกบด้านหลัง"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A twisting, corkscrew motion for varied stimulation.",
+    "isPenetrative": true
   },
   {
     "id": "t-square",
@@ -996,8 +1109,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "T Square (ผ่อนคลายสบายตัว)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/t-square.webp",
@@ -1020,7 +1133,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A T-shaped body alignment for perpendicular penetration.",
+    "isPenetrative": true
   },
   {
     "id": "bow",
@@ -1028,8 +1145,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "คันศร (โน้มตัวโอบกอดอบอุ่น)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 4,
-    "gspot": 4,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "ฝ่ายหญิงแอ่นสะโพกขึ้นรับมุมสัมผัส ฝ่ายชายก้มโอบกอดด้านบน",
     "descriptionTh": "สร้างความรู้สึกผูกพันและเข้าถึงจุดสัมผัสลึกซึ้งได้อย่างอ่อนโยน",
     "imageUrl": "https://couplesexposition.com/images/positions/bow.webp",
@@ -1052,7 +1169,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "ฝ่ายหญิงแอ่นสะโพกขึ้นรับมุมสัมผัส ฝ่ายชายก้มโอบกอดด้านบน"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "An arched position like a drawn bow for tension and release.",
+    "isPenetrative": true
   },
   {
     "id": "mermaid",
@@ -1060,8 +1181,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "นางเงือก (นอนเคียงข้างนุ่มนวล)",
     "category": "chill",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 3,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "นอนเคียงข้างพร้อมยกขาฝ่ายหญิงพาดสะโพกฝ่ายชาย มุมนุ่มนวลไม่ชัน",
     "descriptionTh": "ผ่อนคลายสบายกล้ามเนื้อ มองตากันได้ สัมผัสลูบไล้ได้ทั่วร่างกาย",
     "imageUrl": "https://couplesexposition.com/images/positions/mermaid.webp",
@@ -1083,7 +1204,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน"
       ],
       "angleDetailTh": "นอนเคียงข้างพร้อมยกขาฝ่ายหญิงพาดสะโพกฝ่ายชาย มุมนุ่มนวลไม่ชัน"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A flowing, side-lying position like a mermaid&#39;s tail.",
+    "isPenetrative": true
   },
   {
     "id": "seesaw",
@@ -1091,8 +1216,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "ไม้กระดก (คลอเคลียจังหวะคู่)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 4,
-    "gspot": 3,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "นั่งประกบเผชิญหน้า ขยับตามจังหวะโยกตัวเข้าหากัน",
     "descriptionTh": "ประสานสายตาและจังหวะหายใจไปพร้อมๆ กัน โรแมนติกและอบอุ่นมาก",
     "imageUrl": "https://couplesexposition.com/images/positions/seesaw.webp",
@@ -1115,7 +1240,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "นั่งประกบเผชิญหน้า ขยับตามจังหวะโยกตัวเข้าหากัน"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A rocking, seesaw motion for rhythmic pleasure.",
+    "isPenetrative": true
   },
   {
     "id": "plow",
@@ -1124,7 +1253,7 @@ window.COUPLES_POSITIONS = [
     "category": "him_lead",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "ฝ่ายหญิงยกสะโพกลอยสูง ขาพับชิดอก สอดใส่จากด้านบนในแนวดิ่ง",
     "descriptionTh": "ท่าคลาสสิกขั้นสูงที่ให้ความกระชับและลึกซึ้งมากที่สุดท่าหนึ่ง",
     "imageUrl": "https://couplesexposition.com/images/positions/plow.webp",
@@ -1146,7 +1275,12 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "ฝ่ายหญิงยกสะโพกลอยสูง ขาพับชิดอก สอดใส่จากด้านบนในแนวดิ่ง"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "An inverted position with legs over the head like a plow.",
+    "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
+    "isPenetrative": true
   },
   {
     "id": "scorpion",
@@ -1155,7 +1289,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/scorpion.webp",
@@ -1178,7 +1312,12 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A stinging position with legs arched like a scorpion&#39;s tail.",
+    "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
+    "isPenetrative": true
   },
   {
     "id": "dolphin",
@@ -1186,8 +1325,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "โลมาคู่ (แนบชิดสอดประสาน)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 3,
-    "gspot": 4,
+    "clitoral": 2,
+    "gspot": 5,
     "angle": "ฝ่ายหญิงนอนคว่ำพร้อมยกสะโพกขึ้นเล็กน้อย ฝ่ายชายนอนทาบประกบ",
     "descriptionTh": "ให้ความรู้สึกถึงการปกป้องและโอบกอดทั่วทั้งแผ่นหลังอย่างอ่อนโยน",
     "imageUrl": "https://couplesexposition.com/images/positions/dolphin.webp",
@@ -1210,7 +1349,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "ฝ่ายหญิงนอนคว่ำพร้อมยกสะโพกขึ้นเล็กน้อย ฝ่ายชายนอนทาบประกบ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A dolphin-like position with the receiver arched upward.",
+    "isPenetrative": true
   },
   {
     "id": "frog",
@@ -1241,7 +1384,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A frog-like squat position for deep, grinding penetration.",
+    "isPenetrative": true
   },
   {
     "id": "froggy-style",
@@ -1249,8 +1396,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "ฟร็อกกี้ (ท่านั่งกบเปิดมุมมอง)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 4,
-    "gspot": 4,
+    "clitoral": 2,
+    "gspot": 5,
     "angle": "นั่งยองคร่อมสะโพก ปรับมุมกระดกสะโพกขึ้นลง",
     "descriptionTh": "เน้นการบดสัมผัสตรงจุดคลิตอริสอย่างต่อเนื่องและเร้าอารมณ์",
     "imageUrl": "https://couplesexposition.com/images/positions/froggy-style.webp",
@@ -1273,7 +1420,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "นั่งยองคร่อมสะโพก ปรับมุมกระดกสะโพกขึ้นลง"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A frog-style variation with a lower, wider stance.",
+    "isPenetrative": true
   },
   {
     "id": "eagle",
@@ -1281,8 +1432,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "พญาอินทรี (สยายปีกโผบิน)",
     "category": "adventurous",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 4,
+    "clitoral": 2,
+    "gspot": 5,
     "angle": "นอนหงายยกขาทั้งสองข้างพาดแขนฝ่ายชาย เปิดกว้างสู่ใจกลาง",
     "descriptionTh": "ช่วยให้ฝ่ายชายสอดใส่ได้ลึกขึ้นอย่างนุ่มนวล สามารถมองเห็นสีหน้าและปฏิกิริยาแห่งความสุขสมของฝ่ายหญิงได้อย่างชัดเจน",
     "imageUrl": "https://couplesexposition.com/images/positions/eagle.webp",
@@ -1304,7 +1455,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน"
       ],
       "angleDetailTh": "นอนหงายยกขาทั้งสองข้างพาดแขนฝ่ายชาย เปิดกว้างสู่ใจกลาง"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A spread-eagle position with legs wide like wings.",
+    "isPenetrative": true
   },
   {
     "id": "lotus-flower",
@@ -1312,8 +1467,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "กลีบบัวบาน (สบตาโอบกอดลึกซึ้ง)",
     "category": "her_lead",
     "difficulty": 2,
-    "clitoral": 4,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "นั่งโอบกอดพร้อมเอนหลังเล็กน้อยเพื่อเปลี่ยนมุมสัมผัส",
     "descriptionTh": "เปิดโอกาสให้จุมพิต ซอกคอ และสบตากันได้อย่างไม่รู้เบื่อ",
     "imageUrl": "https://couplesexposition.com/images/positions/lotus-flower.webp",
@@ -1336,7 +1491,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "นั่งโอบกอดพร้อมเอนหลังเล็กน้อยเพื่อเปลี่ยนมุมสัมผัส"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A seated lotus variation with legs wrapped like petals.",
+    "isPenetrative": true
   },
   {
     "id": "flying-squirrel",
@@ -1368,7 +1527,12 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A flying position with the receiver spread wide in mid-air.",
+    "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
+    "isPenetrative": true
   },
   {
     "id": "praying-mantis",
@@ -1376,8 +1540,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "ตั๊กแตน (กระชับคล่องตัว)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 3,
-    "gspot": 4,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมทะแยงเฉียงด้านหลัง สะโพกยกกระชับ",
     "descriptionTh": "ใช้พื้นที่น้อย คล่องตัว เหมาะกับทุกสถานที่",
     "imageUrl": "https://couplesexposition.com/images/positions/praying-mantis.webp",
@@ -1400,7 +1564,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมทะแยงเฉียงด้านหลัง สะโพกยกกระชับ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A grasping, mantis-like position with arms restrained.",
+    "isPenetrative": true
   },
   {
     "id": "triceratops",
@@ -1432,7 +1600,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A three-legged position with unique stability and depth.",
+    "isPenetrative": true
   },
   {
     "id": "spider-monkey",
@@ -1464,7 +1636,12 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "ท่ายืนอุ้มหรือพิงผนัง กระชับมุมตรง"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A clinging, monkey-like position with wrapped limbs.",
+    "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
+    "isPenetrative": true
   },
   {
     "id": "leopard",
@@ -1472,8 +1649,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Leopard (พลิ้วไหวสง่างาม)",
     "category": "chill",
     "difficulty": 2,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/leopard.webp",
@@ -1495,7 +1672,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A spotted, stalking position with slow, deliberate movements.",
+    "isPenetrative": true
   },
   {
     "id": "dragon",
@@ -1503,8 +1684,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "มังกรสาว (เร้าใจนำจังหวะ)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 4,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "คุกเข่าคร่อมจากด้านบน ปรับมุมเอนตัวได้หลายมิติ",
     "descriptionTh": "สร้างความเร้าใจในมุมมอง และเปิดโอกาสให้ฝ่ายหญิงเลือกความลึกได้ดั่งใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/dragon.webp",
@@ -1527,7 +1708,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "คุกเข่าคร่อมจากด้านบน ปรับมุมเอนตัวได้หลายมิติ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A fierce, powerful position with fiery intensity.",
+    "isPenetrative": true
   },
   {
     "id": "tamer",
@@ -1536,7 +1721,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/tamer.webp",
@@ -1559,7 +1744,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A dominant position for taming your wild partner.",
+    "isPenetrative": true
   },
   {
     "id": "jackhammer",
@@ -1568,7 +1757,7 @@ window.COUPLES_POSITIONS = [
     "category": "him_lead",
     "difficulty": 2,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "ฝ่ายหญิงชันเข่าขึ้นสูง ฝ่ายชายโหมจังหวะเร็วตรงจุด",
     "descriptionTh": "จังหวะเร็วและมีพลัง ช่วยพาไปสู่จุดสุดยอดได้อย่างรวดเร็ว",
     "imageUrl": "https://couplesexposition.com/images/positions/jackhammer.webp",
@@ -1591,7 +1780,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "ฝ่ายหญิงชันเข่าขึ้นสูง ฝ่ายชายโหมจังหวะเร็วตรงจุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A powerful, pounding position with rapid thrusts.",
+    "isPenetrative": true
   },
   {
     "id": "throwdown",
@@ -1623,7 +1816,12 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A throwing-down position for rough, intense play.",
+    "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
+    "isPenetrative": true
   },
   {
     "id": "crouching-tiger",
@@ -1654,7 +1852,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "ด็อกกี้สไตล์มุมต่ำ กดสะโพกลง ปลายชี้กระทบจุดจีอย่างต่อเนื่อง"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A crouching, tiger-like position with coiled power.",
+    "isPenetrative": true
   },
   {
     "id": "submissive",
@@ -1685,7 +1887,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A vulnerable, submissive position for power dynamics.",
+    "isPenetrative": true
   },
   {
     "id": "nun",
@@ -1693,8 +1899,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Nun (บดคลึงจุดสัมผัส)",
     "category": "romantic",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/nun.webp",
@@ -1715,7 +1921,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A modest, crossed-leg position for gentle intimacy.",
+    "isPenetrative": true
   },
   {
     "id": "fall",
@@ -1724,7 +1934,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/fall.webp",
@@ -1747,7 +1957,12 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A falling position with the receiver dropping onto the penetrator.",
+    "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
+    "isPenetrative": true
   },
   {
     "id": "rider",
@@ -1755,7 +1970,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Rider (ผู้ควบขี่ - ผ่อนคลายสบายตัว)",
     "category": "her_lead",
     "difficulty": 1,
-    "clitoral": 4,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "แนวดิ่งทิ้งน้ำหนักลงตรง ฝ่ายหญิงปรับองศาเอนหน้าหรือหลังเพื่อควบคุมจุดกระทบได้ตามใจ",
     "descriptionTh": "ฝ่ายหญิงเป็นผู้กุมจังหวะและทิศทาง สามารถบดคลึงจุดคลิตอริสและค้นหามุมที่โดนจุดจีสปอตได้ด้วยตนเองอย่างแม่นยำ",
@@ -1777,7 +1992,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวดิ่งทิ้งน้ำหนักลงตรง ฝ่ายหญิงปรับองศาเอนหน้าหรือหลังเพื่อควบคุมจุดกระทบได้ตามใจ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A riding position where the receiver controls the motion.",
+    "isPenetrative": true
   },
   {
     "id": "backshot",
@@ -1786,7 +2005,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 2,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/backshot.webp",
@@ -1808,7 +2027,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A rear-entry position with a focus on deep, powerful thrusts.",
+    "isPenetrative": true
   },
   {
     "id": "spread-eagle",
@@ -1816,7 +2039,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Spread Eagle (พญาอินทรี - แนบเนื้อกระชับแน่น)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -1839,7 +2062,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A completely spread position for maximum exposure.",
+    "isPenetrative": true
   },
   {
     "id": "lap-dance",
@@ -1848,9 +2075,9 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 3,
-    "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
-    "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
+    "gspot": 0,
+    "angle": "สัมผัสภายนอก / Oral Art: เน้นริมฝีปาก ลิ้น และปลายนิ้ว ควบคุมจังหวะอิสระ",
+    "descriptionTh": "การเคลื่อนไหวบดคลึงบนตักอย่างมีเสน่ห์ เน้นการเล้าโลมและกระตุ้นประสาทสัมผัสภายนอกอย่างเย้ายวน",
     "imageUrl": "https://couplesexposition.com/images/positions/lap-dance.webp",
     "anatomy": {
       "suitableTh": [
@@ -1859,17 +2086,22 @@ window.COUPLES_POSITIONS = [
         "การกระตุ้นคลิตอริส",
         "การจูบแนบชิด"
       ],
-      "clitoralTextTh": "การกระตุ้นคลิตอริสระดับยอดเยี่ยม จากการบดสัมผัสโดยตรงของกระดูกหัวหน่าวและแรงเสียดสีที่ตรงจุด",
+      "clitoralTextTh": "การกระตุ้นคลิตอริสอย่างตรงจุดและต่อเนื่องด้วยริมฝีปากและลิ้น มอบคลื่นความเสียวซ่านภายนอกที่ชัดเจน",
       "clitoralTipTh": "สามารถใช้มือช่วยสัมผัสลูบไล้หรือกดคลึงเป็นวงกลมเพื่อเร่งเร้าคลื่นความเสียวซ่านได้อย่างง่ายดาย",
-      "gspotTextTh": "การกระตุ้นจุด G-spot ระดับปานกลาง (3/5) สัมผัสความแน่นกระชับแบบทั่วถึง",
-      "gspotTipTh": "ปรับมุมการโน้มตัวเล็กน้อยเพื่อมองหาทิศทางที่สร้างความสุขสมได้ดีที่สุด",
+      "gspotTextTh": "ท่วงท่านี้เน้นการสัมผัสภายนอกหรือการใช้ปากเป็นหลัก จึงไม่มีการสอดใส่ทางช่องคลอดไปยังจุด G-Spot (หากต้องการกระตุ้นร่วมด้วย สามารถใช้นิ้วมือหรืออุปกรณ์ช่วยควบคู่กันได้)",
+      "gspotTipTh": "สามารถใช้นิ้วมือนวดวนสัมผัสจุดรับความรู้สึกด้านในขณะทำกิจกรรมเพื่อเพิ่มความสุขสมครบทุกมิติ",
       "musclesTh": [
         "กล้ามเนื้อก้น (Glutes)",
         "กล้ามเนื้อแกนกลางลำตัว (Core)",
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
-      "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+      "angleDetailTh": "สัมผัสภายนอก / Oral Art: ควบคุมจังหวะสัมผัสได้อย่างอิสระ ไร้แรงกดทับภายใน"
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "Enjoy the show, then join in with this fun position.",
+    "isPenetrative": false,
+    "focusType": "oral"
   },
   {
     "id": "octopus",
@@ -1878,7 +2110,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/octopus.webp",
@@ -1901,7 +2133,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A multi-limbed position with tentacles everywhere.",
+    "isPenetrative": true
   },
   {
     "id": "yin-yang",
@@ -1910,7 +2146,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 3,
+    "gspot": 2,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/yin-yang.webp",
@@ -1932,7 +2168,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "A balanced, complementary position like yin and yang.",
+    "isPenetrative": true
   },
   {
     "id": "workout",
@@ -1940,8 +2180,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Workout (มุมสรีระเปิดกว้าง)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/workout.webp",
@@ -1964,7 +2204,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "An energetic, workout-like position for maximum effort.",
+    "isPenetrative": true
   },
   {
     "id": "lazy-dog",
@@ -1973,7 +2217,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 1,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "นอนคว่ำราบสบาย สอดใส่จากด้านหลังในมุมแบนราบ",
     "descriptionTh": "ด็อกกี้สไตล์เวอร์ชันนอนพักผ่อน ไม่ต้องชันเข่า เหมาะกับค่ำคืนที่อยากคลอเคลียแบบสบายๆ ไม่เหนื่อยแรง",
     "imageUrl": "https://couplesexposition.com/images/positions/lazy-dog.webp",
@@ -1995,7 +2239,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน"
       ],
       "angleDetailTh": "นอนคว่ำราบสบาย สอดใส่จากด้านหลังในมุมแบนราบ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A relaxed, lazy version of doggy for low-effort pleasure.",
+    "isPenetrative": true
   },
   {
     "id": "symphony",
@@ -2004,7 +2252,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/symphony.webp",
@@ -2026,7 +2274,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A harmonious position with synchronized movements.",
+    "isPenetrative": true
   },
   {
     "id": "shell",
@@ -2034,8 +2286,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Shell (ควบคุมจังหวะอิสระ)",
     "category": "chill",
     "difficulty": 1,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/shell.webp",
@@ -2056,7 +2308,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A curled, shell-like position for gentle intimacy.",
+    "isPenetrative": true
   },
   {
     "id": "glory-hole",
@@ -2064,7 +2320,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Glory Hole (บดคลึงจุดสัมผัส)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -2087,7 +2343,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A face-through-hole position for anonymous-style pleasure.",
+    "isPenetrative": true
   },
   {
     "id": "knot",
@@ -2095,8 +2355,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Knot (ปมเชือก - องศาเฉียงเร้าอารมณ์)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/knot.webp",
@@ -2119,7 +2379,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A tightly knotted position with intertwined bodies.",
+    "isPenetrative": true
   },
   {
     "id": "rocking-chair",
@@ -2127,7 +2391,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "เก้าอี้โยก (โยกคลอเคลียอบอุ่น)",
     "category": "her_lead",
     "difficulty": 1,
-    "clitoral": 5,
+    "clitoral": 3,
     "gspot": 4,
     "angle": "นั่งตักบนเก้าอี้หรือโซฟา โยกสะโพกเป็นจังหวะช้าๆ",
     "descriptionTh": "เปลี่ยนบรรยากาศจากเตียงนอนมายังเก้าอี้แสนสบาย ทั้งคู่โอบกอดและโยกตัวตามจังหวะหัวใจอย่างเป็นธรรมชาติ",
@@ -2150,7 +2414,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน"
       ],
       "angleDetailTh": "นั่งตักบนเก้าอี้หรือโซฟา โยกสะโพกเป็นจังหวะช้าๆ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A gentle rocking motion like a rocking chair.",
+    "isPenetrative": true
   },
   {
     "id": "captain",
@@ -2181,7 +2449,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A commanding position with the penetrating partner in charge.",
+    "isPenetrative": true
   },
   {
     "id": "emperor",
@@ -2189,7 +2461,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Emperor (แนบเนื้อกระชับแน่น)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -2213,7 +2485,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A royal, commanding position with the receiver displayed.",
+    "isPenetrative": true
   },
   {
     "id": "princess",
@@ -2222,7 +2498,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 3,
+    "gspot": 2,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/princess.webp",
@@ -2243,7 +2519,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "A gentle, princess-like position with tender treatment.",
+    "isPenetrative": true
   },
   {
     "id": "rock-and-roll",
@@ -2251,7 +2531,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Rock and Roll (หินผา - ท้าทายผาดโผน)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -2275,7 +2555,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "An energetic, rocking position with wild movements.",
+    "isPenetrative": true
   },
   {
     "id": "seashell",
@@ -2283,8 +2567,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "เปลือกหอย (พับประกบซ่อนไข่มุก)",
     "category": "chill",
     "difficulty": 2,
-    "clitoral": 4,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 3,
     "angle": "ฝ่ายหญิงนอนหงาย ขาพับชิดขึ้นชี้ฟ้า กระชับแนบสนิท",
     "descriptionTh": "ให้สัมผัสที่แน่นกระชับและลึกซึ้ง เปรียบเสมือนการเปิดฝาเปลือกหอยเพื่อค้นหาไข่มุกอันเลอค่าภายใน",
     "imageUrl": "https://couplesexposition.com/images/positions/seashell.webp",
@@ -2307,7 +2591,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "ฝ่ายหญิงนอนหงาย ขาพับชิดขึ้นชี้ฟ้า กระชับแนบสนิท"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A delicate, seashell-like position with gentle curves.",
+    "isPenetrative": true
   },
   {
     "id": "propeller",
@@ -2316,7 +2604,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/propeller.webp",
@@ -2339,7 +2627,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A spinning, propeller-like motion for varied stimulation.",
+    "isPenetrative": true
   },
   {
     "id": "fantasy",
@@ -2347,8 +2639,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Fantasy (สบตาสุดโรแมนติก)",
     "category": "chill",
     "difficulty": 2,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/fantasy.webp",
@@ -2370,7 +2662,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A dreamy position for living out your deepest fantasies.",
+    "isPenetrative": true
   },
   {
     "id": "russian-roulette",
@@ -2379,7 +2675,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/russian-roulette.webp",
@@ -2402,7 +2698,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A random, surprise position for unpredictable pleasure.",
+    "isPenetrative": true
   },
   {
     "id": "doggy-on-the-edge",
@@ -2432,7 +2732,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "สอดใส่จากด้านหลังหรือมุมกด ปลายทำมุมช้อนเข้าหาผนังช่องคลอดด้านหน้าอย่างหนักแน่น"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A doggy variation using the bed edge for deeper angles.",
+    "isPenetrative": true
   },
   {
     "id": "exotic-foreplay",
@@ -2441,9 +2745,9 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 3,
-    "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
-    "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
+    "gspot": 0,
+    "angle": "สัมผัสภายนอก / Oral Art: เน้นริมฝีปาก ลิ้น และปลายนิ้ว ควบคุมจังหวะอิสระ",
+    "descriptionTh": "การเล้าโลมสัมผัสรักอย่างประณีต ปลุกเร้าอารมณ์ด้วยริมฝีปากและปลายนิ้วก่อนเข้าสู่กิจกรรมหลัก",
     "imageUrl": "https://couplesexposition.com/images/positions/exotic-foreplay.webp",
     "anatomy": {
       "suitableTh": [
@@ -2452,18 +2756,23 @@ window.COUPLES_POSITIONS = [
         "การกระตุ้นคลิตอริส",
         "การจูบแนบชิด"
       ],
-      "clitoralTextTh": "การกระตุ้นคลิตอริสระดับยอดเยี่ยม จากการบดสัมผัสโดยตรงของกระดูกหัวหน่าวและแรงเสียดสีที่ตรงจุด",
+      "clitoralTextTh": "การกระตุ้นคลิตอริสอย่างตรงจุดและต่อเนื่องด้วยริมฝีปากและลิ้น มอบคลื่นความเสียวซ่านภายนอกที่ชัดเจน",
       "clitoralTipTh": "สามารถใช้มือช่วยสัมผัสลูบไล้หรือกดคลึงเป็นวงกลมเพื่อเร่งเร้าคลื่นความเสียวซ่านได้อย่างง่ายดาย",
-      "gspotTextTh": "การกระตุ้นจุด G-spot ระดับปานกลาง (3/5) สัมผัสความแน่นกระชับแบบทั่วถึง",
-      "gspotTipTh": "ปรับมุมการโน้มตัวเล็กน้อยเพื่อมองหาทิศทางที่สร้างความสุขสมได้ดีที่สุด",
+      "gspotTextTh": "ท่วงท่านี้เน้นการสัมผัสภายนอกหรือการใช้ปากเป็นหลัก จึงไม่มีการสอดใส่ทางช่องคลอดไปยังจุด G-Spot (หากต้องการกระตุ้นร่วมด้วย สามารถใช้นิ้วมือหรืออุปกรณ์ช่วยควบคู่กันได้)",
+      "gspotTipTh": "สามารถใช้นิ้วมือนวดวนสัมผัสจุดรับความรู้สึกด้านในขณะทำกิจกรรมเพื่อเพิ่มความสุขสมครบทุกมิติ",
       "musclesTh": [
         "กล้ามเนื้อก้น (Glutes)",
         "กล้ามเนื้อแกนกลางลำตัว (Core)",
         "กล้ามเนื้อสะโพก (Hip flexors)",
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
-      "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+      "angleDetailTh": "สัมผัสภายนอก / Oral Art: ควบคุมจังหวะสัมผัสได้อย่างอิสระ ไร้แรงกดทับภายใน"
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "An exotic, teasing position focused on foreplay.",
+    "isPenetrative": false,
+    "focusType": "oral"
   },
   {
     "id": "side-saddle",
@@ -2471,7 +2780,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "ขี่ม้าข้าง (นั่งข้างสบาย ปรับมุมอิสระ)",
     "category": "her_lead",
     "difficulty": 1,
-    "clitoral": 5,
+    "clitoral": 3,
     "gspot": 4,
     "angle": "ฝ่ายหญิงนั่งคร่อมแต่เบี่ยงตัวไปด้านข้าง สอดใส่ในมุมทแยง",
     "descriptionTh": "นั่งคร่อมด้านข้างช่วยลดการใช้แรงขา ฝ่ายหญิงสามารถลูบไล้และบดสัมผัสได้อย่างนุ่มนวลและผ่อนคลาย",
@@ -2494,7 +2803,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน"
       ],
       "angleDetailTh": "ฝ่ายหญิงนั่งคร่อมแต่เบี่ยงตัวไปด้านข้าง สอดใส่ในมุมทแยง"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A comfortable side-sitting position for relaxed pleasure.",
+    "isPenetrative": true
   },
   {
     "id": "lizard",
@@ -2503,7 +2816,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/lizard.webp",
@@ -2526,7 +2839,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A flat, lizard-like position with bodies close to the ground.",
+    "isPenetrative": true
   },
   {
     "id": "wild-yoga",
@@ -2558,16 +2875,20 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A wild, yoga-inspired position for flexible couples.",
+    "isPenetrative": true
   },
   {
     "id": "tight-vagina",
-    "name": "Tight Vagina",
-    "nameTh": "Tight Vagina (แนบเนื้อกระชับแน่น)",
+    "name": "Tight Embrace",
+    "nameTh": "แนบเนื้อกระชับแน่น (Tight Embrace)",
     "category": "adventurous",
     "difficulty": 2,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/tight-vagina.webp",
@@ -2589,7 +2910,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A position designed for maximum tightness and friction.",
+    "isPenetrative": true
   },
   {
     "id": "hottest-lover",
@@ -2597,7 +2922,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Hottest Lover (พลิ้วไหวสง่างาม)",
     "category": "romantic",
     "difficulty": 3,
-    "clitoral": 4,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
@@ -2621,7 +2946,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "An intense, hot position for maximum passion.",
+    "isPenetrative": true
   },
   {
     "id": "x-factor",
@@ -2630,7 +2959,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/x-factor.webp",
@@ -2653,7 +2982,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "Legs raised and crossed for a tight, intense fit.",
+    "isPenetrative": true
   },
   {
     "id": "throat-swab",
@@ -2661,10 +2994,10 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Throat Swab (ประกบแนบชิด)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 2,
-    "gspot": 5,
-    "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
-    "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
+    "clitoral": 5,
+    "gspot": 0,
+    "angle": "สัมผัสภายนอก / Oral Art: เน้นริมฝีปาก ลิ้น และปลายนิ้ว ควบคุมจังหวะอิสระ",
+    "descriptionTh": "ท่วงท่าใช้ริมฝีปากสัมผัสรักอย่างดื่มด่ำ เน้นการควบคุมจังหวะและความใกล้ชิดของทั้งสองฝ่าย",
     "imageUrl": "https://couplesexposition.com/images/positions/throat-swab.webp",
     "anatomy": {
       "suitableTh": [
@@ -2673,10 +3006,10 @@ window.COUPLES_POSITIONS = [
         "การกระตุ้นจุดจีสปอต",
         "จังหวะเร่าร้อน"
       ],
-      "clitoralTextTh": "การกระตุ้นคลิตอริสระดับปานกลาง (2/5) โดยเน้นน้ำหนักไปที่ผนังช่องคลอดด้านในเป็นหลัก",
+      "clitoralTextTh": "การกระตุ้นคลิตอริสอย่างตรงจุดและต่อเนื่องด้วยริมฝีปากและลิ้น มอบคลื่นความเสียวซ่านภายนอกที่ชัดเจน",
       "clitoralTipTh": "หากต้องการกระตุ้นคลิตอริสเพิ่มเติม แนะนำให้ใช้มือหรืออุปกรณ์เสริมช่วยสัมผัสระหว่างสอดใส่",
-      "gspotTextTh": "การกระตุ้นจุด G-spot ระดับสูงสุด ปลายทำมุมงอนูนและกระทบผนังช่องคลอดด้านหน้าโดยตรงทุกจังหวะ",
-      "gspotTipTh": "การลงจังหวะแบบเน้นการบดคลึงช่วงปลายสะโพก จะส่งแรงสะเทือนกระจายไปทั่วอุ้งเชิงกรานอย่างล้ำลึก",
+      "gspotTextTh": "ท่วงท่านี้เน้นการสัมผัสภายนอกหรือการใช้ปากเป็นหลัก จึงไม่มีการสอดใส่ทางช่องคลอดไปยังจุด G-Spot (หากต้องการกระตุ้นร่วมด้วย สามารถใช้นิ้วมือหรืออุปกรณ์ช่วยควบคู่กันได้)",
+      "gspotTipTh": "สามารถใช้นิ้วมือนวดวนสัมผัสจุดรับความรู้สึกด้านในขณะทำกิจกรรมเพื่อเพิ่มความสุขสมครบทุกมิติ",
       "musclesTh": [
         "กล้ามเนื้อก้น (Glutes)",
         "กล้ามเนื้อแกนกลางลำตัว (Core)",
@@ -2684,8 +3017,13 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)",
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
-      "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+      "angleDetailTh": "สัมผัสภายนอก / Oral Art: ควบคุมจังหวะสัมผัสได้อย่างอิสระ ไร้แรงกดทับภายใน"
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A deep oral position for throat stimulation.",
+    "isPenetrative": false,
+    "focusType": "oral"
   },
   {
     "id": "flying-dutchman",
@@ -2693,8 +3031,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Flying Dutchman (มุมสรีระเปิดกว้าง)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/flying-dutchman.webp",
@@ -2717,16 +3055,21 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A flying position with the receiver suspended in mid-air.",
+    "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
+    "isPenetrative": true
   },
   {
     "id": "necktie",
-    "name": "Necktie",
-    "nameTh": "Necktie (สบตาสุดโรแมนติก)",
+    "name": "Close Knot",
+    "nameTh": "ผูกพันแนบชิด (Close Knot)",
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/necktie.webp",
@@ -2749,7 +3092,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A restraining position using a necktie for bondage.",
+    "isPenetrative": true
   },
   {
     "id": "shameless",
@@ -2757,7 +3104,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Shameless (สัมผัสลึกซึ้ง)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -2781,7 +3128,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A completely exposed position with no shame.",
+    "isPenetrative": true
   },
   {
     "id": "plumber",
@@ -2790,7 +3141,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 2,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/plumber.webp",
@@ -2812,7 +3163,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A plumbing-inspired position with deep, reaching movements.",
+    "isPenetrative": true
   },
   {
     "id": "iron-throne",
@@ -2820,7 +3175,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Iron Throne (บัลลังก์ - บดคลึงจุดสัมผัส)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -2844,7 +3199,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A throne-like position with the receiver on a chair.",
+    "isPenetrative": true
   },
   {
     "id": "apollo",
@@ -2852,7 +3211,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "อะพอลโล (สุริยเทพคุมเกม)",
     "category": "chill",
     "difficulty": 2,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมตรงทรงพลัง ควบคุมความลึกและจังหวะได้อย่างแม่นยำ",
     "descriptionTh": "ฝ่ายชายยืนหรือคุกเข่าควบคุมเกมรักอย่างมั่นคง สง่างามและส่งต่อแรงสัมผัสได้ลึกซึ้ง",
@@ -2875,15 +3234,19 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมตรงทรงพลัง ควบคุมความลึกและจังหวะได้อย่างแม่นยำ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A sun god position with radiant, spreading pleasure.",
+    "isPenetrative": true
   },
   {
     "id": "vulgar-chair",
-    "name": "Vulgar Chair",
-    "nameTh": "Vulgar Chair (เก้าอี้ - ผ่อนคลายสบายตัว)",
+    "name": "Sensual Chair",
+    "nameTh": "เก้าอี้สัมผัสรัก (Sensual Chair)",
     "category": "her_lead",
     "difficulty": 3,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
@@ -2907,7 +3270,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A bold, vulgar chair position for uninhibited pleasure.",
+    "isPenetrative": true
   },
   {
     "id": "nice-talk",
@@ -2916,7 +3283,7 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 3,
+    "gspot": 1,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/nice-talk.webp",
@@ -2937,7 +3304,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "A position centered on verbal intimacy and dirty talk.",
+    "isPenetrative": true
   },
   {
     "id": "pleasure-bible",
@@ -2945,7 +3316,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Pleasure Bible (แนบเนื้อกระชับแน่น)",
     "category": "chill",
     "difficulty": 2,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
@@ -2968,7 +3339,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "The ultimate pleasure position for maximum stimulation.",
+    "isPenetrative": true
   },
   {
     "id": "feeder",
@@ -2976,8 +3351,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Feeder (พลิ้วไหวสง่างาม)",
     "category": "romantic",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/feeder.webp",
@@ -2998,7 +3373,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A nurturing, feeding position for caring intimacy.",
+    "isPenetrative": true
   },
   {
     "id": "launch-pad",
@@ -3006,8 +3385,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Launch Pad (ท้าทายผาดโผน)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/launch-pad.webp",
@@ -3030,7 +3409,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A launching position for powerful, upward thrusts.",
+    "isPenetrative": true
   },
   {
     "id": "pokemon",
@@ -3038,8 +3421,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Pokemon (ประกบแนบชิด)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/pokemon.webp",
@@ -3061,7 +3444,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A catching, collecting position for varied stimulation.",
+    "isPenetrative": true
   },
   {
     "id": "reverse-connection",
@@ -3069,8 +3456,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Reverse Connection (รีเวิร์ส - มุมสรีระเปิดกว้าง)",
     "category": "romantic",
     "difficulty": 2,
-    "clitoral": 4,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/reverse-connection.webp",
@@ -3092,7 +3479,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A reversed face-to-face position for deep connection.",
+    "isPenetrative": true
   },
   {
     "id": "bent-cowgirl",
@@ -3100,7 +3491,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Bent Cowgirl (คาวเกิร์ล - สบตาสุดโรแมนติก)",
     "category": "her_lead",
     "difficulty": 2,
-    "clitoral": 4,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "แนวดิ่งทิ้งน้ำหนักลงตรง ฝ่ายหญิงปรับองศาเอนหน้าหรือหลังเพื่อควบคุมจุดกระทบได้ตามใจ",
     "descriptionTh": "ฝ่ายหญิงเป็นผู้กุมจังหวะและทิศทาง สามารถบดคลึงจุดคลิตอริสและค้นหามุมที่โดนจุดจีสปอตได้ด้วยตนเองอย่างแม่นยำ",
@@ -3123,7 +3514,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวดิ่งทิ้งน้ำหนักลงตรง ฝ่ายหญิงปรับองศาเอนหน้าหรือหลังเพื่อควบคุมจุดกระทบได้ตามใจ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A cowgirl variation with the receiver bent forward.",
+    "isPenetrative": true
   },
   {
     "id": "low-start",
@@ -3132,7 +3527,7 @@ window.COUPLES_POSITIONS = [
     "category": "classic",
     "difficulty": 1,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ",
     "descriptionTh": "ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย ช่วยให้ช่วงเวลาแห่งความใกล้ชิดดำเนินไปอย่างนุ่มนวลและต่อเนื่อง",
     "imageUrl": "https://couplesexposition.com/images/positions/low-start.webp",
@@ -3152,7 +3547,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A low, gentle start position for building gradually.",
+    "isPenetrative": true
   },
   {
     "id": "desert-island",
@@ -3160,8 +3559,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Desert Island (เกาะสวรรค์ - ควบคุมจังหวะอิสระ)",
     "category": "chill",
     "difficulty": 2,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/desert-island.webp",
@@ -3183,7 +3582,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A stranded, isolated position for intimate escape.",
+    "isPenetrative": true
   },
   {
     "id": "banana-split",
@@ -3191,7 +3594,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "บานาน่าสปลิท (แยกขากว้างเปิดมิติ)",
     "category": "quick",
     "difficulty": 2,
-    "clitoral": 4,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมขยายกว้าง สอดใส่ลึกซึ้งถึงผนังด้านใน",
     "descriptionTh": "เปิดพื้นที่ให้การสัมผัสเป็นไปอย่างทั่วถึง ทั้งสองฝ่ายสามารถเพลิดเพลินกับความลึกและความใกล้ชิด",
@@ -3215,7 +3618,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมขยายกว้าง สอดใส่ลึกซึ้งถึงผนังด้านใน"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A split-leg position for maximum access and stimulation.",
+    "isPenetrative": true
   },
   {
     "id": "grasshopper",
@@ -3247,7 +3654,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A jumping, grasshopper-like position with dynamic bouncing.",
+    "isPenetrative": true
   },
   {
     "id": "fantastic-elevator",
@@ -3255,8 +3666,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Fantastic Elevator (ผ่อนคลายสบายตัว)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/fantastic-elevator.webp",
@@ -3278,7 +3689,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A vertical lift that changes the height of pleasure.",
+    "isPenetrative": true
   },
   {
     "id": "jamaican-cocktail",
@@ -3286,8 +3701,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Jamaican Cocktail (เร่งเร้าทรงพลัง)",
     "category": "chill",
     "difficulty": 2,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/jamaican-cocktail.webp",
@@ -3309,7 +3724,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A tropical twist with elevated hips and grinding motions.",
+    "isPenetrative": true
   },
   {
     "id": "chef",
@@ -3318,7 +3737,7 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 3,
+    "gspot": 1,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/chef.webp",
@@ -3339,7 +3758,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "A kneading, caressing position that&#39;s all about touch.",
+    "isPenetrative": true
   },
   {
     "id": "st-valentines-day",
@@ -3348,7 +3771,7 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 3,
+    "gspot": 2,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/st-valentines-day.webp",
@@ -3370,7 +3793,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "A heart-shaped embrace for deep emotional connection.",
+    "isPenetrative": true
   },
   {
     "id": "sucker-punch",
@@ -3378,8 +3805,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Sucker Punch (ท้าทายผาดโผน)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/sucker-punch.webp",
@@ -3402,7 +3829,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A surprise angle change that delivers intense sensations.",
+    "isPenetrative": true
   },
   {
     "id": "low-doggy",
@@ -3432,7 +3863,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "สอดใส่จากด้านหลังหรือมุมกด ปลายทำมุมช้อนเข้าหาผนังช่องคลอดด้านหน้าอย่างหนักแน่น"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A flattened doggy variation for deeper, tighter sensations.",
+    "isPenetrative": true
   },
   {
     "id": "merger",
@@ -3440,8 +3875,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Merger (มุมสรีระเปิดกว้าง)",
     "category": "romantic",
     "difficulty": 2,
-    "clitoral": 4,
-    "gspot": 3,
+    "clitoral": 3,
+    "gspot": 1,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/merger.webp",
@@ -3463,7 +3898,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Neutral",
+    "descriptionEn": "Two bodies become one in this close, intertwined embrace.",
+    "isPenetrative": true
   },
   {
     "id": "rear-admiral",
@@ -3493,7 +3932,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "สอดใส่จากด้านหลังหรือมุมกด ปลายทำมุมช้อนเข้าหาผนังช่องคลอดด้านหน้าอย่างหนักแน่น"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A commanding rear-entry position with a naval twist.",
+    "isPenetrative": true
   },
   {
     "id": "watermelon",
@@ -3501,7 +3944,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Watermelon (สัมผัสลึกซึ้ง)",
     "category": "chill",
     "difficulty": 1,
-    "clitoral": 5,
+    "clitoral": 4,
     "gspot": 5,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
@@ -3523,7 +3966,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Clitoral & G-spot",
+    "descriptionEn": "A sweet, juicy position with legs wide open.",
+    "isPenetrative": true
   },
   {
     "id": "tantric-cosmo",
@@ -3532,7 +3979,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 3,
     "clitoral": 3,
-    "gspot": 4,
+    "gspot": 2,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/tantric-cosmo.webp",
@@ -3555,7 +4002,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Neutral",
+    "descriptionEn": "A tantric twist on cowgirl for spiritual connection.",
+    "isPenetrative": true
   },
   {
     "id": "cobra",
@@ -3563,7 +4014,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Cobra (บดคลึงจุดสัมผัส)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -3586,7 +4037,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A striking position with the receiving partner raised up.",
+    "isPenetrative": true
   },
   {
     "id": "canadian",
@@ -3615,7 +4070,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A friendly, comfortable position with easy access.",
+    "isPenetrative": true
   },
   {
     "id": "truck",
@@ -3624,7 +4083,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 2,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/truck.webp",
@@ -3646,7 +4105,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A grinding, driving motion that moves with power.",
+    "isPenetrative": true
   },
   {
     "id": "superwoman",
@@ -3655,7 +4118,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/superwoman.webp",
@@ -3678,7 +4141,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "An empowering position where the receiving partner flies.",
+    "isPenetrative": true
   },
   {
     "id": "zodiac",
@@ -3686,7 +4153,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Zodiac (แนบเนื้อกระชับแน่น)",
     "category": "chill",
     "difficulty": 2,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
@@ -3709,7 +4176,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A celestial alignment of bodies for cosmic pleasure.",
+    "isPenetrative": true
   },
   {
     "id": "fallen-warrior",
@@ -3718,7 +4189,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/fallen-warrior.webp",
@@ -3741,7 +4212,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A dramatic, intense position with the receiver spread wide.",
+    "isPenetrative": true
   },
   {
     "id": "slow-dance",
@@ -3749,8 +4224,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Slow Dance (ท้าทายผาดโผน)",
     "category": "romantic",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 3,
+    "clitoral": 3,
+    "gspot": 2,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/slow-dance.webp",
@@ -3771,7 +4246,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Neutral",
+    "descriptionEn": "A gentle, swaying motion like a slow dance together.",
+    "isPenetrative": true
   },
   {
     "id": "deck-chair",
@@ -3802,7 +4281,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A reclined position using a chair for support.",
+    "isPenetrative": true
   },
   {
     "id": "holder",
@@ -3810,7 +4293,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Holder (มุมสรีระเปิดกว้าง)",
     "category": "romantic",
     "difficulty": 1,
-    "clitoral": 4,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
@@ -3832,7 +4315,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A supportive embrace where one partner holds the other.",
+    "isPenetrative": true
   },
   {
     "id": "louise",
@@ -3863,7 +4350,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A graceful, elegant position with extended legs.",
+    "isPenetrative": true
   },
   {
     "id": "soft-chair",
@@ -3872,7 +4363,7 @@ window.COUPLES_POSITIONS = [
     "category": "her_lead",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 3,
+    "gspot": 2,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/soft-chair.webp",
@@ -3893,7 +4384,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "A comfortable seated position on a soft surface.",
+    "isPenetrative": true
   },
   {
     "id": "astrologer",
@@ -3902,7 +4397,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/astrologer.webp",
@@ -3924,7 +4419,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A stargazing position with eyes turned upward.",
+    "isPenetrative": true
   },
   {
     "id": "chairman",
@@ -3932,7 +4431,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Chairman (บดคลึงจุดสัมผัส)",
     "category": "her_lead",
     "difficulty": 2,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
@@ -3955,7 +4454,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A commanding seated position with full control.",
+    "isPenetrative": true
   },
   {
     "id": "fulcrum",
@@ -3964,7 +4467,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/fulcrum.webp",
@@ -3987,7 +4490,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A leverage-based position using the bed edge as a pivot.",
+    "isPenetrative": true
   },
   {
     "id": "tug-of-war",
@@ -3995,8 +4502,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Tug of War (ผ่อนคลายสบายตัว)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/tug-of-war.webp",
@@ -4019,7 +4526,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A pulling, pushing dynamic for intense, primal sensations.",
+    "isPenetrative": true
   },
   {
     "id": "back-door",
@@ -4028,7 +4539,7 @@ window.COUPLES_POSITIONS = [
     "category": "quick",
     "difficulty": 2,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "ท่ายืนหรือกึ่งยืน ปรับระดับความสูงให้เข้ากับสะโพก เหมาะสำหรับช่วงเวลาเร่งด่วน",
     "descriptionTh": "ตอบสนองความเร่าร้อนอย่างฉับไว เหมาะสำหรับช่วงเวลาที่ความปรารถนาพุ่งสูง ไม่จำเป็นต้องมีพิธีรีตองมากความ",
     "imageUrl": "https://couplesexposition.com/images/positions/back-door.webp",
@@ -4050,7 +4561,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "ท่ายืนหรือกึ่งยืน ปรับระดับความสูงให้เข้ากับสะโพก เหมาะสำหรับช่วงเวลาเร่งด่วน"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A rear-entry position with a focus on anal play.",
+    "isPenetrative": true
   },
   {
     "id": "dutch-oven",
@@ -4059,7 +4574,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 2,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/dutch-oven.webp",
@@ -4081,7 +4596,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A playful, enclosed position under the covers.",
+    "isPenetrative": true
   },
   {
     "id": "chili-dog",
@@ -4089,8 +4608,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Chili Dog (พลิ้วไหวสง่างาม)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/chili-dog.webp",
@@ -4113,7 +4632,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A spicy, intense position with legs tightly together.",
+    "isPenetrative": true
   },
   {
     "id": "deep-throat",
@@ -4121,10 +4644,10 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Deep Throat (ท้าทายผาดโผน)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
-    "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
-    "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
+    "clitoral": 5,
+    "gspot": 0,
+    "angle": "สัมผัสภายนอก / Oral Art: เน้นริมฝีปาก ลิ้น และปลายนิ้ว ควบคุมจังหวะอิสระ",
+    "descriptionTh": "ท่วงท่าแห่งความลึกซึ้งของการใช้ปาก เน้นความยินยอมพร้อมใจและการสื่อสารจังหวะร่วมกันอย่างนุ่มนวล",
     "imageUrl": "https://couplesexposition.com/images/positions/deep-throat.webp",
     "anatomy": {
       "suitableTh": [
@@ -4133,10 +4656,10 @@ window.COUPLES_POSITIONS = [
         "การกระตุ้นจุดจีสปอต",
         "จังหวะเร่าร้อน"
       ],
-      "clitoralTextTh": "การกระตุ้นคลิตอริสระดับปานกลาง (3/5) โดยเน้นน้ำหนักไปที่ผนังช่องคลอดด้านในเป็นหลัก",
+      "clitoralTextTh": "การกระตุ้นคลิตอริสอย่างตรงจุดและต่อเนื่องด้วยริมฝีปากและลิ้น มอบคลื่นความเสียวซ่านภายนอกที่ชัดเจน",
       "clitoralTipTh": "หากต้องการกระตุ้นคลิตอริสเพิ่มเติม แนะนำให้ใช้มือหรืออุปกรณ์เสริมช่วยสัมผัสระหว่างสอดใส่",
-      "gspotTextTh": "การกระตุ้นจุด G-spot ระดับสูงสุด ปลายทำมุมงอนูนและกระทบผนังช่องคลอดด้านหน้าโดยตรงทุกจังหวะ",
-      "gspotTipTh": "การลงจังหวะแบบเน้นการบดคลึงช่วงปลายสะโพก จะส่งแรงสะเทือนกระจายไปทั่วอุ้งเชิงกรานอย่างล้ำลึก",
+      "gspotTextTh": "ท่วงท่านี้เน้นการสัมผัสภายนอกหรือการใช้ปากเป็นหลัก จึงไม่มีการสอดใส่ทางช่องคลอดไปยังจุด G-Spot (หากต้องการกระตุ้นร่วมด้วย สามารถใช้นิ้วมือหรืออุปกรณ์ช่วยควบคู่กันได้)",
+      "gspotTipTh": "สามารถใช้นิ้วมือนวดวนสัมผัสจุดรับความรู้สึกด้านในขณะทำกิจกรรมเพื่อเพิ่มความสุขสมครบทุกมิติ",
       "musclesTh": [
         "กล้ามเนื้อก้น (Glutes)",
         "กล้ามเนื้อแกนกลางลำตัว (Core)",
@@ -4144,8 +4667,13 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)",
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
-      "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+      "angleDetailTh": "สัมผัสภายนอก / Oral Art: ควบคุมจังหวะสัมผัสได้อย่างอิสระ ไร้แรงกดทับภายใน"
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A position designed for deep oral penetration.",
+    "isPenetrative": false,
+    "focusType": "oral"
   },
   {
     "id": "silence",
@@ -4153,8 +4681,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Silence (ประกบแนบชิด)",
     "category": "romantic",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 3,
+    "clitoral": 3,
+    "gspot": 2,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/silence.webp",
@@ -4175,7 +4703,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Neutral",
+    "descriptionEn": "A quiet, meditative position focused on sensation.",
+    "isPenetrative": true
   },
   {
     "id": "american-pie",
@@ -4183,8 +4715,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "อเมริกันพาย (หวานฉ่ำเย้ายวน)",
     "category": "quick",
     "difficulty": 2,
-    "clitoral": 4,
-    "gspot": 4,
+    "clitoral": 2,
+    "gspot": 5,
     "angle": "มุมกดจากขอบเตียงหรือโซฟา รวดเร็วและแม่นยำ",
     "descriptionTh": "เหมาะสำหรับช่วงเวลาเร่งด่วนที่เต็มไปด้วยความเสน่หา ฝ่ายหญิงยกสะโพกขึ้นเล็กน้อยเพื่อรองรับจังหวะอันเร่าร้อน",
     "imageUrl": "https://couplesexposition.com/images/positions/american-pie.webp",
@@ -4207,7 +4739,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมกดจากขอบเตียงหรือโซฟา รวดเร็วและแม่นยำ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A classic American position with a sweet twist.",
+    "isPenetrative": true
   },
   {
     "id": "recharge",
@@ -4216,7 +4752,7 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 3,
+    "gspot": 2,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/recharge.webp",
@@ -4237,7 +4773,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "A restful position for recharging between rounds.",
+    "isPenetrative": true
   },
   {
     "id": "pie-in-the-sky",
@@ -4245,8 +4785,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Pie in the Sky (สัมผัสลึกซึ้ง)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/pie-in-the-sky.webp",
@@ -4269,7 +4809,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "An elevated, dreamy position with legs skyward.",
+    "isPenetrative": true
   },
   {
     "id": "spanish-guitar",
@@ -4278,7 +4822,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 3,
+    "gspot": 2,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/spanish-guitar.webp",
@@ -4300,16 +4844,20 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "A strumming, rhythmic position with a Latin flair.",
+    "isPenetrative": true
   },
   {
     "id": "guillotine",
-    "name": "Guillotine",
-    "nameTh": "Guillotine (บดคลึงจุดสัมผัส)",
+    "name": "Intense Cradle",
+    "nameTh": "โอบกระชับแนบแน่น (Intense Cradle)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/guillotine.webp",
@@ -4332,7 +4880,12 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A sharp, intense position with a dropping motion.",
+    "caution": "⚠️ ท่าทรงพลัง: ระวังน้ำหนักกดทับบริเวณลำคอและหน้าอก",
+    "isPenetrative": true
   },
   {
     "id": "tulip",
@@ -4340,8 +4893,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Tulip (องศาเฉียงเร้าอารมณ์)",
     "category": "chill",
     "difficulty": 1,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/tulip.webp",
@@ -4362,7 +4915,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A delicate, flower-like position with legs gently folded.",
+    "isPenetrative": true
   },
   {
     "id": "moonlight",
@@ -4371,7 +4928,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/moonlight.webp",
@@ -4393,7 +4950,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A nighttime position bathed in soft, romantic light.",
+    "isPenetrative": true
   },
   {
     "id": "xxx",
@@ -4425,7 +4986,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "An explicit, no-holds-barred position for maximum intensity.",
+    "isPenetrative": true
   },
   {
     "id": "appetite",
@@ -4434,7 +4999,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/appetite.webp",
@@ -4456,7 +5021,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A position that builds hunger and anticipation.",
+    "isPenetrative": true
   },
   {
     "id": "weightlessness",
@@ -4464,8 +5033,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Weightlessness (พลิ้วไหวสง่างาม)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/weightlessness.webp",
@@ -4488,16 +5057,20 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A floating sensation from being fully supported.",
+    "isPenetrative": true
   },
   {
     "id": "captivity",
-    "name": "Captivity",
-    "nameTh": "Captivity (ท้าทายผาดโผน)",
+    "name": "Enchanted Lock",
+    "nameTh": "ตรึงเสน่หา (Enchanted Lock)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/captivity.webp",
@@ -4520,7 +5093,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A restraining, dominant position for power play.",
+    "isPenetrative": true
   },
   {
     "id": "compliment",
@@ -4529,7 +5106,7 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 3,
+    "gspot": 1,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/compliment.webp",
@@ -4550,7 +5127,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "A position where partners exchange sweet words.",
+    "isPenetrative": true
   },
   {
     "id": "bowstring",
@@ -4558,8 +5139,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Bowstring (มุมสรีระเปิดกว้าง)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/bowstring.webp",
@@ -4582,7 +5163,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A tension-filled position like a drawn bow.",
+    "isPenetrative": true
   },
   {
     "id": "lazy-evening",
@@ -4590,8 +5175,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Lazy Evening (สบตาสุดโรแมนติก)",
     "category": "chill",
     "difficulty": 1,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/lazy-evening.webp",
@@ -4612,7 +5197,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A relaxed, low-effort position for cozy nights.",
+    "isPenetrative": true
   },
   {
     "id": "pterodactyl",
@@ -4620,8 +5209,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Pterodactyl (สัมผัสลึกซึ้ง)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/pterodactyl.webp",
@@ -4644,7 +5233,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A winged position with arms spread wide.",
+    "isPenetrative": true
   },
   {
     "id": "hard-worker",
@@ -4653,7 +5246,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/hard-worker.webp",
@@ -4676,7 +5269,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "An energetic position requiring stamina and effort.",
+    "isPenetrative": true
   },
   {
     "id": "shy-girl",
@@ -4684,8 +5281,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Shy Girl (บดคลึงจุดสัมผัส)",
     "category": "romantic",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/shy-girl.webp",
@@ -4706,7 +5303,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A modest, comfortable position for shy partners.",
+    "isPenetrative": true
   },
   {
     "id": "kinky-spider",
@@ -4715,7 +5316,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/kinky-spider.webp",
@@ -4738,7 +5339,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "A multi-limbed position with limbs everywhere.",
+    "isPenetrative": true
   },
   {
     "id": "courtesan",
@@ -4747,7 +5352,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/courtesan.webp",
@@ -4769,7 +5374,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "An elegant, seductive position worthy of royalty.",
+    "isPenetrative": true
   },
   {
     "id": "snow-angel",
@@ -4778,7 +5387,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 3,
+    "gspot": 2,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/snow-angel.webp",
@@ -4799,7 +5408,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "A spread-eagle position like making a snow angel.",
+    "isPenetrative": true
   },
   {
     "id": "french-kiss",
@@ -4808,9 +5421,9 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 3,
-    "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
-    "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
+    "gspot": 0,
+    "angle": "สัมผัสภายนอก / Oral Art: เน้นริมฝีปาก ลิ้น และปลายนิ้ว ควบคุมจังหวะอิสระ",
+    "descriptionTh": "ท่วงท่าที่เน้นการจูบและประสานสายตาอย่างดูดดื่ม ส่งผ่านความรักและความอบอุ่นแนบชิด",
     "imageUrl": "https://couplesexposition.com/images/positions/french-kiss.webp",
     "anatomy": {
       "suitableTh": [
@@ -4819,17 +5432,22 @@ window.COUPLES_POSITIONS = [
         "การกระตุ้นคลิตอริส",
         "การจูบแนบชิด"
       ],
-      "clitoralTextTh": "การกระตุ้นคลิตอริสระดับยอดเยี่ยม จากการบดสัมผัสโดยตรงของกระดูกหัวหน่าวและแรงเสียดสีที่ตรงจุด",
+      "clitoralTextTh": "การกระตุ้นคลิตอริสอย่างตรงจุดและต่อเนื่องด้วยริมฝีปากและลิ้น มอบคลื่นความเสียวซ่านภายนอกที่ชัดเจน",
       "clitoralTipTh": "สามารถใช้มือช่วยสัมผัสลูบไล้หรือกดคลึงเป็นวงกลมเพื่อเร่งเร้าคลื่นความเสียวซ่านได้อย่างง่ายดาย",
-      "gspotTextTh": "การกระตุ้นจุด G-spot ระดับปานกลาง (3/5) สัมผัสความแน่นกระชับแบบทั่วถึง",
-      "gspotTipTh": "ปรับมุมการโน้มตัวเล็กน้อยเพื่อมองหาทิศทางที่สร้างความสุขสมได้ดีที่สุด",
+      "gspotTextTh": "ท่วงท่านี้เน้นการสัมผัสภายนอกหรือการใช้ปากเป็นหลัก จึงไม่มีการสอดใส่ทางช่องคลอดไปยังจุด G-Spot (หากต้องการกระตุ้นร่วมด้วย สามารถใช้นิ้วมือหรืออุปกรณ์ช่วยควบคู่กันได้)",
+      "gspotTipTh": "สามารถใช้นิ้วมือนวดวนสัมผัสจุดรับความรู้สึกด้านในขณะทำกิจกรรมเพื่อเพิ่มความสุขสมครบทุกมิติ",
       "musclesTh": [
         "กล้ามเนื้อก้น (Glutes)",
         "กล้ามเนื้อแกนกลางลำตัว (Core)",
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
-      "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+      "angleDetailTh": "สัมผัสภายนอก / Oral Art: ควบคุมจังหวะสัมผัสได้อย่างอิสระ ไร้แรงกดทับภายใน"
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "A position centered on deep, passionate kissing.",
+    "isPenetrative": false,
+    "focusType": "oral"
   },
   {
     "id": "downstroke",
@@ -4860,7 +5478,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A downward-stroking motion for rhythmic pleasure.",
+    "isPenetrative": true
   },
   {
     "id": "harness",
@@ -4868,8 +5490,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Harness (ท้าทายผาดโผน)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/harness.webp",
@@ -4892,7 +5514,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A restraining position that harnesses your partner&#39;s body.",
+    "isPenetrative": true
   },
   {
     "id": "dirty-dancing",
@@ -4900,8 +5526,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Dirty Dancing (ประกบแนบชิด)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/dirty-dancing.webp",
@@ -4923,7 +5549,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A dance-inspired position with rhythmic hip movements.",
+    "isPenetrative": true
   },
   {
     "id": "milk-chocolate",
@@ -4932,7 +5562,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 1,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/milk-chocolate.webp",
@@ -4953,7 +5583,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A smooth, sweet position with creamy comfort.",
+    "isPenetrative": true
   },
   {
     "id": "nasty-desire",
@@ -4962,7 +5596,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/nasty-desire.webp",
@@ -4985,7 +5619,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A raw, primal position that unleashes deepest desires.",
+    "isPenetrative": true
   },
   {
     "id": "military-style",
@@ -4993,8 +5631,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Military Style (สไตล์ - สัมผัสลึกซึ้ง)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/military-style.webp",
@@ -5017,7 +5655,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A disciplined, positions-based approach to sex.",
+    "isPenetrative": true
   },
   {
     "id": "kitchen",
@@ -5048,7 +5690,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A spontaneous position using kitchen surfaces.",
+    "isPenetrative": true
   },
   {
     "id": "multiply-pleasure",
@@ -5056,7 +5702,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Multiply Pleasure (บดคลึงจุดสัมผัส)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 5,
+    "clitoral": 4,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -5080,7 +5726,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "A multi-position approach for varied sensations.",
+    "isPenetrative": true
   },
   {
     "id": "amazing-meeting",
@@ -5088,7 +5738,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "นัดพบสุดมหัศจรรย์ (สบตาแนบอก)",
     "category": "romantic",
     "difficulty": 1,
-    "clitoral": 5,
+    "clitoral": 3,
     "gspot": 4,
     "angle": "แนวระนาบตรงหน้าอกแนบชิด กระดูกหัวหน่าวบดสัมผัสตรงจุด",
     "descriptionTh": "เน้นความโรแมนติกขั้นสุด ทั้งสองฝ่ายกอดแนบแน่น จูบและกระซิบข้างหูได้ตลอดการบรรเลงเพลงรัก",
@@ -5111,7 +5761,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน"
       ],
       "angleDetailTh": "แนวระนาบตรงหน้าอกแนบชิด กระดูกหัวหน่าวบดสัมผัสตรงจุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A face-to-face encounter of incredible intimacy.",
+    "isPenetrative": true
   },
   {
     "id": "fairy",
@@ -5120,7 +5774,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 3,
+    "gspot": 1,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/fairy.webp",
@@ -5141,7 +5795,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "A light, ethereal position with minimal weight.",
+    "isPenetrative": true
   },
   {
     "id": "wedge",
@@ -5172,7 +5830,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A pillow-based position using a wedge for optimal angles.",
+    "isPenetrative": true
   },
   {
     "id": "air-rider",
@@ -5180,8 +5842,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "แอร์ไรเดอร์ (เหินฟ้าท้าสัมผัส)",
     "category": "her_lead",
     "difficulty": 2,
-    "clitoral": 5,
-    "gspot": 4,
+    "clitoral": 2,
+    "gspot": 5,
     "angle": "แนวดิ่งทิ้งน้ำหนักลงตรง ฝ่ายหญิงกึ่งนั่งกึ่งลอยตัวคุมเกม",
     "descriptionTh": "ฝ่ายหญิงอยู่ด้านบนและควบคุมการเคลื่อนไหวแบบอิสระรอบทิศทาง สามารถบดคลึงจุดคลิตอริสได้อย่างแม่นยำ",
     "imageUrl": "https://couplesexposition.com/images/positions/air-rider.webp",
@@ -5204,7 +5866,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "แนวดิ่งทิ้งน้ำหนักลงตรง ฝ่ายหญิงกึ่งนั่งกึ่งลอยตัวคุมเกม"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A bouncing, riding position with the receiving partner airborne.",
+    "isPenetrative": true
   },
   {
     "id": "inventive-69",
@@ -5213,9 +5879,9 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 4,
-    "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
-    "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
+    "gspot": 0,
+    "angle": "สัมผัสภายนอก / Oral Art: เน้นริมฝีปาก ลิ้น และปลายนิ้ว ควบคุมจังหวะอิสระ",
+    "descriptionTh": "การปรับองศาท่า 69 ให้ทั้งคู่ผ่อนคลายยิ่งขึ้น สามารถใช้มือช่วยเสริมสัมผัสได้อย่างอิสระ",
     "imageUrl": "https://couplesexposition.com/images/positions/inventive-69.webp",
     "anatomy": {
       "suitableTh": [
@@ -5224,18 +5890,23 @@ window.COUPLES_POSITIONS = [
         "การกระตุ้นคลิตอริส",
         "การกระตุ้นจุดจีสปอต"
       ],
-      "clitoralTextTh": "การกระตุ้นคลิตอริสระดับยอดเยี่ยม จากการบดสัมผัสโดยตรงของกระดูกหัวหน่าวและแรงเสียดสีที่ตรงจุด",
+      "clitoralTextTh": "การกระตุ้นคลิตอริสอย่างตรงจุดและต่อเนื่องด้วยริมฝีปากและลิ้น มอบคลื่นความเสียวซ่านภายนอกที่ชัดเจน",
       "clitoralTipTh": "สามารถใช้มือช่วยสัมผัสลูบไล้หรือกดคลึงเป็นวงกลมเพื่อเร่งเร้าคลื่นความเสียวซ่านได้อย่างง่ายดาย",
-      "gspotTextTh": "การกระตุ้นจุด G-spot ระดับ 4/5 ด้วยมุมการสอดใส่ที่เฉียดเข้าหาผนังด้านหน้าได้อย่างเป็นธรรมชาติ",
-      "gspotTipTh": "สามารถใช้หมอนหนุนใต้สะโพกเพื่อยกองศาให้ปลายสัมผัสกระทบจุดจีได้อย่างแม่นยำยิ่งขึ้น",
+      "gspotTextTh": "ท่วงท่านี้เน้นการสัมผัสภายนอกหรือการใช้ปากเป็นหลัก จึงไม่มีการสอดใส่ทางช่องคลอดไปยังจุด G-Spot (หากต้องการกระตุ้นร่วมด้วย สามารถใช้นิ้วมือหรืออุปกรณ์ช่วยควบคู่กันได้)",
+      "gspotTipTh": "สามารถใช้นิ้วมือนวดวนสัมผัสจุดรับความรู้สึกด้านในขณะทำกิจกรรมเพื่อเพิ่มความสุขสมครบทุกมิติ",
       "musclesTh": [
         "กล้ามเนื้อก้น (Glutes)",
         "กล้ามเนื้อแกนกลางลำตัว (Core)",
         "กล้ามเนื้อสะโพก (Hip flexors)",
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
-      "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+      "angleDetailTh": "สัมผัสภายนอก / Oral Art: ควบคุมจังหวะสัมผัสได้อย่างอิสระ ไร้แรงกดทับภายใน"
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "A creative twist on the classic 69 position.",
+    "isPenetrative": false,
+    "focusType": "oral"
   },
   {
     "id": "oasis",
@@ -5244,7 +5915,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 1,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/oasis.webp",
@@ -5265,7 +5936,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A refreshing, hydrating position for the soul.",
+    "isPenetrative": true
   },
   {
     "id": "amateur",
@@ -5274,7 +5949,7 @@ window.COUPLES_POSITIONS = [
     "category": "classic",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 3,
+    "gspot": 2,
     "angle": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ",
     "descriptionTh": "ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย ช่วยให้ช่วงเวลาแห่งความใกล้ชิดดำเนินไปอย่างนุ่มนวลและต่อเนื่อง",
     "imageUrl": "https://couplesexposition.com/images/positions/amateur.webp",
@@ -5294,7 +5969,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "A simple, straightforward position for beginners.",
+    "isPenetrative": true
   },
   {
     "id": "holiday",
@@ -5302,7 +5981,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Holiday (มุมสรีระเปิดกว้าง)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -5325,16 +6004,20 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A vacation-style position for exotic locations.",
+    "isPenetrative": true
   },
   {
     "id": "punishment",
-    "name": "Punishment",
-    "nameTh": "Punishment (สบตาสุดโรแมนติก)",
+    "name": "Passionate Demand",
+    "nameTh": "ปรารถนาเร่าร้อน (Passionate Demand)",
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/punishment.webp",
@@ -5357,7 +6040,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A disciplinary, dominant position for power dynamics.",
+    "isPenetrative": true
   },
   {
     "id": "riverside",
@@ -5366,7 +6053,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/riverside.webp",
@@ -5388,7 +6075,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A flowing, natural position like a gentle river.",
+    "isPenetrative": true
   },
   {
     "id": "adventurer",
@@ -5396,8 +6087,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "นักผจญภัย (มุมมองใหม่ไร้ขีดจำกัด)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 4,
-    "gspot": 4,
+    "clitoral": 2,
+    "gspot": 5,
     "angle": "มุมเอียง 45 องศา ปรับเปลี่ยนทิศทางได้คล่องตัว",
     "descriptionTh": "เปิดประสบการณ์ใหม่ด้วยการปรับองศาที่ช่วยให้สอดใส่ได้ลึกขึ้น พร้อมสบสายตาและสัมผัสร่างกายได้อย่างอิสระ",
     "imageUrl": "https://couplesexposition.com/images/positions/adventurer.webp",
@@ -5420,7 +6111,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมเอียง 45 องศา ปรับเปลี่ยนทิศทางได้คล่องตัว"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "An exploring, discovery-oriented position for bold lovers.",
+    "isPenetrative": true
   },
   {
     "id": "equilibrium",
@@ -5429,7 +6124,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/equilibrium.webp",
@@ -5451,7 +6146,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A balanced, centered position for harmonious pleasure.",
+    "isPenetrative": true
   },
   {
     "id": "penguin",
@@ -5459,8 +6158,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Penguin (องศาเฉียงเร้าอารมณ์)",
     "category": "romantic",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/penguin.webp",
@@ -5481,7 +6180,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A cute, waddling position with close body contact.",
+    "isPenetrative": true
   },
   {
     "id": "mexican-style",
@@ -5489,7 +6192,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Mexican Style (สไตล์ - ผ่อนคลายสบายตัว)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -5512,7 +6215,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A spicy, south-of-the-border inspired position.",
+    "isPenetrative": true
   },
   {
     "id": "face-sitting",
@@ -5521,9 +6228,9 @@ window.COUPLES_POSITIONS = [
     "category": "her_lead",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 4,
-    "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
-    "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
+    "gspot": 0,
+    "angle": "สัมผัสภายนอก / Oral Art: เน้นริมฝีปาก ลิ้น และปลายนิ้ว ควบคุมจังหวะอิสระ",
+    "descriptionTh": "ฝ่ายหญิงเป็นผู้ควบคุมจังหวะและน้ำหนักสัมผัสบนตักอย่างมั่นใจ มอบความพึงพอใจด้วยริมฝีปาก",
     "imageUrl": "https://couplesexposition.com/images/positions/face-sitting.webp",
     "anatomy": {
       "suitableTh": [
@@ -5532,18 +6239,23 @@ window.COUPLES_POSITIONS = [
         "การกระตุ้นคลิตอริส",
         "การกระตุ้นจุดจีสปอต"
       ],
-      "clitoralTextTh": "การกระตุ้นคลิตอริสระดับยอดเยี่ยม จากการบดสัมผัสโดยตรงของกระดูกหัวหน่าวและแรงเสียดสีที่ตรงจุด",
+      "clitoralTextTh": "การกระตุ้นคลิตอริสอย่างตรงจุดและต่อเนื่องด้วยริมฝีปากและลิ้น มอบคลื่นความเสียวซ่านภายนอกที่ชัดเจน",
       "clitoralTipTh": "สามารถใช้มือช่วยสัมผัสลูบไล้หรือกดคลึงเป็นวงกลมเพื่อเร่งเร้าคลื่นความเสียวซ่านได้อย่างง่ายดาย",
-      "gspotTextTh": "การกระตุ้นจุด G-spot ระดับ 4/5 ด้วยมุมการสอดใส่ที่เฉียดเข้าหาผนังด้านหน้าได้อย่างเป็นธรรมชาติ",
-      "gspotTipTh": "สามารถใช้หมอนหนุนใต้สะโพกเพื่อยกองศาให้ปลายสัมผัสกระทบจุดจีได้อย่างแม่นยำยิ่งขึ้น",
+      "gspotTextTh": "ท่วงท่านี้เน้นการสัมผัสภายนอกหรือการใช้ปากเป็นหลัก จึงไม่มีการสอดใส่ทางช่องคลอดไปยังจุด G-Spot (หากต้องการกระตุ้นร่วมด้วย สามารถใช้นิ้วมือหรืออุปกรณ์ช่วยควบคู่กันได้)",
+      "gspotTipTh": "สามารถใช้นิ้วมือนวดวนสัมผัสจุดรับความรู้สึกด้านในขณะทำกิจกรรมเพื่อเพิ่มความสุขสมครบทุกมิติ",
       "musclesTh": [
         "กล้ามเนื้อก้น (Glutes)",
         "กล้ามเนื้อแกนกลางลำตัว (Core)",
         "กล้ามเนื้อสะโพก (Hip flexors)",
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
-      "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+      "angleDetailTh": "สัมผัสภายนอก / Oral Art: ควบคุมจังหวะสัมผัสได้อย่างอิสระ ไร้แรงกดทับภายใน"
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "A dominant position where one partner sits on the other&#39;s face.",
+    "isPenetrative": false,
+    "focusType": "oral"
   },
   {
     "id": "delicacy",
@@ -5552,7 +6264,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 1,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/delicacy.webp",
@@ -5573,7 +6285,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A delicate, gentle position for tender moments.",
+    "isPenetrative": true
   },
   {
     "id": "v-formation",
@@ -5605,7 +6321,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A V-shaped leg position for intense stimulation.",
+    "isPenetrative": true
   },
   {
     "id": "straight-line",
@@ -5613,8 +6333,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Straight Line (ท้าทายผาดโผน)",
     "category": "romantic",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/straight-line.webp",
@@ -5635,7 +6355,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A simple, linear position with bodies aligned.",
+    "isPenetrative": true
   },
   {
     "id": "spanish-sunset",
@@ -5643,8 +6367,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Spanish Sunset (ประกบแนบชิด)",
     "category": "chill",
     "difficulty": 2,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/spanish-sunset.webp",
@@ -5666,7 +6390,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A warm, golden position inspired by sunset hues.",
+    "isPenetrative": true
   },
   {
     "id": "keeper",
@@ -5674,8 +6402,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Keeper (มุมสรีระเปิดกว้าง)",
     "category": "romantic",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/keeper.webp",
@@ -5696,7 +6424,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A holding position that makes your partner feel kept.",
+    "isPenetrative": true
   },
   {
     "id": "moan",
@@ -5727,7 +6459,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A position designed to elicit loud moans of pleasure.",
+    "isPenetrative": true
   },
   {
     "id": "tugboat",
@@ -5735,8 +6471,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Tugboat (สัมผัสลึกซึ้ง)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/tugboat.webp",
@@ -5759,7 +6495,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A pulling, towing position with a nautical theme.",
+    "isPenetrative": true
   },
   {
     "id": "nosedive",
@@ -5768,7 +6508,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/nosedive.webp",
@@ -5791,7 +6531,12 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A diving position with the receiving partner&#39;s head down.",
+    "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
+    "isPenetrative": true
   },
   {
     "id": "barbie",
@@ -5800,7 +6545,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 2,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/barbie.webp",
@@ -5822,7 +6567,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A doll-like position with posed, flexible positioning.",
+    "isPenetrative": true
   },
   {
     "id": "star-wars",
@@ -5854,7 +6603,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A galactic position with legs spread like a star.",
+    "isPenetrative": true
   },
   {
     "id": "sea-horse",
@@ -5863,7 +6616,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/sea-horse.webp",
@@ -5885,7 +6638,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A curvy, flowing position inspired by the sea horse.",
+    "isPenetrative": true
   },
   {
     "id": "deep-stick",
@@ -5894,7 +6651,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/deep-stick.webp",
@@ -5917,7 +6674,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A stick-straight penetration for maximum depth.",
+    "isPenetrative": true
   },
   {
     "id": "catch",
@@ -5925,8 +6686,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Catch (แนบเนื้อกระชับแน่น)",
     "category": "romantic",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/catch.webp",
@@ -5947,7 +6708,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A catching, catching-your-breath position.",
+    "isPenetrative": true
   },
   {
     "id": "car-mechanic",
@@ -5979,7 +6744,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A position that requires getting under the hood.",
+    "isPenetrative": true
   },
   {
     "id": "fireworks",
@@ -5987,7 +6756,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Fireworks (ท้าทายผาดโผน)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -6011,7 +6780,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "An explosive position for explosive orgasms.",
+    "isPenetrative": true
   },
   {
     "id": "bung",
@@ -6019,8 +6792,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Bung (ประกบแนบชิด)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/bung.webp",
@@ -6043,7 +6816,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A tight, bunged-up position for maximum pressure.",
+    "isPenetrative": true
   },
   {
     "id": "titanic",
@@ -6051,7 +6828,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Titanic (มุมสรีระเปิดกว้าง)",
     "category": "romantic",
     "difficulty": 2,
-    "clitoral": 4,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
@@ -6074,16 +6851,20 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A romantic, sinking position like the famous ship.",
+    "isPenetrative": true
   },
   {
     "id": "sweet-pussy",
-    "name": "Sweet Pussy",
-    "nameTh": "Sweet Pussy (สบตาสุดโรแมนติก)",
+    "name": "Sweet Velvet",
+    "nameTh": "สวีทเวลเวท (สัมผัสละมุน)",
     "category": "chill",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 3,
+    "gspot": 1,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/sweet-pussy.webp",
@@ -6104,7 +6885,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "A sweet, gentle position focused on clitoral pleasure.",
+    "isPenetrative": true
   },
   {
     "id": "snack",
@@ -6112,8 +6897,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Snack (สัมผัสลึกซึ้ง)",
     "category": "romantic",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/snack.webp",
@@ -6134,7 +6919,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A quick, satisfying snack between meals.",
+    "isPenetrative": true
   },
   {
     "id": "g-force",
@@ -6166,7 +6955,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "An intense, g-force generating position for maximum pressure.",
+    "isPenetrative": true
   },
   {
     "id": "magic-carpet",
@@ -6174,8 +6967,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Magic Carpet (มายากล - บดคลึงจุดสัมผัส)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/magic-carpet.webp",
@@ -6198,7 +6991,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A flying, carpet-like position for a magical ride.",
+    "isPenetrative": true
   },
   {
     "id": "cowgirl-on-the-chair",
@@ -6206,7 +7003,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Cowgirl on the Chair (คาวเกิร์ล เก้าอี้ - องศาเฉียงเร้าอารมณ์)",
     "category": "her_lead",
     "difficulty": 2,
-    "clitoral": 4,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "แนวดิ่งทิ้งน้ำหนักลงตรง ฝ่ายหญิงปรับองศาเอนหน้าหรือหลังเพื่อควบคุมจุดกระทบได้ตามใจ",
     "descriptionTh": "ฝ่ายหญิงเป็นผู้กุมจังหวะและทิศทาง สามารถบดคลึงจุดคลิตอริสและค้นหามุมที่โดนจุดจีสปอตได้ด้วยตนเองอย่างแม่นยำ",
@@ -6229,7 +7026,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวดิ่งทิ้งน้ำหนักลงตรง ฝ่ายหญิงปรับองศาเอนหน้าหรือหลังเพื่อควบคุมจุดกระทบได้ตามใจ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A cowgirl variation using a chair for support.",
+    "isPenetrative": true
   },
   {
     "id": "thors-hammer",
@@ -6237,8 +7038,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Thor's Hammer (ค้อนทรงพลัง - ผ่อนคลายสบายตัว)",
     "category": "him_lead",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "สอดใส่จากด้านหลังหรือมุมกด ปลายทำมุมช้อนเข้าหาผนังช่องคลอดด้านหน้าอย่างหนักแน่น",
     "descriptionTh": "ฝ่ายชายเป็นผู้ควบคุมความลึกและจังหวะการเคลื่อนไหว สัมผัสถึงความกระชับและส่งมอบพลังแห่งความรักได้อย่างเต็มที่",
     "imageUrl": "https://couplesexposition.com/images/positions/thors-hammer.webp",
@@ -6260,7 +7061,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "สอดใส่จากด้านหลังหรือมุมกด ปลายทำมุมช้อนเข้าหาผนังช่องคลอดด้านหน้าอย่างหนักแน่น"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A powerful, hammering position with divine force.",
+    "isPenetrative": true
   },
   {
     "id": "overturned",
@@ -6269,7 +7074,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/overturned.webp",
@@ -6292,7 +7097,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "An overturned position with the receiver flipped over.",
+    "isPenetrative": true
   },
   {
     "id": "wild-pony",
@@ -6300,7 +7109,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Wild Pony (แนบเนื้อกระชับแน่น)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -6324,7 +7133,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A wild, bucking position like riding a bronco.",
+    "isPenetrative": true
   },
   {
     "id": "stuntman",
@@ -6333,7 +7146,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/stuntman.webp",
@@ -6356,7 +7169,12 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "An acrobatic position for the brave and flexible.",
+    "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
+    "isPenetrative": true
   },
   {
     "id": "plank",
@@ -6365,7 +7183,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/plank.webp",
@@ -6388,7 +7206,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A fitness-inspired position with a plank hold.",
+    "isPenetrative": true
   },
   {
     "id": "midnight",
@@ -6396,8 +7218,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Midnight (ประกบแนบชิด)",
     "category": "romantic",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 3,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/midnight.webp",
@@ -6418,7 +7240,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A late-night position for sleepy, passionate moments.",
+    "isPenetrative": true
   },
   {
     "id": "bomb",
@@ -6426,7 +7252,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Bomb (มุมสรีระเปิดกว้าง)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -6450,7 +7276,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "An explosive position that detonates pleasure.",
+    "isPenetrative": true
   },
   {
     "id": "flexible-beauty",
@@ -6459,7 +7289,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/flexible-beauty.webp",
@@ -6482,16 +7312,20 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A yoga-inspired position showcasing flexibility and grace.",
+    "isPenetrative": true
   },
   {
     "id": "orgazmic-penetration",
     "name": "Orgasmic Penetration",
-    "nameTh": "Orgasmic Penetration (สัมผัสลึกซึ้ง)",
+    "nameTh": "สัมผัสลึกซึ้ง (Orgasmic Penetration)",
     "category": "romantic",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/orgazmic-penetration.webp",
@@ -6513,7 +7347,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "Slow, deliberate movements focused on building orgasm.",
+    "isPenetrative": true
   },
   {
     "id": "julia",
@@ -6521,8 +7359,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Julia (ควบคุมจังหวะอิสระ)",
     "category": "classic",
     "difficulty": 1,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 3,
     "angle": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ",
     "descriptionTh": "ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย ช่วยให้ช่วงเวลาแห่งความใกล้ชิดดำเนินไปอย่างนุ่มนวลและต่อเนื่อง",
     "imageUrl": "https://couplesexposition.com/images/positions/julia.webp",
@@ -6542,7 +7380,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A relaxed side-lying position with gentle penetration.",
+    "isPenetrative": true
   },
   {
     "id": "comfortable-place",
@@ -6550,8 +7392,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Comfortable Place (บดคลึงจุดสัมผัส)",
     "category": "romantic",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/comfortable-place.webp",
@@ -6572,7 +7414,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A cozy position prioritizing comfort and closeness.",
+    "isPenetrative": true
   },
   {
     "id": "counterblow",
@@ -6603,7 +7449,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "ท่ายืนหรือกึ่งยืน ปรับระดับความสูงให้เข้ากับสะโพก เหมาะสำหรับช่วงเวลาเร่งด่วน"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & A-spot",
+    "descriptionEn": "A reverse missionary with a powerful, grinding rhythm.",
+    "isPenetrative": true
   },
   {
     "id": "bermuda-triangle",
@@ -6611,8 +7461,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Bermuda Triangle (สามเหลี่ยม - ผ่อนคลายสบายตัว)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/bermuda-triangle.webp",
@@ -6635,7 +7485,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A complex three-point position that feels like a puzzle.",
+    "isPenetrative": true
   },
   {
     "id": "tangle",
@@ -6644,7 +7498,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/tangle.webp",
@@ -6666,7 +7520,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Clitoral & G-spot",
+    "descriptionEn": "Intertwined bodies creating a complex, pleasurable knot.",
+    "isPenetrative": true
   },
   {
     "id": "worship",
@@ -6675,7 +7533,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 3,
+    "gspot": 1,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/worship.webp",
@@ -6696,7 +7554,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Clitoral & A-spot",
+    "descriptionEn": "Devotee-style worship through intimate oral attention.",
+    "isPenetrative": true
   },
   {
     "id": "saddle",
@@ -6705,7 +7567,7 @@ window.COUPLES_POSITIONS = [
     "category": "her_lead",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ",
     "descriptionTh": "ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย ช่วยให้ช่วงเวลาแห่งความใกล้ชิดดำเนินไปอย่างนุ่มนวลและต่อเนื่อง",
     "imageUrl": "https://couplesexposition.com/images/positions/saddle.webp",
@@ -6726,7 +7588,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Clitoral & G-spot",
+    "descriptionEn": "A straddling position like cowgirl with a forward lean.",
+    "isPenetrative": true
   },
   {
     "id": "skewer",
@@ -6734,8 +7600,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Skewer (ท้าทายผาดโผน)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/skewer.webp",
@@ -6758,7 +7624,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot & A-spot",
+    "descriptionEn": "A deep, intense position that hits all the right spots.",
+    "isPenetrative": true
   },
   {
     "id": "chameleon",
@@ -6767,7 +7637,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/chameleon.webp",
@@ -6789,7 +7659,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "A versatile position that changes with small adjustments.",
+    "isPenetrative": true
   },
   {
     "id": "jack",
@@ -6798,7 +7672,7 @@ window.COUPLES_POSITIONS = [
     "category": "classic",
     "difficulty": 1,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ",
     "descriptionTh": "ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย ช่วยให้ช่วงเวลาแห่งความใกล้ชิดดำเนินไปอย่างนุ่มนวลและต่อเนื่อง",
     "imageUrl": "https://couplesexposition.com/images/positions/jack.webp",
@@ -6818,7 +7692,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A straightforward, reliable position that just works.",
+    "isPenetrative": true
   },
   {
     "id": "passive-doggy",
@@ -6826,8 +7704,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Passive Doggy (ด็อกกี้ - สบตาสุดโรแมนติก)",
     "category": "him_lead",
     "difficulty": 1,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "สอดใส่จากด้านหลังหรือมุมกด ปลายทำมุมช้อนเข้าหาผนังช่องคลอดด้านหน้าอย่างหนักแน่น",
     "descriptionTh": "ฝ่ายชายเป็นผู้ควบคุมความลึกและจังหวะการเคลื่อนไหว สัมผัสถึงความกระชับและส่งมอบพลังแห่งความรักได้อย่างเต็มที่",
     "imageUrl": "https://couplesexposition.com/images/positions/passive-doggy.webp",
@@ -6847,7 +7725,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "สอดใส่จากด้านหลังหรือมุมกด ปลายทำมุมช้อนเข้าหาผนังช่องคลอดด้านหน้าอย่างหนักแน่น"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A relaxed variation where the receiver lies flat and still.",
+    "isPenetrative": true
   },
   {
     "id": "look-to-the-sky",
@@ -6855,7 +7737,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Look to the Sky (สัมผัสลึกซึ้ง)",
     "category": "chill",
     "difficulty": 2,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
@@ -6878,7 +7760,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "Gaze upward in pleasure as your partner takes the lead.",
+    "isPenetrative": true
   },
   {
     "id": "wrestling",
@@ -6887,7 +7773,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/wrestling.webp",
@@ -6909,7 +7795,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "A playful, energetic position with a tussling vibe.",
+    "isPenetrative": true
   },
   {
     "id": "hill",
@@ -6917,7 +7807,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Hill (บดคลึงจุดสัมผัส)",
     "category": "classic",
     "difficulty": 1,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ",
     "descriptionTh": "ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย ช่วยให้ช่วงเวลาแห่งความใกล้ชิดดำเนินไปอย่างนุ่มนวลและต่อเนื่อง",
@@ -6938,7 +7828,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "The receiving partner arches up like a hill for better angles.",
+    "isPenetrative": true
   },
   {
     "id": "mountain-creek",
@@ -6970,7 +7864,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & A-spot",
+    "descriptionEn": "A flowing, undulating position with varying depths.",
+    "isPenetrative": true
   },
   {
     "id": "hood",
@@ -6979,7 +7877,7 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/hood.webp",
@@ -7000,7 +7898,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "A close, enveloping position with maximum coverage.",
+    "isPenetrative": true
   },
   {
     "id": "knight",
@@ -7009,7 +7911,7 @@ window.COUPLES_POSITIONS = [
     "category": "classic",
     "difficulty": 2,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ",
     "descriptionTh": "ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย ช่วยให้ช่วงเวลาแห่งความใกล้ชิดดำเนินไปอย่างนุ่มนวลและต่อเนื่อง",
     "imageUrl": "https://couplesexposition.com/images/positions/knight.webp",
@@ -7030,7 +7932,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A chivalrous position with the penetrating partner in control.",
+    "isPenetrative": true
   },
   {
     "id": "satyr",
@@ -7038,7 +7944,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Satyr (แนบเนื้อกระชับแน่น)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -7061,7 +7967,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A primal, animalistic position with a wild edge.",
+    "isPenetrative": true
   },
   {
     "id": "rocket",
@@ -7070,7 +7980,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/rocket.webp",
@@ -7093,7 +8003,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot & A-spot",
+    "descriptionEn": "A launching position with legs up for maximum depth.",
+    "isPenetrative": true
   },
   {
     "id": "niagara-falls",
@@ -7101,8 +8015,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Niagara Falls (ท้าทายผาดโผน)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/niagara-falls.webp",
@@ -7125,7 +8039,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A cascading position with the receiver draped backward.",
+    "isPenetrative": true
   },
   {
     "id": "tight-pussy",
@@ -7134,7 +8052,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/tight-pussy.webp",
@@ -7156,7 +8074,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "A squeezing position that intensifies the sensation.",
+    "isPenetrative": true
   },
   {
     "id": "relaxation",
@@ -7164,8 +8086,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Relaxation (มุมสรีระเปิดกว้าง)",
     "category": "romantic",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 3,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/relaxation.webp",
@@ -7186,7 +8108,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "The ultimate low-effort position for pure relaxation.",
+    "isPenetrative": true
   },
   {
     "id": "gimlet",
@@ -7194,8 +8120,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Gimlet (สบตาสุดโรแมนติก)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/gimlet.webp",
@@ -7218,7 +8144,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & A-spot",
+    "descriptionEn": "A drilling, circular motion that targets internal spots.",
+    "isPenetrative": true
   },
   {
     "id": "pinwheel",
@@ -7250,7 +8180,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "ฝ่ายหญิงนั่งคร่อมและสามารถหมุนบิดสะโพกเปลี่ยนองศาได้รอบทิศ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "A spinning, rotating position with constant movement.",
+    "isPenetrative": true
   },
   {
     "id": "loop",
@@ -7258,8 +8192,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Loop (ควบคุมจังหวะอิสระ)",
     "category": "chill",
     "difficulty": 2,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/loop.webp",
@@ -7281,7 +8215,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A continuous loop of motion and pleasure.",
+    "isPenetrative": true
   },
   {
     "id": "slope",
@@ -7290,7 +8228,7 @@ window.COUPLES_POSITIONS = [
     "category": "classic",
     "difficulty": 1,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ",
     "descriptionTh": "ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย ช่วยให้ช่วงเวลาแห่งความใกล้ชิดดำเนินไปอย่างนุ่มนวลและต่อเนื่อง",
     "imageUrl": "https://couplesexposition.com/images/positions/slope.webp",
@@ -7310,7 +8248,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A gentle incline position that&#39;s easy on the body.",
+    "isPenetrative": true
   },
   {
     "id": "funny-joke",
@@ -7319,7 +8261,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/funny-joke.webp",
@@ -7341,7 +8283,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "A playful, laugh-out-loud position for couples who enjoy fun.",
+    "isPenetrative": true
   },
   {
     "id": "ladies-man",
@@ -7350,7 +8296,7 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/ladies-man.webp",
@@ -7371,7 +8317,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "A position focused entirely on the receiving partner&#39;s pleasure.",
+    "isPenetrative": true
   },
   {
     "id": "juicy-ass",
@@ -7401,7 +8351,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "สอดใส่จากด้านหลังหรือมุมกด ปลายทำมุมช้อนเข้าหาผนังช่องคลอดด้านหน้าอย่างหนักแน่น"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A position that highlights the backside with a great view.",
+    "isPenetrative": true
   },
   {
     "id": "new-69-on-the-chair",
@@ -7410,9 +8364,9 @@ window.COUPLES_POSITIONS = [
     "category": "her_lead",
     "difficulty": 3,
     "clitoral": 5,
-    "gspot": 3,
-    "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
-    "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
+    "gspot": 0,
+    "angle": "สัมผัสภายนอก / Oral Art: เน้นริมฝีปาก ลิ้น และปลายนิ้ว ควบคุมจังหวะอิสระ",
+    "descriptionTh": "ท่า 69 บนเก้าอี้หรือโซฟาที่รองรับสรีระได้ลงตัว ลดอาการเมื่อยล้าและเพิ่มความสบาย",
     "imageUrl": "https://couplesexposition.com/images/positions/new-69-on-the-chair.webp",
     "anatomy": {
       "suitableTh": [
@@ -7421,10 +8375,10 @@ window.COUPLES_POSITIONS = [
         "การกระตุ้นคลิตอริส",
         "การจูบแนบชิด"
       ],
-      "clitoralTextTh": "การกระตุ้นคลิตอริสระดับยอดเยี่ยม จากการบดสัมผัสโดยตรงของกระดูกหัวหน่าวและแรงเสียดสีที่ตรงจุด",
+      "clitoralTextTh": "การกระตุ้นคลิตอริสอย่างตรงจุดและต่อเนื่องด้วยริมฝีปากและลิ้น มอบคลื่นความเสียวซ่านภายนอกที่ชัดเจน",
       "clitoralTipTh": "สามารถใช้มือช่วยสัมผัสลูบไล้หรือกดคลึงเป็นวงกลมเพื่อเร่งเร้าคลื่นความเสียวซ่านได้อย่างง่ายดาย",
-      "gspotTextTh": "การกระตุ้นจุด G-spot ระดับปานกลาง (3/5) สัมผัสความแน่นกระชับแบบทั่วถึง",
-      "gspotTipTh": "ปรับมุมการโน้มตัวเล็กน้อยเพื่อมองหาทิศทางที่สร้างความสุขสมได้ดีที่สุด",
+      "gspotTextTh": "ท่วงท่านี้เน้นการสัมผัสภายนอกหรือการใช้ปากเป็นหลัก จึงไม่มีการสอดใส่ทางช่องคลอดไปยังจุด G-Spot (หากต้องการกระตุ้นร่วมด้วย สามารถใช้นิ้วมือหรืออุปกรณ์ช่วยควบคู่กันได้)",
+      "gspotTipTh": "สามารถใช้นิ้วมือนวดวนสัมผัสจุดรับความรู้สึกด้านในขณะทำกิจกรรมเพื่อเพิ่มความสุขสมครบทุกมิติ",
       "musclesTh": [
         "กล้ามเนื้อก้น (Glutes)",
         "กล้ามเนื้อแกนกลางลำตัว (Core)",
@@ -7432,8 +8386,13 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)",
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
-      "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+      "angleDetailTh": "สัมผัสภายนอก / Oral Art: ควบคุมจังหวะสัมผัสได้อย่างอิสระ ไร้แรงกดทับภายใน"
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Clitoral & A-spot",
+    "descriptionEn": "A chair-based 69 with a fresh, elevated angle.",
+    "isPenetrative": false,
+    "focusType": "oral"
   },
   {
     "id": "stickman",
@@ -7441,8 +8400,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Stickman (พลิ้วไหวสง่างาม)",
     "category": "classic",
     "difficulty": 2,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ",
     "descriptionTh": "ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย ช่วยให้ช่วงเวลาแห่งความใกล้ชิดดำเนินไปอย่างนุ่มนวลและต่อเนื่อง",
     "imageUrl": "https://couplesexposition.com/images/positions/stickman.webp",
@@ -7463,7 +8422,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A simple, stick-figure-like position with straight lines.",
+    "isPenetrative": true
   },
   {
     "id": "licking-master",
@@ -7472,9 +8435,9 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 3,
-    "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
-    "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
+    "gspot": 0,
+    "angle": "สัมผัสภายนอก / Oral Art: เน้นริมฝีปาก ลิ้น และปลายนิ้ว ควบคุมจังหวะอิสระ",
+    "descriptionTh": "ศิลปะแห่งการใช้ปลายลิ้นปรนเปรอจุดสัมผัสภายนอกอย่างละเอียดอ่อนและต่อเนื่อง",
     "imageUrl": "https://couplesexposition.com/images/positions/licking-master.webp",
     "anatomy": {
       "suitableTh": [
@@ -7483,17 +8446,22 @@ window.COUPLES_POSITIONS = [
         "การกระตุ้นคลิตอริส",
         "การจูบแนบชิด"
       ],
-      "clitoralTextTh": "การกระตุ้นคลิตอริสระดับยอดเยี่ยม จากการบดสัมผัสโดยตรงของกระดูกหัวหน่าวและแรงเสียดสีที่ตรงจุด",
+      "clitoralTextTh": "การกระตุ้นคลิตอริสอย่างตรงจุดและต่อเนื่องด้วยริมฝีปากและลิ้น มอบคลื่นความเสียวซ่านภายนอกที่ชัดเจน",
       "clitoralTipTh": "สามารถใช้มือช่วยสัมผัสลูบไล้หรือกดคลึงเป็นวงกลมเพื่อเร่งเร้าคลื่นความเสียวซ่านได้อย่างง่ายดาย",
-      "gspotTextTh": "การกระตุ้นจุด G-spot ระดับปานกลาง (3/5) สัมผัสความแน่นกระชับแบบทั่วถึง",
-      "gspotTipTh": "ปรับมุมการโน้มตัวเล็กน้อยเพื่อมองหาทิศทางที่สร้างความสุขสมได้ดีที่สุด",
+      "gspotTextTh": "ท่วงท่านี้เน้นการสัมผัสภายนอกหรือการใช้ปากเป็นหลัก จึงไม่มีการสอดใส่ทางช่องคลอดไปยังจุด G-Spot (หากต้องการกระตุ้นร่วมด้วย สามารถใช้นิ้วมือหรืออุปกรณ์ช่วยควบคู่กันได้)",
+      "gspotTipTh": "สามารถใช้นิ้วมือนวดวนสัมผัสจุดรับความรู้สึกด้านในขณะทำกิจกรรมเพื่อเพิ่มความสุขสมครบทุกมิติ",
       "musclesTh": [
         "กล้ามเนื้อก้น (Glutes)",
         "กล้ามเนื้อแกนกลางลำตัว (Core)",
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
-      "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+      "angleDetailTh": "สัมผัสภายนอก / Oral Art: ควบคุมจังหวะสัมผัสได้อย่างอิสระ ไร้แรงกดทับภายใน"
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Clitoral & A-spot",
+    "descriptionEn": "An expert-level oral position for giving maximum pleasure.",
+    "isPenetrative": false,
+    "focusType": "oral"
   },
   {
     "id": "descent",
@@ -7502,7 +8470,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/descent.webp",
@@ -7525,7 +8493,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A gradual lowering onto the partner for maximum depth.",
+    "isPenetrative": true
   },
   {
     "id": "source",
@@ -7534,7 +8506,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 1,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/source.webp",
@@ -7555,7 +8527,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A grounded, centering position that feels deeply connected.",
+    "isPenetrative": true
   },
   {
     "id": "apex",
@@ -7586,7 +8562,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "Reaching the peak with a high, elevated position.",
+    "isPenetrative": true
   },
   {
     "id": "hot-carl",
@@ -7595,7 +8575,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 4,
+    "gspot": 1,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/hot-carl.webp",
@@ -7617,7 +8597,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "A face-sitting position for oral pleasure enthusiasts.",
+    "isPenetrative": true
   },
   {
     "id": "chibi",
@@ -7625,8 +8609,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Chibi (ควบคุมจังหวะอิสระ)",
     "category": "romantic",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 3,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/chibi.webp",
@@ -7647,7 +8631,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A small, compact position perfect for close quarters.",
+    "isPenetrative": true
   },
   {
     "id": "snake-charmer",
@@ -7656,7 +8644,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/snake-charmer.webp",
@@ -7679,7 +8667,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A hypnotic, undulating motion that mesmerizes both partners.",
+    "isPenetrative": true
   },
   {
     "id": "twerk-on-dick",
@@ -7688,7 +8680,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/twerk-on-dick.webp",
@@ -7710,7 +8702,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Clitoral & G-spot",
+    "descriptionEn": "An energetic, twerking variation of the riding position.",
+    "isPenetrative": true
   },
   {
     "id": "ghetto",
@@ -7718,7 +8714,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Ghetto (ผ่อนคลายสบายตัว)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -7741,7 +8737,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A raw, intense position with a street-style edge.",
+    "isPenetrative": true
   },
   {
     "id": "tantra-chair",
@@ -7750,7 +8750,7 @@ window.COUPLES_POSITIONS = [
     "category": "her_lead",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/tantra-chair.webp",
@@ -7772,7 +8772,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "A tantric-inspired position on a chair for deep connection.",
+    "isPenetrative": true
   },
   {
     "id": "crazy-doggy",
@@ -7780,7 +8784,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Crazy Doggy (ด็อกกี้ - แนบเนื้อกระชับแน่น)",
     "category": "him_lead",
     "difficulty": 3,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "สอดใส่จากด้านหลังหรือมุมกด ปลายทำมุมช้อนเข้าหาผนังช่องคลอดด้านหน้าอย่างหนักแน่น",
     "descriptionTh": "ฝ่ายชายเป็นผู้ควบคุมความลึกและจังหวะการเคลื่อนไหว สัมผัสถึงความกระชับและส่งมอบพลังแห่งความรักได้อย่างเต็มที่",
@@ -7803,7 +8807,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "สอดใส่จากด้านหลังหรือมุมกด ปลายทำมุมช้อนเข้าหาผนังช่องคลอดด้านหน้าอย่างหนักแน่น"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "An intense, wild variation of the classic doggy style.",
+    "isPenetrative": true
   },
   {
     "id": "pearl",
@@ -7812,7 +8820,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/pearl.webp",
@@ -7833,7 +8841,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "A precious, gentle position that reveals hidden treasure.",
+    "isPenetrative": true
   },
   {
     "id": "anna",
@@ -7841,8 +8853,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Anna (ท้าทายผาดโผน)",
     "category": "romantic",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 3,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/anna.webp",
@@ -7863,7 +8875,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A named, personal position that feels like a secret between two.",
+    "isPenetrative": true
   },
   {
     "id": "curiosity",
@@ -7871,8 +8887,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Curiosity (ประกบแนบชิด)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/curiosity.webp",
@@ -7894,7 +8910,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & A-spot",
+    "descriptionEn": "An exploratory position for discovering new sensations.",
+    "isPenetrative": true
   },
   {
     "id": "khaleesi",
@@ -7903,7 +8923,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/khaleesi.webp",
@@ -7925,7 +8945,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "A queen-on-top position with power and dominance.",
+    "isPenetrative": true
   },
   {
     "id": "insatiable-clitoris",
@@ -7934,9 +8958,9 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 3,
-    "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
-    "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
+    "gspot": 0,
+    "angle": "สัมผัสภายนอก / Oral Art: เน้นริมฝีปาก ลิ้น และปลายนิ้ว ควบคุมจังหวะอิสระ",
+    "descriptionTh": "เน้นการกระตุ้นคลิตอริสอย่างตรงจุดด้วยริมฝีปากและปลายนิ้ว นำพาสู่จุดสุดยอดภายนอก",
     "imageUrl": "https://couplesexposition.com/images/positions/insatiable-clitoris.webp",
     "anatomy": {
       "suitableTh": [
@@ -7945,17 +8969,22 @@ window.COUPLES_POSITIONS = [
         "การกระตุ้นคลิตอริส",
         "การจูบแนบชิด"
       ],
-      "clitoralTextTh": "การกระตุ้นคลิตอริสระดับยอดเยี่ยม จากการบดสัมผัสโดยตรงของกระดูกหัวหน่าวและแรงเสียดสีที่ตรงจุด",
+      "clitoralTextTh": "การกระตุ้นคลิตอริสอย่างตรงจุดและต่อเนื่องด้วยริมฝีปากและลิ้น มอบคลื่นความเสียวซ่านภายนอกที่ชัดเจน",
       "clitoralTipTh": "สามารถใช้มือช่วยสัมผัสลูบไล้หรือกดคลึงเป็นวงกลมเพื่อเร่งเร้าคลื่นความเสียวซ่านได้อย่างง่ายดาย",
-      "gspotTextTh": "การกระตุ้นจุด G-spot ระดับปานกลาง (3/5) สัมผัสความแน่นกระชับแบบทั่วถึง",
-      "gspotTipTh": "ปรับมุมการโน้มตัวเล็กน้อยเพื่อมองหาทิศทางที่สร้างความสุขสมได้ดีที่สุด",
+      "gspotTextTh": "ท่วงท่านี้เน้นการสัมผัสภายนอกหรือการใช้ปากเป็นหลัก จึงไม่มีการสอดใส่ทางช่องคลอดไปยังจุด G-Spot (หากต้องการกระตุ้นร่วมด้วย สามารถใช้นิ้วมือหรืออุปกรณ์ช่วยควบคู่กันได้)",
+      "gspotTipTh": "สามารถใช้นิ้วมือนวดวนสัมผัสจุดรับความรู้สึกด้านในขณะทำกิจกรรมเพื่อเพิ่มความสุขสมครบทุกมิติ",
       "musclesTh": [
         "กล้ามเนื้อก้น (Glutes)",
         "กล้ามเนื้อแกนกลางลำตัว (Core)",
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
-      "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+      "angleDetailTh": "สัมผัสภายนอก / Oral Art: ควบคุมจังหวะสัมผัสได้อย่างอิสระ ไร้แรงกดทับภายใน"
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "A position designed for relentless clitoral stimulation.",
+    "isPenetrative": false,
+    "focusType": "oral"
   },
   {
     "id": "breeze",
@@ -7963,8 +8992,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Breeze (สัมผัสลึกซึ้ง)",
     "category": "romantic",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 3,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/breeze.webp",
@@ -7985,7 +9014,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A light, airy position that feels effortless and refreshing.",
+    "isPenetrative": true
   },
   {
     "id": "weird-fantasy",
@@ -7994,7 +9027,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/weird-fantasy.webp",
@@ -8017,7 +9050,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "An unconventional position for couples who love the unusual.",
+    "isPenetrative": true
   },
   {
     "id": "crazy-monkey",
@@ -8025,7 +9062,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Crazy Monkey (วานร - บดคลึงจุดสัมผัส)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -8049,7 +9086,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A wild, energetic position with a playful primate vibe.",
+    "isPenetrative": true
   },
   {
     "id": "butler",
@@ -8058,7 +9099,7 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/butler.webp",
@@ -8079,7 +9120,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "The penetrating partner serves the receiver&#39;s every need.",
+    "isPenetrative": true
   },
   {
     "id": "houdini",
@@ -8088,7 +9133,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/houdini.webp",
@@ -8111,7 +9156,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A disappearing, reappearing position that defies expectations.",
+    "isPenetrative": true
   },
   {
     "id": "tea-bag",
@@ -8119,8 +9168,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Tea Bag (เร่งเร้าทรงพลัง)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/tea-bag.webp",
@@ -8142,7 +9191,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A dipping position with a playful, rhythmic motion.",
+    "isPenetrative": true
   },
   {
     "id": "dream",
@@ -8151,7 +9204,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 1,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/dream.webp",
@@ -8172,12 +9225,16 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A dreamy, slow position that feels like floating.",
+    "isPenetrative": true
   },
   {
     "id": "donkey-punch",
-    "name": "Donkey Punch",
-    "nameTh": "Donkey Punch (พลิ้วไหวสง่างาม)",
+    "name": "Midnight Pulse",
+    "nameTh": "เร่งเร้าทรงพลัง (Midnight Pulse)",
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 2,
@@ -8204,7 +9261,12 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A rough, intense position not for the faint of heart.",
+    "caution": "💬 ความยินยอม & ปลอดภัย: เน้นการควบคุมจังหวะหนักแน่นแต่นุ่มนวล ต้องสื่อสารและยินยอมพร้อมใจ (Consent) เสมอ",
+    "isPenetrative": true
   },
   {
     "id": "venus-flytrap",
@@ -8213,7 +9275,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/venus-flytrap.webp",
@@ -8235,7 +9297,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "A trapping, enveloping position that closes around the partner.",
+    "isPenetrative": true
   },
   {
     "id": "crazy-train",
@@ -8267,7 +9333,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A wild, non-stop ride that keeps going and going.",
+    "isPenetrative": true
   },
   {
     "id": "special-fellatio",
@@ -8276,9 +9346,9 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 3,
-    "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
-    "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
+    "gspot": 0,
+    "angle": "สัมผัสภายนอก / Oral Art: เน้นริมฝีปาก ลิ้น และปลายนิ้ว ควบคุมจังหวะอิสระ",
+    "descriptionTh": "การปรนเปรอฝ่ายชายด้วยริมฝีปากในมุมองศาที่ผ่อนคลายและสบายตัวที่สุด",
     "imageUrl": "https://couplesexposition.com/images/positions/special-fellatio.webp",
     "anatomy": {
       "suitableTh": [
@@ -8287,17 +9357,22 @@ window.COUPLES_POSITIONS = [
         "การกระตุ้นคลิตอริส",
         "การจูบแนบชิด"
       ],
-      "clitoralTextTh": "การกระตุ้นคลิตอริสระดับยอดเยี่ยม จากการบดสัมผัสโดยตรงของกระดูกหัวหน่าวและแรงเสียดสีที่ตรงจุด",
+      "clitoralTextTh": "การกระตุ้นคลิตอริสอย่างตรงจุดและต่อเนื่องด้วยริมฝีปากและลิ้น มอบคลื่นความเสียวซ่านภายนอกที่ชัดเจน",
       "clitoralTipTh": "สามารถใช้มือช่วยสัมผัสลูบไล้หรือกดคลึงเป็นวงกลมเพื่อเร่งเร้าคลื่นความเสียวซ่านได้อย่างง่ายดาย",
-      "gspotTextTh": "การกระตุ้นจุด G-spot ระดับปานกลาง (3/5) สัมผัสความแน่นกระชับแบบทั่วถึง",
-      "gspotTipTh": "ปรับมุมการโน้มตัวเล็กน้อยเพื่อมองหาทิศทางที่สร้างความสุขสมได้ดีที่สุด",
+      "gspotTextTh": "ท่วงท่านี้เน้นการสัมผัสภายนอกหรือการใช้ปากเป็นหลัก จึงไม่มีการสอดใส่ทางช่องคลอดไปยังจุด G-Spot (หากต้องการกระตุ้นร่วมด้วย สามารถใช้นิ้วมือหรืออุปกรณ์ช่วยควบคู่กันได้)",
+      "gspotTipTh": "สามารถใช้นิ้วมือนวดวนสัมผัสจุดรับความรู้สึกด้านในขณะทำกิจกรรมเพื่อเพิ่มความสุขสมครบทุกมิติ",
       "musclesTh": [
         "กล้ามเนื้อก้น (Glutes)",
         "กล้ามเนื้อแกนกลางลำตัว (Core)",
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
-      "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+      "angleDetailTh": "สัมผัสภายนอก / Oral Art: ควบคุมจังหวะสัมผัสได้อย่างอิสระ ไร้แรงกดทับภายใน"
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "An elevated oral position for exceptional pleasure.",
+    "isPenetrative": false,
+    "focusType": "oral"
   },
   {
     "id": "pussy-licking",
@@ -8306,9 +9381,9 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 3,
-    "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
-    "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
+    "gspot": 0,
+    "angle": "สัมผัสภายนอก / Oral Art: เน้นริมฝีปาก ลิ้น และปลายนิ้ว ควบคุมจังหวะอิสระ",
+    "descriptionTh": "การปรนเปรอคลิตอริสด้วยริมฝีปากและลิ้นอย่างละเมียดละไม มอบคลื่นความสุขสมที่ล้ำลึก",
     "imageUrl": "https://couplesexposition.com/images/positions/pussy-licking.webp",
     "anatomy": {
       "suitableTh": [
@@ -8317,17 +9392,22 @@ window.COUPLES_POSITIONS = [
         "การกระตุ้นคลิตอริส",
         "การจูบแนบชิด"
       ],
-      "clitoralTextTh": "การกระตุ้นคลิตอริสระดับยอดเยี่ยม จากการบดสัมผัสโดยตรงของกระดูกหัวหน่าวและแรงเสียดสีที่ตรงจุด",
+      "clitoralTextTh": "การกระตุ้นคลิตอริสอย่างตรงจุดและต่อเนื่องด้วยริมฝีปากและลิ้น มอบคลื่นความเสียวซ่านภายนอกที่ชัดเจน",
       "clitoralTipTh": "สามารถใช้มือช่วยสัมผัสลูบไล้หรือกดคลึงเป็นวงกลมเพื่อเร่งเร้าคลื่นความเสียวซ่านได้อย่างง่ายดาย",
-      "gspotTextTh": "การกระตุ้นจุด G-spot ระดับปานกลาง (3/5) สัมผัสความแน่นกระชับแบบทั่วถึง",
-      "gspotTipTh": "ปรับมุมการโน้มตัวเล็กน้อยเพื่อมองหาทิศทางที่สร้างความสุขสมได้ดีที่สุด",
+      "gspotTextTh": "ท่วงท่านี้เน้นการสัมผัสภายนอกหรือการใช้ปากเป็นหลัก จึงไม่มีการสอดใส่ทางช่องคลอดไปยังจุด G-Spot (หากต้องการกระตุ้นร่วมด้วย สามารถใช้นิ้วมือหรืออุปกรณ์ช่วยควบคู่กันได้)",
+      "gspotTipTh": "สามารถใช้นิ้วมือนวดวนสัมผัสจุดรับความรู้สึกด้านในขณะทำกิจกรรมเพื่อเพิ่มความสุขสมครบทุกมิติ",
       "musclesTh": [
         "กล้ามเนื้อก้น (Glutes)",
         "กล้ามเนื้อแกนกลางลำตัว (Core)",
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
-      "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+      "angleDetailTh": "สัมผัสภายนอก / Oral Art: ควบคุมจังหวะสัมผัสได้อย่างอิสระ ไร้แรงกดทับภายใน"
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "A dedicated position for giving cunnilingus.",
+    "isPenetrative": false,
+    "focusType": "oral"
   },
   {
     "id": "woven-rose",
@@ -8336,7 +9416,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 3,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/woven-rose.webp",
@@ -8359,7 +9439,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "An intricate, interlocking position of beauty and depth.",
+    "isPenetrative": true
   },
   {
     "id": "fireman",
@@ -8391,7 +9475,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A carrying position that requires strength and trust.",
+    "isPenetrative": true
   },
   {
     "id": "revelation",
@@ -8400,7 +9488,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/revelation.webp",
@@ -8422,7 +9510,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & A-spot",
+    "descriptionEn": "A revealing position that unveils new sensations.",
+    "isPenetrative": true
   },
   {
     "id": "column",
@@ -8452,7 +9544,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A strong, upright position like a supporting pillar.",
+    "isPenetrative": true
   },
   {
     "id": "shocker",
@@ -8461,7 +9557,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/shocker.webp",
@@ -8483,7 +9579,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "A stimulating position that truly shocks with pleasure.",
+    "isPenetrative": true
   },
   {
     "id": "drum",
@@ -8491,8 +9591,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Drum (เร่งเร้าทรงพลัง)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/drum.webp",
@@ -8514,7 +9614,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A rhythmic, beating position with a steady tempo.",
+    "isPenetrative": true
   },
   {
     "id": "young-stallion",
@@ -8522,7 +9626,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Young Stallion (แนบเนื้อกระชับแน่น)",
     "category": "him_lead",
     "difficulty": 3,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "สอดใส่จากด้านหลังหรือมุมกด ปลายทำมุมช้อนเข้าหาผนังช่องคลอดด้านหน้าอย่างหนักแน่น",
     "descriptionTh": "ฝ่ายชายเป็นผู้ควบคุมความลึกและจังหวะการเคลื่อนไหว สัมผัสถึงความกระชับและส่งมอบพลังแห่งความรักได้อย่างเต็มที่",
@@ -8545,7 +9649,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "สอดใส่จากด้านหลังหรือมุมกด ปลายทำมุมช้อนเข้าหาผนังช่องคลอดด้านหน้าอย่างหนักแน่น"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "An energetic, vigorous position for the enthusiastic.",
+    "isPenetrative": true
   },
   {
     "id": "inseminator",
@@ -8554,7 +9662,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 2,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/inseminator.webp",
@@ -8576,7 +9684,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot & A-spot",
+    "descriptionEn": "A deep, purposeful position designed for maximum depth.",
+    "isPenetrative": true
   },
   {
     "id": "master",
@@ -8584,7 +9696,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Master (ท้าทายผาดโผน)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -8608,7 +9720,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A dominant position with the penetrating partner in full control.",
+    "isPenetrative": true
   },
   {
     "id": "capricorn",
@@ -8616,8 +9732,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Capricorn (ประกบแนบชิด)",
     "category": "chill",
     "difficulty": 2,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/capricorn.webp",
@@ -8639,7 +9755,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A determined, persistent position inspired by the sea-goat.",
+    "isPenetrative": true
   },
   {
     "id": "libra",
@@ -8648,7 +9768,7 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/libra.webp",
@@ -8669,7 +9789,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "A balanced, harmonious position with equal give and take.",
+    "isPenetrative": true
   },
   {
     "id": "gemini",
@@ -8678,7 +9802,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/gemini.webp",
@@ -8700,7 +9824,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "A dual-natured position with two sides of pleasure.",
+    "isPenetrative": true
   },
   {
     "id": "fusion",
@@ -8731,7 +9859,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน"
       ],
       "angleDetailTh": "ประกบเคียงข้างขาไขว้สลับ สัมผัสผิวกายต่อผิวกาย 100%"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "A merging position where two bodies become one.",
+    "isPenetrative": true
   },
   {
     "id": "clock",
@@ -8739,8 +9871,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Clock (ควบคุมจังหวะอิสระ)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/clock.webp",
@@ -8763,7 +9895,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & A-spot",
+    "descriptionEn": "A rotating position that moves through different angles.",
+    "isPenetrative": true
   },
   {
     "id": "hot-lunch",
@@ -8771,7 +9907,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Hot Lunch (บดคลึงจุดสัมผัส)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -8794,7 +9930,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A serving position where the receiver is presented on a platter.",
+    "isPenetrative": true
   },
   {
     "id": "concubine",
@@ -8825,7 +9965,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A position of devotion and dedicated pleasure.",
+    "isPenetrative": true
   },
   {
     "id": "leapfrog",
@@ -8834,7 +9978,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/leapfrog.webp",
@@ -8857,7 +10001,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A jumping, acrobatic position that requires agility.",
+    "isPenetrative": true
   },
   {
     "id": "torch",
@@ -8888,7 +10036,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A position that ignites passion like a burning flame.",
+    "isPenetrative": true
   },
   {
     "id": "spork",
@@ -8897,7 +10049,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/spork.webp",
@@ -8919,7 +10071,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "A hybrid position combining two positions into one.",
+    "isPenetrative": true
   },
   {
     "id": "fire-hydrant",
@@ -8927,7 +10083,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "ไฟร์ไฮแดรนท์ (มุมข้างยกขาปลดปล่อย)",
     "category": "quick",
     "difficulty": 2,
-    "clitoral": 4,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "คุกเข่ายกขาข้างหนึ่งขึ้นสูง ปรับมุมให้กระทบผนังจุดจีสปอต",
     "descriptionTh": "เปิดมุมสอดใส่ด้านข้างที่แปลกใหม่ กระชับและกระตุ้นจุดรับสัมผัสภายในได้อย่างมหัศจรรย์",
@@ -8951,7 +10107,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "คุกเข่ายกขาข้างหนึ่งขึ้นสูง ปรับมุมให้กระทบผนังจุดจีสปอต"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A lifted position with the receiver raised and open.",
+    "isPenetrative": true
   },
   {
     "id": "lace",
@@ -8960,7 +10120,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/lace.webp",
@@ -8981,7 +10141,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Clitoral & G-spot",
+    "descriptionEn": "A delicate, intricate position with light touches.",
+    "isPenetrative": true
   },
   {
     "id": "spring",
@@ -8990,7 +10154,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/spring.webp",
@@ -9012,7 +10176,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "A bouncy, energetic position with spring-like movement.",
+    "isPenetrative": true
   },
   {
     "id": "spiderman",
@@ -9020,7 +10188,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Spiderman (มุมสรีระเปิดกว้าง)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -9044,7 +10212,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A wall-crawling position requiring acrobatic skill.",
+    "isPenetrative": true
   },
   {
     "id": "elephant",
@@ -9052,8 +10224,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Elephant (สบตาสุดโรแมนติก)",
     "category": "classic",
     "difficulty": 1,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ",
     "descriptionTh": "ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย ช่วยให้ช่วงเวลาแห่งความใกล้ชิดดำเนินไปอย่างนุ่มนวลและต่อเนื่อง",
     "imageUrl": "https://couplesexposition.com/images/positions/elephant.webp",
@@ -9073,7 +10245,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A slow, powerful position with a gentle giant feel.",
+    "isPenetrative": true
   },
   {
     "id": "orchid",
@@ -9082,7 +10258,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/orchid.webp",
@@ -9104,7 +10280,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "A rare, exotic position of exquisite beauty.",
+    "isPenetrative": true
   },
   {
     "id": "bicycle",
@@ -9113,7 +10293,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/bicycle.webp",
@@ -9136,7 +10316,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "A pedaling, cycling motion for varied stimulation.",
+    "isPenetrative": true
   },
   {
     "id": "caramel",
@@ -9145,7 +10329,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 1,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/caramel.webp",
@@ -9166,7 +10350,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A smooth, sweet position that melts like caramel.",
+    "isPenetrative": true
   },
   {
     "id": "python",
@@ -9174,8 +10362,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Python (องศาเฉียงเร้าอารมณ์)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/python.webp",
@@ -9198,7 +10386,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A squeezing, constricting position with a powerful grip.",
+    "isPenetrative": true
   },
   {
     "id": "watch",
@@ -9207,7 +10399,7 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/watch.webp",
@@ -9228,7 +10420,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "A position where you can gaze at each other like watching.",
+    "isPenetrative": true
   },
   {
     "id": "cradle",
@@ -9236,7 +10432,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "เปลกล่อมรัก (โอบกอดในอ้อมอก)",
     "category": "chill",
     "difficulty": 1,
-    "clitoral": 5,
+    "clitoral": 3,
     "gspot": 4,
     "angle": "ท่านั่งกอดประกบ สะโพกแนบสะโพก หายใจรดต้นคอ",
     "descriptionTh": "ท่านั่งโอบกอดที่อบอุ่นที่สุด ฝ่ายหญิงนั่งบนตักฝ่ายชาย ทั้งคู่สามารถจูบ ลูบไล้แผ่นหลัง และสบสายตากันได้เต็มที่",
@@ -9259,7 +10455,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน"
       ],
       "angleDetailTh": "ท่านั่งกอดประกบ สะโพกแนบสะโพก หายใจรดต้นคอ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A nurturing, cradling position that holds your partner close.",
+    "isPenetrative": true
   },
   {
     "id": "unicorn",
@@ -9267,7 +10467,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Unicorn (แนบเนื้อกระชับแน่น)",
     "category": "chill",
     "difficulty": 3,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -9291,7 +10491,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A rare, magical position that feels mythical.",
+    "isPenetrative": true
   },
   {
     "id": "staff",
@@ -9321,7 +10525,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A strong, upright position with a commanding presence.",
+    "isPenetrative": true
   },
   {
     "id": "virgo",
@@ -9329,8 +10537,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Virgo (ท้าทายผาดโผน)",
     "category": "romantic",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/virgo.webp",
@@ -9351,12 +10559,16 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A pure, precise position focused on perfect technique.",
+    "isPenetrative": true
   },
   {
     "id": "prison-guard",
-    "name": "Prison Guard",
-    "nameTh": "Prison Guard (ประกบแนบชิด)",
+    "name": "Guarded Passion",
+    "nameTh": "ควบคุมจังหวะรัก (Guarded Passion)",
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 2,
@@ -9383,7 +10595,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A restraining position with a dominant, controlling feel.",
+    "isPenetrative": true
   },
   {
     "id": "cello",
@@ -9392,7 +10608,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/cello.webp",
@@ -9414,12 +10630,16 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "A position that plays the body like a beautiful instrument.",
+    "isPenetrative": true
   },
   {
     "id": "crucifixion",
-    "name": "Crucifixion",
-    "nameTh": "Crucifixion (สบตาสุดโรแมนติก)",
+    "name": "Open Embrace",
+    "nameTh": "เปิดกว้างยอมจำนน (Open Embrace)",
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 2,
@@ -9446,7 +10666,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "An arms-spread position of vulnerability and depth.",
+    "isPenetrative": true
   },
   {
     "id": "puzzle",
@@ -9455,7 +10679,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/puzzle.webp",
@@ -9478,7 +10702,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "A complex position that&#39;s like solving a body puzzle.",
+    "isPenetrative": true
   },
   {
     "id": "fan",
@@ -9487,7 +10715,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/fan.webp",
@@ -9508,7 +10736,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "An opening, fanning position that unfolds like a fan.",
+    "isPenetrative": true
   },
   {
     "id": "taurus",
@@ -9516,7 +10748,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Taurus (บดคลึงจุดสัมผัส)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -9539,7 +10771,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A stubborn, powerful position with a charging energy.",
+    "isPenetrative": true
   },
   {
     "id": "nirvana",
@@ -9548,7 +10784,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/nirvana.webp",
@@ -9569,7 +10805,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "A transcendent position that leads to ultimate bliss.",
+    "isPenetrative": true
   },
   {
     "id": "airplane",
@@ -9577,8 +10817,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "แอร์เพลน (กางปีกโฉบสัมผัส)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 3,
-    "gspot": 4,
+    "clitoral": 2,
+    "gspot": 5,
     "angle": "แนวราบขนาน กางขาเปิดมุมกว้างเพื่อการสอดใส่ที่ลื่นไหล",
     "descriptionTh": "ดัดแปลงจากท่ามาตรฐานโดยการเปิดมุมขา ช่วยให้เข้าถึงได้ลึกขึ้นและเปิดพื้นที่ให้ใช้มือสัมผัสได้ทั่วเรือนร่าง",
     "imageUrl": "https://couplesexposition.com/images/positions/airplane.webp",
@@ -9600,7 +10840,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "แนวราบขนาน กางขาเปิดมุมกว้างเพื่อการสอดใส่ที่ลื่นไหล"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A flying position with the receiver lifted and soaring.",
+    "isPenetrative": true
   },
   {
     "id": "ribbon",
@@ -9608,8 +10852,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Ribbon (Reverse Spoon) (รีเวิร์ส - เร่งเร้าทรงพลัง)",
     "category": "chill",
     "difficulty": 1,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/ribbon.webp",
@@ -9630,7 +10874,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A reverse spooning position with a ribbon-like connection.",
+    "isPenetrative": true
   },
   {
     "id": "liana",
@@ -9639,7 +10887,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/liana.webp",
@@ -9661,7 +10909,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "Entwine together like jungle vines in this wrapped embrace.",
+    "isPenetrative": true
   },
   {
     "id": "cowboy",
@@ -9669,8 +10921,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Cowboy (พลิ้วไหวสง่างาม)",
     "category": "classic",
     "difficulty": 1,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ",
     "descriptionTh": "ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย ช่วยให้ช่วงเวลาแห่งความใกล้ชิดดำเนินไปอย่างนุ่มนวลและต่อเนื่อง",
     "imageUrl": "https://couplesexposition.com/images/positions/cowboy.webp",
@@ -9690,7 +10942,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "The penetrating partner takes the reins in this classic position.",
+    "isPenetrative": true
   },
   {
     "id": "oath",
@@ -9698,8 +10954,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Oath (ท้าทายผาดโผน)",
     "category": "chill",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/oath.webp",
@@ -9722,7 +10978,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A solemn, deeply connected pose that requires trust and balance.",
+    "isPenetrative": true
   },
   {
     "id": "hero",
@@ -9754,7 +11014,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A dominant, powerful position where one partner lifts the other.",
+    "isPenetrative": true
   },
   {
     "id": "ice-cream",
@@ -9763,7 +11027,7 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 3,
+    "gspot": 1,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/ice-cream.webp",
@@ -9784,7 +11048,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "A lazy, sensual position perfect for slow indulgence.",
+    "isPenetrative": true
   },
   {
     "id": "brute",
@@ -9793,7 +11061,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/brute.webp",
@@ -9816,7 +11084,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A rough, animalistic position for intense, primal connection.",
+    "isPenetrative": true
   },
   {
     "id": "backwards-cowgirl",
@@ -9824,7 +11096,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Backwards Cowgirl (คาวเกิร์ล - สัมผัสลึกซึ้ง)",
     "category": "her_lead",
     "difficulty": 2,
-    "clitoral": 4,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "แนวดิ่งทิ้งน้ำหนักลงตรง ฝ่ายหญิงปรับองศาเอนหน้าหรือหลังเพื่อควบคุมจุดกระทบได้ตามใจ",
     "descriptionTh": "ฝ่ายหญิงเป็นผู้กุมจังหวะและทิศทาง สามารถบดคลึงจุดคลิตอริสและค้นหามุมที่โดนจุดจีสปอตได้ด้วยตนเองอย่างแม่นยำ",
@@ -9847,7 +11119,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวดิ่งทิ้งน้ำหนักลงตรง ฝ่ายหญิงปรับองศาเอนหน้าหรือหลังเพื่อควบคุมจุดกระทบได้ตามใจ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A reverse angle of the classic cowgirl for new sensations.",
+    "isPenetrative": true
   },
   {
     "id": "bud",
@@ -9855,8 +11131,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Bud (ควบคุมจังหวะอิสระ)",
     "category": "chill",
     "difficulty": 1,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/bud.webp",
@@ -9877,7 +11153,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A gentle, blossoming position perfect for new connections.",
+    "isPenetrative": true
   },
   {
     "id": "sphinx",
@@ -9885,8 +11165,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Sphinx (บดคลึงจุดสัมผัส)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/sphinx.webp",
@@ -9909,7 +11189,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A mysterious, regal pose that demands flexibility and poise.",
+    "isPenetrative": true
   },
   {
     "id": "reflection",
@@ -9918,7 +11202,7 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/reflection.webp",
@@ -9940,7 +11224,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "Mirror each other&#39;s movements in this face-to-face embrace.",
+    "isPenetrative": true
   },
   {
     "id": "leo",
@@ -9948,8 +11236,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Leo (ผ่อนคลายสบายตัว)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/leo.webp",
@@ -9971,7 +11259,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A fierce, dominant position inspired by the lion king.",
+    "isPenetrative": true
   },
   {
     "id": "poplar",
@@ -9979,8 +11271,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Poplar (เร่งเร้าทรงพลัง)",
     "category": "chill",
     "difficulty": 2,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/poplar.webp",
@@ -10002,7 +11294,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "Stand tall together like a tree swaying in the wind.",
+    "isPenetrative": true
   },
   {
     "id": "iron",
@@ -10010,8 +11306,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Iron (แนบเนื้อกระชับแน่น)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/iron.webp",
@@ -10034,7 +11330,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A hard, unyielding position for intense, firm stimulation.",
+    "isPenetrative": true
   },
   {
     "id": "overpass",
@@ -10042,8 +11342,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Overpass (พลิ้วไหวสง่างาม)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/overpass.webp",
@@ -10066,7 +11366,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "Cross over your partner in this elevated, bridging position.",
+    "isPenetrative": true
   },
   {
     "id": "aries",
@@ -10074,8 +11378,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Aries (ท้าทายผาดโผน)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/aries.webp",
@@ -10097,7 +11401,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A bold, ram-inspired position with raised hips and deep entry.",
+    "isPenetrative": true
   },
   {
     "id": "arch",
@@ -10128,7 +11436,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & A-spot",
+    "descriptionEn": "Arch your back like a bridge for deeper, more intense angles.",
+    "isPenetrative": true
   },
   {
     "id": "marmalade",
@@ -10136,7 +11448,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Marmalade (มุมสรีระเปิดกว้าง)",
     "category": "romantic",
     "difficulty": 1,
-    "clitoral": 4,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
@@ -10158,7 +11470,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "Spread thick and sweet like your favorite morning preserve.",
+    "isPenetrative": true
   },
   {
     "id": "mexican-halloween",
@@ -10190,7 +11506,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A wild, fiesta-inspired position with legs everywhere.",
+    "isPenetrative": true
   },
   {
     "id": "valedictorian",
@@ -10198,8 +11518,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Valedictorian (สัมผัสลึกซึ้ง)",
     "category": "chill",
     "difficulty": 2,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/valedictorian.webp",
@@ -10221,7 +11541,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "Graduate to new levels of pleasure with this elevated position.",
+    "isPenetrative": true
   },
   {
     "id": "snake",
@@ -10230,7 +11554,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/snake.webp",
@@ -10251,7 +11575,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "Slither together in this fluid, full-body connected position.",
+    "isPenetrative": true
   },
   {
     "id": "jellyfish",
@@ -10259,8 +11587,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Jellyfish (บดคลึงจุดสัมผัส)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/jellyfish.webp",
@@ -10283,7 +11611,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "Float and pulse together like a mesmerizing sea creature.",
+    "isPenetrative": true
   },
   {
     "id": "surf-board",
@@ -10291,8 +11623,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Surf Board (องศาเฉียงเร้าอารมณ์)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/surf-board.webp",
@@ -10315,7 +11647,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "Ride the waves in this balanced, board-like position.",
+    "isPenetrative": true
   },
   {
     "id": "sledge",
@@ -10323,8 +11659,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Sledge (ผ่อนคลายสบายตัว)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/sledge.webp",
@@ -10346,7 +11682,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A powerful, hammering position with deep, rhythmic thrusts.",
+    "isPenetrative": true
   },
   {
     "id": "glass",
@@ -10355,7 +11695,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/glass.webp",
@@ -10377,7 +11717,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "Clear, transparent intimacy where you see everything.",
+    "isPenetrative": true
   },
   {
     "id": "angry-pirate",
@@ -10385,8 +11729,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Angry Pirate (โจรสลัด - แนบเนื้อกระชับแน่น)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/angry-pirate.webp",
@@ -10409,7 +11753,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A wild, swashbuckling position with unexpected twists.",
+    "isPenetrative": true
   },
   {
     "id": "train",
@@ -10417,8 +11765,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Train (พลิ้วไหวสง่างาม)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/train.webp",
@@ -10440,7 +11788,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "Chug along in this rhythmic, chugging position with steady momentum.",
+    "isPenetrative": true
   },
   {
     "id": "twins",
@@ -10449,7 +11801,7 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/twins.webp",
@@ -10470,7 +11822,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "Two becoming one in this perfectly mirrored face-to-face position.",
+    "isPenetrative": true
   },
   {
     "id": "jockey",
@@ -10500,7 +11856,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "Ride to victory with this low, streamlined position.",
+    "isPenetrative": true
   },
   {
     "id": "trunk",
@@ -10508,8 +11868,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Trunk (มุมสรีระเปิดกว้าง)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/trunk.webp",
@@ -10532,7 +11892,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A strong, elephant-inspired position with lifted legs.",
+    "isPenetrative": true
   },
   {
     "id": "honeymoon",
@@ -10541,7 +11905,7 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 3,
+    "gspot": 2,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/honeymoon.webp",
@@ -10562,7 +11926,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "Relive the magic of your first night together.",
+    "isPenetrative": true
   },
   {
     "id": "twix",
@@ -10571,7 +11939,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 2,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/twix.webp",
@@ -10593,7 +11961,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "Two layers of pleasure in this sandwich-style position.",
+    "isPenetrative": true
   },
   {
     "id": "ball",
@@ -10601,8 +11973,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Ball (ควบคุมจังหวะอิสระ)",
     "category": "chill",
     "difficulty": 1,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/ball.webp",
@@ -10623,7 +11995,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "Curl up together in this cozy, fetal-like embrace.",
+    "isPenetrative": true
   },
   {
     "id": "plaid",
@@ -10632,7 +12008,7 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/plaid.webp",
@@ -10654,7 +12030,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "A crosshatch of sensations in this intertwined position.",
+    "isPenetrative": true
   },
   {
     "id": "batman",
@@ -10663,7 +12043,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/batman.webp",
@@ -10686,7 +12066,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A superhero-worthy position with dramatic, cape-like leg positioning.",
+    "isPenetrative": true
   },
   {
     "id": "emmanuel",
@@ -10694,7 +12078,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Emmanuel (ผ่อนคลายสบายตัว)",
     "category": "chill",
     "difficulty": 2,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
@@ -10717,7 +12101,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & A-spot",
+    "descriptionEn": "A luxurious, cinematic position worthy of the silver screen.",
+    "isPenetrative": true
   },
   {
     "id": "zombie",
@@ -10749,7 +12137,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "Arms outstretched like the undead in this flat, rigid position.",
+    "isPenetrative": true
   },
   {
     "id": "stick-figure",
@@ -10758,7 +12150,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/stick-figure.webp",
@@ -10781,7 +12173,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "Create human stick figures with your extended limbs.",
+    "isPenetrative": true
   },
   {
     "id": "rabbit-ears",
@@ -10789,8 +12185,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Rabbit Ears (พลิ้วไหวสง่างาม)",
     "category": "chill",
     "difficulty": 1,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/rabbit-ears.webp",
@@ -10811,7 +12207,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "Perky and playful like a bunny in this gentle, upright position.",
+    "isPenetrative": true
   },
   {
     "id": "she-wolf",
@@ -10819,7 +12219,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "She-wolf (หมาป่า - ท้าทายผาดโผน)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -10842,7 +12242,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A fierce, dominant position where she takes control.",
+    "isPenetrative": true
   },
   {
     "id": "rainbow",
@@ -10873,7 +12277,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & A-spot",
+    "descriptionEn": "Arch into a colorful spectrum of sensations.",
+    "isPenetrative": true
   },
   {
     "id": "asian-cowgirl",
@@ -10882,7 +12290,7 @@ window.COUPLES_POSITIONS = [
     "category": "her_lead",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวดิ่งทิ้งน้ำหนักลงตรง ฝ่ายหญิงปรับองศาเอนหน้าหรือหลังเพื่อควบคุมจุดกระทบได้ตามใจ",
     "descriptionTh": "ฝ่ายหญิงเป็นผู้กุมจังหวะและทิศทาง สามารถบดคลึงจุดคลิตอริสและค้นหามุมที่โดนจุดจีสปอตได้ด้วยตนเองอย่างแม่นยำ",
     "imageUrl": "https://couplesexposition.com/images/positions/asian-cowgirl.webp",
@@ -10903,7 +12311,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวดิ่งทิ้งน้ำหนักลงตรง ฝ่ายหญิงปรับองศาเอนหน้าหรือหลังเพื่อควบคุมจุดกระทบได้ตามใจ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "A refined variation of cowgirl with subtle angle changes.",
+    "isPenetrative": true
   },
   {
     "id": "starfish",
@@ -10912,7 +12324,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/starfish.webp",
@@ -10933,7 +12345,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "Spread out like a starfish for maximum exposure and vulnerability.",
+    "isPenetrative": true
   },
   {
     "id": "thirst",
@@ -10942,7 +12358,7 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 3,
+    "gspot": 1,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/thirst.webp",
@@ -10963,7 +12379,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "Quench your desire with this eager, mouth-to-body position.",
+    "isPenetrative": true
   },
   {
     "id": "anaconda",
@@ -10972,7 +12392,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 2,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "สอดใส่จากด้านหลังหรือแนวประกบ รัดรอบสะโพกแนบแน่น",
     "descriptionTh": "เน้นการโอบรัดและควบคุมจังหวะโดยฝ่ายชาย ให้ความรู้สึกปกป้องและแนบสนิททุกตารางนิ้ว",
     "imageUrl": "https://couplesexposition.com/images/positions/anaconda.webp",
@@ -10994,7 +12414,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "สอดใส่จากด้านหลังหรือแนวประกบ รัดรอบสะโพกแนบแน่น"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A squeezing, constricting position for intense pressure.",
+    "isPenetrative": true
   },
   {
     "id": "goddess",
@@ -11002,7 +12426,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Goddess (เทพธิดา - บดคลึงจุดสัมผัส)",
     "category": "chill",
     "difficulty": 2,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
@@ -11025,7 +12449,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & A-spot",
+    "descriptionEn": "Worship and be worshipped in this reverent, elevated position.",
+    "isPenetrative": true
   },
   {
     "id": "amphibian",
@@ -11033,8 +12461,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "สะเทินน้ำสะเทินบก (ปรับมุมหลากมิติ)",
     "category": "adventurous",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 4,
+    "clitoral": 2,
+    "gspot": 5,
     "angle": "มุมเอียงกึ่งคว่ำกึ่งตะแคง ปลายชี้สู่จุดสัมผัสภายใน",
     "descriptionTh": "ท่ากึ่งคว่ำที่ผ่อนคลายสบายตัว ไม่เมื่อยล้า สามารถเพลิดเพลินกับจังหวะรักได้อย่างยาวนาน",
     "imageUrl": "https://couplesexposition.com/images/positions/amphibian.webp",
@@ -11056,7 +12484,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน"
       ],
       "angleDetailTh": "มุมเอียงกึ่งคว่ำกึ่งตะแคง ปลายชี้สู่จุดสัมผัสภายใน"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A frog-like position that works on land and in the shower.",
+    "isPenetrative": true
   },
   {
     "id": "female-peasant",
@@ -11064,7 +12496,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Female Peasant (ผ่อนคลายสบายตัว)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -11087,7 +12519,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Gspot",
+    "descriptionEn": "A humble, hardworking position that gets the job done.",
+    "isPenetrative": true
   },
   {
     "id": "plain",
@@ -11095,8 +12531,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Plain (เร่งเร้าทรงพลัง)",
     "category": "classic",
     "difficulty": 1,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ",
     "descriptionTh": "ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย ช่วยให้ช่วงเวลาแห่งความใกล้ชิดดำเนินไปอย่างนุ่มนวลและต่อเนื่อง",
     "imageUrl": "https://couplesexposition.com/images/positions/plain.webp",
@@ -11116,7 +12552,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "Simple, no-frills pleasure that gets straight to the point.",
+    "isPenetrative": true
   },
   {
     "id": "ballet-dancer",
@@ -11124,7 +12564,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "นักบัลเลต์ (พลิ้วไหวชดช้อย)",
     "category": "chill",
     "difficulty": 2,
-    "clitoral": 4,
+    "clitoral": 3,
     "gspot": 4,
     "angle": "ท่ายืนหรือกึ่งยืน ยกขาข้างหนึ่งพาดสะโพก เปิดองศาเรียวยาว",
     "descriptionTh": "ท่วงท่าที่งดงามประหนึ่งการร่ายรำ ให้ความรู้สึกเย้ายวน สง่างาม และได้สัมผัสมุมใหม่ที่ไม่ซ้ำใคร",
@@ -11148,7 +12588,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "ท่ายืนหรือกึ่งยืน ยกขาข้างหนึ่งพาดสะโพก เปิดองศาเรียวยาว"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A graceful, dance-like position requiring balance and poise.",
+    "isPenetrative": true
   },
   {
     "id": "acrobat",
@@ -11157,7 +12601,7 @@ window.COUPLES_POSITIONS = [
     "category": "quick",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมเฉียงขึ้นจากด้านล่าง ฝ่ายหญิงทรงตัวบนสะโพกหรือขอบเตียง",
     "descriptionTh": "ท่าท้าทายที่ต้องใช้ความยืดหยุ่นและพละกำลัง ให้มุมมองทางสายตาที่เร้าใจและสัมผัสลึกซึ้ง",
     "imageUrl": "https://couplesexposition.com/images/positions/acrobat.webp",
@@ -11180,7 +12624,12 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมเฉียงขึ้นจากด้านล่าง ฝ่ายหญิงทรงตัวบนสะโพกหรือขอบเตียง"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "Defy gravity and expectations with this circus-worthy position.",
+    "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
+    "isPenetrative": true
   },
   {
     "id": "italian-chandelier",
@@ -11188,8 +12637,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Italian Chandelier (ท้าทายผาดโผน)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/italian-chandelier.webp",
@@ -11212,7 +12661,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "An ornate, hanging position inspired by elegant lighting fixtures.",
+    "isPenetrative": true
   },
   {
     "id": "alley",
@@ -11220,8 +12673,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "ตรอกแคบ (แนบเนื้อกระชับแน่น)",
     "category": "adventurous",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 3,
+    "clitoral": 2,
+    "gspot": 5,
     "angle": "มุมประกบด้านข้าง ขาแนบชิดเพื่อเพิ่มความกระชับ",
     "descriptionTh": "ท่าสบายๆ ที่ให้ความรู้สึกอบอุ่นแนบแน่น ขาทั้งสองข้างหนีบชิดช่วยเพิ่มแรงเสียดสีและความสุขสม",
     "imageUrl": "https://couplesexposition.com/images/positions/alley.webp",
@@ -11243,7 +12696,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน"
       ],
       "angleDetailTh": "มุมประกบด้านข้าง ขาแนบชิดเพื่อเพิ่มความกระชับ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A tight, narrow passage for intense, confined sensations.",
+    "isPenetrative": true
   },
   {
     "id": "clip",
@@ -11252,7 +12709,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 2,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/clip.webp",
@@ -11274,7 +12731,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "Clip onto your partner for this secure, attached position.",
+    "isPenetrative": true
   },
   {
     "id": "mirage",
@@ -11283,7 +12744,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/mirage.webp",
@@ -11305,7 +12766,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "An illusory, dreamlike position where reality blurs.",
+    "isPenetrative": true
   },
   {
     "id": "eraser",
@@ -11314,7 +12779,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 4,
+    "gspot": 2,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/eraser.webp",
@@ -11336,7 +12801,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "Rub away all your stress in this grinding, erasing motion.",
+    "isPenetrative": true
   },
   {
     "id": "pointer",
@@ -11367,7 +12836,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & A-spot",
+    "descriptionEn": "Point your partner in the right direction with this guided position.",
+    "isPenetrative": true
   },
   {
     "id": "aquarius",
@@ -11376,7 +12849,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/aquarius.webp",
@@ -11398,7 +12871,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "Flow like water in this fluid, wave-like position.",
+    "isPenetrative": true
   },
   {
     "id": "barberry",
@@ -11406,8 +12883,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Barberry (องศาเฉียงเร้าอารมณ์)",
     "category": "romantic",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/barberry.webp",
@@ -11428,7 +12905,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A tart, tangy position that adds a little zing.",
+    "isPenetrative": true
   },
   {
     "id": "superman",
@@ -11437,7 +12918,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมทะยานจากด้านหลัง ขาเหยียดตรงแนบขนาน",
     "descriptionTh": "ท่ายอดนิยมที่ให้ความรู้สึกพุ่งทะยานสู่จุดสูงสุด ร่างกายเหยียดตรงรับแรงสัมผัสได้อย่างเต็มพลัง",
     "imageUrl": "https://couplesexposition.com/images/positions/superman.webp",
@@ -11460,7 +12941,12 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมทะยานจากด้านหลัง ขาเหยียดตรงแนบขนาน"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "Fly through the air in this elevated, flying-inspired position.",
+    "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
+    "isPenetrative": true
   },
   {
     "id": "pretzel-dip",
@@ -11491,7 +12977,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & A-spot",
+    "descriptionEn": "Twist and turn like a pretzel for multiple angles of stimulation.",
+    "isPenetrative": true
   },
   {
     "id": "joystick",
@@ -11500,7 +12990,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 2,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/joystick.webp",
@@ -11522,7 +13012,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "Take control of the game in this interactive, hands-on position.",
+    "isPenetrative": true
   },
   {
     "id": "horizon",
@@ -11553,7 +13047,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "Gaze at the horizon in this expansive, open position.",
+    "isPenetrative": true
   },
   {
     "id": "tiramisu",
@@ -11562,7 +13060,7 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/tiramisu.webp",
@@ -11583,7 +13081,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Gspot & Clitoral",
+    "descriptionEn": "A layered, indulgent experience like the Italian dessert.",
+    "isPenetrative": true
   },
   {
     "id": "golden-gate",
@@ -11591,8 +13093,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "โกลเดนเกต (สะพานทองเปิดทางรัก)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมโค้งแอ่นสะโพกขึ้น สอดใส่เป็นมุมตัดช้อนลึก",
     "descriptionTh": "ฝ่ายหญิงแอ่นสะโพกขึ้นในลักษณะสะพานโค้งเล็กน้อย ช่วยเปลี่ยนทิศทางการสอดใส่ให้สัมผัสจุดรับความรู้สึกได้อย่างตรงเป้า",
     "imageUrl": "https://couplesexposition.com/images/positions/golden-gate.webp",
@@ -11615,7 +13117,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมโค้งแอ่นสะโพกขึ้น สอดใส่เป็นมุมตัดช้อนลึก"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "Bridge the gap between you in this arching, bridging position.",
+    "isPenetrative": true
   },
   {
     "id": "caliper",
@@ -11623,7 +13129,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Caliper (มุมสรีระเปิดกว้าง)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -11646,7 +13152,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "Measure and adjust with precision in this measured position.",
+    "isPenetrative": true
   },
   {
     "id": "basket",
@@ -11654,8 +13164,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Basket (สบตาสุดโรแมนติก)",
     "category": "romantic",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/basket.webp",
@@ -11676,7 +13186,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "Hold your partner close like a precious basket.",
+    "isPenetrative": true
   },
   {
     "id": "flash",
@@ -11684,7 +13198,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Flash (สัมผัสลึกซึ้ง)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -11707,7 +13221,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A quick, lightning-fast position for intense, brief encounters.",
+    "isPenetrative": true
   },
   {
     "id": "libido",
@@ -11716,7 +13234,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/libido.webp",
@@ -11738,7 +13256,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "Awaken your raw desire in this passionate, hunger-driven position.",
+    "isPenetrative": true
   },
   {
     "id": "watering-can",
@@ -11746,8 +13268,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Watering Can (บดคลึงจุดสัมผัส)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/watering-can.webp",
@@ -11769,7 +13291,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "Pour pleasure like water from a can in this tilted position.",
+    "isPenetrative": true
   },
   {
     "id": "accordion",
@@ -11778,7 +13304,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมกดดิ่งลึก ฝ่ายหญิงยกขาทบชิดหน้าอก ปลายกระทบจุดจีอย่างหนักแน่น",
     "descriptionTh": "ฝ่ายหญิงนอนหงายและยกขาทั้งสองข้างพับแนบชิดอก ช่วยให้มุมการสอดใส่แคบและแนบแน่นที่สุด สัมผัสถึงความลึกเต็มพิกัด",
     "imageUrl": "https://couplesexposition.com/images/positions/accordion.webp",
@@ -11801,7 +13327,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมกดดิ่งลึก ฝ่ายหญิงยกขาทบชิดหน้าอก ปลายกระทบจุดจีอย่างหนักแน่น"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "Fold and expand like an accordion for varied sensations.",
+    "isPenetrative": true
   },
   {
     "id": "blade",
@@ -11809,7 +13339,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Blade (ผ่อนคลายสบายตัว)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -11833,7 +13363,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Gspot & Deep spot",
+    "descriptionEn": "A sharp, cutting angle that slices through the ordinary.",
+    "isPenetrative": true
   },
   {
     "id": "snail",
@@ -11842,7 +13376,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 1,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/snail.webp",
@@ -11863,7 +13397,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Gspot",
+    "descriptionEn": "Slow and steady wins the race in this shell-like position.",
+    "isPenetrative": true
   },
   {
     "id": "shining",
@@ -11872,7 +13410,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/shining.webp",
@@ -11894,7 +13432,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Gspot & Clitoral",
+    "descriptionEn": "Let your partner shine in this spotlight-inspired position.",
+    "isPenetrative": true
   },
   {
     "id": "narcissus",
@@ -11903,7 +13445,7 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/narcissus.webp",
@@ -11925,7 +13467,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Gspot & Clitoral",
+    "descriptionEn": "Gaze at your reflection in your partner&#39;s eyes during lovemaking.",
+    "isPenetrative": true
   },
   {
     "id": "diamond",
@@ -11933,7 +13479,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Diamond (เพชรน้ำหนึ่ง - ท้าทายผาดโผน)",
     "category": "chill",
     "difficulty": 2,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
@@ -11956,7 +13502,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Gspot & Deep spot",
+    "descriptionEn": "Create a diamond shape with your legs for a precious experience.",
+    "isPenetrative": true
   },
   {
     "id": "screwdriver",
@@ -11964,8 +13514,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Screwdriver (ประกบแนบชิด)",
     "category": "him_lead",
     "difficulty": 2,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "สอดใส่จากด้านหลังหรือมุมกด ปลายทำมุมช้อนเข้าหาผนังช่องคลอดด้านหน้าอย่างหนักแน่น",
     "descriptionTh": "ฝ่ายชายเป็นผู้ควบคุมความลึกและจังหวะการเคลื่อนไหว สัมผัสถึงความกระชับและส่งมอบพลังแห่งความรักได้อย่างเต็มที่",
     "imageUrl": "https://couplesexposition.com/images/positions/screwdriver.webp",
@@ -11986,7 +13536,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "สอดใส่จากด้านหลังหรือมุมกด ปลายทำมุมช้อนเข้าหาผนังช่องคลอดด้านหน้าอย่างหนักแน่น"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Gspot & Deep spot",
+    "descriptionEn": "Twist and turn like a screwdriver for varied stimulation.",
+    "isPenetrative": true
   },
   {
     "id": "iris",
@@ -11995,7 +13549,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/iris.webp",
@@ -12016,7 +13570,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Gspot & Clitoral",
+    "descriptionEn": "A flower-inspired position that unfolds like a blooming iris.",
+    "isPenetrative": true
   },
   {
     "id": "bench",
@@ -12024,7 +13582,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Bench (สบตาสุดโรแมนติก)",
     "category": "adventurous",
     "difficulty": 1,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -12046,7 +13604,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Gspot",
+    "descriptionEn": "A sturdy, reliable position like a well-built bench.",
+    "isPenetrative": true
   },
   {
     "id": "dejavu",
@@ -12055,7 +13617,7 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/dejavu.webp",
@@ -12076,7 +13638,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Gspot & Clitoral",
+    "descriptionEn": "That familiar feeling of coming home to each other.",
+    "isPenetrative": true
   },
   {
     "id": "belt",
@@ -12084,8 +13650,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Belt (ควบคุมจังหวะอิสระ)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/belt.webp",
@@ -12107,7 +13673,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Gspot & Deep spot",
+    "descriptionEn": "Hold on tight like a belt in this gripping, restraining position.",
+    "isPenetrative": true
   },
   {
     "id": "discharge",
@@ -12115,8 +13685,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Discharge (บดคลึงจุดสัมผัส)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/discharge.webp",
@@ -12139,7 +13709,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "Release all your energy in this explosive, cathartic position.",
+    "isPenetrative": true
   },
   {
     "id": "forbidden-fruit",
@@ -12170,7 +13744,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Gspot & Deep spot",
+    "descriptionEn": "Indulge in something naughty and taboo with this daring position.",
+    "isPenetrative": true
   },
   {
     "id": "scorpio",
@@ -12178,8 +13756,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Scorpio (ผ่อนคลายสบายตัว)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/scorpio.webp",
@@ -12202,7 +13780,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A stinging, intense position inspired by the scorpion&#39;s tail.",
+    "isPenetrative": true
   },
   {
     "id": "olympus",
@@ -12211,7 +13793,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/olympus.webp",
@@ -12234,7 +13816,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "Reach the heights of the gods in this elevated, majestic position.",
+    "isPenetrative": true
   },
   {
     "id": "depth",
@@ -12242,8 +13828,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Depth (แนบเนื้อกระชับแน่น)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/depth.webp",
@@ -12266,7 +13852,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "Plunge to new depths in this maximum-penetration position.",
+    "isPenetrative": true
   },
   {
     "id": "venus",
@@ -12275,7 +13865,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/venus.webp",
@@ -12297,7 +13887,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Gspot & Clitoral",
+    "descriptionEn": "Channel the goddess of love in this beautiful, worship-inspired position.",
+    "isPenetrative": true
   },
   {
     "id": "lock",
@@ -12306,7 +13900,7 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/lock.webp",
@@ -12327,7 +13921,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Gspot & Clitoral",
+    "descriptionEn": "Lock together in this secure, interlocking position.",
+    "isPenetrative": true
   },
   {
     "id": "avalanche",
@@ -12336,7 +13934,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/avalanche.webp",
@@ -12359,7 +13957,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "An overwhelming rush of sensation like a snow avalanche.",
+    "isPenetrative": true
   },
   {
     "id": "rodeo",
@@ -12367,7 +13969,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Rodeo (มุมสรีระเปิดกว้าง)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -12391,7 +13993,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Gspot & Deep spot",
+    "descriptionEn": "Hold on tight for this wild, bucking bronco ride.",
+    "isPenetrative": true
   },
   {
     "id": "case",
@@ -12399,8 +14005,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Case (สบตาสุดโรแมนติก)",
     "category": "romantic",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 3,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/case.webp",
@@ -12421,7 +14027,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Gspot",
+    "descriptionEn": "A protective, enclosed position like a precious case.",
+    "isPenetrative": true
   },
   {
     "id": "tango",
@@ -12430,7 +14040,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/tango.webp",
@@ -12452,7 +14062,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Gspot",
+    "descriptionEn": "A passionate dance of bodies in this rhythmic, flowing position.",
+    "isPenetrative": true
   },
   {
     "id": "croissant",
@@ -12460,8 +14074,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Croissant (ควบคุมจังหวะอิสระ)",
     "category": "romantic",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/croissant.webp",
@@ -12482,7 +14096,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Gspot",
+    "descriptionEn": "A curved, flaky position as delightful as the French pastry.",
+    "isPenetrative": true
   },
   {
     "id": "mast",
@@ -12490,8 +14108,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Mast (บดคลึงจุดสัมผัส)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/mast.webp",
@@ -12514,7 +14132,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A tall, rigid position inspired by a ship&#39;s mast.",
+    "isPenetrative": true
   },
   {
     "id": "speaker",
@@ -12545,7 +14167,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Gspot & Deep spot",
+    "descriptionEn": "Turn up the volume on pleasure in this amplifying position.",
+    "isPenetrative": true
   },
   {
     "id": "victory",
@@ -12554,7 +14180,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/victory.webp",
@@ -12577,7 +14203,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Gspot & Clitoral",
+    "descriptionEn": "Raise your arms in triumph in this victorious, celebratory position.",
+    "isPenetrative": true
   },
   {
     "id": "bullfighter",
@@ -12609,7 +14239,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Gspot & Deep spot",
+    "descriptionEn": "Face the bull in this dramatic, matador-inspired position.",
+    "isPenetrative": true
   },
   {
     "id": "hucklebuck",
@@ -12618,7 +14252,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 2,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/hucklebuck.webp",
@@ -12640,7 +14274,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Gspot",
+    "descriptionEn": "A retro, dance-inspired position with a fun, bouncy rhythm.",
+    "isPenetrative": true
   },
   {
     "id": "barbell",
@@ -12649,7 +14287,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/barbell.webp",
@@ -12672,7 +14310,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "Lift heavy in this weightlifting-inspired power position.",
+    "isPenetrative": true
   },
   {
     "id": "magic-mountain",
@@ -12680,7 +14322,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "ภูเขามายา (หนุนสะโพกสุขสม)",
     "category": "her_lead",
     "difficulty": 1,
-    "clitoral": 5,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "ใช้หมอนหนุนใต้สะโพกสูง องศายกเอียงรับสัมผัสได้ลึกที่สุด",
     "descriptionTh": "การใช้หมอนหรือเบาะรองใต้สะโพกช่วยเปลี่ยนมุมสรีระให้รับการเสียดสีได้อย่างสมบูรณ์แบบ ทั้งจุดคลิตอริสและจีสปอต",
@@ -12703,7 +14345,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน"
       ],
       "angleDetailTh": "ใช้หมอนหนุนใต้สะโพกสูง องศายกเอียงรับสัมผัสได้ลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Gspot & Deep spot",
+    "descriptionEn": "Climb to the peak of pleasure in this mountainous position.",
+    "isPenetrative": true
   },
   {
     "id": "sagittarius",
@@ -12735,7 +14381,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Gspot & Deep spot",
+    "descriptionEn": "Aim for the stars with this archer-inspired leg extension.",
+    "isPenetrative": true
   },
   {
     "id": "aphrodite",
@@ -12766,7 +14416,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน"
       ],
       "angleDetailTh": "มุมสอดใส่เฉียงขึ้นอย่างนุ่มนวล พร้อมพื้นที่นวดสัมผัสคลิตอริส"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Gspot & Clitoral",
+    "descriptionEn": "Channel the goddess of love in this beautiful, worshipful position.",
+    "isPenetrative": true
   },
   {
     "id": "casket",
@@ -12775,7 +14429,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/casket.webp",
@@ -12798,7 +14452,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A dark, enclosed position for intense, coffin-like sensations.",
+    "isPenetrative": true
   },
   {
     "id": "bizet",
@@ -12807,7 +14465,7 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/bizet.webp",
@@ -12829,7 +14487,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Gspot & Clitoral",
+    "descriptionEn": "A passionate, opera-inspired position with dramatic flair.",
+    "isPenetrative": true
   },
   {
     "id": "soldier",
@@ -12837,8 +14499,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Soldier (ควบคุมจังหวะอิสระ)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/soldier.webp",
@@ -12860,7 +14522,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Gspot & Deep spot",
+    "descriptionEn": "A disciplined, rigid position with legs at attention.",
+    "isPenetrative": true
   },
   {
     "id": "cleopatra",
@@ -12869,7 +14535,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/cleopatra.webp",
@@ -12891,7 +14557,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A regal position worthy of the legendary queen.",
+    "isPenetrative": true
   },
   {
     "id": "idyll",
@@ -12900,7 +14570,7 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 3,
+    "gspot": 1,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/idyll.webp",
@@ -12921,7 +14591,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "A peaceful, pastoral position for pure bliss.",
+    "isPenetrative": true
   },
   {
     "id": "flame",
@@ -12929,8 +14603,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Flame (ผ่อนคลายสบายตัว)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/flame.webp",
@@ -12953,7 +14627,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A fiery position that burns with intense passion.",
+    "isPenetrative": true
   },
   {
     "id": "cancer",
@@ -12984,7 +14662,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A sideways-crab position with legs and arms working.",
+    "isPenetrative": true
   },
   {
     "id": "hook",
@@ -12992,8 +14674,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Hook (ตะขอเกี่ยว - แนบเนื้อกระชับแน่น)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/hook.webp",
@@ -13016,7 +14698,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A hooking position with one leg hooked over the shoulder.",
+    "isPenetrative": true
   },
   {
     "id": "ecstasy",
@@ -13025,7 +14711,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/ecstasy.webp",
@@ -13047,7 +14733,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "A position designed to build to mind-blowing orgasms.",
+    "isPenetrative": true
   },
   {
     "id": "harmony",
@@ -13055,8 +14745,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Harmony (ท้าทายผาดโผน)",
     "category": "romantic",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 3,
+    "clitoral": 3,
+    "gspot": 1,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/harmony.webp",
@@ -13077,7 +14767,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Neutral",
+    "descriptionEn": "A harmonious position where both partners move as one.",
+    "isPenetrative": true
   },
   {
     "id": "ape",
@@ -13086,7 +14780,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/ape.webp",
@@ -13109,16 +14803,20 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A primal, animalistic position for raw pleasure.",
+    "isPenetrative": true
   },
   {
     "id": "binding",
-    "name": "Binding",
-    "nameTh": "Binding (มุมสรีระเปิดกว้าง)",
+    "name": "Silk Bond",
+    "nameTh": "สัมผัสตรึงใจ (Silk Bond)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/binding.webp",
@@ -13141,16 +14839,20 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A tied-up, restrained position for submission play.",
+    "isPenetrative": true
   },
   {
     "id": "sex-slave",
-    "name": "Sex Slave",
-    "nameTh": "Sex Slave (สบตาสุดโรแมนติก)",
+    "name": "Sweet Surrender",
+    "nameTh": "ยอมจำนนด้วยรัก (Sweet Surrender)",
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 2,
-    "gspot": 5,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/sex-slave.webp",
@@ -13173,7 +14875,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A total submission position for power exchange.",
+    "isPenetrative": true
   },
   {
     "id": "gorge",
@@ -13181,8 +14887,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Gorge (สัมผัสลึกซึ้ง)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/gorge.webp",
@@ -13205,7 +14911,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A deep, narrow position for maximum tightness.",
+    "isPenetrative": true
   },
   {
     "id": "book",
@@ -13214,7 +14924,7 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 3,
+    "gspot": 2,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/book.webp",
@@ -13235,7 +14945,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "An open-book position with complete vulnerability.",
+    "isPenetrative": true
   },
   {
     "id": "indian-style",
@@ -13244,7 +14958,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 3,
-    "gspot": 3,
+    "gspot": 2,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/indian-style.webp",
@@ -13265,7 +14979,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "Neutral",
+    "descriptionEn": "A cross-legged seated position for tantric connection.",
+    "isPenetrative": true
   },
   {
     "id": "speed-bump",
@@ -13273,8 +14991,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Speed Bump (องศาเฉียงเร้าอารมณ์)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/speed-bump.webp",
@@ -13296,7 +15014,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A bump-and-grind position for rhythmic pleasure.",
+    "isPenetrative": true
   },
   {
     "id": "wall",
@@ -13304,8 +15026,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Wall (พิงผนัง - ผ่อนคลายสบายตัว)",
     "category": "quick",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "ท่ายืนหรือกึ่งยืน ปรับระดับความสูงให้เข้ากับสะโพก เหมาะสำหรับช่วงเวลาเร่งด่วน",
     "descriptionTh": "ตอบสนองความเร่าร้อนอย่างฉับไว เหมาะสำหรับช่วงเวลาที่ความปรารถนาพุ่งสูง ไม่จำเป็นต้องมีพิธีรีตองมากความ",
     "imageUrl": "https://couplesexposition.com/images/positions/wall.webp",
@@ -13328,7 +15050,12 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "ท่ายืนหรือกึ่งยืน ปรับระดับความสูงให้เข้ากับสะโพก เหมาะสำหรับช่วงเวลาเร่งด่วน"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A standing-against-the-wall position for adventure.",
+    "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
+    "isPenetrative": true
   },
   {
     "id": "sprout",
@@ -13336,8 +15063,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Sprout (เร่งเร้าทรงพลัง)",
     "category": "chill",
     "difficulty": 1,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/sprout.webp",
@@ -13358,7 +15085,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A growing, budding position that starts small and expands.",
+    "isPenetrative": true
   },
   {
     "id": "waterfall",
@@ -13366,8 +15097,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "สายน้ำตก (ไหลรินชุ่มฉ่ำ)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 4,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "สะโพกเลื่อนลงมาที่ริมขอบเตียง ทิ้งขาปล่อยตามสบาย",
     "descriptionTh": "การใช้ประโยชน์จากระดับความสูงของขอบเตียง ช่วยให้ฝ่ายชายส่งมอบความรักได้อย่างถนัดมือและเป็นธรรมชาติที่สุด",
     "imageUrl": "https://couplesexposition.com/images/positions/waterfall.webp",
@@ -13390,7 +15121,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "สะโพกเลื่อนลงมาที่ริมขอบเตียง ทิ้งขาปล่อยตามสบาย"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A cascading position with the receiving partner upside down.",
+    "isPenetrative": true
   },
   {
     "id": "basset-hound",
@@ -13398,8 +15133,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Basset Hound (พลิ้วไหวสง่างาม)",
     "category": "romantic",
     "difficulty": 1,
-    "clitoral": 4,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 3,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/basset-hound.webp",
@@ -13420,7 +15155,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A droopy, relaxed position like the laid-back hound.",
+    "isPenetrative": true
   },
   {
     "id": "tornado",
@@ -13428,7 +15167,7 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Tornado (ท้าทายผาดโผน)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
+    "clitoral": 2,
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
@@ -13452,7 +15191,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot & Deep spot",
+    "descriptionEn": "A swirling, spinning position for wild sensations.",
+    "isPenetrative": true
   },
   {
     "id": "swing",
@@ -13460,8 +15203,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Swing (ชิงช้า - ประกบแนบชิด)",
     "category": "adventurous",
     "difficulty": 2,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/swing.webp",
@@ -13483,7 +15226,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A swinging, pendulum-like position for rhythmic motion.",
+    "isPenetrative": true
   },
   {
     "id": "spoon",
@@ -13492,7 +15239,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 1,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/spoon.webp",
@@ -13513,7 +15260,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A classic spooning position for maximum closeness.",
+    "isPenetrative": true
   },
   {
     "id": "whisper",
@@ -13522,7 +15273,7 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 3,
+    "gspot": 1,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/whisper.webp",
@@ -13543,7 +15294,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "A close position designed for whispered intimacy.",
+    "isPenetrative": true
   },
   {
     "id": "inquisitor",
@@ -13551,8 +15306,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Inquisitor (สัมผัสลึกซึ้ง)",
     "category": "adventurous",
     "difficulty": 3,
-    "clitoral": 3,
-    "gspot": 5,
+    "clitoral": 2,
+    "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/inquisitor.webp",
@@ -13575,7 +15330,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "Deep spot",
+    "descriptionEn": "A dominant, questioning position for interrogation play.",
+    "isPenetrative": true
   },
   {
     "id": "circle",
@@ -13584,7 +15343,7 @@ window.COUPLES_POSITIONS = [
     "category": "chill",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/circle.webp",
@@ -13606,7 +15365,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot & Clitoral",
+    "descriptionEn": "A circular, grinding position for continuous pleasure.",
+    "isPenetrative": true
   },
   {
     "id": "disco",
@@ -13615,7 +15378,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 2,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/disco.webp",
@@ -13637,7 +15400,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A dancing, grooving position with funky movements.",
+    "isPenetrative": true
   },
   {
     "id": "boat",
@@ -13645,8 +15412,8 @@ window.COUPLES_POSITIONS = [
     "nameTh": "Boat (เรือพาย - องศาเฉียงเร้าอารมณ์)",
     "category": "chill",
     "difficulty": 1,
-    "clitoral": 2,
-    "gspot": 5,
+    "clitoral": 3,
+    "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
     "imageUrl": "https://couplesexposition.com/images/positions/boat.webp",
@@ -13667,7 +15434,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A rocking, floating position like a boat on water.",
+    "isPenetrative": true
   },
   {
     "id": "candle",
@@ -13676,7 +15447,7 @@ window.COUPLES_POSITIONS = [
     "category": "romantic",
     "difficulty": 1,
     "clitoral": 5,
-    "gspot": 3,
+    "gspot": 1,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
     "imageUrl": "https://couplesexposition.com/images/positions/candle.webp",
@@ -13697,7 +15468,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อสะโพก (Hip flexors)"
       ],
       "angleDetailTh": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท"
-    }
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "A warm, flickering position for romantic evenings.",
+    "isPenetrative": true
   },
   {
     "id": "straddle",
@@ -13728,7 +15503,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A straddling position with full control for the rider.",
+    "isPenetrative": true
   },
   {
     "id": "clapper",
@@ -13737,7 +15516,7 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 3,
     "clitoral": 3,
-    "gspot": 5,
+    "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
     "imageUrl": "https://couplesexposition.com/images/positions/clapper.webp",
@@ -13760,7 +15539,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อหลังส่วนล่าง (Lower back)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Medium",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A clapping, slapping position for rhythmic impact.",
+    "isPenetrative": true
   },
   {
     "id": "shuttle",
@@ -13791,7 +15574,11 @@ window.COUPLES_POSITIONS = [
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
       "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+    },
+    "depth": "Deep",
+    "stimulationFocus": "G-spot",
+    "descriptionEn": "A back-and-forth shuttle motion for consistent pleasure.",
+    "isPenetrative": true
   },
   {
     "id": "new-69",
@@ -13800,9 +15587,9 @@ window.COUPLES_POSITIONS = [
     "category": "adventurous",
     "difficulty": 2,
     "clitoral": 5,
-    "gspot": 4,
-    "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
-    "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
+    "gspot": 0,
+    "angle": "สัมผัสภายนอก / Oral Art: เน้นริมฝีปาก ลิ้น และปลายนิ้ว ควบคุมจังหวะอิสระ",
+    "descriptionTh": "ท่า 69 ในมุมผ่อนคลายแบบนอนตะแคง ช่วยให้ทั้งสองฝ่ายสบตากันได้ง่ายและไม่เกร็งกล้ามเนื้อ",
     "imageUrl": "https://couplesexposition.com/images/positions/new-69.webp",
     "anatomy": {
       "suitableTh": [
@@ -13811,17 +15598,22 @@ window.COUPLES_POSITIONS = [
         "การกระตุ้นคลิตอริส",
         "การกระตุ้นจุดจีสปอต"
       ],
-      "clitoralTextTh": "การกระตุ้นคลิตอริสระดับยอดเยี่ยม จากการบดสัมผัสโดยตรงของกระดูกหัวหน่าวและแรงเสียดสีที่ตรงจุด",
+      "clitoralTextTh": "การกระตุ้นคลิตอริสอย่างตรงจุดและต่อเนื่องด้วยริมฝีปากและลิ้น มอบคลื่นความเสียวซ่านภายนอกที่ชัดเจน",
       "clitoralTipTh": "สามารถใช้มือช่วยสัมผัสลูบไล้หรือกดคลึงเป็นวงกลมเพื่อเร่งเร้าคลื่นความเสียวซ่านได้อย่างง่ายดาย",
-      "gspotTextTh": "การกระตุ้นจุด G-spot ระดับ 4/5 ด้วยมุมการสอดใส่ที่เฉียดเข้าหาผนังด้านหน้าได้อย่างเป็นธรรมชาติ",
-      "gspotTipTh": "สามารถใช้หมอนหนุนใต้สะโพกเพื่อยกองศาให้ปลายสัมผัสกระทบจุดจีได้อย่างแม่นยำยิ่งขึ้น",
+      "gspotTextTh": "ท่วงท่านี้เน้นการสัมผัสภายนอกหรือการใช้ปากเป็นหลัก จึงไม่มีการสอดใส่ทางช่องคลอดไปยังจุด G-Spot (หากต้องการกระตุ้นร่วมด้วย สามารถใช้นิ้วมือหรืออุปกรณ์ช่วยควบคู่กันได้)",
+      "gspotTipTh": "สามารถใช้นิ้วมือนวดวนสัมผัสจุดรับความรู้สึกด้านในขณะทำกิจกรรมเพื่อเพิ่มความสุขสมครบทุกมิติ",
       "musclesTh": [
         "กล้ามเนื้อก้น (Glutes)",
         "กล้ามเนื้อแกนกลางลำตัว (Core)",
         "กล้ามเนื้อสะโพก (Hip flexors)",
         "กล้ามเนื้อต้นขาด้านใน (Inner thighs)"
       ],
-      "angleDetailTh": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด"
-    }
+      "angleDetailTh": "สัมผัสภายนอก / Oral Art: ควบคุมจังหวะสัมผัสได้อย่างอิสระ ไร้แรงกดทับภายใน"
+    },
+    "depth": "Shallow",
+    "stimulationFocus": "Clitoral",
+    "descriptionEn": "A modern twist on the classic 69 position.",
+    "isPenetrative": false,
+    "focusType": "oral"
   }
 ];
