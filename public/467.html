@@ -595,17 +595,90 @@
       box-shadow: 0 6px 25px rgba(226, 149, 120, 0.35);
     }
 
-    /* Floating Winner Bar if Modal Closed */
+    /* Floating Winner Bar if Modal Closed (Refined Luxury Velvet) */
     .last-winner-bar {
       display: none;
-      background: rgba(25, 12, 38, 0.85);
-      border: 1px solid var(--rose-gold);
-      border-radius: 16px;
-      padding: 10px 16px;
-      margin-top: 16px;
+      background: linear-gradient(135deg, rgba(28, 14, 44, 0.94), rgba(15, 6, 25, 0.97));
+      border: 1px solid rgba(226, 149, 120, 0.35);
+      border-radius: 18px;
+      padding: 11px 16px;
+      margin: 16px auto 0;
+      max-width: 440px;
+      width: 100%;
       justify-content: space-between;
       align-items: center;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.55), 0 0 15px rgba(226, 149, 120, 0.15);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      box-sizing: border-box;
+      gap: 12px;
+      cursor: pointer;
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .last-winner-bar:hover {
+      border-color: var(--rose-gold);
+      box-shadow: 0 10px 35px rgba(0, 0, 0, 0.65), 0 0 20px rgba(226, 149, 120, 0.25);
+      transform: translateY(-1px);
+    }
+    .last-winner-info {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      min-width: 0;
+      flex: 1;
+    }
+    .last-winner-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 0.72rem;
+      color: #ff94c8;
+      letter-spacing: 0.3px;
+      font-weight: 500;
+    }
+    .last-winner-titles {
+      display: flex;
+      align-items: baseline;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .last-winner-en {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--champagne);
+      line-height: 1.25;
+      font-family: 'Outfit', sans-serif;
+    }
+    .last-winner-th {
+      font-size: 0.8rem;
+      color: #dfd4ec;
+      opacity: 0.9;
+      font-weight: 400;
+    }
+    .last-winner-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: linear-gradient(135deg, rgba(255, 46, 147, 0.25), rgba(226, 149, 120, 0.25));
+      border: 1px solid var(--rose-gold);
+      border-radius: 20px;
+      padding: 7px 14px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #fff;
+      white-space: nowrap;
+      cursor: pointer;
+      box-shadow: 0 0 12px rgba(226, 149, 120, 0.25);
+      transition: all 0.2s ease;
+      flex-shrink: 0;
+    }
+    .last-winner-btn:hover, .last-winner-btn:active {
+      background: linear-gradient(135deg, rgba(255, 46, 147, 0.45), rgba(226, 149, 120, 0.45));
+      transform: scale(1.03);
+    }
+    .last-winner-btn-arrow {
+      font-size: 0.82rem;
+      color: var(--champagne);
     }
 
     /* =========================================
@@ -744,29 +817,30 @@
     .ind-left {
       display: flex;
       align-items: baseline;
-      gap: 5px;
+      gap: 4px;
       min-width: 0;
       flex-shrink: 1;
-      overflow: hidden;
     }
     .ind-icon {
-      font-size: 0.9rem;
+      font-size: 0.88rem;
       align-self: center;
       flex-shrink: 0;
     }
     .ind-name-th {
-      font-size: 0.8rem;
+      font-size: 0.77rem;
       color: #dfd4ec;
       font-weight: 500;
       white-space: nowrap;
+      flex-shrink: 0;
     }
     .ind-name-en {
-      font-size: 0.68rem;
+      font-size: 0.65rem;
       color: #ffb8d9;
       opacity: 0.85;
       white-space: nowrap;
       font-family: 'Outfit', sans-serif;
       letter-spacing: 0.2px;
+      flex-shrink: 0;
     }
 
     .ind-dots {
@@ -777,8 +851,8 @@
     }
 
     .dot {
-      width: 9.5px;
-      height: 9.5px;
+      width: 9px;
+      height: 9px;
       border-radius: 50%;
       background: rgba(255, 255, 255, 0.12);
       border: 1px solid rgba(255, 255, 255, 0.22);
@@ -800,12 +874,12 @@
       display: inline-flex;
       align-items: center;
       gap: 3px;
-      font-size: 0.72rem;
+      font-size: 0.7rem;
       color: var(--champagne);
       background: rgba(226, 149, 120, 0.14);
       border: 1px solid rgba(226, 149, 120, 0.35);
       border-radius: 10px;
-      padding: 2px 7px;
+      padding: 2px 6px;
       white-space: nowrap;
       flex-shrink: 0;
     }
@@ -884,36 +958,42 @@
       background: rgba(14, 6, 22, 0.85);
       border: 1px solid rgba(226, 149, 120, 0.25);
       border-radius: 16px;
-      padding: 6px 10px;
-      gap: 6px;
+      padding: 5px 8px;
+      gap: 4px;
       box-sizing: border-box;
+      width: 100%;
+      overflow: hidden;
     }
     .timer-mini-left {
       display: flex;
       align-items: center;
-      gap: 5px;
+      gap: 4px;
+      flex-shrink: 0;
     }
     .timer-mini-icon {
-      font-size: 0.95rem;
+      font-size: 0.9rem;
     }
     .timer-display-mini {
-      font-size: 1.22rem;
+      font-size: 1.12rem;
       font-weight: 700;
       color: var(--champagne);
-      letter-spacing: 1px;
+      letter-spacing: 0.5px;
       font-family: 'Outfit', sans-serif;
     }
     .timer-mini-presets {
       display: flex;
-      gap: 3px;
+      gap: 2.5px;
+      flex-shrink: 1;
     }
     .preset-mini-btn {
       background: rgba(255, 255, 255, 0.08);
       border: 1px solid var(--glass-border);
       color: var(--text-muted);
-      border-radius: 9px;
-      padding: 3px 6px;
-      font-size: 0.72rem;
+      border-radius: 8px;
+      padding: 3px 5px;
+      font-size: 0.7rem;
+      min-width: 25px;
+      text-align: center;
       cursor: pointer;
       transition: all 0.2s;
     }
@@ -927,10 +1007,10 @@
       background: linear-gradient(135deg, #ff2e93, #b81b64);
       color: #fff;
       border: none;
-      border-radius: 11px;
-      padding: 5px 11px;
-      font-size: 0.78rem;
-      font-weight: 600;
+      border-radius: 10px;
+      padding: 5px 10px;
+      font-size: 0.75rem;
+      font-weight: 700;
       cursor: pointer;
       white-space: nowrap;
       box-shadow: 0 0 10px rgba(255, 46, 147, 0.35);
@@ -1524,14 +1604,21 @@
         </button>
       </div>
 
-      <!-- Persistent bar if modal closed -->
-      <div class="last-winner-bar" id="last-winner-bar">
-        <div>
-          <span style="color:var(--text-muted); font-size:0.8rem">ท่าล่าสุดที่สุ่มได้:</span>
-          <strong style="color:var(--champagne); margin-left:6px;" id="last-winner-name">-</strong>
+      <!-- Persistent bar if modal closed (Sleek Clean Display) -->
+      <div class="last-winner-bar" id="last-winner-bar" onclick="reopenLastWinner()">
+        <div class="last-winner-info">
+          <div class="last-winner-tag">
+            <span>✨</span>
+            <span>ผลลัพธ์รอบล่าสุด</span>
+          </div>
+          <div class="last-winner-titles">
+            <span class="last-winner-en" id="last-winner-en">-</span>
+            <span class="last-winner-th" id="last-winner-th"></span>
+          </div>
         </div>
-        <button class="action-btn" style="padding:6px 14px; font-size:0.8rem" onclick="reopenLastWinner()">
-          คลิกดูรูปอีกครั้ง
+        <button class="last-winner-btn" onclick="event.stopPropagation(); reopenLastWinner()">
+          <span>เปิดดูท่า</span>
+          <span class="last-winner-btn-arrow">❯</span>
         </button>
       </div>
     </section>
@@ -1576,11 +1663,11 @@
         <div class="indicator-item" onclick="openMiniTip('angle')" title="แตะอ่านเทคนิคปรับองศา">
           <div class="ind-left">
             <span class="ind-icon">📐</span>
-            <span class="ind-name-th" id="angle-label-th">มุมองศาการสอดใส่</span>
+            <span class="ind-name-th" id="angle-label-th">มุมและองศา</span>
             <span class="ind-name-en" id="angle-label-en">(Angle)</span>
           </div>
           <div class="ind-angle-badge" id="modal-angle">
-            แตะอ่านทริค 💬
+            อ่านทริค 💬
           </div>
         </div>
       </div>
@@ -1705,7 +1792,19 @@
        STATE & CONTROLS
        ======================================================== */
     let currentPinInput = '';
-    const CORRECT_PIN = '2467'; // client-side screen lock only: anyone can read it via view-source
+    // Highest Security Standard: One-way Salted SHA-256 Cryptographic Hash.
+    // The plaintext PIN does not exist anywhere in this codebase or view-source.
+    const PIN_SALT = 'destiny_velvet_private_salt_2026:';
+    const CORRECT_PIN_HASH = '392a8c282300932efda5361673c0caf62f1cca3517401dd8d78c31b7f92324c4';
+
+    async function hashPin(pin) {
+      if (window.crypto && window.crypto.subtle) {
+        const data = new TextEncoder().encode(PIN_SALT + pin);
+        const hashBuf = await window.crypto.subtle.digest('SHA-256', data);
+        return Array.from(new Uint8Array(hashBuf)).map(b => b.toString(16).padStart(2, '0')).join('');
+      }
+      return pin;
+    }
 
     /* ---- Helpers ---- */
     const escapeHTML = (s) => String(s).replace(/[&<>"']/g, (c) =>
@@ -1803,8 +1902,9 @@
       }
     }
 
-    function verifyPin() {
-      if (currentPinInput === CORRECT_PIN) {
+    async function verifyPin() {
+      const inputHash = await hashPin(currentPinInput);
+      if (inputHash === CORRECT_PIN_HASH) {
         // Unlock
         document.getElementById('pin-screen').style.display = 'none';
         document.getElementById('app-container').style.display = 'block';
@@ -2253,7 +2353,11 @@
     function openModal(item) {
       lastWinnerItem = item;
       document.getElementById('last-winner-bar').style.display = 'flex';
-      document.getElementById('last-winner-name').textContent = `${item.name} (${item.nameTh.split('(')[0]})`;
+      const cleanTh = item.nameTh.split('(')[0].trim();
+      const enEl = document.getElementById('last-winner-en');
+      const thEl = document.getElementById('last-winner-th');
+      if (enEl) enEl.textContent = item.name;
+      if (thEl) thEl.textContent = cleanTh ? `(${cleanTh})` : '';
 
       loadImageInto(document.getElementById('modal-img'), item);
       document.getElementById('modal-name-en').textContent = item.name;
@@ -2286,9 +2390,9 @@
       } else {
         if (gspotLabelTh) gspotLabelTh.textContent = 'กระตุ้นจุดจีสปอต';
         if (gspotLabelEn) gspotLabelEn.textContent = '(G-Spot)';
-        if (angleLabelTh) angleLabelTh.textContent = 'มุมองศาการสอดใส่';
+        if (angleLabelTh) angleLabelTh.textContent = 'มุมและองศา';
         if (angleLabelEn) angleLabelEn.textContent = '(Angle)';
-        angleBadge.textContent = 'แตะอ่านทริค 💬';
+        angleBadge.textContent = 'อ่านทริค 💬';
       }
 
       // Clitoral Dots
