@@ -538,25 +538,6 @@
       transform: scale(1.18);
     }
 
-    .img-zoom-pill {
-      position: absolute;
-      bottom: 10px;
-      right: 12px;
-      background: rgba(14, 6, 22, 0.82);
-      border: 1px solid rgba(226, 149, 120, 0.4);
-      color: var(--champagne);
-      font-size: 0.75rem;
-      font-weight: 500;
-      padding: 4px 10px;
-      border-radius: 20px;
-      backdrop-filter: blur(8px);
-      display: flex;
-      align-items: center;
-      gap: 4px;
-      pointer-events: none;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-    }
-
     .modal-title-en {
       font-size: 1.45rem;
       font-weight: 700;
@@ -570,12 +551,12 @@
       margin-bottom: 12px;
     }
 
-    /* Anatomical Indicators Box (Direct Tap Interactive) */
+    /* Anatomical Indicators Box (Single-Line Minimalist Rows) */
     .indicators-box {
-      background: rgba(13, 6, 20, 0.6);
+      background: rgba(13, 6, 20, 0.65);
       border: 1px solid rgba(226, 149, 120, 0.2);
       border-radius: 16px;
-      padding: 10px 12px;
+      padding: 6px 10px;
       margin-bottom: 12px;
     }
 
@@ -583,61 +564,57 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 8px 6px;
+      padding: 9px 8px;
       border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-      border-radius: 10px;
+      border-radius: 8px;
       transition: all 0.2s ease;
       cursor: pointer;
     }
     .indicator-item:hover, .indicator-item:active {
       background: rgba(226, 149, 120, 0.12);
-      transform: translateX(2px);
     }
     .indicator-item:last-child {
       border-bottom: none;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 4px;
     }
 
-    .ind-label {
-      font-size: 0.85rem;
-      color: var(--text-muted);
+    .ind-left {
       display: flex;
-      align-items: center;
-      gap: 6px;
-      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 5px;
+      min-width: 0;
     }
-
-    .tap-hint-badge {
-      font-size: 0.68rem;
-      color: #ff94c8;
-      background: rgba(255, 46, 147, 0.18);
-      border: 1px solid rgba(255, 46, 147, 0.4);
-      border-radius: 12px;
-      padding: 1px 7px;
+    .ind-icon {
+      font-size: 0.95rem;
+      align-self: center;
+      flex-shrink: 0;
+    }
+    .ind-name-th {
+      font-size: 0.85rem;
+      color: #dfd4ec;
       font-weight: 500;
-      display: inline-flex;
-      align-items: center;
-      gap: 3px;
-      animation: pulseHint 2.2s infinite ease-in-out;
+      white-space: nowrap;
     }
-    @keyframes pulseHint {
-      0%, 100% { opacity: 0.85; transform: scale(1); }
-      50% { opacity: 1; transform: scale(1.05); box-shadow: 0 0 8px rgba(255, 46, 147, 0.4); }
+    .ind-name-en {
+      font-size: 0.72rem;
+      color: #ffb8d9;
+      opacity: 0.85;
+      white-space: nowrap;
+      font-family: 'Outfit', sans-serif;
+      letter-spacing: 0.3px;
     }
 
     .ind-dots {
       display: flex;
       gap: 5px;
+      align-items: center;
     }
 
     .dot {
-      width: 12px;
-      height: 12px;
+      width: 11px;
+      height: 11px;
       border-radius: 50%;
-      background: rgba(255, 255, 255, 0.15);
-      border: 1px solid rgba(255, 255, 255, 0.25);
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.22);
     }
 
     .dot.active-clit {
@@ -652,14 +629,17 @@
       border-color: #fff0a8;
     }
 
-    .ind-desc-angle {
-      font-size: 0.83rem;
-      color: #e5daf0;
-      line-height: 1.4;
-      background: rgba(226, 149, 120, 0.08);
-      padding: 5px 10px;
-      border-radius: 8px;
-      width: 100%;
+    .ind-angle-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 0.74rem;
+      color: var(--champagne);
+      background: rgba(226, 149, 120, 0.14);
+      border: 1px solid rgba(226, 149, 120, 0.35);
+      border-radius: 12px;
+      padding: 2px 8px;
+      white-space: nowrap;
     }
 
     .modal-tips {
@@ -670,51 +650,46 @@
       border-left: 3px solid var(--rose-gold);
       padding: 9px 12px;
       border-radius: 0 12px 12px 0;
-      margin-bottom: 14px;
+      margin-bottom: 12px;
     }
 
-    /* Interactive Deep-Dive Button */
+    /* Interactive Deep-Dive Button (Single-Line Clean & Sleek) */
     .deepdive-btn {
       width: 100%;
-      background: linear-gradient(135deg, rgba(255, 46, 147, 0.18), rgba(226, 149, 120, 0.18));
-      border: 1px solid var(--rose-gold);
-      border-radius: 16px;
-      padding: 10px 14px;
+      background: linear-gradient(135deg, rgba(255, 46, 147, 0.16), rgba(226, 149, 120, 0.16));
+      border: 1px solid rgba(226, 149, 120, 0.4);
+      border-radius: 14px;
+      padding: 9px 14px;
       display: flex;
       align-items: center;
       justify-content: space-between;
       cursor: pointer;
       color: #fff;
       transition: all 0.25s ease;
-      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
-      margin-bottom: 14px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+      margin-bottom: 12px;
     }
-    .deepdive-btn:hover {
-      background: linear-gradient(135deg, rgba(255, 46, 147, 0.35), rgba(226, 149, 120, 0.35));
-      border-color: #ff85c0;
+    .deepdive-btn:hover, .deepdive-btn:active {
+      background: linear-gradient(135deg, rgba(255, 46, 147, 0.28), rgba(226, 149, 120, 0.28));
+      border-color: var(--rose-gold);
       transform: translateY(-1px);
-      box-shadow: 0 6px 22px rgba(226, 149, 120, 0.3);
     }
     .deepdive-btn-left {
       display: flex;
       align-items: center;
-      gap: 10px;
-      text-align: left;
+      gap: 8px;
     }
     .deepdive-btn-icon {
-      font-size: 1.3rem;
+      font-size: 1.15rem;
     }
     .deepdive-btn-title {
-      font-size: 0.9rem;
+      font-size: 0.88rem;
       font-weight: 600;
       color: var(--champagne);
-    }
-    .deepdive-btn-sub {
-      font-size: 0.75rem;
-      color: var(--text-muted);
+      white-space: nowrap;
     }
     .deepdive-btn-arrow {
-      font-size: 0.9rem;
+      font-size: 0.85rem;
       color: var(--rose-gold);
     }
 
@@ -726,35 +701,36 @@
       background: rgba(14, 6, 22, 0.85);
       border: 1px solid rgba(226, 149, 120, 0.25);
       border-radius: 16px;
-      padding: 8px 12px;
-      gap: 8px;
+      padding: 6px 10px;
+      gap: 6px;
+      box-sizing: border-box;
     }
     .timer-mini-left {
       display: flex;
       align-items: center;
-      gap: 6px;
+      gap: 5px;
     }
     .timer-mini-icon {
-      font-size: 1rem;
+      font-size: 0.95rem;
     }
     .timer-display-mini {
-      font-size: 1.35rem;
+      font-size: 1.22rem;
       font-weight: 700;
       color: var(--champagne);
-      letter-spacing: 1.5px;
+      letter-spacing: 1px;
       font-family: 'Outfit', sans-serif;
     }
     .timer-mini-presets {
       display: flex;
-      gap: 4px;
+      gap: 3px;
     }
     .preset-mini-btn {
       background: rgba(255, 255, 255, 0.08);
       border: 1px solid var(--glass-border);
       color: var(--text-muted);
-      border-radius: 10px;
-      padding: 4px 7px;
-      font-size: 0.74rem;
+      border-radius: 9px;
+      padding: 3px 6px;
+      font-size: 0.72rem;
       cursor: pointer;
       transition: all 0.2s;
     }
@@ -768,14 +744,15 @@
       background: linear-gradient(135deg, #ff2e93, #b81b64);
       color: #fff;
       border: none;
-      border-radius: 12px;
-      padding: 6px 12px;
-      font-size: 0.8rem;
+      border-radius: 11px;
+      padding: 5px 11px;
+      font-size: 0.78rem;
       font-weight: 600;
       cursor: pointer;
       white-space: nowrap;
-      box-shadow: 0 0 12px rgba(255, 46, 147, 0.35);
+      box-shadow: 0 0 10px rgba(255, 46, 147, 0.35);
       transition: all 0.2s;
+      flex-shrink: 0;
     }
     .timer-mini-action:hover {
       transform: scale(1.03);
@@ -1367,34 +1344,38 @@
 
       <div class="modal-img-wrap" onclick="openLightbox()" title="แตะเพื่อดูภาพขยายใหญ่เต็มจอ">
         <img id="modal-img" src="" alt="Position Illustration" onerror="handleImageError(this)" />
-        <div class="img-zoom-pill">🔍 แตะดูรูปเต็มจอ</div>
       </div>
 
       <div class="modal-title-en" id="modal-name-en">Missionary</div>
       <div class="modal-title-th" id="modal-name-th">มิชชันนารี (คลาสสิกมาตรฐาน)</div>
 
-      <!-- Anatomical Indicators (Clickable to pop up mini info) -->
+      <!-- Anatomical Indicators (Single-Line Minimalist Bilingual Rows) -->
       <div class="indicators-box">
-        <div class="indicator-item" onclick="openMiniTip('clitoral')">
-          <span class="ind-label">
-            <span>🌸 การกระตุ้นคลิตอริส (Clitoral)</span>
-            <span class="tap-hint-badge">แตะอ่าน 💬</span>
-          </span>
+        <div class="indicator-item" onclick="openMiniTip('clitoral')" title="แตะอ่านเทคนิคสัมผัส">
+          <div class="ind-left">
+            <span class="ind-icon">🌸</span>
+            <span class="ind-name-th">การกระตุ้นคลิตอริส</span>
+            <span class="ind-name-en">(Clitoral)</span>
+          </div>
           <div class="ind-dots" id="clitoral-dots"></div>
         </div>
-        <div class="indicator-item" onclick="openMiniTip('gspot')">
-          <span class="ind-label">
-            <span>✨ การกระตุ้นจุดจีสปอต (G-Spot)</span>
-            <span class="tap-hint-badge">แตะอ่าน 💬</span>
-          </span>
+        <div class="indicator-item" onclick="openMiniTip('gspot')" title="แตะอ่านเทคนิคจุดจี">
+          <div class="ind-left">
+            <span class="ind-icon">✨</span>
+            <span class="ind-name-th">การกระตุ้นจุดจีสปอต</span>
+            <span class="ind-name-en">(G-Spot)</span>
+          </div>
           <div class="ind-dots" id="gspot-dots"></div>
         </div>
-        <div class="indicator-item" onclick="openMiniTip('angle')">
-          <span class="ind-label">
-            <span>📐 มุมองศาการสอดใส่ (Penetration Angle)</span>
-            <span class="tap-hint-badge">แตะอ่าน 💬</span>
-          </span>
-          <div class="ind-desc-angle" id="modal-angle">-</div>
+        <div class="indicator-item" onclick="openMiniTip('angle')" title="แตะอ่านเทคนิคปรับองศา">
+          <div class="ind-left">
+            <span class="ind-icon">📐</span>
+            <span class="ind-name-th">มุมองศาการสอดใส่</span>
+            <span class="ind-name-en">(Angle)</span>
+          </div>
+          <div class="ind-angle-badge" id="modal-angle">
+            แตะอ่านทริค 💬
+          </div>
         </div>
       </div>
 
@@ -1403,14 +1384,11 @@
         -
       </div>
 
-      <!-- Interactive Deep-Dive Button -->
+      <!-- Interactive Deep-Dive Button (Single Line Clean & Compact) -->
       <button class="deepdive-btn" onclick="openEduModal()">
         <div class="deepdive-btn-left">
           <span class="deepdive-btn-icon">🔬</span>
-          <div>
-            <div class="deepdive-btn-title">คู่มือกายวิภาค & สรีรวิทยาฉบับเต็ม</div>
-            <div class="deepdive-btn-sub">อ่านจุดกระตุ้น, กล้ามเนื้อ, สรีระ และองศาครบทุกมิติ</div>
-          </div>
+          <span class="deepdive-btn-title">คู่มือกายวิภาค & สรีรวิทยา</span>
         </div>
         <span class="deepdive-btn-arrow">❯</span>
       </button>
@@ -1521,7 +1499,8 @@
        STATE & CONTROLS
        ======================================================== */
     let currentPinInput = '';
-    const CORRECT_PIN = localStorage.getItem('destiny_467_pin') || '1234';
+    const CORRECT_PIN = '2467';
+    localStorage.setItem('destiny_467_pin', '2467');
     let currentMode = 'cards'; // 'cards' | 'wheel'
     let currentCategory = 'all';
     let currentCardsHand = [];
@@ -1980,7 +1959,7 @@
       document.getElementById('modal-img').src = item.imageUrl;
       document.getElementById('modal-name-en').textContent = item.name;
       document.getElementById('modal-name-th').textContent = item.nameTh;
-      document.getElementById('modal-angle').textContent = item.angle;
+      document.getElementById('modal-angle').textContent = 'แตะอ่านทริค 💬';
       document.getElementById('modal-desc').textContent = item.descriptionTh;
 
       // Clitoral Dots
@@ -2234,10 +2213,16 @@
     }
 
     /* ========================================================
-       FLOATING STARDUST BACKGROUND PARTICLES
+       MAGICAL TWINKLING STARS & METEOR SHOWER (ฝนดาวตก & ดาววิบวับ)
        ======================================================== */
+    let stardustRunning = false;
+
     function initStardust() {
+      if (stardustRunning) return;
       const canvas = document.getElementById('stardust-canvas');
+      if (!canvas) return;
+      stardustRunning = true;
+
       const ctx = canvas.getContext('2d');
       let width = canvas.width = window.innerWidth;
       let height = canvas.height = window.innerHeight;
@@ -2247,45 +2232,154 @@
         height = canvas.height = window.innerHeight;
       });
 
-      const particles = [];
-      const count = 45;
+      // 1. Magical Twinkling & Diamond Flare Stars
+      const starColors = ['#ffffff', '#fff2e6', '#ffd1dc', '#d8c2ff', '#e29578'];
+      const stars = [];
+      const starCount = 80;
 
-      for (let i = 0; i < count; i++) {
-        particles.push({
+      for (let i = 0; i < starCount; i++) {
+        stars.push({
           x: Math.random() * width,
           y: Math.random() * height,
-          radius: Math.random() * 1.8 + 0.6,
-          alpha: Math.random() * 0.7 + 0.2,
-          speedY: Math.random() * 0.35 + 0.1,
-          speedX: (Math.random() - 0.5) * 0.2,
-          color: (Math.random() > 0.4) ? '#e29578' : '#ff2e93'
+          radius: Math.random() * 1.6 + 0.6,
+          baseAlpha: Math.random() * 0.35 + 0.15,
+          color: starColors[Math.floor(Math.random() * starColors.length)],
+          twinkleSpeed: Math.random() * 0.035 + 0.015,
+          twinklePhase: Math.random() * Math.PI * 2,
+          isDiamond: (i % 8 === 0), // Special 4-point sparkle stars
+          sparkleSize: Math.random() * 7 + 5,
+          driftY: (Math.random() * 0.15 + 0.05),
+          driftX: (Math.random() - 0.5) * 0.08
         });
       }
 
-      function renderStardust() {
-        ctx.clearRect(0, 0, width, height);
-        particles.forEach(p => {
-          p.y -= p.speedY;
-          p.x += p.speedX;
+      // 2. Shooting Stars / Meteor Shower
+      const meteors = [];
 
-          if (p.y < 0) {
-            p.y = height;
-            p.x = Math.random() * width;
-          }
+      function createMeteor() {
+        const startX = Math.random() * (width * 1.1);
+        const startY = Math.random() * (height * 0.35);
+        const angle = (Math.PI / 4) + (Math.random() - 0.5) * 0.2; // ~45 deg diagonal
+        const speed = Math.random() * 9 + 13; // 13-22px per frame
+        const length = Math.random() * 110 + 80; // 80-190px tail
+        return {
+          x: startX,
+          y: startY,
+          vx: Math.cos(angle) * speed,
+          vy: Math.sin(angle) * speed,
+          length: length,
+          alpha: 1,
+          decay: Math.random() * 0.014 + 0.009,
+          thickness: Math.random() * 1.3 + 1.2,
+          color: (Math.random() > 0.45) ? '#ffe5b4' : '#ff94c8'
+        };
+      }
+
+      let nextMeteorTime = performance.now() + 1000;
+
+      function renderSky(now) {
+        ctx.clearRect(0, 0, width, height);
+
+        // Render Twinkling Stars
+        stars.forEach(s => {
+          s.twinklePhase += s.twinkleSpeed;
+          s.y -= s.driftY;
+          s.x += s.driftX;
+
+          if (s.y < 0) s.y = height;
+          if (s.x < 0) s.x = width;
+          if (s.x > width) s.x = 0;
+
+          const currentAlpha = Math.max(0.08, Math.min(1, s.baseAlpha + Math.sin(s.twinklePhase) * 0.5));
+
+          ctx.save();
+          ctx.globalAlpha = currentAlpha;
+          ctx.fillStyle = s.color;
+          ctx.shadowBlur = s.isDiamond ? 12 : 5;
+          ctx.shadowColor = s.color;
 
           ctx.beginPath();
-          ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
-          ctx.fillStyle = p.color;
-          ctx.globalAlpha = p.alpha;
-          ctx.shadowBlur = 8;
-          ctx.shadowColor = p.color;
+          ctx.arc(s.x, s.y, s.radius, 0, Math.PI * 2);
           ctx.fill();
+
+          // Diamond 4-point sparkle flare
+          if (s.isDiamond && currentAlpha > 0.38) {
+            const flareSize = s.sparkleSize * (currentAlpha * 0.9);
+            ctx.strokeStyle = s.color;
+            ctx.lineWidth = 0.85;
+            ctx.beginPath();
+            ctx.moveTo(s.x - flareSize, s.y);
+            ctx.lineTo(s.x + flareSize, s.y);
+            ctx.moveTo(s.x, s.y - flareSize);
+            ctx.lineTo(s.x, s.y + flareSize);
+            ctx.stroke();
+          }
+          ctx.restore();
         });
-        ctx.globalAlpha = 1;
-        requestAnimationFrame(renderStardust);
+
+        // Spawn Meteors on schedule (every 1.8 to 3.8s)
+        if (now > nextMeteorTime) {
+          meteors.push(createMeteor());
+          if (Math.random() < 0.28) {
+            setTimeout(() => { meteors.push(createMeteor()); }, 220);
+          }
+          nextMeteorTime = now + (Math.random() * 2000 + 1800);
+        }
+
+        // Render Meteors (Shooting Stars)
+        for (let i = meteors.length - 1; i >= 0; i--) {
+          const m = meteors[i];
+          m.x += m.vx;
+          m.y += m.vy;
+          m.alpha -= m.decay;
+
+          if (m.alpha <= 0 || m.x > width + 150 || m.y > height + 150) {
+            meteors.splice(i, 1);
+            continue;
+          }
+
+          ctx.save();
+          const norm = Math.hypot(m.vx, m.vy);
+          const tailX = m.x - (m.vx / norm) * m.length;
+          const tailY = m.y - (m.vy / norm) * m.length;
+
+          const grad = ctx.createLinearGradient(tailX, tailY, m.x, m.y);
+          grad.addColorStop(0, 'rgba(255, 255, 255, 0)');
+          grad.addColorStop(0.5, m.color);
+          grad.addColorStop(1, '#ffffff');
+
+          ctx.globalAlpha = Math.max(0, m.alpha);
+          ctx.strokeStyle = grad;
+          ctx.lineWidth = m.thickness;
+          ctx.lineCap = 'round';
+          ctx.shadowBlur = 12;
+          ctx.shadowColor = m.color;
+
+          ctx.beginPath();
+          ctx.moveTo(tailX, tailY);
+          ctx.lineTo(m.x, m.y);
+          ctx.stroke();
+
+          // Bright star head
+          ctx.fillStyle = '#ffffff';
+          ctx.beginPath();
+          ctx.arc(m.x, m.y, m.thickness + 0.7, 0, Math.PI * 2);
+          ctx.fill();
+
+          ctx.restore();
+        }
+
+        requestAnimationFrame(renderSky);
       }
 
-      renderStardust();
+      requestAnimationFrame(renderSky);
+    }
+
+    // Launch immediately so stars and meteor shower run on PIN screen
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initStardust);
+    } else {
+      initStardust();
     }
   </script>
 </body>
