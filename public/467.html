@@ -1734,19 +1734,11 @@
       max-height: 95%;
       object-fit: contain;
       filter: drop-shadow(0 0 12px rgba(226, 149, 120, 0.2));
-      transition: transform 0.3s;
+      transition: transform 0.25s ease;
     }
 
-    .match-zoom-hint {
-      position: absolute;
-      bottom: 8px;
-      right: 10px;
-      font-size: 0.7rem;
-      color: rgba(255, 255, 255, 0.7);
-      background: rgba(0, 0, 0, 0.55);
-      backdrop-filter: blur(4px);
-      padding: 3px 8px;
-      border-radius: 10px;
+    .match-card-img-wrap:active img {
+      transform: scale(0.96);
     }
 
     .match-card-info {
@@ -1775,8 +1767,16 @@
 
     .match-card-badges {
       display: flex;
+      align-items: center;
+      justify-content: space-between;
       gap: 6px;
       flex-wrap: wrap;
+    }
+
+    .match-card-badges-left {
+      display: flex;
+      align-items: center;
+      gap: 6px;
     }
 
     .match-card-pill {
@@ -1786,6 +1786,12 @@
       background: rgba(255, 255, 255, 0.06);
       border: 1px solid rgba(226, 149, 120, 0.25);
       color: var(--champagne);
+      white-space: nowrap;
+    }
+
+    .match-card-pill-focus {
+      font-weight: 600;
+      letter-spacing: 0.2px;
     }
 
     /* 3 Action Buttons */
@@ -2267,9 +2273,8 @@
 
         <!-- The Grand Position Card -->
         <div class="match-deck-card" id="match-active-card">
-          <div class="match-card-img-wrap" onclick="openMatchLightbox()">
+          <div class="match-card-img-wrap" onclick="openMatchLightbox()" title="แตะเพื่อดูภาพใหญ่">
             <img id="match-card-img" src="" alt="Position Illustration" onerror="handleImageError(this)" />
-            <div class="match-zoom-hint">🔍 แตะเพื่อดูภาพใหญ่</div>
           </div>
           <div class="match-card-info">
             <div class="match-card-names">
@@ -2277,9 +2282,11 @@
               <span class="match-card-th" id="match-card-name-th">-</span>
             </div>
             <div class="match-card-badges">
-              <span class="match-card-pill" id="match-card-cat">✨ คลาสสิก</span>
-              <span class="match-card-pill" id="match-card-diff">⭐ ระดับ 1</span>
-              <span class="match-card-pill" id="match-card-focus">🌸 Clitoral 5/5</span>
+              <div class="match-card-badges-left">
+                <span class="match-card-pill" id="match-card-cat">✨ คลาสสิก</span>
+                <span class="match-card-pill" id="match-card-diff">⭐ ระดับ 1</span>
+              </div>
+              <span class="match-card-pill match-card-pill-focus" id="match-card-focus">🌸 Clitoral 5/5</span>
             </div>
           </div>
         </div>
@@ -3891,7 +3898,19 @@
       const catObj = (window.COUPLES_CATEGORIES || []).find(c => c.id === item.category);
       document.getElementById('match-card-cat').textContent = catObj ? `${catObj.icon} ${catObj.nameTh.split(' ')[0]}` : '✨ โรแมนติก';
       document.getElementById('match-card-diff').textContent = `⭐ ระดับ ${item.difficulty || 1}`;
-      document.getElementById('match-card-focus').textContent = item.clitoral >= 3 ? `🌸 Clitoral ${item.clitoral}/5` : `✨ G-Spot ${item.gspot || 2}/5`;
+      
+      const focusEl = document.getElementById('match-card-focus');
+      if (item.clitoral >= 3) {
+        focusEl.textContent = `🌸 Clitoral ${item.clitoral}/5`;
+        focusEl.style.borderColor = 'rgba(255, 46, 147, 0.4)';
+        focusEl.style.background = 'rgba(255, 46, 147, 0.12)';
+        focusEl.style.color = '#ffb3d9';
+      } else {
+        focusEl.textContent = `✨ G-Spot ${item.gspot || 2}/5`;
+        focusEl.style.borderColor = 'rgba(255, 215, 0, 0.4)';
+        focusEl.style.background = 'rgba(255, 215, 0, 0.12)';
+        focusEl.style.color = '#ffe680';
+      }
 
       playHeartbeat();
     }
