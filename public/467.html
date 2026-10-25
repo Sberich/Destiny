@@ -1558,7 +1558,7 @@
       background: rgba(22, 12, 33, 0.88);
       border: 1.5px solid var(--glass-border);
       border-radius: 28px;
-      padding: 24px 18px;
+      padding: 20px 14px;
       box-shadow: 0 15px 45px rgba(0, 0, 0, 0.65), 0 0 35px rgba(255, 46, 147, 0.12);
       backdrop-filter: blur(16px);
       -webkit-backdrop-filter: blur(16px);
@@ -1742,7 +1742,7 @@
     }
 
     .match-card-info {
-      padding: 14px 16px;
+      padding: 12px 12px;
       text-align: left;
     }
 
@@ -1769,29 +1769,33 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 6px;
-      flex-wrap: wrap;
+      gap: 4px;
+      flex-wrap: nowrap;
+      width: 100%;
     }
 
     .match-card-badges-left {
       display: flex;
       align-items: center;
-      gap: 6px;
+      gap: 4px;
+      flex-shrink: 0;
     }
 
     .match-card-pill {
-      font-size: 0.74rem;
-      padding: 3px 8px;
-      border-radius: 10px;
+      font-size: 0.70rem;
+      padding: 2.5px 6.5px;
+      border-radius: 8px;
       background: rgba(255, 255, 255, 0.06);
       border: 1px solid rgba(226, 149, 120, 0.25);
       color: var(--champagne);
       white-space: nowrap;
+      letter-spacing: 0.1px;
     }
 
     .match-card-pill-focus {
       font-weight: 600;
       letter-spacing: 0.2px;
+      flex-shrink: 0;
     }
 
     /* 3 Action Buttons */
@@ -1986,9 +1990,9 @@
       background: linear-gradient(135deg, #ffd166, #ff2e93);
       border: none;
       border-radius: 26px;
-      padding: 12px 20px;
+      padding: 12px 14px;
       color: #12041a;
-      font-size: 0.92rem;
+      font-size: clamp(0.84rem, 3.8vw, 0.94rem);
       font-weight: 700;
       cursor: pointer;
       box-shadow: 0 0 20px rgba(255, 209, 102, 0.4);
@@ -1996,6 +2000,50 @@
       align-items: center;
       justify-content: center;
       gap: 8px;
+      width: 100%;
+      white-space: nowrap;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .match-action-prime:active {
+      transform: scale(0.97);
+    }
+
+    /* Velvet Luxury Floating Toast Notification */
+    .velvet-toast {
+      position: fixed;
+      top: 24px;
+      left: 50%;
+      transform: translate(-50%, -60px) scale(0.9);
+      background: linear-gradient(135deg, rgba(35, 14, 45, 0.96), rgba(18, 6, 25, 0.98));
+      border: 1.5px solid var(--rose-gold);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8), 0 0 25px rgba(255, 46, 147, 0.35);
+      border-radius: 24px;
+      padding: 11px 20px;
+      color: var(--champagne);
+      font-size: 0.88rem;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      z-index: 10000;
+      pointer-events: none;
+      opacity: 0;
+      transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      max-width: 90vw;
+      white-space: nowrap;
+    }
+
+    .velvet-toast.show {
+      transform: translate(-50%, 0) scale(1);
+      opacity: 1;
+    }
+
+    .velvet-toast-icon {
+      font-size: 1.3rem;
+      filter: drop-shadow(0 0 8px rgba(255, 215, 0, 0.6));
     }
 
     .match-action-sec {
@@ -2339,7 +2387,7 @@
 
         <div class="match-results-actions">
           <button class="match-action-prime" id="match-spin-btn" onclick="applyMatchesToWheel()" style="display: none;">
-            <span>🎡</span> นำท่าที่ใจตรงกันไปหมุนในวงล้อทันที!
+            <span>🎡</span> นำท่าที่ใจตรงกันไปหมุนวงล้อ
           </button>
           <button class="match-action-sec" onclick="resetSecretMatch()">
             <span>🔄</span> เล่นทายใจรอบใหม่
@@ -4043,12 +4091,25 @@
       return card;
     }
 
+    function showVelvetToast(msg, icon = '✨', durationMs = 2800) {
+      const toast = document.getElementById('velvet-toast');
+      if (!toast) return;
+      toast.innerHTML = `<span class="velvet-toast-icon">${icon}</span><span>${msg}</span>`;
+      toast.classList.add('show');
+      playTone(600, 'sine', 0.12);
+      setTimeout(() => playTone(800, 'sine', 0.18), 120);
+      clearTimeout(toast._timeout);
+      toast._timeout = setTimeout(() => {
+        toast.classList.remove('show');
+      }, durationMs);
+    }
+
     function applyMatchesToWheel() {
       if (matchedPositions.length === 0) return;
       wheelItems = matchedPositions.slice();
       switchMode('wheel');
       drawWheel();
-      alert(`✨ นำ ${matchedPositions.length} ท่าที่ใจตรงกันลงในวงล้อเสี่ยงทายเรียบร้อยแล้วครับ!`);
+      showVelvetToast(`บรรจุ ${matchedPositions.length} ท่าที่ใจตรงกันลงในวงล้อแล้ว พร้อมหมุน!`, '🎡');
     }
 
     function resetSecretMatch() {
@@ -4131,5 +4192,8 @@
       });
     }
   </script>
+
+  <!-- Velvet Luxury Floating Toast Notification -->
+  <div id="velvet-toast" class="velvet-toast"></div>
 </body>
 </html>
