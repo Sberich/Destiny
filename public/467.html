@@ -3,15 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="theme-color" content="#08050e" />
   <meta name="robots" content="noindex, nofollow, noarchive" />
   <title>Destiny Velvet ✦ Private Romance</title>
 
-  <!-- Favicon & Touch Icon -->
+  <!-- Dedicated Web App Manifest (Isolated Independent PWA) -->
+  <link rel="manifest" href="velvet-manifest.json" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Destiny Velvet" />
+  <meta name="application-name" content="Destiny Velvet" />
+
+  <!-- Icons for Mobile Devices & Home Screen -->
   <link rel="icon" type="image/svg+xml" href="velvet-favicon.svg" />
-  <link rel="apple-touch-icon" href="velvet-favicon.svg" />
+  <link rel="apple-touch-icon" href="velvet-icon-192.png" />
+  <link rel="apple-touch-icon" sizes="512x512" href="velvet-icon-512.png" />
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -1492,6 +1499,47 @@
       from { opacity: 0; }
       to { opacity: 1; }
     }
+
+    /* PWA Install Prompts */
+    .pwa-install-btn {
+      background: linear-gradient(135deg, rgba(226, 149, 120, 0.2), rgba(255, 46, 147, 0.22));
+      border: 1px solid var(--rose-gold);
+      border-radius: 20px;
+      padding: 9px 18px;
+      color: var(--champagne);
+      font-size: 0.82rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.5), 0 0 12px rgba(226, 149, 120, 0.2);
+      transition: all 0.2s ease;
+      letter-spacing: 0.3px;
+    }
+    .pwa-install-btn:hover, .pwa-install-btn:active {
+      background: linear-gradient(135deg, rgba(226, 149, 120, 0.35), rgba(255, 46, 147, 0.35));
+      transform: scale(1.02);
+      box-shadow: 0 6px 22px rgba(255, 46, 147, 0.35);
+    }
+    .pwa-header-btn {
+      background: rgba(226, 149, 120, 0.15);
+      border: 1px solid rgba(226, 149, 120, 0.4);
+      border-radius: 14px;
+      padding: 6px 12px;
+      color: var(--champagne);
+      font-size: 0.76rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      transition: all 0.2s ease;
+    }
+    .pwa-header-btn:hover, .pwa-header-btn:active {
+      background: rgba(255, 46, 147, 0.25);
+      border-color: var(--passion-magenta);
+    }
   </style>
 </head>
 <body>
@@ -1526,6 +1574,13 @@
         <button class="key-btn" onclick="enterPin('0')">0</button>
         <button class="key-btn" style="font-size:1.1rem" onclick="deletePin()">⌫</button>
       </div>
+
+      <!-- PWA Install Prompt Button (Shown when installable on mobile) -->
+      <div id="pwa-install-wrap" style="display: none; margin-top: 18px;">
+        <button class="pwa-install-btn" onclick="triggerPWAInstall()">
+          <span>📲</span> ติดตั้งเป็นแอปส่วนตัว (Install App)
+        </button>
+      </div>
     </div>
   </div>
 
@@ -1534,9 +1589,14 @@
     <!-- Top Bar -->
     <header class="top-bar">
       <div class="brand-title">DESTINY VELVET</div>
-      <button class="panic-btn" onclick="panicExit()" title="ออกทันที">
-        <span>🚪</span> ออกทันที
-      </button>
+      <div style="display: flex; align-items: center; gap: 8px;">
+        <button class="pwa-header-btn" id="pwa-header-install-btn" style="display: none;" onclick="triggerPWAInstall()" title="ติดตั้งเป็นแอป">
+          <span>📲</span> ติดตั้งแอป
+        </button>
+        <button class="panic-btn" onclick="panicExit()" title="ออกทันที">
+          <span>🚪</span> ออกทันที
+        </button>
+      </div>
     </header>
 
     <!-- Mode Switcher -->
@@ -2179,7 +2239,7 @@
         return;
       }
       wheelRefreshPending = false;
-      wheelItems = sampleN(getFilteredPositions(), 16);
+      wheelItems = sampleN(getFilteredPositions(), 20);
       drawWheel();
     }
 
@@ -2231,10 +2291,10 @@
         ctx.fillStyle = WHEEL_TEXT_COLORS[i % WHEEL_TEXT_COLORS.length];
 
         const displayName = wheelItems[i].name;
-        let fontSize = displayName.length > 15 ? 25 : 30;
+        let fontSize = displayName.length > 15 ? 22 : 26;
         ctx.font = `bold ${fontSize}px 'Outfit', sans-serif`;
         // Shrink long names until they fit between the hub and the rim
-        while (fontSize > 16 && ctx.measureText(displayName).width > maxTextWidth) {
+        while (fontSize > 15 && ctx.measureText(displayName).width > maxTextWidth) {
           fontSize -= 1;
           ctx.font = `bold ${fontSize}px 'Outfit', sans-serif`;
         }
@@ -2862,6 +2922,56 @@
       document.addEventListener('DOMContentLoaded', initStardust);
     } else {
       initStardust();
+    }
+
+    /* ========================================================
+       PWA INSTALLATION & SERVICE WORKER (ISOLATED APP)
+       ======================================================== */
+    let deferredPWAInstallPrompt = null;
+
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPWAInstallPrompt = e;
+      const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone;
+      if (!isStandalone) {
+        const pinInstallWrap = document.getElementById('pwa-install-wrap');
+        const headerInstallBtn = document.getElementById('pwa-header-install-btn');
+        if (pinInstallWrap) pinInstallWrap.style.display = 'block';
+        if (headerInstallBtn) headerInstallBtn.style.display = 'inline-flex';
+      }
+    });
+
+    window.addEventListener('appinstalled', () => {
+      deferredPWAInstallPrompt = null;
+      const pinInstallWrap = document.getElementById('pwa-install-wrap');
+      const headerInstallBtn = document.getElementById('pwa-header-install-btn');
+      if (pinInstallWrap) pinInstallWrap.style.display = 'none';
+      if (headerInstallBtn) headerInstallBtn.style.display = 'none';
+    });
+
+    function triggerPWAInstall() {
+      if (deferredPWAInstallPrompt) {
+        deferredPWAInstallPrompt.prompt();
+        deferredPWAInstallPrompt.userChoice.then((result) => {
+          if (result.outcome === 'accepted') {
+            const pinInstallWrap = document.getElementById('pwa-install-wrap');
+            const headerInstallBtn = document.getElementById('pwa-header-install-btn');
+            if (pinInstallWrap) pinInstallWrap.style.display = 'none';
+            if (headerInstallBtn) headerInstallBtn.style.display = 'none';
+          }
+          deferredPWAInstallPrompt = null;
+        });
+      } else {
+        alert('✦ วิธีติดตั้งเป็นแอปส่วนตัวบนมือถือ ✦\n\n• สำหรับ iPhone (Safari): แตะปุ่มแชร์ [ ↑ ] ที่แถบด้านล่าง แล้วเลือก "เพิ่มไปยังหน้าจอโฮม (Add to Home Screen)"\n\n• สำหรับ Android (Chrome): แตะเมนูจุดสามจุด [ ⋮ ] มุมขวาบน แล้วเลือก "ติดตั้งแอป" หรือ "เพิ่มลงในหน้าจอหลัก"');
+      }
+    }
+
+    // Register dedicated Service Worker
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/velvet-sw.js', { scope: '/467.html' })
+          .catch(() => {});
+      });
     }
   </script>
 </body>

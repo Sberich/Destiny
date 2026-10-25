@@ -1,0 +1,32 @@
+{
+  "id": "destiny-velvet-private-app",
+  "name": "Destiny Velvet ✦ Private Romance",
+  "short_name": "Destiny Velvet",
+  "description": "เกมสุ่มท่วงท่าและกิจกรรมโรแมนติกสำหรับคู่รัก",
+  "start_url": "/467.html",
+  "scope": "/467.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#08050e",
+  "theme_color": "#08050e",
+  "icons": [
+    {
+      "src": "/velvet-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/velvet-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/velvet-favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
