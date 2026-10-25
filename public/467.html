@@ -1138,8 +1138,11 @@
     }
 
     .edu-subtitle {
-      font-size: 0.95rem;
-      color: var(--rose-gold);
+      font-size: 0.88rem;
+      color: #ffd166;
+      line-height: 1.45;
+      margin-top: 4px;
+      font-weight: 400;
     }
 
     .edu-close-btn {
@@ -2690,7 +2693,7 @@
         <div>
           <div class="edu-badge">✦ ANATOMY & PHYSIOLOGY GUIDE ✦</div>
           <div class="edu-title" id="edu-title">Missionary</div>
-          <div class="edu-subtitle" id="edu-subtitle">มิชชันนารี (คลาสสิกมาตรฐาน)</div>
+          <div class="edu-subtitle" id="edu-subtitle">"หมอสอนศาสนา" — ท่าดั้งเดิมที่นักสอนศาสนาชาวยุโรปแนะนำให้คู่สมรสสบตาแนบชิดตามจารีต</div>
         </div>
         <button class="edu-close-btn" onclick="closeEduModal()">✕</button>
       </div>
@@ -3612,7 +3615,12 @@
       const anatomy = item.anatomy || {};
 
       document.getElementById('edu-title').textContent = item.name;
-      document.getElementById('edu-subtitle').textContent = item.nameTh;
+      const subEl = document.getElementById('edu-subtitle');
+      if (item.etymologyTh) {
+        subEl.textContent = item.etymologyTh;
+      } else {
+        subEl.textContent = extractThaiName(item.nameTh);
+      }
 
       // Render Tags
       const tagsWrap = document.getElementById('edu-tags');
