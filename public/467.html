@@ -8,7 +8,7 @@
   <title>Destiny Velvet ✦ Private Romance</title>
 
   <!-- Dedicated Web App Manifest (Isolated Independent PWA) -->
-  <link rel="manifest" href="velvet-manifest.json" />
+  <link rel="manifest" href="/velvet-manifest.json" />
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -16,9 +16,9 @@
   <meta name="application-name" content="Destiny Velvet" />
 
   <!-- Icons for Mobile Devices & Home Screen -->
-  <link rel="icon" type="image/svg+xml" href="velvet-favicon.svg" />
-  <link rel="apple-touch-icon" href="velvet-icon-192.png" />
-  <link rel="apple-touch-icon" sizes="512x512" href="velvet-icon-512.png" />
+  <link rel="icon" type="image/svg+xml" href="/velvet-favicon.svg" />
+  <link rel="apple-touch-icon" href="/velvet-icon-192.png" />
+  <link rel="apple-touch-icon" sizes="512x512" href="/velvet-icon-512.png" />
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -1400,7 +1400,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      padding: 20px;
+      padding: max(20px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right)) max(20px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
     }
 
     .pin-box {
@@ -2969,7 +2969,7 @@
     // Register dedicated Service Worker
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/velvet-sw.js', { scope: '/467.html' })
+        navigator.serviceWorker.register('/velvet-sw.js', { scope: '/467' })
           .catch(() => {});
       });
     }

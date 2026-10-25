@@ -1,10 +1,10 @@
 {
-  "id": "destiny-velvet-private-app",
+  "id": "/467",
   "name": "Destiny Velvet ✦ Private Romance",
   "short_name": "Destiny Velvet",
   "description": "เกมสุ่มท่วงท่าและกิจกรรมโรแมนติกสำหรับคู่รัก",
-  "start_url": "/467.html",
-  "scope": "/467.html",
+  "start_url": "/467",
+  "scope": "/467",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#08050e",

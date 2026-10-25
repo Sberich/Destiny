@@ -1,6 +1,7 @@
 // Destiny Velvet PWA Service Worker
-const CACHE_NAME = 'destiny-velvet-v1';
+const CACHE_NAME = 'destiny-velvet-v2';
 const PRECACHE_URLS = [
+  '/467',
   '/467.html',
   '/467-data.js',
   '/velvet-manifest.json',
