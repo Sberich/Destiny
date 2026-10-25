@@ -23,8 +23,6 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <!-- Position illustrations are hotlinked from this host: open the connection early -->
-  <link rel="preconnect" href="https://couplesexposition.com" />
   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Outfit:wght@300;400;600;700&family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
   <style>
@@ -129,21 +127,22 @@
     /* Mode Switcher */
     .mode-switcher {
       display: flex;
-      background: rgba(18, 9, 29, 0.8);
+      background: rgba(18, 9, 29, 0.85);
       border: 1px solid var(--glass-border);
       border-radius: 30px;
       padding: 4px;
-      margin: 0 auto 20px;
-      max-width: 380px;
+      margin: 0 auto 18px;
+      max-width: 440px;
+      width: 100%;
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
     }
 
     .mode-tab {
       flex: 1;
       text-align: center;
-      padding: 10px 14px;
+      padding: 9px 6px;
       border-radius: 24px;
-      font-size: 0.9rem;
+      font-size: 0.82rem;
       font-weight: 600;
       color: var(--text-muted);
       cursor: pointer;
@@ -151,7 +150,8 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 8px;
+      gap: 5px;
+      white-space: nowrap;
     }
 
     .mode-tab.active {
@@ -1540,6 +1540,548 @@
       background: rgba(255, 46, 147, 0.25);
       border-color: var(--passion-magenta);
     }
+
+    /* =========================================
+       MODE 3: VELVET SECRET MATCH (Yes/Maybe/No)
+       ========================================= */
+    .match-section {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      max-width: 480px;
+      margin: 0 auto 30px;
+    }
+
+    .match-card-shell {
+      width: 100%;
+      background: rgba(22, 12, 33, 0.88);
+      border: 1.5px solid var(--glass-border);
+      border-radius: 28px;
+      padding: 24px 18px;
+      box-shadow: 0 15px 45px rgba(0, 0, 0, 0.65), 0 0 35px rgba(255, 46, 147, 0.12);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      text-align: center;
+      position: relative;
+    }
+
+    .match-icon-badge, .match-lock-badge, .match-heart-pulse {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      display: inline-block;
+      animation: heartbeatPulse 1.8s infinite ease-in-out;
+    }
+
+    @keyframes heartbeatPulse {
+      0% { transform: scale(1); }
+      14% { transform: scale(1.18); }
+      28% { transform: scale(1); }
+      42% { transform: scale(1.12); }
+      70% { transform: scale(1); }
+    }
+
+    .match-title {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      letter-spacing: 1.5px;
+      color: #fff;
+      margin-bottom: 6px;
+      text-shadow: 0 0 15px rgba(255, 46, 147, 0.4);
+    }
+
+    .match-subtitle {
+      font-size: 0.85rem;
+      color: var(--rose-gold-light);
+      margin-bottom: 16px;
+      font-weight: 500;
+    }
+
+    .match-intro-desc {
+      font-size: 0.86rem;
+      line-height: 1.6;
+      color: var(--text-muted);
+      margin-bottom: 22px;
+      padding: 0 10px;
+    }
+
+    .match-config-box {
+      background: rgba(10, 4, 16, 0.6);
+      border: 1px solid rgba(226, 149, 120, 0.2);
+      border-radius: 20px;
+      padding: 14px 12px;
+      margin-bottom: 24px;
+    }
+
+    .match-config-label {
+      font-size: 0.82rem;
+      color: var(--champagne);
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    .match-count-selector {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .match-count-btn {
+      flex: 1;
+      max-width: 90px;
+      padding: 7px 10px;
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(226, 149, 120, 0.25);
+      color: var(--text-muted);
+      font-size: 0.82rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .match-count-btn.active {
+      background: linear-gradient(135deg, rgba(226, 149, 120, 0.3), rgba(255, 46, 147, 0.3));
+      border-color: var(--passion-magenta);
+      color: #fff;
+      box-shadow: 0 0 12px rgba(255, 46, 147, 0.4);
+    }
+
+    .match-start-btn {
+      background: linear-gradient(135deg, #ff2e93, #a21257);
+      border: 1.5px solid var(--rose-gold);
+      border-radius: 30px;
+      padding: 13px 28px;
+      color: #fff;
+      font-size: 0.98rem;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 0 0 25px rgba(255, 46, 147, 0.5);
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.25s;
+    }
+
+    .match-start-btn:active {
+      transform: scale(0.97);
+    }
+
+    /* Voting View */
+    .match-voting-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+
+    .match-player-tag {
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: #ffd166;
+      background: rgba(255, 209, 102, 0.12);
+      border: 1px solid rgba(255, 209, 102, 0.3);
+      border-radius: 12px;
+      padding: 4px 10px;
+    }
+
+    .match-step-counter {
+      font-size: 0.82rem;
+      color: var(--rose-gold-light);
+      font-weight: 600;
+    }
+
+    .match-progress-bar {
+      width: 100%;
+      height: 6px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 16px;
+    }
+
+    .match-progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--rose-gold), var(--passion-magenta));
+      border-radius: 10px;
+      transition: width 0.3s ease;
+    }
+
+    /* Grand Position Card inside match */
+    .match-deck-card {
+      background: linear-gradient(160deg, #1b0c26, #0d0414);
+      border: 1.5px solid rgba(226, 149, 120, 0.4);
+      border-radius: 22px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+      margin-bottom: 18px;
+      position: relative;
+    }
+
+    .match-card-img-wrap {
+      width: 100%;
+      height: 230px;
+      background: #08030d;
+      position: relative;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .match-card-img-wrap img {
+      max-width: 95%;
+      max-height: 95%;
+      object-fit: contain;
+      filter: drop-shadow(0 0 12px rgba(226, 149, 120, 0.2));
+      transition: transform 0.3s;
+    }
+
+    .match-zoom-hint {
+      position: absolute;
+      bottom: 8px;
+      right: 10px;
+      font-size: 0.7rem;
+      color: rgba(255, 255, 255, 0.7);
+      background: rgba(0, 0, 0, 0.55);
+      backdrop-filter: blur(4px);
+      padding: 3px 8px;
+      border-radius: 10px;
+    }
+
+    .match-card-info {
+      padding: 14px 16px;
+      text-align: left;
+    }
+
+    .match-card-names {
+      margin-bottom: 8px;
+    }
+
+    .match-card-en {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #fff;
+      display: block;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .match-card-th {
+      font-size: 0.88rem;
+      color: var(--rose-gold-light);
+      display: block;
+      margin-top: 1px;
+    }
+
+    .match-card-badges {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .match-card-pill {
+      font-size: 0.74rem;
+      padding: 3px 8px;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(226, 149, 120, 0.25);
+      color: var(--champagne);
+    }
+
+    /* 3 Action Buttons */
+    .match-actions-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1.25fr;
+      gap: 8px;
+      width: 100%;
+    }
+
+    .match-act-btn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 6px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .match-act-btn .act-emoji {
+      font-size: 1.5rem;
+      margin-bottom: 4px;
+      transition: transform 0.2s;
+    }
+
+    .match-act-btn .act-label {
+      font-size: 0.82rem;
+      font-weight: 700;
+    }
+
+    .match-act-btn .act-sub {
+      font-size: 0.65rem;
+      opacity: 0.75;
+      margin-top: 1px;
+    }
+
+    .match-act-btn:active {
+      transform: scale(0.94);
+    }
+
+    .match-act-btn.btn-no {
+      background: rgba(30, 20, 40, 0.7);
+      border: 1.5px solid rgba(184, 169, 201, 0.25);
+      color: var(--text-muted);
+    }
+
+    .match-act-btn.btn-no:active {
+      background: rgba(60, 30, 60, 0.9);
+      border-color: #ff5555;
+    }
+
+    .match-act-btn.btn-maybe {
+      background: linear-gradient(145deg, rgba(243, 213, 181, 0.15), rgba(226, 149, 120, 0.15));
+      border: 1.5px solid var(--rose-gold);
+      color: var(--champagne);
+    }
+
+    .match-act-btn.btn-maybe:active {
+      background: rgba(243, 213, 181, 0.35);
+      box-shadow: 0 0 15px rgba(243, 213, 181, 0.5);
+    }
+
+    .match-act-btn.btn-yes {
+      background: linear-gradient(145deg, rgba(255, 46, 147, 0.3), rgba(162, 18, 87, 0.5));
+      border: 1.5px solid var(--passion-magenta);
+      color: #fff;
+      box-shadow: 0 0 16px rgba(255, 46, 147, 0.3);
+    }
+
+    .match-act-btn.btn-yes:active {
+      background: var(--passion-magenta);
+      box-shadow: 0 0 25px rgba(255, 46, 147, 0.8);
+      transform: scale(0.96);
+    }
+
+    /* Handover Box */
+    .match-handover-box {
+      background: rgba(12, 5, 18, 0.75);
+      border: 1px dashed var(--rose-gold);
+      border-radius: 20px;
+      padding: 18px 14px;
+      margin-bottom: 24px;
+    }
+
+    .match-handover-box p {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .match-handover-tip {
+      font-size: 0.8rem;
+      color: var(--rose-gold);
+    }
+
+    /* Results */
+    .match-results-container {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 24px;
+      max-height: 55vh;
+      overflow-y: auto;
+      padding-right: 4px;
+    }
+
+    .match-result-card {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: rgba(16, 7, 24, 0.85);
+      border-radius: 18px;
+      padding: 10px 14px;
+      border: 1.5px solid var(--glass-border);
+      text-align: left;
+    }
+
+    .match-result-card.perfect {
+      border-color: #ffd166;
+      box-shadow: 0 0 16px rgba(255, 209, 102, 0.25);
+    }
+
+    .match-result-card.curious {
+      border-color: var(--passion-magenta);
+      box-shadow: 0 0 14px rgba(255, 46, 147, 0.2);
+    }
+
+    .match-result-thumb {
+      width: 58px;
+      height: 58px;
+      border-radius: 12px;
+      background: #000;
+      object-fit: contain;
+      flex-shrink: 0;
+    }
+
+    .match-result-info {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .match-result-badge {
+      font-size: 0.68rem;
+      font-weight: 700;
+      border-radius: 8px;
+      padding: 2px 7px;
+      display: inline-block;
+      margin-bottom: 4px;
+    }
+
+    .match-result-badge.perfect {
+      background: rgba(255, 209, 102, 0.2);
+      color: #ffd166;
+      border: 1px solid rgba(255, 209, 102, 0.4);
+    }
+
+    .match-result-badge.curious {
+      background: rgba(255, 46, 147, 0.2);
+      color: #ff70ba;
+      border: 1px solid rgba(255, 46, 147, 0.4);
+    }
+
+    .match-result-en {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #fff;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .match-result-th {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .match-results-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .match-action-prime {
+      background: linear-gradient(135deg, #ffd166, #ff2e93);
+      border: none;
+      border-radius: 26px;
+      padding: 12px 20px;
+      color: #12041a;
+      font-size: 0.92rem;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 0 0 20px rgba(255, 209, 102, 0.4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .match-action-sec {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid var(--glass-border);
+      border-radius: 26px;
+      padding: 10px 18px;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      cursor: pointer;
+    }
+
+    /* Decoy Screen */
+    #decoy-screen {
+      position: fixed;
+      inset: 0;
+      background: #0f1117;
+      z-index: 99999;
+      color: #e1e4ea;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      padding: max(20px, env(safe-area-inset-top)) 20px max(20px, env(safe-area-inset-bottom));
+      display: none;
+      overflow-y: auto;
+    }
+
+    .decoy-container {
+      max-width: 480px;
+      margin: 0 auto;
+    }
+
+    .decoy-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #232733;
+      padding-bottom: 14px;
+      margin-bottom: 20px;
+    }
+
+    .decoy-logo {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: #fff;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .decoy-date {
+      font-size: 0.8rem;
+      color: #8b949e;
+    }
+
+    .decoy-content {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .decoy-note-item {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      padding: 14px 16px;
+      font-size: 0.9rem;
+      color: #c9d1d9;
+    }
+
+    .decoy-note-item.done {
+      color: #8b949e;
+      text-decoration: line-through;
+    }
+
+    .decoy-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid #232733;
+      padding-top: 14px;
+      font-size: 0.78rem;
+      color: #8b949e;
+    }
+
+    .decoy-unlock-btn {
+      background: none;
+      border: none;
+      color: #8b949e;
+      font-size: 1.1rem;
+      cursor: pointer;
+      opacity: 0.4;
+      padding: 4px;
+    }
   </style>
 </head>
 <body>
@@ -1602,10 +2144,13 @@
     <!-- Mode Switcher -->
     <div class="mode-switcher">
       <div class="mode-tab active" id="tab-cards" onclick="switchMode('cards')">
-        <span>🃏</span> การ์ดปริศนา 3D
+        <span>🃏</span> การ์ด 3D
       </div>
       <div class="mode-tab" id="tab-wheel" onclick="switchMode('wheel')">
-        <span>🎡</span> วงล้อเสี่ยงทาย
+        <span>🎡</span> วงล้อ
+      </div>
+      <div class="mode-tab" id="tab-match" onclick="switchMode('match')">
+        <span>💖</span> ทายใจ
       </div>
     </div>
 
@@ -1682,6 +2227,142 @@
         </button>
       </div>
     </section>
+
+    <!-- MODE 3: Velvet Secret Match (Yes / Maybe / No) -->
+    <section id="section-match" class="match-section" style="display: none;">
+      <!-- Match Intro View -->
+      <div id="match-view-intro" class="match-card-shell">
+        <div class="match-icon-badge">💖</div>
+        <h2 class="match-title">VELVET SECRET MATCH</h2>
+        <div class="match-subtitle">เกมทายใจสองเรา ✦ ความปรารถนาที่เป็นความลับ</div>
+        <p class="match-intro-desc">
+          ผลัดกันเลือกท่วงท่าอย่างเป็นส่วนตัวโดยไม่เห็นคำตอบของอีกฝ่าย...<br />
+          ระบบจะเปิดเผยเฉพาะ <strong>"ท่าที่ใจตรงกัน 100%"</strong><br />
+          <span style="color: var(--rose-gold); font-size: 0.85rem;">(ท่าที่ตอบ "รอบหน้า" จะถูกปิดผนึกไว้ตลอดกาล)</span>
+        </p>
+
+        <div class="match-config-box">
+          <div class="match-config-label">เลือกจำนวนท่าในรอบนี้:</div>
+          <div class="match-count-selector">
+            <button class="match-count-btn active" id="match-btn-10" onclick="selectMatchCount(10)">10 ท่า</button>
+            <button class="match-count-btn" id="match-btn-20" onclick="selectMatchCount(20)">20 ท่า</button>
+            <button class="match-count-btn" id="match-btn-30" onclick="selectMatchCount(30)">30 ท่า</button>
+          </div>
+        </div>
+
+        <button class="match-start-btn" onclick="startSecretMatch()">
+          <span>🍷</span> เริ่มต้น: ฝ่ายที่ 1 ทายใจ
+        </button>
+      </div>
+
+      <!-- Match Voting View -->
+      <div id="match-view-voting" class="match-card-shell" style="display: none;">
+        <div class="match-voting-header">
+          <div class="match-player-tag" id="match-player-tag">💋 ฝ่ายที่ 1 ทายใจ</div>
+          <div class="match-step-counter" id="match-step-counter">ท่าที่ 1 / 10</div>
+        </div>
+        <div class="match-progress-bar">
+          <div class="match-progress-fill" id="match-progress-fill" style="width: 10%;"></div>
+        </div>
+
+        <!-- The Grand Position Card -->
+        <div class="match-deck-card" id="match-active-card">
+          <div class="match-card-img-wrap" onclick="openMatchLightbox()">
+            <img id="match-card-img" src="" alt="Position Illustration" onerror="handleImageError(this)" />
+            <div class="match-zoom-hint">🔍 แตะเพื่อดูภาพใหญ่</div>
+          </div>
+          <div class="match-card-info">
+            <div class="match-card-names">
+              <span class="match-card-en" id="match-card-name-en">-</span>
+              <span class="match-card-th" id="match-card-name-th">-</span>
+            </div>
+            <div class="match-card-badges">
+              <span class="match-card-pill" id="match-card-cat">✨ คลาสสิก</span>
+              <span class="match-card-pill" id="match-card-diff">⭐ ระดับ 1</span>
+              <span class="match-card-pill" id="match-card-focus">🌸 Clitoral 5/5</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 Luxury Decision Action Buttons -->
+        <div class="match-actions-grid">
+          <button class="match-act-btn btn-no" onclick="handleMatchVote('no')">
+            <span class="act-emoji">🖤</span>
+            <span class="act-label">รอบหน้า</span>
+            <span class="act-sub">(LATER)</span>
+          </button>
+          <button class="match-act-btn btn-maybe" onclick="handleMatchVote('maybe')">
+            <span class="act-emoji">✨</span>
+            <span class="act-label">อยากลอง</span>
+            <span class="act-sub">(TRY)</span>
+          </button>
+          <button class="match-act-btn btn-yes" onclick="handleMatchVote('yes')">
+            <span class="act-emoji">❤️</span>
+            <span class="act-label">ชอบท่านี้</span>
+            <span class="act-sub">(LIKE)</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Match Handover Curtain View -->
+      <div id="match-view-handover" class="match-card-shell" style="display: none;">
+        <div class="match-lock-badge">🔒</div>
+        <h2 class="match-title" style="color: var(--champagne);">ปิดผนึกคำตอบเรียบร้อย</h2>
+        <div class="match-subtitle">คำตอบของฝ่ายที่ 1 ถูกเข้ารหัสและซ่อนเป็นความลับแล้ว</div>
+        <div class="match-handover-box">
+          <p>กรุณาส่งมือถือให้อีกฝ่าย<br />โดยไม่ต้องบอกคำตอบที่เลือกไว้...</p>
+          <div class="match-handover-tip">💋 อีกฝ่ายจะไม่เห็นคำตอบที่คุณกดไว้แม้แต่ข้อเดียว</div>
+        </div>
+        <button class="match-start-btn" onclick="startPlayerTwoVoting()">
+          <span>💋</span> ฝ่ายที่ 2: เริ่มทายใจ
+        </button>
+      </div>
+
+      <!-- Match Results View (Grand Climax) -->
+      <div id="match-view-results" class="match-card-shell" style="display: none;">
+        <div class="match-results-header">
+          <div class="match-heart-pulse">💖</div>
+          <h2 class="match-title" style="background: linear-gradient(135deg, #fff, #ffd166, #ff2e93); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">MOMENT OF DESTINY</h2>
+          <div class="match-subtitle" id="match-results-summary">ผลลัพธ์ใจตรงกัน</div>
+        </div>
+
+        <div id="match-results-list" class="match-results-container">
+          <!-- Injected via JS -->
+        </div>
+
+        <div class="match-results-actions">
+          <button class="match-action-prime" id="match-spin-btn" onclick="applyMatchesToWheel()" style="display: none;">
+            <span>🎡</span> นำท่าที่ใจตรงกันไปหมุนในวงล้อทันที!
+          </button>
+          <button class="match-action-sec" onclick="resetSecretMatch()">
+            <span>🔄</span> เล่นทายใจรอบใหม่
+          </button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Decoy Screen for Panic Mode (Stealth Notes & Calculator) -->
+  <div id="decoy-screen">
+    <div class="decoy-container">
+      <div class="decoy-header">
+        <div class="decoy-logo" onclick="handleDecoySecretTap()">
+          <span>📝</span> Personal Notes
+        </div>
+        <div class="decoy-date" id="decoy-time-text">Today, 10:15 AM</div>
+      </div>
+      <div class="decoy-content">
+        <div class="decoy-note-item done">✓ ตรวจเช็คเอกสารและสรุปรายงานประจำเดือน</div>
+        <div class="decoy-note-item done">✓ นัดช่างตรวจเช็คระบบแอร์ที่บ้าน</div>
+        <div class="decoy-note-item">☐ ส่งรายการคำสั่งซื้อวัสดุอุปกรณ์สำนักงาน</div>
+        <div class="decoy-note-item">☐ นัดหมายประชุมทีมผ่าน Google Meet (14:00)</div>
+        <div class="decoy-note-item">☐ ทบทวนแผนการดำเนินงานสัปดาห์หน้า</div>
+      </div>
+      <div class="decoy-footer">
+        <span class="decoy-sync">Cloud synced • 5 minutes ago</span>
+        <button class="decoy-unlock-btn" onclick="exitDecoy()" title="กลับสู่ระบบ">🔒</button>
+      </div>
+    </div>
   </div>
 
   <!-- Detail Result Modal -->
@@ -1792,7 +2473,7 @@
   <!-- Fullscreen Image Lightbox -->
   <div class="lightbox-backdrop" id="lightbox-modal" onclick="closeLightbox()">
     <button class="lightbox-close" onclick="closeLightbox()">✕</button>
-    <img class="lightbox-img" id="lightbox-img" src="" alt="Fullscreen Position Preview" onclick="event.stopPropagation()" />
+    <img class="lightbox-img" id="lightbox-img" src="" alt="Fullscreen Position Preview" onclick="event.stopPropagation()" onerror="handleImageError(this)" />
   </div>
 
   <!-- Educational & Anatomy Deep Dive Modal -->
@@ -1857,13 +2538,81 @@
     const PIN_SALT = 'destiny_velvet_private_salt_2026:';
     const CORRECT_PIN_HASH = '392a8c282300932efda5361673c0caf62f1cca3517401dd8d78c31b7f92324c4';
 
+    function sha256Sync(ascii) {
+      function rightRotate(v, a) { return (v >>> a) | (v << (32 - a)); }
+      const maxWord = Math.pow(2, 32);
+      let i, j, i2, result = '';
+      const words = [];
+      const asciiBitLength = ascii.length * 8;
+      const hash = [];
+      const k = [];
+      let primeCounter = 0;
+      const isComposite = {};
+      for (let candidate = 2; primeCounter < 64; candidate++) {
+        if (!isComposite[candidate]) {
+          for (i = 0; i < 313; i += candidate) isComposite[i] = candidate;
+          hash[primeCounter] = (Math.pow(candidate, .5) * maxWord) | 0;
+          k[primeCounter++] = (Math.pow(candidate, 1 / 3) * maxWord) | 0;
+        }
+      }
+      ascii += '\x80';
+      while (ascii.length % 64 - 56) ascii += '\x00';
+      for (i = 0; i < ascii.length; i++) {
+        j = ascii.charCodeAt(i);
+        words[i >> 2] |= j << ((3 - i) % 4) * 8;
+      }
+      words[words.length] = ((asciiBitLength / maxWord) | 0);
+      words[words.length] = (asciiBitLength);
+      for (j = 0; j < words.length;) {
+        const w = words.slice(j, j += 16);
+        const oldHash = hash.slice();
+        for (i = 0; i < 64; i++) {
+          const w15 = w[i - 15], w2 = w[i - 2];
+          const s0 = rightRotate(w15, 7) ^ rightRotate(w15, 18) ^ (w15 >>> 3);
+          const s1 = rightRotate(w2, 17) ^ rightRotate(w2, 19) ^ (w2 >>> 10);
+          const ch = (hash[4] & hash[5]) ^ (~hash[4] & hash[6]);
+          const maj = (hash[0] & hash[1]) ^ (hash[0] & hash[2]) ^ (hash[1] & hash[2]);
+          const temp1 = (hash[7] + (rightRotate(hash[4], 6) ^ rightRotate(hash[4], 11) ^ rightRotate(hash[4], 25)) + ch + k[i] + (w[i] = (i < 16) ? w[i] : ((w[i - 16] + s0 + w[i - 7] + s1) | 0))) | 0;
+          const temp2 = ((rightRotate(hash[0], 2) ^ rightRotate(hash[0], 13) ^ rightRotate(hash[0], 22)) + maj) | 0;
+          hash.pop();
+          hash.unshift((temp1 + temp2) | 0);
+          hash[4] = (hash[4] + temp1) | 0;
+        }
+        for (i = 0; i < 8; i++) hash[i] = (hash[i] + oldHash[i]) | 0;
+      }
+      for (i = 0; i < 8; i++) {
+        for (i2 = 3; i2 >= 0; i2--) {
+          const b = (hash[i] >> (8 * i2)) & 255;
+          result += (b < 16 ? '0' : '') + b.toString(16);
+        }
+      }
+      return result;
+    }
+
     async function hashPin(pin) {
       if (window.crypto && window.crypto.subtle) {
-        const data = new TextEncoder().encode(PIN_SALT + pin);
-        const hashBuf = await window.crypto.subtle.digest('SHA-256', data);
-        return Array.from(new Uint8Array(hashBuf)).map(b => b.toString(16).padStart(2, '0')).join('');
+        try {
+          const data = new TextEncoder().encode(PIN_SALT + pin);
+          const hashBuf = await window.crypto.subtle.digest('SHA-256', data);
+          return Array.from(new Uint8Array(hashBuf)).map(b => b.toString(16).padStart(2, '0')).join('');
+        } catch (e) {}
       }
-      return pin;
+      return sha256Sync(PIN_SALT + pin);
+    }
+
+    function extractThaiName(nameTh) {
+      if (!nameTh) return '';
+      const match = nameTh.match(/\((.*?)\)/);
+      if (match && match[1]) return match[1].trim();
+      return nameTh.trim();
+    }
+
+    function normalizeImagePath(src) {
+      if (!src) return '';
+      if (window.location.protocol === 'file:' && src.startsWith('/positions/')) {
+        return '.' + src;
+      }
+      return src;
     }
 
     /* ---- Helpers ---- */
@@ -1901,11 +2650,12 @@
 
     // Load an illustration into an <img>, hiding the old picture until the new one is ready
     function loadImageInto(img, item) {
+      delete img.dataset.triedRemote;
       img.classList.add('img-loading');
       img.onload = () => img.classList.remove('img-loading');
       img.onerror = function () { handleImageError(this); };
       img.alt = item.name;
-      img.src = item.imageUrl;
+      img.src = normalizeImagePath(item.imageUrl);
       if (img.complete && img.naturalWidth > 0) img.classList.remove('img-loading');
     }
     let currentMode = 'cards'; // 'cards' | 'wheel'
@@ -1924,13 +2674,84 @@
     let timerEndAt = 0; // wall-clock end time, so throttled/background tabs don't make the timer drift
     let audioCtx = null;
 
-    // Panic Button Shortcut
+    // Panic Button & Enhanced Escape/Back Handler
     window.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') panicExit();
+      if (e.key === 'Escape') handleEscapeKey();
     });
 
+    function handleEscapeKey() {
+      // 1. Lightbox
+      const lb = document.getElementById('lightbox-modal');
+      if (lb && lb.style.display === 'flex') {
+        closeLightbox();
+        return;
+      }
+      // 2. Mini tip popover
+      const tip = document.getElementById('mini-tip-popover');
+      if (tip && tip.style.display === 'flex') {
+        closeMiniTip();
+        return;
+      }
+      // 3. Edu modal
+      const edu = document.getElementById('edu-modal');
+      if (edu && edu.style.display === 'flex') {
+        closeEduModal();
+        return;
+      }
+      // 4. Result modal
+      const res = document.getElementById('result-modal');
+      if (res && res.style.display === 'flex') {
+        closeModal();
+        return;
+      }
+      // 5. Category dropdown
+      const catWrap = document.getElementById('category-dropdown-wrap');
+      if (catWrap && catWrap.classList.contains('open')) {
+        closeCatDropdown();
+        return;
+      }
+      // If nothing is open, trigger Stealth Decoy Panic!
+      panicExit();
+    }
+
+    let decoyTapCount = 0;
+    let decoyTapTimer = null;
+
     function panicExit() {
-      window.location.replace('/');
+      // Show stealth Decoy Screen inside PWA scope without breaking standalone mode
+      const decoy = document.getElementById('decoy-screen');
+      if (decoy) {
+        decoy.style.display = 'block';
+        updateDecoyTime();
+      }
+    }
+
+    function exitDecoy() {
+      const decoy = document.getElementById('decoy-screen');
+      if (decoy) decoy.style.display = 'none';
+      // Return to locked PIN screen for total privacy
+      document.getElementById('app-container').style.display = 'none';
+      document.getElementById('pin-screen').style.display = 'flex';
+      currentPinInput = '';
+      updatePinDots();
+    }
+
+    function handleDecoySecretTap() {
+      decoyTapCount++;
+      clearTimeout(decoyTapTimer);
+      decoyTapTimer = setTimeout(() => { decoyTapCount = 0; }, 1200);
+      if (decoyTapCount >= 3) {
+        decoyTapCount = 0;
+        exitDecoy();
+      }
+    }
+
+    function updateDecoyTime() {
+      const el = document.getElementById('decoy-time-text');
+      if (el) {
+        const now = new Date();
+        el.textContent = `Today, ${now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}`;
+      }
     }
 
     /* ========================================================
@@ -1993,17 +2814,24 @@
       watchOverlays();
     }
 
-    /* Switch between Cards and Wheel Mode */
+    /* Switch between Cards, Wheel and Secret Match Mode */
     function switchMode(mode) {
       currentMode = mode;
       document.getElementById('tab-cards').classList.toggle('active', mode === 'cards');
       document.getElementById('tab-wheel').classList.toggle('active', mode === 'wheel');
+      document.getElementById('tab-match').classList.toggle('active', mode === 'match');
 
       document.getElementById('section-cards').style.display = (mode === 'cards') ? 'block' : 'none';
       document.getElementById('section-wheel').style.display = (mode === 'wheel') ? 'flex' : 'none';
+      document.getElementById('section-match').style.display = (mode === 'match') ? 'flex' : 'none';
+
+      // Hide category dropdown during match mode to keep full focus on the secret survey
+      document.getElementById('category-dropdown-wrap').style.display = (mode === 'match') ? 'none' : 'block';
 
       if (mode === 'wheel') {
         drawWheel();
+      } else if (mode === 'match') {
+        initSecretMatchView();
       }
     }
 
@@ -2178,11 +3006,11 @@
         back.className = 'card-face card-back';
         back.innerHTML = `
           <div class="card-thumb-wrap">
-            <img src="${escapeHTML(item.imageUrl)}" alt="${escapeHTML(item.name)}" decoding="async" onerror="handleImageError(this)" />
+            <img src="${escapeHTML(normalizeImagePath(item.imageUrl))}" alt="${escapeHTML(item.name)}" decoding="async" onerror="handleImageError(this)" />
           </div>
           <div>
             <div class="card-back-name-en">${escapeHTML(item.name)}</div>
-            <div class="card-back-name-th">${escapeHTML(item.nameTh.split('(')[0])}</div>
+            <div class="card-back-name-th">${escapeHTML(extractThaiName(item.nameTh))}</div>
             <div class="card-stars" title="ระดับความยาก">${'★'.repeat(item.difficulty)}</div>
           </div>
         `;
@@ -2413,7 +3241,7 @@
     function openModal(item) {
       lastWinnerItem = item;
       document.getElementById('last-winner-bar').style.display = 'flex';
-      const cleanTh = item.nameTh.split('(')[0].trim();
+      const cleanTh = extractThaiName(item.nameTh);
       const enEl = document.getElementById('last-winner-en');
       const thEl = document.getElementById('last-winner-th');
       if (enEl) enEl.textContent = item.name;
@@ -2552,7 +3380,9 @@
     /* Fullscreen Lightbox Handlers */
     function openLightbox() {
       if (!lastWinnerItem) return;
-      document.getElementById('lightbox-img').src = lastWinnerItem.imageUrl;
+      const lbImg = document.getElementById('lightbox-img');
+      delete lbImg.dataset.triedRemote;
+      lbImg.src = normalizeImagePath(lastWinnerItem.imageUrl);
       document.getElementById('lightbox-modal').style.display = 'flex';
       playTone(600, 'sine', 0.1);
     }
@@ -2622,8 +3452,21 @@
     }
 
     function handleImageError(img) {
-      // Fallback elegant SVG placeholder
+      const src = img.src || '';
+      // If local /positions/<file>.webp failed (e.g. files not yet uploaded to web host),
+      // seamlessly fallback to live HD remote image so user never encounters broken images!
+      if (!img.dataset.triedRemote && src.includes('positions/')) {
+        img.dataset.triedRemote = 'true';
+        const parts = src.split('positions/');
+        const filename = parts[parts.length - 1].split('?')[0];
+        if (filename) {
+          img.src = 'https://couplesexposition.com/images/positions/' + filename;
+          return;
+        }
+      }
+      // Fallback elegant SVG placeholder if both local and remote fail
       img.onerror = null;
+      img.classList.remove('img-loading');
       img.src = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200"><rect width="300" height="200" fill="%231a0a24"/><circle cx="150" cy="100" r="50" fill="%23e29578" opacity="0.2"/><text x="150" y="105" font-family="sans-serif" font-size="16" fill="%23e29578" text-anchor="middle">✦ DESTINY ✦</text></svg>';
     }
 
@@ -2964,6 +3807,301 @@
       } else {
         alert('✦ วิธีติดตั้งเป็นแอปส่วนตัวบนมือถือ ✦\n\n• สำหรับ iPhone (Safari): แตะปุ่มแชร์ [ ↑ ] ที่แถบด้านล่าง แล้วเลือก "เพิ่มไปยังหน้าจอโฮม (Add to Home Screen)"\n\n• สำหรับ Android (Chrome): แตะเมนูจุดสามจุด [ ⋮ ] มุมขวาบน แล้วเลือก "ติดตั้งแอป" หรือ "เพิ่มลงในหน้าจอหลัก"');
       }
+    }
+
+    /* ========================================================
+       MODE 3: VELVET SECRET MATCH (Yes / Maybe / No)
+       ======================================================== */
+    let matchDeck = [];
+    let matchDeckSize = 10;
+    let matchCurrentStep = 0; // index in matchDeck
+    let matchCurrentPlayer = 1; // 1 or 2
+    let matchP1Votes = {}; // { positionId: 'yes'|'maybe'|'no' }
+    let matchP2Votes = {}; // { positionId: 'yes'|'maybe'|'no' }
+    let matchedPositions = [];
+
+    function initSecretMatchView() {
+      const viewVoting = document.getElementById('match-view-voting');
+      const viewHandover = document.getElementById('match-view-handover');
+      const viewResults = document.getElementById('match-view-results');
+      if (viewVoting.style.display !== 'none' || viewHandover.style.display !== 'none' || viewResults.style.display !== 'none') {
+        return;
+      }
+      resetSecretMatch();
+    }
+
+    function selectMatchCount(count) {
+      matchDeckSize = count;
+      [10, 20, 30].forEach(n => {
+        const btn = document.getElementById(`match-btn-${n}`);
+        if (btn) btn.classList.toggle('active', n === count);
+      });
+      playTone(520, 'sine', 0.05);
+    }
+
+    function startSecretMatch() {
+      const pool = getFilteredPositions();
+      matchDeck = sampleN(pool, matchDeckSize);
+      if (matchDeck.length === 0) return;
+      matchCurrentStep = 0;
+      matchCurrentPlayer = 1;
+      matchP1Votes = {};
+      matchP2Votes = {};
+      matchedPositions = [];
+
+      document.getElementById('match-view-intro').style.display = 'none';
+      document.getElementById('match-view-handover').style.display = 'none';
+      document.getElementById('match-view-results').style.display = 'none';
+      document.getElementById('match-view-voting').style.display = 'block';
+
+      renderMatchCard();
+      playTone(580, 'sine', 0.15);
+    }
+
+    function renderMatchCard() {
+      if (matchCurrentStep >= matchDeck.length) {
+        if (matchCurrentPlayer === 1) {
+          // Transition to handover curtain
+          document.getElementById('match-view-voting').style.display = 'none';
+          document.getElementById('match-view-handover').style.display = 'block';
+          playTone(400, 'sine', 0.2);
+          if (navigator.vibrate) navigator.vibrate([40, 80, 40]);
+        } else {
+          // Both players finished -> Reveal Grand Climax!
+          revealMatchResults();
+        }
+        return;
+      }
+
+      const item = matchDeck[matchCurrentStep];
+      const playerText = matchCurrentPlayer === 1 ? '💋 ฝ่ายที่ 1 ทายใจ' : '🥂 ฝ่ายที่ 2 ทายใจ';
+      document.getElementById('match-player-tag').textContent = playerText;
+      document.getElementById('match-step-counter').textContent = `ท่าที่ ${matchCurrentStep + 1} / ${matchDeck.length}`;
+
+      const pct = Math.round(((matchCurrentStep + 1) / matchDeck.length) * 100);
+      document.getElementById('match-progress-fill').style.width = `${pct}%`;
+
+      const imgEl = document.getElementById('match-card-img');
+      delete imgEl.dataset.triedRemote;
+      imgEl.src = normalizeImagePath(item.imageUrl);
+      document.getElementById('match-card-name-en').textContent = item.name;
+      document.getElementById('match-card-name-th').textContent = extractThaiName(item.nameTh);
+
+      // Badges
+      const catObj = (window.COUPLES_CATEGORIES || []).find(c => c.id === item.category);
+      document.getElementById('match-card-cat').textContent = catObj ? `${catObj.icon} ${catObj.nameTh.split(' ')[0]}` : '✨ โรแมนติก';
+      document.getElementById('match-card-diff').textContent = `⭐ ระดับ ${item.difficulty || 1}`;
+      document.getElementById('match-card-focus').textContent = item.clitoral >= 3 ? `🌸 Clitoral ${item.clitoral}/5` : `✨ G-Spot ${item.gspot || 2}/5`;
+
+      playHeartbeat();
+    }
+
+    function handleMatchVote(vote) {
+      const item = matchDeck[matchCurrentStep];
+      if (!item) return;
+
+      if (matchCurrentPlayer === 1) {
+        matchP1Votes[item.id] = vote;
+      } else {
+        matchP2Votes[item.id] = vote;
+      }
+
+      // Visual / Audio feedback
+      if (vote === 'yes') {
+        playTone(660, 'sine', 0.2);
+        if (navigator.vibrate) navigator.vibrate([30, 40, 60]);
+      } else if (vote === 'maybe') {
+        playTone(520, 'sine', 0.12);
+        if (navigator.vibrate) navigator.vibrate(40);
+      } else {
+        playTone(280, 'sine', 0.08);
+      }
+
+      // Subtle card glide animation
+      const card = document.getElementById('match-active-card');
+      card.style.transition = 'transform 0.15s ease, opacity 0.15s ease';
+      card.style.transform = vote === 'yes' ? 'translateX(18px) rotate(2deg)' : (vote === 'no' ? 'translateX(-18px) rotate(-2deg)' : 'translateY(-14px)');
+      card.style.opacity = '0.5';
+
+      setTimeout(() => {
+        card.style.transition = 'none';
+        card.style.transform = 'none';
+        card.style.opacity = '1';
+        matchCurrentStep++;
+        renderMatchCard();
+      }, 140);
+    }
+
+    function startPlayerTwoVoting() {
+      matchCurrentPlayer = 2;
+      matchCurrentStep = 0;
+      // Shuffle deck for Player 2 so Player 2 cannot guess order
+      matchDeck = sampleN(matchDeck, matchDeck.length);
+
+      document.getElementById('match-view-handover').style.display = 'none';
+      document.getElementById('match-view-voting').style.display = 'block';
+      renderMatchCard();
+      playTone(540, 'sine', 0.15);
+    }
+
+    function revealMatchResults() {
+      document.getElementById('match-view-voting').style.display = 'none';
+      document.getElementById('match-view-results').style.display = 'block';
+
+      // Compare votes
+      const perfectMatches = [];
+      const curiousMatches = [];
+
+      const seen = new Set();
+      matchDeck.forEach(item => {
+        if (seen.has(item.id)) return;
+        seen.add(item.id);
+        const v1 = matchP1Votes[item.id];
+        const v2 = matchP2Votes[item.id];
+
+        if (v1 === 'yes' && v2 === 'yes') {
+          perfectMatches.push(item);
+        } else if ((v1 === 'yes' && v2 === 'maybe') || (v1 === 'maybe' && v2 === 'yes') || (v1 === 'maybe' && v2 === 'maybe')) {
+          curiousMatches.push(item);
+        }
+        // Any 'no' is completely ignored and kept secret!
+      });
+
+      matchedPositions = [...perfectMatches, ...curiousMatches];
+
+      const listEl = document.getElementById('match-results-list');
+      listEl.innerHTML = '';
+
+      const summaryEl = document.getElementById('match-results-summary');
+      const spinBtn = document.getElementById('match-spin-btn');
+
+      if (matchedPositions.length === 0) {
+        summaryEl.textContent = 'รอบนี้ยังไม่มีท่าที่ตรงกันพอดี ไม่เป็นไรเลยครับ!';
+        listEl.innerHTML = `
+          <div style="padding: 24px 10px; color: var(--text-muted); font-size: 0.9rem; line-height: 1.6;">
+            🌿 ความต้องการของแต่ละคนมีจังหวะเวลา<br />
+            ลองเลือกหมวดหมู่ใหม่ หรือปรับเปลี่ยนท่าแล้วสำรวจใหม่อีกครั้งนะครับ 💖
+          </div>
+        `;
+        spinBtn.style.display = 'none';
+      } else {
+        summaryEl.textContent = `ค้นพบ ${matchedPositions.length} ท่วงท่าที่ใจตรงกัน! ✦`;
+        spinBtn.style.display = 'flex';
+
+        // Render Perfect Matches first
+        perfectMatches.forEach(item => {
+          listEl.appendChild(createMatchResultCard(item, 'perfect'));
+        });
+        // Then Curious Matches
+        curiousMatches.forEach(item => {
+          listEl.appendChild(createMatchResultCard(item, 'curious'));
+        });
+
+        // Accelerated heartbeat celebration!
+        playCelebrationChime();
+        if (navigator.vibrate) navigator.vibrate([100, 80, 150, 100, 250]);
+      }
+    }
+
+    function createMatchResultCard(item, type) {
+      const card = document.createElement('div');
+      card.className = `match-result-card ${type}`;
+      card.onclick = () => openModal(item);
+
+      const isPerfect = type === 'perfect';
+      const badgeText = isPerfect ? '❤️ ใจตรงกัน! ชอบท่านี้ทั้งคู่' : '✨ ใจตรงกัน! อยากลองไปด้วยกัน';
+      const badgeClass = isPerfect ? 'perfect' : 'curious';
+
+      card.innerHTML = `
+        <img class="match-result-thumb" src="${escapeHTML(normalizeImagePath(item.imageUrl))}" alt="${escapeHTML(item.name)}" onerror="handleImageError(this)" />
+        <div class="match-result-info">
+          <span class="match-result-badge ${badgeClass}">${badgeText}</span>
+          <div class="match-result-en">${escapeHTML(item.name)}</div>
+          <div class="match-result-th">${escapeHTML(extractThaiName(item.nameTh))}</div>
+        </div>
+        <div style="color: var(--rose-gold); font-size: 1.1rem; padding-left: 6px;">❯</div>
+      `;
+      return card;
+    }
+
+    function applyMatchesToWheel() {
+      if (matchedPositions.length === 0) return;
+      wheelItems = matchedPositions.slice();
+      switchMode('wheel');
+      drawWheel();
+      alert(`✨ นำ ${matchedPositions.length} ท่าที่ใจตรงกันลงในวงล้อเสี่ยงทายเรียบร้อยแล้วครับ!`);
+    }
+
+    function resetSecretMatch() {
+      document.getElementById('match-view-intro').style.display = 'block';
+      document.getElementById('match-view-voting').style.display = 'none';
+      document.getElementById('match-view-handover').style.display = 'none';
+      document.getElementById('match-view-results').style.display = 'none';
+    }
+
+    function openMatchLightbox() {
+      const item = matchDeck[matchCurrentStep];
+      if (item) {
+        const lbImg = document.getElementById('lightbox-img');
+        delete lbImg.dataset.triedRemote;
+        lbImg.src = normalizeImagePath(item.imageUrl);
+        document.getElementById('lightbox-modal').style.display = 'flex';
+      }
+    }
+
+    function playHeartbeat() {
+      try {
+        const ctx = getAudioCtx();
+        if (!ctx) return;
+        const now = ctx.currentTime;
+        // Lub (First low thump)
+        const osc1 = ctx.createOscillator();
+        const gain1 = ctx.createGain();
+        osc1.type = 'sine';
+        osc1.frequency.setValueAtTime(65, now);
+        osc1.frequency.exponentialRampToValueAtTime(30, now + 0.12);
+        gain1.gain.setValueAtTime(0.35, now);
+        gain1.gain.linearRampToValueAtTime(0, now + 0.12);
+        osc1.connect(gain1);
+        gain1.connect(ctx.destination);
+        osc1.start(now);
+        osc1.stop(now + 0.13);
+
+        // Dub (Second thump after 140ms)
+        const osc2 = ctx.createOscillator();
+        const gain2 = ctx.createGain();
+        osc2.type = 'sine';
+        osc2.frequency.setValueAtTime(55, now + 0.14);
+        osc2.frequency.exponentialRampToValueAtTime(25, now + 0.28);
+        gain2.gain.setValueAtTime(0.4, now + 0.14);
+        gain2.gain.linearRampToValueAtTime(0, now + 0.28);
+        osc2.connect(gain2);
+        gain2.connect(ctx.destination);
+        osc2.start(now + 0.14);
+        osc2.stop(now + 0.29);
+
+        if (navigator.vibrate) navigator.vibrate([35, 60, 45]);
+      } catch (e) {}
+    }
+
+    function playCelebrationChime() {
+      try {
+        const ctx = getAudioCtx();
+        if (!ctx) return;
+        const now = ctx.currentTime;
+        [523.25, 659.25, 783.99, 1046.5].forEach((freq, i) => {
+          const osc = ctx.createOscillator();
+          const gain = ctx.createGain();
+          osc.type = 'triangle';
+          osc.frequency.setValueAtTime(freq, now + i * 0.09);
+          gain.gain.setValueAtTime(0.25, now + i * 0.09);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + i * 0.09 + 0.5);
+          osc.connect(gain);
+          gain.connect(ctx.destination);
+          osc.start(now + i * 0.09);
+          osc.stop(now + i * 0.09 + 0.55);
+        });
+      } catch (e) {}
     }
 
     // Register dedicated Service Worker

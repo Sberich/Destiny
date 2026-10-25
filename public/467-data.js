@@ -9,7 +9,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 2,
     "angle": "แนวระนาบตรง ความลึกระดับปานกลาง ปลายทำมุมเฉียงขึ้นเล็กน้อย",
     "descriptionTh": "ท่าพื้นฐานที่สมบูรณ์แบบที่สุด เน้นความอบอุ่นและการสบตากัน สามารถใช้มือช่วยกระตุ้นจุดสัมผัสภายนอกได้อย่างสะดวก",
-    "imageUrl": "https://couplesexposition.com/images/positions/missionary.webp",
+    "imageUrl": "/positions/missionary.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -43,7 +43,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "สอดใส่จากด้านหลังเป็นมุมลึก ปลายกระทบผนังด้านหน้าจุดจีสปอตโดยตรง",
     "descriptionTh": "ให้ความรู้สึกแนบชิดและสัมผัสลึกซึ้ง ฝ่ายชายสามารถสัมผัสสะโพกหรือโอบแผ่นหลังฝ่ายหญิงได้อย่างเป็นธรรมชาติ",
-    "imageUrl": "https://couplesexposition.com/images/positions/doggy-style.webp",
+    "imageUrl": "/positions/doggy-style.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -77,7 +77,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 2,
     "angle": "แนวดิ่งลงลึก สามารถปรับมุมโน้มตัวไปข้างหน้าหรือเอนหลังได้อย่างอิสระ",
     "descriptionTh": "ฝ่ายหญิงอยู่ด้านบน ควบคุมมุมองศา ความลึก และจังหวะได้ตามใจชอบ บดสัมผัสได้อย่างแนบแน่น",
-    "imageUrl": "https://couplesexposition.com/images/positions/cowgirl.webp",
+    "imageUrl": "/positions/cowgirl.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -112,7 +112,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 0,
     "angle": "สัมผัสภายนอก / Oral Art: เน้นริมฝีปาก ลิ้น และปลายนิ้ว ควบคุมจังหวะอิสระ",
     "descriptionTh": "ท่วงท่า Oral Sex สุดคลาสสิกที่มอบความสุขสมให้แก่กันและกันไปพร้อมๆ กันอย่างกลมกลืนและสมดุล",
-    "imageUrl": "https://couplesexposition.com/images/positions/sixty-nine.webp",
+    "imageUrl": "/positions/sixty-nine.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -148,7 +148,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "ระนาบแนวนอนราบขนาน สอดใส่จากด้านหลังในมุมแคบกระชับ",
     "descriptionTh": "ฝ่ายหญิงนอนคว่ำราบไปกับเตียง สัมผัสถึงความกระชับแนบแน่นและอบอุ่นทั่วแผ่นหลัง",
-    "imageUrl": "https://couplesexposition.com/images/positions/prone-bone.webp",
+    "imageUrl": "/positions/prone-bone.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -183,7 +183,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "แนวดิ่งหันหลัง ปลายองศากระทบผนังจุดจีสปอตอย่างแม่นยำ",
     "descriptionTh": "ฝ่ายหญิงหันหลังให้ฝ่ายชาย ควบคุมมุมและความเร็วได้เต็มที่ ฝ่ายชายได้ชื่นชมแผ่นหลังและสะโพก",
-    "imageUrl": "https://couplesexposition.com/images/positions/reverse-cowgirl.webp",
+    "imageUrl": "/positions/reverse-cowgirl.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -218,7 +218,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "ฝ่ายชายนอนชันเข่า ฝ่ายหญิงนั่งคร่อมคุมจังหวะและกดน้ำหนักลง",
     "descriptionTh": "ฝ่ายหญิงมีอำนาจเต็มที่ในการกำหนดจังหวะ บดคลึงได้ลึกซึ้งและแนบชิด",
-    "imageUrl": "https://couplesexposition.com/images/positions/amazon.webp",
+    "imageUrl": "/positions/amazon.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -254,7 +254,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "ท่านั่งโอบกอดสบตา สอดประสานเป็นแนวดิ่งลึกซึ้ง",
     "descriptionTh": "สุดยอดท่าแห่งความโรแมนติก ฝ่ายหญิงนั่งบนตักฝ่ายชาย ทั้งสองโอบกอดและสบตากันอย่างใกล้ชิด",
-    "imageUrl": "https://couplesexposition.com/images/positions/lotus.webp",
+    "imageUrl": "/positions/lotus.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -290,7 +290,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "แนวตรงระดับสะโพก ฝ่ายหญิงยกสะโพกขึ้นริมขอบเตียง",
     "descriptionTh": "ช่วยให้ฝ่ายหญิงไม่ต้องรับน้ำหนัก ฝ่ายชายยืนหรือคุกเข่าควบคุมจังหวะได้อย่างสบาย",
-    "imageUrl": "https://couplesexposition.com/images/positions/butterfly.webp",
+    "imageUrl": "/positions/butterfly.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -325,7 +325,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "นอนตะแคงไปในทิศทางเดียวกัน สอดใส่จากด้านหลังในมุมเฉียงผ่อนคลาย",
     "descriptionTh": "ไม่ต้องใช้แรงเยอะ เหมาะมากสำหรับวันสบายๆ หรือช่วงเช้าที่อยากคลอเคลียอบอุ่น",
-    "imageUrl": "https://couplesexposition.com/images/positions/spooning.webp",
+    "imageUrl": "/positions/spooning.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -359,7 +359,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 1,
     "angle": "มุมทะแยง 45 องศา สอดประสานขาไขว้กันแนบชิด",
     "descriptionTh": "นอนราบไม่ต้องออกแรงต้าน บดสัมผัสกระตุ้นจุดภายนอกได้อย่างต่อเนื่องและเป็นธรรมชาติ",
-    "imageUrl": "https://couplesexposition.com/images/positions/scissor.webp",
+    "imageUrl": "/positions/scissor.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -394,7 +394,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 1,
     "angle": "แนบระนาบแนบแน่นโดยฝ่ายชายขยับขึ้นสูงกว่าปกติ เพื่อให้เกิดการเสียดสีจุดคลิตอริสตลอดเวลา",
     "descriptionTh": "เน้นการบดคลึงเป็นจังหวะมากกว่าการเข้าออกเร็ว ผ่อนคลายแต่ถึงจุดสุดยอดได้ง่ายมาก",
-    "imageUrl": "https://couplesexposition.com/images/positions/cat.webp",
+    "imageUrl": "/positions/cat.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -429,7 +429,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "หมุนเปลี่ยนองศาเป็นวงกลมขณะสอดประสาน",
     "descriptionTh": "สนุกสนานและแปลกใหม่ ช่วยสร้างเสียงหัวเราะและความตื่นเต้นไปพร้อมกัน",
-    "imageUrl": "https://couplesexposition.com/images/positions/helicopter.webp",
+    "imageUrl": "/positions/helicopter.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -465,7 +465,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "นอนตะแคงไขว้ขาสลับทิศ บิดเกลียวสะโพกเข้ามุมลึก",
     "descriptionTh": "ความกระชับระดับสูงสุด การบิดสะโพกทำให้เกิดมุมสัมผัสใหม่ที่ไม่เคยพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/pretzel.webp",
+    "imageUrl": "/positions/pretzel.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -501,7 +501,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "สอดแขนใต้รักแร้ฝ่ายหญิงยกตัวขึ้น สอดใส่จากด้านหลังมุมลึก",
     "descriptionTh": "ความตื่นเต้นระดับสูงสุด ฝ่ายชายควบคุมการเคลื่อนไหวทั้งหมด ท้าทายและเร้าอารมณ์",
-    "imageUrl": "https://couplesexposition.com/images/positions/full-nelson.webp",
+    "imageUrl": "/positions/full-nelson.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -538,7 +538,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "ฝ่ายหญิงกลับหัวขาพาดไหล่ฝั่งตรงข้าม แนวดิ่งสุดท้าทาย",
     "descriptionTh": "ต้องอาศัยความไว้ใจและความยืดหยุ่นสูง ให้ความรู้สึกแปลกใหม่ไม่เหมือนท่าใด",
-    "imageUrl": "https://couplesexposition.com/images/positions/piledriver.webp",
+    "imageUrl": "/positions/piledriver.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -575,7 +575,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "ฝ่ายหญิงใช้มือยันพื้น ฝ่ายชายยกขาขึ้นสอดใส่จากด้านหลัง",
     "descriptionTh": "ผาดโผนและเต็มไปด้วยพลัง เหมาะสำหรับคู่รักสายฟิตเนสที่ชอบความท้าทาย",
-    "imageUrl": "https://couplesexposition.com/images/positions/wheelbarrow.webp",
+    "imageUrl": "/positions/wheelbarrow.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -612,7 +612,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/eiffel-tower.webp",
+    "imageUrl": "/positions/eiffel-tower.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -648,7 +648,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/reverse-cowboy.webp",
+    "imageUrl": "/positions/reverse-cowboy.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -683,7 +683,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมตรงยกสูง ปลายทำมุมพุ่งตรงสู่จุดสัมผัสภายใน",
     "descriptionTh": "สร้างความรู้สึกวาบหวามทั้งภาพตรงหน้าและการเคลื่อนไหวที่มั่นคง",
-    "imageUrl": "https://couplesexposition.com/images/positions/legs-on-shoulders.webp",
+    "imageUrl": "/positions/legs-on-shoulders.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -718,7 +718,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "ฝ่ายหญิงนอนหงายยกตัวขึ้น ฝ่ายชายคุกเข่าควบคุมจังหวะในแนวดิ่ง",
     "descriptionTh": "มุมมองที่ตื่นตาตื่นใจและจังหวะที่มั่นคง ทรงพลัง",
-    "imageUrl": "https://couplesexposition.com/images/positions/butter-churner.webp",
+    "imageUrl": "/positions/butter-churner.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -753,7 +753,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "นั่งเอนหลังสลับทิศทาง ยกสะโพกขนานพื้น",
     "descriptionTh": "ช่วยให้ทั้งคู่ใช้แขนพยุงน้ำหนักตัวได้อย่างมั่นคง จังหวะช้าๆ นุ่มนวล",
-    "imageUrl": "https://couplesexposition.com/images/positions/crab.webp",
+    "imageUrl": "/positions/crab.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -789,7 +789,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "ฝ่ายหญิงแอ่นตัวเป็นสะพานโค้ง ฝ่ายชายคุกเข่าสอดใส่ในมุมเงย",
     "descriptionTh": "ท้าทายสรีระและความยืดหยุ่น เพิ่มความตื่นเต้นเร้าใจในค่ำคืนพิเศษ",
-    "imageUrl": "https://couplesexposition.com/images/positions/bridge.webp",
+    "imageUrl": "/positions/bridge.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -826,7 +826,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "ยกขาฝ่ายหญิงพาดบ่าหรืออก มุมชันลึกถึงขีดสุด",
     "descriptionTh": "ฝ่ายชายควบคุมทิศทางได้อย่างเต็มที่ เข้าถึงความลึกระดับสูงสุดและกระชับแนบแน่น",
-    "imageUrl": "https://couplesexposition.com/images/positions/anvil.webp",
+    "imageUrl": "/positions/anvil.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -861,7 +861,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 1,
     "angle": "นั่งหันหน้าเข้าหากัน ฝ่ายหญิงใช้เท้ายันพื้นควบคุมจังหวะบดคลึง",
     "descriptionTh": "ควบคุมการโยกตัวได้อย่างอิสระโดยไม่ต้องออกแรงขามากเกินไป",
-    "imageUrl": "https://couplesexposition.com/images/positions/spider.webp",
+    "imageUrl": "/positions/spider.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -897,7 +897,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/splitting-bamboo.webp",
+    "imageUrl": "/positions/splitting-bamboo.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -934,7 +934,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "ฝ่ายหญิงพาดขาข้างหนึ่งไว้บนบ่าฝ่ายชาย เข้าถึงมุมกระชับในทันที",
     "descriptionTh": "เปิดองศาได้อย่างรวดเร็ว สัมผัสลึกซึ้งโดยไม่ต้องเสียเวลาจัดท่า",
-    "imageUrl": "https://couplesexposition.com/images/positions/catapult.webp",
+    "imageUrl": "/positions/catapult.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -970,7 +970,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "นอนคว่ำขาชิด ฝ่ายชายประกบทับด้านหลังในมุมแคบ",
     "descriptionTh": "สัมผัสความกระชับแนบแน่นและแรงกดที่สร้างความเสียวซ่านไปทั่วสะโพก",
-    "imageUrl": "https://couplesexposition.com/images/positions/flatiron.webp",
+    "imageUrl": "/positions/flatiron.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -1005,7 +1005,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "ยกสะโพกสูงสไตล์โยคะ สอดใส่จากด้านหลังในมุมเฉียงขึ้น",
     "descriptionTh": "เริ่มได้ทันทีโดยไม่ต้องเตรียมตัวมาก เหมาะสำหรับช่วงเวลาที่ต้องการความเร่งด่วนและเร้าใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/downward-dog.webp",
+    "imageUrl": "/positions/downward-dog.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -1041,7 +1041,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/london-bridge.webp",
+    "imageUrl": "/positions/london-bridge.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -1078,7 +1078,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "ฝ่ายหญิงนอนตะแคงบิดสะโพกเล็กน้อย ฝ่ายชายประกบด้านหลัง",
     "descriptionTh": "กระชับกล้ามเนื้อโดยไม่ต้องเกร็ง ให้ความรู้สึกอบอุ่นแนบสนิท",
-    "imageUrl": "https://couplesexposition.com/images/positions/corkscrew.webp",
+    "imageUrl": "/positions/corkscrew.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -1113,7 +1113,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/t-square.webp",
+    "imageUrl": "/positions/t-square.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -1149,7 +1149,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "ฝ่ายหญิงแอ่นสะโพกขึ้นรับมุมสัมผัส ฝ่ายชายก้มโอบกอดด้านบน",
     "descriptionTh": "สร้างความรู้สึกผูกพันและเข้าถึงจุดสัมผัสลึกซึ้งได้อย่างอ่อนโยน",
-    "imageUrl": "https://couplesexposition.com/images/positions/bow.webp",
+    "imageUrl": "/positions/bow.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -1185,7 +1185,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "นอนเคียงข้างพร้อมยกขาฝ่ายหญิงพาดสะโพกฝ่ายชาย มุมนุ่มนวลไม่ชัน",
     "descriptionTh": "ผ่อนคลายสบายกล้ามเนื้อ มองตากันได้ สัมผัสลูบไล้ได้ทั่วร่างกาย",
-    "imageUrl": "https://couplesexposition.com/images/positions/mermaid.webp",
+    "imageUrl": "/positions/mermaid.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -1220,7 +1220,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "นั่งประกบเผชิญหน้า ขยับตามจังหวะโยกตัวเข้าหากัน",
     "descriptionTh": "ประสานสายตาและจังหวะหายใจไปพร้อมๆ กัน โรแมนติกและอบอุ่นมาก",
-    "imageUrl": "https://couplesexposition.com/images/positions/seesaw.webp",
+    "imageUrl": "/positions/seesaw.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -1256,7 +1256,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "ฝ่ายหญิงยกสะโพกลอยสูง ขาพับชิดอก สอดใส่จากด้านบนในแนวดิ่ง",
     "descriptionTh": "ท่าคลาสสิกขั้นสูงที่ให้ความกระชับและลึกซึ้งมากที่สุดท่าหนึ่ง",
-    "imageUrl": "https://couplesexposition.com/images/positions/plow.webp",
+    "imageUrl": "/positions/plow.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -1292,7 +1292,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/scorpion.webp",
+    "imageUrl": "/positions/scorpion.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -1329,7 +1329,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "ฝ่ายหญิงนอนคว่ำพร้อมยกสะโพกขึ้นเล็กน้อย ฝ่ายชายนอนทาบประกบ",
     "descriptionTh": "ให้ความรู้สึกถึงการปกป้องและโอบกอดทั่วทั้งแผ่นหลังอย่างอ่อนโยน",
-    "imageUrl": "https://couplesexposition.com/images/positions/dolphin.webp",
+    "imageUrl": "/positions/dolphin.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -1365,7 +1365,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/frog.webp",
+    "imageUrl": "/positions/frog.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -1400,7 +1400,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "นั่งยองคร่อมสะโพก ปรับมุมกระดกสะโพกขึ้นลง",
     "descriptionTh": "เน้นการบดสัมผัสตรงจุดคลิตอริสอย่างต่อเนื่องและเร้าอารมณ์",
-    "imageUrl": "https://couplesexposition.com/images/positions/froggy-style.webp",
+    "imageUrl": "/positions/froggy-style.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -1436,7 +1436,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "นอนหงายยกขาทั้งสองข้างพาดแขนฝ่ายชาย เปิดกว้างสู่ใจกลาง",
     "descriptionTh": "ช่วยให้ฝ่ายชายสอดใส่ได้ลึกขึ้นอย่างนุ่มนวล สามารถมองเห็นสีหน้าและปฏิกิริยาแห่งความสุขสมของฝ่ายหญิงได้อย่างชัดเจน",
-    "imageUrl": "https://couplesexposition.com/images/positions/eagle.webp",
+    "imageUrl": "/positions/eagle.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -1471,7 +1471,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "นั่งโอบกอดพร้อมเอนหลังเล็กน้อยเพื่อเปลี่ยนมุมสัมผัส",
     "descriptionTh": "เปิดโอกาสให้จุมพิต ซอกคอ และสบตากันได้อย่างไม่รู้เบื่อ",
-    "imageUrl": "https://couplesexposition.com/images/positions/lotus-flower.webp",
+    "imageUrl": "/positions/lotus-flower.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -1507,7 +1507,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/flying-squirrel.webp",
+    "imageUrl": "/positions/flying-squirrel.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -1544,7 +1544,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมทะแยงเฉียงด้านหลัง สะโพกยกกระชับ",
     "descriptionTh": "ใช้พื้นที่น้อย คล่องตัว เหมาะกับทุกสถานที่",
-    "imageUrl": "https://couplesexposition.com/images/positions/praying-mantis.webp",
+    "imageUrl": "/positions/praying-mantis.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -1580,7 +1580,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/triceratops.webp",
+    "imageUrl": "/positions/triceratops.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -1616,7 +1616,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "ท่ายืนอุ้มหรือพิงผนัง กระชับมุมตรง",
     "descriptionTh": "เร่าร้อน ทรงพลัง เหมาะกับจุดเริ่มต้นแห่งความหลงใหลในทุกมุมห้อง",
-    "imageUrl": "https://couplesexposition.com/images/positions/spider-monkey.webp",
+    "imageUrl": "/positions/spider-monkey.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -1653,7 +1653,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/leopard.webp",
+    "imageUrl": "/positions/leopard.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -1688,7 +1688,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "คุกเข่าคร่อมจากด้านบน ปรับมุมเอนตัวได้หลายมิติ",
     "descriptionTh": "สร้างความเร้าใจในมุมมอง และเปิดโอกาสให้ฝ่ายหญิงเลือกความลึกได้ดั่งใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/dragon.webp",
+    "imageUrl": "/positions/dragon.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -1724,7 +1724,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/tamer.webp",
+    "imageUrl": "/positions/tamer.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -1760,7 +1760,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "ฝ่ายหญิงชันเข่าขึ้นสูง ฝ่ายชายโหมจังหวะเร็วตรงจุด",
     "descriptionTh": "จังหวะเร็วและมีพลัง ช่วยพาไปสู่จุดสุดยอดได้อย่างรวดเร็ว",
-    "imageUrl": "https://couplesexposition.com/images/positions/jackhammer.webp",
+    "imageUrl": "/positions/jackhammer.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -1796,7 +1796,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/throwdown.webp",
+    "imageUrl": "/positions/throwdown.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -1833,7 +1833,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "ด็อกกี้สไตล์มุมต่ำ กดสะโพกลง ปลายชี้กระทบจุดจีอย่างต่อเนื่อง",
     "descriptionTh": "ฝ่ายหญิงหมอบต่ำแนบอกกับที่นอน ฝ่ายชายโถมตัวเข้าประกบ จังหวะหนักแน่น เร้าอารมณ์ดิบอย่างเป็นธรรมชาติ",
-    "imageUrl": "https://couplesexposition.com/images/positions/crouching-tiger.webp",
+    "imageUrl": "/positions/crouching-tiger.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -1868,7 +1868,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/submissive.webp",
+    "imageUrl": "/positions/submissive.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -1903,7 +1903,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/nun.webp",
+    "imageUrl": "/positions/nun.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -1937,7 +1937,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/fall.webp",
+    "imageUrl": "/positions/fall.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -1974,7 +1974,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "แนวดิ่งทิ้งน้ำหนักลงตรง ฝ่ายหญิงปรับองศาเอนหน้าหรือหลังเพื่อควบคุมจุดกระทบได้ตามใจ",
     "descriptionTh": "ฝ่ายหญิงเป็นผู้กุมจังหวะและทิศทาง สามารถบดคลึงจุดคลิตอริสและค้นหามุมที่โดนจุดจีสปอตได้ด้วยตนเองอย่างแม่นยำ",
-    "imageUrl": "https://couplesexposition.com/images/positions/rider.webp",
+    "imageUrl": "/positions/rider.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -2008,7 +2008,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/backshot.webp",
+    "imageUrl": "/positions/backshot.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -2043,7 +2043,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/spread-eagle.webp",
+    "imageUrl": "/positions/spread-eagle.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -2078,7 +2078,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 0,
     "angle": "สัมผัสภายนอก / Oral Art: เน้นริมฝีปาก ลิ้น และปลายนิ้ว ควบคุมจังหวะอิสระ",
     "descriptionTh": "การเคลื่อนไหวบดคลึงบนตักอย่างมีเสน่ห์ เน้นการเล้าโลมและกระตุ้นประสาทสัมผัสภายนอกอย่างเย้ายวน",
-    "imageUrl": "https://couplesexposition.com/images/positions/lap-dance.webp",
+    "imageUrl": "/positions/lap-dance.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -2113,7 +2113,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/octopus.webp",
+    "imageUrl": "/positions/octopus.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -2149,7 +2149,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 2,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/yin-yang.webp",
+    "imageUrl": "/positions/yin-yang.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -2184,7 +2184,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/workout.webp",
+    "imageUrl": "/positions/workout.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -2220,7 +2220,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "นอนคว่ำราบสบาย สอดใส่จากด้านหลังในมุมแบนราบ",
     "descriptionTh": "ด็อกกี้สไตล์เวอร์ชันนอนพักผ่อน ไม่ต้องชันเข่า เหมาะกับค่ำคืนที่อยากคลอเคลียแบบสบายๆ ไม่เหนื่อยแรง",
-    "imageUrl": "https://couplesexposition.com/images/positions/lazy-dog.webp",
+    "imageUrl": "/positions/lazy-dog.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -2255,7 +2255,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/symphony.webp",
+    "imageUrl": "/positions/symphony.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -2290,7 +2290,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/shell.webp",
+    "imageUrl": "/positions/shell.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -2324,7 +2324,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/glory-hole.webp",
+    "imageUrl": "/positions/glory-hole.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -2359,7 +2359,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/knot.webp",
+    "imageUrl": "/positions/knot.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -2395,7 +2395,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "นั่งตักบนเก้าอี้หรือโซฟา โยกสะโพกเป็นจังหวะช้าๆ",
     "descriptionTh": "เปลี่ยนบรรยากาศจากเตียงนอนมายังเก้าอี้แสนสบาย ทั้งคู่โอบกอดและโยกตัวตามจังหวะหัวใจอย่างเป็นธรรมชาติ",
-    "imageUrl": "https://couplesexposition.com/images/positions/rocking-chair.webp",
+    "imageUrl": "/positions/rocking-chair.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -2430,7 +2430,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/captain.webp",
+    "imageUrl": "/positions/captain.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -2465,7 +2465,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/emperor.webp",
+    "imageUrl": "/positions/emperor.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -2501,7 +2501,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 2,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/princess.webp",
+    "imageUrl": "/positions/princess.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -2535,7 +2535,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/rock-and-roll.webp",
+    "imageUrl": "/positions/rock-and-roll.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -2571,7 +2571,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "ฝ่ายหญิงนอนหงาย ขาพับชิดขึ้นชี้ฟ้า กระชับแนบสนิท",
     "descriptionTh": "ให้สัมผัสที่แน่นกระชับและลึกซึ้ง เปรียบเสมือนการเปิดฝาเปลือกหอยเพื่อค้นหาไข่มุกอันเลอค่าภายใน",
-    "imageUrl": "https://couplesexposition.com/images/positions/seashell.webp",
+    "imageUrl": "/positions/seashell.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -2607,7 +2607,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/propeller.webp",
+    "imageUrl": "/positions/propeller.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -2643,7 +2643,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/fantasy.webp",
+    "imageUrl": "/positions/fantasy.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -2678,7 +2678,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/russian-roulette.webp",
+    "imageUrl": "/positions/russian-roulette.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -2714,7 +2714,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "สอดใส่จากด้านหลังหรือมุมกด ปลายทำมุมช้อนเข้าหาผนังช่องคลอดด้านหน้าอย่างหนักแน่น",
     "descriptionTh": "ฝ่ายชายเป็นผู้ควบคุมความลึกและจังหวะการเคลื่อนไหว สัมผัสถึงความกระชับและส่งมอบพลังแห่งความรักได้อย่างเต็มที่",
-    "imageUrl": "https://couplesexposition.com/images/positions/doggy-on-the-edge.webp",
+    "imageUrl": "/positions/doggy-on-the-edge.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -2748,7 +2748,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 0,
     "angle": "สัมผัสภายนอก / Oral Art: เน้นริมฝีปาก ลิ้น และปลายนิ้ว ควบคุมจังหวะอิสระ",
     "descriptionTh": "การเล้าโลมสัมผัสรักอย่างประณีต ปลุกเร้าอารมณ์ด้วยริมฝีปากและปลายนิ้วก่อนเข้าสู่กิจกรรมหลัก",
-    "imageUrl": "https://couplesexposition.com/images/positions/exotic-foreplay.webp",
+    "imageUrl": "/positions/exotic-foreplay.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -2784,7 +2784,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "ฝ่ายหญิงนั่งคร่อมแต่เบี่ยงตัวไปด้านข้าง สอดใส่ในมุมทแยง",
     "descriptionTh": "นั่งคร่อมด้านข้างช่วยลดการใช้แรงขา ฝ่ายหญิงสามารถลูบไล้และบดสัมผัสได้อย่างนุ่มนวลและผ่อนคลาย",
-    "imageUrl": "https://couplesexposition.com/images/positions/side-saddle.webp",
+    "imageUrl": "/positions/side-saddle.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -2819,7 +2819,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/lizard.webp",
+    "imageUrl": "/positions/lizard.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -2855,7 +2855,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/wild-yoga.webp",
+    "imageUrl": "/positions/wild-yoga.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -2891,7 +2891,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/tight-vagina.webp",
+    "imageUrl": "/positions/tight-vagina.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -2926,7 +2926,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/hottest-lover.webp",
+    "imageUrl": "/positions/hottest-lover.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -2962,7 +2962,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/x-factor.webp",
+    "imageUrl": "/positions/x-factor.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -2998,7 +2998,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 0,
     "angle": "สัมผัสภายนอก / Oral Art: เน้นริมฝีปาก ลิ้น และปลายนิ้ว ควบคุมจังหวะอิสระ",
     "descriptionTh": "ท่วงท่าใช้ริมฝีปากสัมผัสรักอย่างดื่มด่ำ เน้นการควบคุมจังหวะและความใกล้ชิดของทั้งสองฝ่าย",
-    "imageUrl": "https://couplesexposition.com/images/positions/throat-swab.webp",
+    "imageUrl": "/positions/throat-swab.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -3035,7 +3035,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/flying-dutchman.webp",
+    "imageUrl": "/positions/flying-dutchman.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -3072,7 +3072,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/necktie.webp",
+    "imageUrl": "/positions/necktie.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -3108,7 +3108,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/shameless.webp",
+    "imageUrl": "/positions/shameless.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -3144,7 +3144,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/plumber.webp",
+    "imageUrl": "/positions/plumber.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -3179,7 +3179,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/iron-throne.webp",
+    "imageUrl": "/positions/iron-throne.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -3215,7 +3215,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมตรงทรงพลัง ควบคุมความลึกและจังหวะได้อย่างแม่นยำ",
     "descriptionTh": "ฝ่ายชายยืนหรือคุกเข่าควบคุมเกมรักอย่างมั่นคง สง่างามและส่งต่อแรงสัมผัสได้ลึกซึ้ง",
-    "imageUrl": "https://couplesexposition.com/images/positions/apollo.webp",
+    "imageUrl": "/positions/apollo.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -3250,7 +3250,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/vulgar-chair.webp",
+    "imageUrl": "/positions/vulgar-chair.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -3286,7 +3286,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 1,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/nice-talk.webp",
+    "imageUrl": "/positions/nice-talk.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -3320,7 +3320,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/pleasure-bible.webp",
+    "imageUrl": "/positions/pleasure-bible.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -3355,7 +3355,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/feeder.webp",
+    "imageUrl": "/positions/feeder.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -3389,7 +3389,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/launch-pad.webp",
+    "imageUrl": "/positions/launch-pad.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -3425,7 +3425,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/pokemon.webp",
+    "imageUrl": "/positions/pokemon.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -3460,7 +3460,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/reverse-connection.webp",
+    "imageUrl": "/positions/reverse-connection.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -3495,7 +3495,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "แนวดิ่งทิ้งน้ำหนักลงตรง ฝ่ายหญิงปรับองศาเอนหน้าหรือหลังเพื่อควบคุมจุดกระทบได้ตามใจ",
     "descriptionTh": "ฝ่ายหญิงเป็นผู้กุมจังหวะและทิศทาง สามารถบดคลึงจุดคลิตอริสและค้นหามุมที่โดนจุดจีสปอตได้ด้วยตนเองอย่างแม่นยำ",
-    "imageUrl": "https://couplesexposition.com/images/positions/bent-cowgirl.webp",
+    "imageUrl": "/positions/bent-cowgirl.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -3530,7 +3530,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ",
     "descriptionTh": "ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย ช่วยให้ช่วงเวลาแห่งความใกล้ชิดดำเนินไปอย่างนุ่มนวลและต่อเนื่อง",
-    "imageUrl": "https://couplesexposition.com/images/positions/low-start.webp",
+    "imageUrl": "/positions/low-start.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -3563,7 +3563,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/desert-island.webp",
+    "imageUrl": "/positions/desert-island.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -3598,7 +3598,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมขยายกว้าง สอดใส่ลึกซึ้งถึงผนังด้านใน",
     "descriptionTh": "เปิดพื้นที่ให้การสัมผัสเป็นไปอย่างทั่วถึง ทั้งสองฝ่ายสามารถเพลิดเพลินกับความลึกและความใกล้ชิด",
-    "imageUrl": "https://couplesexposition.com/images/positions/banana-split.webp",
+    "imageUrl": "/positions/banana-split.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -3634,7 +3634,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/grasshopper.webp",
+    "imageUrl": "/positions/grasshopper.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -3670,7 +3670,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/fantastic-elevator.webp",
+    "imageUrl": "/positions/fantastic-elevator.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -3705,7 +3705,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/jamaican-cocktail.webp",
+    "imageUrl": "/positions/jamaican-cocktail.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -3740,7 +3740,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 1,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/chef.webp",
+    "imageUrl": "/positions/chef.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -3774,7 +3774,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 2,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/st-valentines-day.webp",
+    "imageUrl": "/positions/st-valentines-day.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -3809,7 +3809,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/sucker-punch.webp",
+    "imageUrl": "/positions/sucker-punch.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -3845,7 +3845,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "สอดใส่จากด้านหลังหรือมุมกด ปลายทำมุมช้อนเข้าหาผนังช่องคลอดด้านหน้าอย่างหนักแน่น",
     "descriptionTh": "ฝ่ายชายเป็นผู้ควบคุมความลึกและจังหวะการเคลื่อนไหว สัมผัสถึงความกระชับและส่งมอบพลังแห่งความรักได้อย่างเต็มที่",
-    "imageUrl": "https://couplesexposition.com/images/positions/low-doggy.webp",
+    "imageUrl": "/positions/low-doggy.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -3879,7 +3879,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 1,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/merger.webp",
+    "imageUrl": "/positions/merger.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -3914,7 +3914,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "สอดใส่จากด้านหลังหรือมุมกด ปลายทำมุมช้อนเข้าหาผนังช่องคลอดด้านหน้าอย่างหนักแน่น",
     "descriptionTh": "ฝ่ายชายเป็นผู้ควบคุมความลึกและจังหวะการเคลื่อนไหว สัมผัสถึงความกระชับและส่งมอบพลังแห่งความรักได้อย่างเต็มที่",
-    "imageUrl": "https://couplesexposition.com/images/positions/rear-admiral.webp",
+    "imageUrl": "/positions/rear-admiral.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -3948,7 +3948,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/watermelon.webp",
+    "imageUrl": "/positions/watermelon.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -3982,7 +3982,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 2,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/tantric-cosmo.webp",
+    "imageUrl": "/positions/tantric-cosmo.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -4018,7 +4018,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/cobra.webp",
+    "imageUrl": "/positions/cobra.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -4053,7 +4053,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ",
     "descriptionTh": "ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย ช่วยให้ช่วงเวลาแห่งความใกล้ชิดดำเนินไปอย่างนุ่มนวลและต่อเนื่อง",
-    "imageUrl": "https://couplesexposition.com/images/positions/canadian.webp",
+    "imageUrl": "/positions/canadian.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -4086,7 +4086,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/truck.webp",
+    "imageUrl": "/positions/truck.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -4121,7 +4121,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/superwoman.webp",
+    "imageUrl": "/positions/superwoman.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -4157,7 +4157,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/zodiac.webp",
+    "imageUrl": "/positions/zodiac.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -4192,7 +4192,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/fallen-warrior.webp",
+    "imageUrl": "/positions/fallen-warrior.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -4228,7 +4228,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 2,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/slow-dance.webp",
+    "imageUrl": "/positions/slow-dance.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -4262,7 +4262,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/deck-chair.webp",
+    "imageUrl": "/positions/deck-chair.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -4297,7 +4297,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/holder.webp",
+    "imageUrl": "/positions/holder.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -4331,7 +4331,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/louise.webp",
+    "imageUrl": "/positions/louise.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -4366,7 +4366,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 2,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/soft-chair.webp",
+    "imageUrl": "/positions/soft-chair.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -4400,7 +4400,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/astrologer.webp",
+    "imageUrl": "/positions/astrologer.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -4435,7 +4435,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/chairman.webp",
+    "imageUrl": "/positions/chairman.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -4470,7 +4470,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/fulcrum.webp",
+    "imageUrl": "/positions/fulcrum.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -4506,7 +4506,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/tug-of-war.webp",
+    "imageUrl": "/positions/tug-of-war.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -4542,7 +4542,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "ท่ายืนหรือกึ่งยืน ปรับระดับความสูงให้เข้ากับสะโพก เหมาะสำหรับช่วงเวลาเร่งด่วน",
     "descriptionTh": "ตอบสนองความเร่าร้อนอย่างฉับไว เหมาะสำหรับช่วงเวลาที่ความปรารถนาพุ่งสูง ไม่จำเป็นต้องมีพิธีรีตองมากความ",
-    "imageUrl": "https://couplesexposition.com/images/positions/back-door.webp",
+    "imageUrl": "/positions/back-door.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -4577,7 +4577,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/dutch-oven.webp",
+    "imageUrl": "/positions/dutch-oven.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -4612,7 +4612,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/chili-dog.webp",
+    "imageUrl": "/positions/chili-dog.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -4648,7 +4648,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 0,
     "angle": "สัมผัสภายนอก / Oral Art: เน้นริมฝีปาก ลิ้น และปลายนิ้ว ควบคุมจังหวะอิสระ",
     "descriptionTh": "ท่วงท่าแห่งความลึกซึ้งของการใช้ปาก เน้นความยินยอมพร้อมใจและการสื่อสารจังหวะร่วมกันอย่างนุ่มนวล",
-    "imageUrl": "https://couplesexposition.com/images/positions/deep-throat.webp",
+    "imageUrl": "/positions/deep-throat.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -4685,7 +4685,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 2,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/silence.webp",
+    "imageUrl": "/positions/silence.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -4719,7 +4719,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมกดจากขอบเตียงหรือโซฟา รวดเร็วและแม่นยำ",
     "descriptionTh": "เหมาะสำหรับช่วงเวลาเร่งด่วนที่เต็มไปด้วยความเสน่หา ฝ่ายหญิงยกสะโพกขึ้นเล็กน้อยเพื่อรองรับจังหวะอันเร่าร้อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/american-pie.webp",
+    "imageUrl": "/positions/american-pie.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -4755,7 +4755,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 2,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/recharge.webp",
+    "imageUrl": "/positions/recharge.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -4789,7 +4789,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/pie-in-the-sky.webp",
+    "imageUrl": "/positions/pie-in-the-sky.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -4825,7 +4825,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 2,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/spanish-guitar.webp",
+    "imageUrl": "/positions/spanish-guitar.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -4860,7 +4860,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/guillotine.webp",
+    "imageUrl": "/positions/guillotine.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -4897,7 +4897,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/tulip.webp",
+    "imageUrl": "/positions/tulip.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -4931,7 +4931,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/moonlight.webp",
+    "imageUrl": "/positions/moonlight.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -4966,7 +4966,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/xxx.webp",
+    "imageUrl": "/positions/xxx.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -5002,7 +5002,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/appetite.webp",
+    "imageUrl": "/positions/appetite.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -5037,7 +5037,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/weightlessness.webp",
+    "imageUrl": "/positions/weightlessness.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -5073,7 +5073,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/captivity.webp",
+    "imageUrl": "/positions/captivity.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -5109,7 +5109,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 1,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/compliment.webp",
+    "imageUrl": "/positions/compliment.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -5143,7 +5143,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/bowstring.webp",
+    "imageUrl": "/positions/bowstring.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -5179,7 +5179,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/lazy-evening.webp",
+    "imageUrl": "/positions/lazy-evening.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -5213,7 +5213,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/pterodactyl.webp",
+    "imageUrl": "/positions/pterodactyl.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -5249,7 +5249,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/hard-worker.webp",
+    "imageUrl": "/positions/hard-worker.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -5285,7 +5285,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/shy-girl.webp",
+    "imageUrl": "/positions/shy-girl.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -5319,7 +5319,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/kinky-spider.webp",
+    "imageUrl": "/positions/kinky-spider.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -5355,7 +5355,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/courtesan.webp",
+    "imageUrl": "/positions/courtesan.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -5390,7 +5390,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 2,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/snow-angel.webp",
+    "imageUrl": "/positions/snow-angel.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -5424,7 +5424,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 0,
     "angle": "สัมผัสภายนอก / Oral Art: เน้นริมฝีปาก ลิ้น และปลายนิ้ว ควบคุมจังหวะอิสระ",
     "descriptionTh": "ท่วงท่าที่เน้นการจูบและประสานสายตาอย่างดูดดื่ม ส่งผ่านความรักและความอบอุ่นแนบชิด",
-    "imageUrl": "https://couplesexposition.com/images/positions/french-kiss.webp",
+    "imageUrl": "/positions/french-kiss.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -5459,7 +5459,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/downstroke.webp",
+    "imageUrl": "/positions/downstroke.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -5494,7 +5494,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/harness.webp",
+    "imageUrl": "/positions/harness.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -5530,7 +5530,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/dirty-dancing.webp",
+    "imageUrl": "/positions/dirty-dancing.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -5565,7 +5565,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/milk-chocolate.webp",
+    "imageUrl": "/positions/milk-chocolate.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -5599,7 +5599,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/nasty-desire.webp",
+    "imageUrl": "/positions/nasty-desire.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -5635,7 +5635,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/military-style.webp",
+    "imageUrl": "/positions/military-style.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -5671,7 +5671,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/kitchen.webp",
+    "imageUrl": "/positions/kitchen.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -5706,7 +5706,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/multiply-pleasure.webp",
+    "imageUrl": "/positions/multiply-pleasure.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -5742,7 +5742,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวระนาบตรงหน้าอกแนบชิด กระดูกหัวหน่าวบดสัมผัสตรงจุด",
     "descriptionTh": "เน้นความโรแมนติกขั้นสุด ทั้งสองฝ่ายกอดแนบแน่น จูบและกระซิบข้างหูได้ตลอดการบรรเลงเพลงรัก",
-    "imageUrl": "https://couplesexposition.com/images/positions/amazing-meeting.webp",
+    "imageUrl": "/positions/amazing-meeting.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -5777,7 +5777,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 1,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/fairy.webp",
+    "imageUrl": "/positions/fairy.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -5811,7 +5811,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/wedge.webp",
+    "imageUrl": "/positions/wedge.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -5846,7 +5846,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "แนวดิ่งทิ้งน้ำหนักลงตรง ฝ่ายหญิงกึ่งนั่งกึ่งลอยตัวคุมเกม",
     "descriptionTh": "ฝ่ายหญิงอยู่ด้านบนและควบคุมการเคลื่อนไหวแบบอิสระรอบทิศทาง สามารถบดคลึงจุดคลิตอริสได้อย่างแม่นยำ",
-    "imageUrl": "https://couplesexposition.com/images/positions/air-rider.webp",
+    "imageUrl": "/positions/air-rider.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -5882,7 +5882,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 0,
     "angle": "สัมผัสภายนอก / Oral Art: เน้นริมฝีปาก ลิ้น และปลายนิ้ว ควบคุมจังหวะอิสระ",
     "descriptionTh": "การปรับองศาท่า 69 ให้ทั้งคู่ผ่อนคลายยิ่งขึ้น สามารถใช้มือช่วยเสริมสัมผัสได้อย่างอิสระ",
-    "imageUrl": "https://couplesexposition.com/images/positions/inventive-69.webp",
+    "imageUrl": "/positions/inventive-69.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -5918,7 +5918,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/oasis.webp",
+    "imageUrl": "/positions/oasis.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -5952,7 +5952,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 2,
     "angle": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ",
     "descriptionTh": "ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย ช่วยให้ช่วงเวลาแห่งความใกล้ชิดดำเนินไปอย่างนุ่มนวลและต่อเนื่อง",
-    "imageUrl": "https://couplesexposition.com/images/positions/amateur.webp",
+    "imageUrl": "/positions/amateur.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -5985,7 +5985,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/holiday.webp",
+    "imageUrl": "/positions/holiday.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -6020,7 +6020,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/punishment.webp",
+    "imageUrl": "/positions/punishment.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -6056,7 +6056,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/riverside.webp",
+    "imageUrl": "/positions/riverside.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -6091,7 +6091,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมเอียง 45 องศา ปรับเปลี่ยนทิศทางได้คล่องตัว",
     "descriptionTh": "เปิดประสบการณ์ใหม่ด้วยการปรับองศาที่ช่วยให้สอดใส่ได้ลึกขึ้น พร้อมสบสายตาและสัมผัสร่างกายได้อย่างอิสระ",
-    "imageUrl": "https://couplesexposition.com/images/positions/adventurer.webp",
+    "imageUrl": "/positions/adventurer.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -6127,7 +6127,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/equilibrium.webp",
+    "imageUrl": "/positions/equilibrium.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -6162,7 +6162,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/penguin.webp",
+    "imageUrl": "/positions/penguin.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -6196,7 +6196,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/mexican-style.webp",
+    "imageUrl": "/positions/mexican-style.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -6231,7 +6231,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 0,
     "angle": "สัมผัสภายนอก / Oral Art: เน้นริมฝีปาก ลิ้น และปลายนิ้ว ควบคุมจังหวะอิสระ",
     "descriptionTh": "ฝ่ายหญิงเป็นผู้ควบคุมจังหวะและน้ำหนักสัมผัสบนตักอย่างมั่นใจ มอบความพึงพอใจด้วยริมฝีปาก",
-    "imageUrl": "https://couplesexposition.com/images/positions/face-sitting.webp",
+    "imageUrl": "/positions/face-sitting.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -6267,7 +6267,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/delicacy.webp",
+    "imageUrl": "/positions/delicacy.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -6301,7 +6301,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/v-formation.webp",
+    "imageUrl": "/positions/v-formation.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -6337,7 +6337,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/straight-line.webp",
+    "imageUrl": "/positions/straight-line.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -6371,7 +6371,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/spanish-sunset.webp",
+    "imageUrl": "/positions/spanish-sunset.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -6406,7 +6406,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/keeper.webp",
+    "imageUrl": "/positions/keeper.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -6440,7 +6440,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/moan.webp",
+    "imageUrl": "/positions/moan.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -6475,7 +6475,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/tugboat.webp",
+    "imageUrl": "/positions/tugboat.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -6511,7 +6511,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/nosedive.webp",
+    "imageUrl": "/positions/nosedive.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -6548,7 +6548,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/barbie.webp",
+    "imageUrl": "/positions/barbie.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -6583,7 +6583,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/star-wars.webp",
+    "imageUrl": "/positions/star-wars.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -6619,7 +6619,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/sea-horse.webp",
+    "imageUrl": "/positions/sea-horse.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -6654,7 +6654,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/deep-stick.webp",
+    "imageUrl": "/positions/deep-stick.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -6690,7 +6690,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/catch.webp",
+    "imageUrl": "/positions/catch.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -6724,7 +6724,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/car-mechanic.webp",
+    "imageUrl": "/positions/car-mechanic.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -6760,7 +6760,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/fireworks.webp",
+    "imageUrl": "/positions/fireworks.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -6796,7 +6796,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/bung.webp",
+    "imageUrl": "/positions/bung.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -6832,7 +6832,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/titanic.webp",
+    "imageUrl": "/positions/titanic.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -6867,7 +6867,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 1,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/sweet-pussy.webp",
+    "imageUrl": "/positions/sweet-pussy.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -6901,7 +6901,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/snack.webp",
+    "imageUrl": "/positions/snack.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -6935,7 +6935,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/g-force.webp",
+    "imageUrl": "/positions/g-force.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -6971,7 +6971,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/magic-carpet.webp",
+    "imageUrl": "/positions/magic-carpet.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -7007,7 +7007,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "แนวดิ่งทิ้งน้ำหนักลงตรง ฝ่ายหญิงปรับองศาเอนหน้าหรือหลังเพื่อควบคุมจุดกระทบได้ตามใจ",
     "descriptionTh": "ฝ่ายหญิงเป็นผู้กุมจังหวะและทิศทาง สามารถบดคลึงจุดคลิตอริสและค้นหามุมที่โดนจุดจีสปอตได้ด้วยตนเองอย่างแม่นยำ",
-    "imageUrl": "https://couplesexposition.com/images/positions/cowgirl-on-the-chair.webp",
+    "imageUrl": "/positions/cowgirl-on-the-chair.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -7042,7 +7042,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "สอดใส่จากด้านหลังหรือมุมกด ปลายทำมุมช้อนเข้าหาผนังช่องคลอดด้านหน้าอย่างหนักแน่น",
     "descriptionTh": "ฝ่ายชายเป็นผู้ควบคุมความลึกและจังหวะการเคลื่อนไหว สัมผัสถึงความกระชับและส่งมอบพลังแห่งความรักได้อย่างเต็มที่",
-    "imageUrl": "https://couplesexposition.com/images/positions/thors-hammer.webp",
+    "imageUrl": "/positions/thors-hammer.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -7077,7 +7077,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/overturned.webp",
+    "imageUrl": "/positions/overturned.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -7113,7 +7113,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/wild-pony.webp",
+    "imageUrl": "/positions/wild-pony.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -7149,7 +7149,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/stuntman.webp",
+    "imageUrl": "/positions/stuntman.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -7186,7 +7186,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/plank.webp",
+    "imageUrl": "/positions/plank.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -7222,7 +7222,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/midnight.webp",
+    "imageUrl": "/positions/midnight.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -7256,7 +7256,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/bomb.webp",
+    "imageUrl": "/positions/bomb.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -7292,7 +7292,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/flexible-beauty.webp",
+    "imageUrl": "/positions/flexible-beauty.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -7328,7 +7328,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/orgazmic-penetration.webp",
+    "imageUrl": "/positions/orgazmic-penetration.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -7363,7 +7363,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ",
     "descriptionTh": "ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย ช่วยให้ช่วงเวลาแห่งความใกล้ชิดดำเนินไปอย่างนุ่มนวลและต่อเนื่อง",
-    "imageUrl": "https://couplesexposition.com/images/positions/julia.webp",
+    "imageUrl": "/positions/julia.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -7396,7 +7396,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/comfortable-place.webp",
+    "imageUrl": "/positions/comfortable-place.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -7430,7 +7430,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "ท่ายืนหรือกึ่งยืน ปรับระดับความสูงให้เข้ากับสะโพก เหมาะสำหรับช่วงเวลาเร่งด่วน",
     "descriptionTh": "ตอบสนองความเร่าร้อนอย่างฉับไว เหมาะสำหรับช่วงเวลาที่ความปรารถนาพุ่งสูง ไม่จำเป็นต้องมีพิธีรีตองมากความ",
-    "imageUrl": "https://couplesexposition.com/images/positions/counterblow.webp",
+    "imageUrl": "/positions/counterblow.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -7465,7 +7465,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/bermuda-triangle.webp",
+    "imageUrl": "/positions/bermuda-triangle.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -7501,7 +7501,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/tangle.webp",
+    "imageUrl": "/positions/tangle.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -7536,7 +7536,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 1,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/worship.webp",
+    "imageUrl": "/positions/worship.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -7570,7 +7570,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ",
     "descriptionTh": "ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย ช่วยให้ช่วงเวลาแห่งความใกล้ชิดดำเนินไปอย่างนุ่มนวลและต่อเนื่อง",
-    "imageUrl": "https://couplesexposition.com/images/positions/saddle.webp",
+    "imageUrl": "/positions/saddle.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -7604,7 +7604,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/skewer.webp",
+    "imageUrl": "/positions/skewer.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -7640,7 +7640,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/chameleon.webp",
+    "imageUrl": "/positions/chameleon.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -7675,7 +7675,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ",
     "descriptionTh": "ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย ช่วยให้ช่วงเวลาแห่งความใกล้ชิดดำเนินไปอย่างนุ่มนวลและต่อเนื่อง",
-    "imageUrl": "https://couplesexposition.com/images/positions/jack.webp",
+    "imageUrl": "/positions/jack.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -7708,7 +7708,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "สอดใส่จากด้านหลังหรือมุมกด ปลายทำมุมช้อนเข้าหาผนังช่องคลอดด้านหน้าอย่างหนักแน่น",
     "descriptionTh": "ฝ่ายชายเป็นผู้ควบคุมความลึกและจังหวะการเคลื่อนไหว สัมผัสถึงความกระชับและส่งมอบพลังแห่งความรักได้อย่างเต็มที่",
-    "imageUrl": "https://couplesexposition.com/images/positions/passive-doggy.webp",
+    "imageUrl": "/positions/passive-doggy.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -7741,7 +7741,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/look-to-the-sky.webp",
+    "imageUrl": "/positions/look-to-the-sky.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -7776,7 +7776,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/wrestling.webp",
+    "imageUrl": "/positions/wrestling.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -7811,7 +7811,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ",
     "descriptionTh": "ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย ช่วยให้ช่วงเวลาแห่งความใกล้ชิดดำเนินไปอย่างนุ่มนวลและต่อเนื่อง",
-    "imageUrl": "https://couplesexposition.com/images/positions/hill.webp",
+    "imageUrl": "/positions/hill.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -7844,7 +7844,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/mountain-creek.webp",
+    "imageUrl": "/positions/mountain-creek.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -7880,7 +7880,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/hood.webp",
+    "imageUrl": "/positions/hood.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -7914,7 +7914,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ",
     "descriptionTh": "ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย ช่วยให้ช่วงเวลาแห่งความใกล้ชิดดำเนินไปอย่างนุ่มนวลและต่อเนื่อง",
-    "imageUrl": "https://couplesexposition.com/images/positions/knight.webp",
+    "imageUrl": "/positions/knight.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -7948,7 +7948,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/satyr.webp",
+    "imageUrl": "/positions/satyr.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -7983,7 +7983,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/rocket.webp",
+    "imageUrl": "/positions/rocket.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -8019,7 +8019,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/niagara-falls.webp",
+    "imageUrl": "/positions/niagara-falls.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -8055,7 +8055,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/tight-pussy.webp",
+    "imageUrl": "/positions/tight-pussy.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -8090,7 +8090,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/relaxation.webp",
+    "imageUrl": "/positions/relaxation.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -8124,7 +8124,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/gimlet.webp",
+    "imageUrl": "/positions/gimlet.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -8160,7 +8160,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "ฝ่ายหญิงนั่งคร่อมและสามารถหมุนบิดสะโพกเปลี่ยนองศาได้รอบทิศ",
     "descriptionTh": "ฝ่ายหญิงควบคุมการเคลื่อนไหวเหมือนกังหัน บดคลึงและควงสะโพกเพื่อค้นหามุมที่สร้างความสุขสมได้ดีที่สุด",
-    "imageUrl": "https://couplesexposition.com/images/positions/pinwheel.webp",
+    "imageUrl": "/positions/pinwheel.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -8196,7 +8196,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/loop.webp",
+    "imageUrl": "/positions/loop.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -8231,7 +8231,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ",
     "descriptionTh": "ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย ช่วยให้ช่วงเวลาแห่งความใกล้ชิดดำเนินไปอย่างนุ่มนวลและต่อเนื่อง",
-    "imageUrl": "https://couplesexposition.com/images/positions/slope.webp",
+    "imageUrl": "/positions/slope.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -8264,7 +8264,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/funny-joke.webp",
+    "imageUrl": "/positions/funny-joke.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -8299,7 +8299,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/ladies-man.webp",
+    "imageUrl": "/positions/ladies-man.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -8333,7 +8333,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "สอดใส่จากด้านหลังหรือมุมกด ปลายทำมุมช้อนเข้าหาผนังช่องคลอดด้านหน้าอย่างหนักแน่น",
     "descriptionTh": "ฝ่ายชายเป็นผู้ควบคุมความลึกและจังหวะการเคลื่อนไหว สัมผัสถึงความกระชับและส่งมอบพลังแห่งความรักได้อย่างเต็มที่",
-    "imageUrl": "https://couplesexposition.com/images/positions/juicy-ass.webp",
+    "imageUrl": "/positions/juicy-ass.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -8367,7 +8367,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 0,
     "angle": "สัมผัสภายนอก / Oral Art: เน้นริมฝีปาก ลิ้น และปลายนิ้ว ควบคุมจังหวะอิสระ",
     "descriptionTh": "ท่า 69 บนเก้าอี้หรือโซฟาที่รองรับสรีระได้ลงตัว ลดอาการเมื่อยล้าและเพิ่มความสบาย",
-    "imageUrl": "https://couplesexposition.com/images/positions/new-69-on-the-chair.webp",
+    "imageUrl": "/positions/new-69-on-the-chair.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -8404,7 +8404,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ",
     "descriptionTh": "ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย ช่วยให้ช่วงเวลาแห่งความใกล้ชิดดำเนินไปอย่างนุ่มนวลและต่อเนื่อง",
-    "imageUrl": "https://couplesexposition.com/images/positions/stickman.webp",
+    "imageUrl": "/positions/stickman.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -8438,7 +8438,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 0,
     "angle": "สัมผัสภายนอก / Oral Art: เน้นริมฝีปาก ลิ้น และปลายนิ้ว ควบคุมจังหวะอิสระ",
     "descriptionTh": "ศิลปะแห่งการใช้ปลายลิ้นปรนเปรอจุดสัมผัสภายนอกอย่างละเอียดอ่อนและต่อเนื่อง",
-    "imageUrl": "https://couplesexposition.com/images/positions/licking-master.webp",
+    "imageUrl": "/positions/licking-master.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -8473,7 +8473,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/descent.webp",
+    "imageUrl": "/positions/descent.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -8509,7 +8509,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/source.webp",
+    "imageUrl": "/positions/source.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -8543,7 +8543,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/apex.webp",
+    "imageUrl": "/positions/apex.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -8578,7 +8578,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 1,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/hot-carl.webp",
+    "imageUrl": "/positions/hot-carl.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -8613,7 +8613,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/chibi.webp",
+    "imageUrl": "/positions/chibi.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -8647,7 +8647,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/snake-charmer.webp",
+    "imageUrl": "/positions/snake-charmer.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -8683,7 +8683,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/twerk-on-dick.webp",
+    "imageUrl": "/positions/twerk-on-dick.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -8718,7 +8718,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/ghetto.webp",
+    "imageUrl": "/positions/ghetto.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -8753,7 +8753,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/tantra-chair.webp",
+    "imageUrl": "/positions/tantra-chair.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -8788,7 +8788,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "สอดใส่จากด้านหลังหรือมุมกด ปลายทำมุมช้อนเข้าหาผนังช่องคลอดด้านหน้าอย่างหนักแน่น",
     "descriptionTh": "ฝ่ายชายเป็นผู้ควบคุมความลึกและจังหวะการเคลื่อนไหว สัมผัสถึงความกระชับและส่งมอบพลังแห่งความรักได้อย่างเต็มที่",
-    "imageUrl": "https://couplesexposition.com/images/positions/crazy-doggy.webp",
+    "imageUrl": "/positions/crazy-doggy.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -8823,7 +8823,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/pearl.webp",
+    "imageUrl": "/positions/pearl.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -8857,7 +8857,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/anna.webp",
+    "imageUrl": "/positions/anna.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -8891,7 +8891,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/curiosity.webp",
+    "imageUrl": "/positions/curiosity.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -8926,7 +8926,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/khaleesi.webp",
+    "imageUrl": "/positions/khaleesi.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -8961,7 +8961,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 0,
     "angle": "สัมผัสภายนอก / Oral Art: เน้นริมฝีปาก ลิ้น และปลายนิ้ว ควบคุมจังหวะอิสระ",
     "descriptionTh": "เน้นการกระตุ้นคลิตอริสอย่างตรงจุดด้วยริมฝีปากและปลายนิ้ว นำพาสู่จุดสุดยอดภายนอก",
-    "imageUrl": "https://couplesexposition.com/images/positions/insatiable-clitoris.webp",
+    "imageUrl": "/positions/insatiable-clitoris.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -8996,7 +8996,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/breeze.webp",
+    "imageUrl": "/positions/breeze.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -9030,7 +9030,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/weird-fantasy.webp",
+    "imageUrl": "/positions/weird-fantasy.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -9066,7 +9066,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/crazy-monkey.webp",
+    "imageUrl": "/positions/crazy-monkey.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -9102,7 +9102,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/butler.webp",
+    "imageUrl": "/positions/butler.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -9136,7 +9136,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/houdini.webp",
+    "imageUrl": "/positions/houdini.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -9172,7 +9172,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/tea-bag.webp",
+    "imageUrl": "/positions/tea-bag.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -9207,7 +9207,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/dream.webp",
+    "imageUrl": "/positions/dream.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -9241,7 +9241,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/donkey-punch.webp",
+    "imageUrl": "/positions/donkey-punch.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -9278,7 +9278,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/venus-flytrap.webp",
+    "imageUrl": "/positions/venus-flytrap.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -9313,7 +9313,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/crazy-train.webp",
+    "imageUrl": "/positions/crazy-train.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -9349,7 +9349,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 0,
     "angle": "สัมผัสภายนอก / Oral Art: เน้นริมฝีปาก ลิ้น และปลายนิ้ว ควบคุมจังหวะอิสระ",
     "descriptionTh": "การปรนเปรอฝ่ายชายด้วยริมฝีปากในมุมองศาที่ผ่อนคลายและสบายตัวที่สุด",
-    "imageUrl": "https://couplesexposition.com/images/positions/special-fellatio.webp",
+    "imageUrl": "/positions/special-fellatio.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -9384,7 +9384,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 0,
     "angle": "สัมผัสภายนอก / Oral Art: เน้นริมฝีปาก ลิ้น และปลายนิ้ว ควบคุมจังหวะอิสระ",
     "descriptionTh": "การปรนเปรอคลิตอริสด้วยริมฝีปากและลิ้นอย่างละเมียดละไม มอบคลื่นความสุขสมที่ล้ำลึก",
-    "imageUrl": "https://couplesexposition.com/images/positions/pussy-licking.webp",
+    "imageUrl": "/positions/pussy-licking.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -9419,7 +9419,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/woven-rose.webp",
+    "imageUrl": "/positions/woven-rose.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -9455,7 +9455,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/fireman.webp",
+    "imageUrl": "/positions/fireman.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -9491,7 +9491,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/revelation.webp",
+    "imageUrl": "/positions/revelation.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -9526,7 +9526,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ",
     "descriptionTh": "ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย ช่วยให้ช่วงเวลาแห่งความใกล้ชิดดำเนินไปอย่างนุ่มนวลและต่อเนื่อง",
-    "imageUrl": "https://couplesexposition.com/images/positions/column.webp",
+    "imageUrl": "/positions/column.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -9560,7 +9560,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/shocker.webp",
+    "imageUrl": "/positions/shocker.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -9595,7 +9595,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/drum.webp",
+    "imageUrl": "/positions/drum.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -9630,7 +9630,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "สอดใส่จากด้านหลังหรือมุมกด ปลายทำมุมช้อนเข้าหาผนังช่องคลอดด้านหน้าอย่างหนักแน่น",
     "descriptionTh": "ฝ่ายชายเป็นผู้ควบคุมความลึกและจังหวะการเคลื่อนไหว สัมผัสถึงความกระชับและส่งมอบพลังแห่งความรักได้อย่างเต็มที่",
-    "imageUrl": "https://couplesexposition.com/images/positions/young-stallion.webp",
+    "imageUrl": "/positions/young-stallion.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -9665,7 +9665,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/inseminator.webp",
+    "imageUrl": "/positions/inseminator.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -9700,7 +9700,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/master.webp",
+    "imageUrl": "/positions/master.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -9736,7 +9736,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/capricorn.webp",
+    "imageUrl": "/positions/capricorn.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -9771,7 +9771,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/libra.webp",
+    "imageUrl": "/positions/libra.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -9805,7 +9805,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/gemini.webp",
+    "imageUrl": "/positions/gemini.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -9840,7 +9840,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "ประกบเคียงข้างขาไขว้สลับ สัมผัสผิวกายต่อผิวกาย 100%",
     "descriptionTh": "การผสมผสานระหว่างความผ่อนคลายและความรักแนบแน่น นอนหันหน้าเข้าหากัน ขาเกี่ยวประสาน สัมผัสถึงลมหายใจของกันและกัน",
-    "imageUrl": "https://couplesexposition.com/images/positions/fusion.webp",
+    "imageUrl": "/positions/fusion.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -9875,7 +9875,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/clock.webp",
+    "imageUrl": "/positions/clock.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -9911,7 +9911,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/hot-lunch.webp",
+    "imageUrl": "/positions/hot-lunch.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -9946,7 +9946,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/concubine.webp",
+    "imageUrl": "/positions/concubine.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -9981,7 +9981,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/leapfrog.webp",
+    "imageUrl": "/positions/leapfrog.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -10017,7 +10017,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/torch.webp",
+    "imageUrl": "/positions/torch.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -10052,7 +10052,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/spork.webp",
+    "imageUrl": "/positions/spork.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -10087,7 +10087,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "คุกเข่ายกขาข้างหนึ่งขึ้นสูง ปรับมุมให้กระทบผนังจุดจีสปอต",
     "descriptionTh": "เปิดมุมสอดใส่ด้านข้างที่แปลกใหม่ กระชับและกระตุ้นจุดรับสัมผัสภายในได้อย่างมหัศจรรย์",
-    "imageUrl": "https://couplesexposition.com/images/positions/fire-hydrant.webp",
+    "imageUrl": "/positions/fire-hydrant.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -10123,7 +10123,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/lace.webp",
+    "imageUrl": "/positions/lace.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -10157,7 +10157,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/spring.webp",
+    "imageUrl": "/positions/spring.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -10192,7 +10192,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/spiderman.webp",
+    "imageUrl": "/positions/spiderman.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -10228,7 +10228,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ",
     "descriptionTh": "ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย ช่วยให้ช่วงเวลาแห่งความใกล้ชิดดำเนินไปอย่างนุ่มนวลและต่อเนื่อง",
-    "imageUrl": "https://couplesexposition.com/images/positions/elephant.webp",
+    "imageUrl": "/positions/elephant.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -10261,7 +10261,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/orchid.webp",
+    "imageUrl": "/positions/orchid.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -10296,7 +10296,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/bicycle.webp",
+    "imageUrl": "/positions/bicycle.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -10332,7 +10332,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/caramel.webp",
+    "imageUrl": "/positions/caramel.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -10366,7 +10366,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/python.webp",
+    "imageUrl": "/positions/python.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -10402,7 +10402,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/watch.webp",
+    "imageUrl": "/positions/watch.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -10436,7 +10436,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "ท่านั่งกอดประกบ สะโพกแนบสะโพก หายใจรดต้นคอ",
     "descriptionTh": "ท่านั่งโอบกอดที่อบอุ่นที่สุด ฝ่ายหญิงนั่งบนตักฝ่ายชาย ทั้งคู่สามารถจูบ ลูบไล้แผ่นหลัง และสบสายตากันได้เต็มที่",
-    "imageUrl": "https://couplesexposition.com/images/positions/cradle.webp",
+    "imageUrl": "/positions/cradle.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -10471,7 +10471,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/unicorn.webp",
+    "imageUrl": "/positions/unicorn.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -10507,7 +10507,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ",
     "descriptionTh": "ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย ช่วยให้ช่วงเวลาแห่งความใกล้ชิดดำเนินไปอย่างนุ่มนวลและต่อเนื่อง",
-    "imageUrl": "https://couplesexposition.com/images/positions/staff.webp",
+    "imageUrl": "/positions/staff.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -10541,7 +10541,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/virgo.webp",
+    "imageUrl": "/positions/virgo.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -10575,7 +10575,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/prison-guard.webp",
+    "imageUrl": "/positions/prison-guard.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -10611,7 +10611,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/cello.webp",
+    "imageUrl": "/positions/cello.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -10646,7 +10646,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/crucifixion.webp",
+    "imageUrl": "/positions/crucifixion.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -10682,7 +10682,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/puzzle.webp",
+    "imageUrl": "/positions/puzzle.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -10718,7 +10718,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/fan.webp",
+    "imageUrl": "/positions/fan.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -10752,7 +10752,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/taurus.webp",
+    "imageUrl": "/positions/taurus.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -10787,7 +10787,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/nirvana.webp",
+    "imageUrl": "/positions/nirvana.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -10821,7 +10821,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "แนวราบขนาน กางขาเปิดมุมกว้างเพื่อการสอดใส่ที่ลื่นไหล",
     "descriptionTh": "ดัดแปลงจากท่ามาตรฐานโดยการเปิดมุมขา ช่วยให้เข้าถึงได้ลึกขึ้นและเปิดพื้นที่ให้ใช้มือสัมผัสได้ทั่วเรือนร่าง",
-    "imageUrl": "https://couplesexposition.com/images/positions/airplane.webp",
+    "imageUrl": "/positions/airplane.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -10856,7 +10856,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/ribbon.webp",
+    "imageUrl": "/positions/ribbon.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -10890,7 +10890,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/liana.webp",
+    "imageUrl": "/positions/liana.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -10925,7 +10925,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ",
     "descriptionTh": "ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย ช่วยให้ช่วงเวลาแห่งความใกล้ชิดดำเนินไปอย่างนุ่มนวลและต่อเนื่อง",
-    "imageUrl": "https://couplesexposition.com/images/positions/cowboy.webp",
+    "imageUrl": "/positions/cowboy.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -10958,7 +10958,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/oath.webp",
+    "imageUrl": "/positions/oath.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -10994,7 +10994,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/hero.webp",
+    "imageUrl": "/positions/hero.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -11030,7 +11030,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 1,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/ice-cream.webp",
+    "imageUrl": "/positions/ice-cream.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -11064,7 +11064,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/brute.webp",
+    "imageUrl": "/positions/brute.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -11100,7 +11100,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "แนวดิ่งทิ้งน้ำหนักลงตรง ฝ่ายหญิงปรับองศาเอนหน้าหรือหลังเพื่อควบคุมจุดกระทบได้ตามใจ",
     "descriptionTh": "ฝ่ายหญิงเป็นผู้กุมจังหวะและทิศทาง สามารถบดคลึงจุดคลิตอริสและค้นหามุมที่โดนจุดจีสปอตได้ด้วยตนเองอย่างแม่นยำ",
-    "imageUrl": "https://couplesexposition.com/images/positions/backwards-cowgirl.webp",
+    "imageUrl": "/positions/backwards-cowgirl.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -11135,7 +11135,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/bud.webp",
+    "imageUrl": "/positions/bud.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -11169,7 +11169,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/sphinx.webp",
+    "imageUrl": "/positions/sphinx.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -11205,7 +11205,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/reflection.webp",
+    "imageUrl": "/positions/reflection.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -11240,7 +11240,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/leo.webp",
+    "imageUrl": "/positions/leo.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -11275,7 +11275,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/poplar.webp",
+    "imageUrl": "/positions/poplar.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -11310,7 +11310,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/iron.webp",
+    "imageUrl": "/positions/iron.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -11346,7 +11346,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/overpass.webp",
+    "imageUrl": "/positions/overpass.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -11382,7 +11382,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/aries.webp",
+    "imageUrl": "/positions/aries.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -11417,7 +11417,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/arch.webp",
+    "imageUrl": "/positions/arch.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -11452,7 +11452,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/marmalade.webp",
+    "imageUrl": "/positions/marmalade.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -11486,7 +11486,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/mexican-halloween.webp",
+    "imageUrl": "/positions/mexican-halloween.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -11522,7 +11522,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/valedictorian.webp",
+    "imageUrl": "/positions/valedictorian.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -11557,7 +11557,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/snake.webp",
+    "imageUrl": "/positions/snake.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -11591,7 +11591,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/jellyfish.webp",
+    "imageUrl": "/positions/jellyfish.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -11627,7 +11627,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/surf-board.webp",
+    "imageUrl": "/positions/surf-board.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -11663,7 +11663,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/sledge.webp",
+    "imageUrl": "/positions/sledge.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -11698,7 +11698,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/glass.webp",
+    "imageUrl": "/positions/glass.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -11733,7 +11733,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/angry-pirate.webp",
+    "imageUrl": "/positions/angry-pirate.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -11769,7 +11769,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/train.webp",
+    "imageUrl": "/positions/train.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -11804,7 +11804,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/twins.webp",
+    "imageUrl": "/positions/twins.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -11838,7 +11838,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ",
     "descriptionTh": "ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย ช่วยให้ช่วงเวลาแห่งความใกล้ชิดดำเนินไปอย่างนุ่มนวลและต่อเนื่อง",
-    "imageUrl": "https://couplesexposition.com/images/positions/jockey.webp",
+    "imageUrl": "/positions/jockey.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -11872,7 +11872,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/trunk.webp",
+    "imageUrl": "/positions/trunk.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -11908,7 +11908,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 2,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/honeymoon.webp",
+    "imageUrl": "/positions/honeymoon.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -11942,7 +11942,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/twix.webp",
+    "imageUrl": "/positions/twix.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -11977,7 +11977,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/ball.webp",
+    "imageUrl": "/positions/ball.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -12011,7 +12011,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/plaid.webp",
+    "imageUrl": "/positions/plaid.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -12046,7 +12046,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/batman.webp",
+    "imageUrl": "/positions/batman.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -12082,7 +12082,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/emmanuel.webp",
+    "imageUrl": "/positions/emmanuel.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -12117,7 +12117,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/zombie.webp",
+    "imageUrl": "/positions/zombie.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -12153,7 +12153,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/stick-figure.webp",
+    "imageUrl": "/positions/stick-figure.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -12189,7 +12189,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/rabbit-ears.webp",
+    "imageUrl": "/positions/rabbit-ears.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -12223,7 +12223,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/she-wolf.webp",
+    "imageUrl": "/positions/she-wolf.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -12258,7 +12258,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/rainbow.webp",
+    "imageUrl": "/positions/rainbow.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -12293,7 +12293,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวดิ่งทิ้งน้ำหนักลงตรง ฝ่ายหญิงปรับองศาเอนหน้าหรือหลังเพื่อควบคุมจุดกระทบได้ตามใจ",
     "descriptionTh": "ฝ่ายหญิงเป็นผู้กุมจังหวะและทิศทาง สามารถบดคลึงจุดคลิตอริสและค้นหามุมที่โดนจุดจีสปอตได้ด้วยตนเองอย่างแม่นยำ",
-    "imageUrl": "https://couplesexposition.com/images/positions/asian-cowgirl.webp",
+    "imageUrl": "/positions/asian-cowgirl.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -12327,7 +12327,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/starfish.webp",
+    "imageUrl": "/positions/starfish.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -12361,7 +12361,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 1,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/thirst.webp",
+    "imageUrl": "/positions/thirst.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -12395,7 +12395,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "สอดใส่จากด้านหลังหรือแนวประกบ รัดรอบสะโพกแนบแน่น",
     "descriptionTh": "เน้นการโอบรัดและควบคุมจังหวะโดยฝ่ายชาย ให้ความรู้สึกปกป้องและแนบสนิททุกตารางนิ้ว",
-    "imageUrl": "https://couplesexposition.com/images/positions/anaconda.webp",
+    "imageUrl": "/positions/anaconda.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -12430,7 +12430,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/goddess.webp",
+    "imageUrl": "/positions/goddess.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -12465,7 +12465,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมเอียงกึ่งคว่ำกึ่งตะแคง ปลายชี้สู่จุดสัมผัสภายใน",
     "descriptionTh": "ท่ากึ่งคว่ำที่ผ่อนคลายสบายตัว ไม่เมื่อยล้า สามารถเพลิดเพลินกับจังหวะรักได้อย่างยาวนาน",
-    "imageUrl": "https://couplesexposition.com/images/positions/amphibian.webp",
+    "imageUrl": "/positions/amphibian.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -12500,7 +12500,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/female-peasant.webp",
+    "imageUrl": "/positions/female-peasant.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -12535,7 +12535,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวระนาบตรงระดับปานกลาง สอดใส่ได้อย่างแนบแน่นและลื่นไหล ปรับมุมได้อิสระ",
     "descriptionTh": "ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย ช่วยให้ช่วงเวลาแห่งความใกล้ชิดดำเนินไปอย่างนุ่มนวลและต่อเนื่อง",
-    "imageUrl": "https://couplesexposition.com/images/positions/plain.webp",
+    "imageUrl": "/positions/plain.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -12568,7 +12568,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "ท่ายืนหรือกึ่งยืน ยกขาข้างหนึ่งพาดสะโพก เปิดองศาเรียวยาว",
     "descriptionTh": "ท่วงท่าที่งดงามประหนึ่งการร่ายรำ ให้ความรู้สึกเย้ายวน สง่างาม และได้สัมผัสมุมใหม่ที่ไม่ซ้ำใคร",
-    "imageUrl": "https://couplesexposition.com/images/positions/ballet-dancer.webp",
+    "imageUrl": "/positions/ballet-dancer.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -12604,7 +12604,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมเฉียงขึ้นจากด้านล่าง ฝ่ายหญิงทรงตัวบนสะโพกหรือขอบเตียง",
     "descriptionTh": "ท่าท้าทายที่ต้องใช้ความยืดหยุ่นและพละกำลัง ให้มุมมองทางสายตาที่เร้าใจและสัมผัสลึกซึ้ง",
-    "imageUrl": "https://couplesexposition.com/images/positions/acrobat.webp",
+    "imageUrl": "/positions/acrobat.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -12641,7 +12641,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/italian-chandelier.webp",
+    "imageUrl": "/positions/italian-chandelier.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -12677,7 +12677,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมประกบด้านข้าง ขาแนบชิดเพื่อเพิ่มความกระชับ",
     "descriptionTh": "ท่าสบายๆ ที่ให้ความรู้สึกอบอุ่นแนบแน่น ขาทั้งสองข้างหนีบชิดช่วยเพิ่มแรงเสียดสีและความสุขสม",
-    "imageUrl": "https://couplesexposition.com/images/positions/alley.webp",
+    "imageUrl": "/positions/alley.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -12712,7 +12712,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/clip.webp",
+    "imageUrl": "/positions/clip.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -12747,7 +12747,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/mirage.webp",
+    "imageUrl": "/positions/mirage.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -12782,7 +12782,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 2,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/eraser.webp",
+    "imageUrl": "/positions/eraser.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -12817,7 +12817,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/pointer.webp",
+    "imageUrl": "/positions/pointer.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -12852,7 +12852,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/aquarius.webp",
+    "imageUrl": "/positions/aquarius.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -12887,7 +12887,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/barberry.webp",
+    "imageUrl": "/positions/barberry.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -12921,7 +12921,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมทะยานจากด้านหลัง ขาเหยียดตรงแนบขนาน",
     "descriptionTh": "ท่ายอดนิยมที่ให้ความรู้สึกพุ่งทะยานสู่จุดสูงสุด ร่างกายเหยียดตรงรับแรงสัมผัสได้อย่างเต็มพลัง",
-    "imageUrl": "https://couplesexposition.com/images/positions/superman.webp",
+    "imageUrl": "/positions/superman.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -12958,7 +12958,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/pretzel-dip.webp",
+    "imageUrl": "/positions/pretzel-dip.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -12993,7 +12993,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/joystick.webp",
+    "imageUrl": "/positions/joystick.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -13028,7 +13028,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/horizon.webp",
+    "imageUrl": "/positions/horizon.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -13063,7 +13063,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/tiramisu.webp",
+    "imageUrl": "/positions/tiramisu.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -13097,7 +13097,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมโค้งแอ่นสะโพกขึ้น สอดใส่เป็นมุมตัดช้อนลึก",
     "descriptionTh": "ฝ่ายหญิงแอ่นสะโพกขึ้นในลักษณะสะพานโค้งเล็กน้อย ช่วยเปลี่ยนทิศทางการสอดใส่ให้สัมผัสจุดรับความรู้สึกได้อย่างตรงเป้า",
-    "imageUrl": "https://couplesexposition.com/images/positions/golden-gate.webp",
+    "imageUrl": "/positions/golden-gate.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -13133,7 +13133,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/caliper.webp",
+    "imageUrl": "/positions/caliper.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -13168,7 +13168,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/basket.webp",
+    "imageUrl": "/positions/basket.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -13202,7 +13202,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/flash.webp",
+    "imageUrl": "/positions/flash.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -13237,7 +13237,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/libido.webp",
+    "imageUrl": "/positions/libido.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -13272,7 +13272,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/watering-can.webp",
+    "imageUrl": "/positions/watering-can.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -13307,7 +13307,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมกดดิ่งลึก ฝ่ายหญิงยกขาทบชิดหน้าอก ปลายกระทบจุดจีอย่างหนักแน่น",
     "descriptionTh": "ฝ่ายหญิงนอนหงายและยกขาทั้งสองข้างพับแนบชิดอก ช่วยให้มุมการสอดใส่แคบและแนบแน่นที่สุด สัมผัสถึงความลึกเต็มพิกัด",
-    "imageUrl": "https://couplesexposition.com/images/positions/accordion.webp",
+    "imageUrl": "/positions/accordion.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -13343,7 +13343,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/blade.webp",
+    "imageUrl": "/positions/blade.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -13379,7 +13379,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/snail.webp",
+    "imageUrl": "/positions/snail.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -13413,7 +13413,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/shining.webp",
+    "imageUrl": "/positions/shining.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -13448,7 +13448,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/narcissus.webp",
+    "imageUrl": "/positions/narcissus.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -13483,7 +13483,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/diamond.webp",
+    "imageUrl": "/positions/diamond.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -13518,7 +13518,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "สอดใส่จากด้านหลังหรือมุมกด ปลายทำมุมช้อนเข้าหาผนังช่องคลอดด้านหน้าอย่างหนักแน่น",
     "descriptionTh": "ฝ่ายชายเป็นผู้ควบคุมความลึกและจังหวะการเคลื่อนไหว สัมผัสถึงความกระชับและส่งมอบพลังแห่งความรักได้อย่างเต็มที่",
-    "imageUrl": "https://couplesexposition.com/images/positions/screwdriver.webp",
+    "imageUrl": "/positions/screwdriver.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -13552,7 +13552,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/iris.webp",
+    "imageUrl": "/positions/iris.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -13586,7 +13586,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/bench.webp",
+    "imageUrl": "/positions/bench.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -13620,7 +13620,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/dejavu.webp",
+    "imageUrl": "/positions/dejavu.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -13654,7 +13654,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/belt.webp",
+    "imageUrl": "/positions/belt.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -13689,7 +13689,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/discharge.webp",
+    "imageUrl": "/positions/discharge.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -13725,7 +13725,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/forbidden-fruit.webp",
+    "imageUrl": "/positions/forbidden-fruit.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -13760,7 +13760,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/scorpio.webp",
+    "imageUrl": "/positions/scorpio.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -13796,7 +13796,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/olympus.webp",
+    "imageUrl": "/positions/olympus.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -13832,7 +13832,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/depth.webp",
+    "imageUrl": "/positions/depth.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -13868,7 +13868,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/venus.webp",
+    "imageUrl": "/positions/venus.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -13903,7 +13903,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/lock.webp",
+    "imageUrl": "/positions/lock.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -13937,7 +13937,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/avalanche.webp",
+    "imageUrl": "/positions/avalanche.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -13973,7 +13973,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/rodeo.webp",
+    "imageUrl": "/positions/rodeo.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -14009,7 +14009,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/case.webp",
+    "imageUrl": "/positions/case.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -14043,7 +14043,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/tango.webp",
+    "imageUrl": "/positions/tango.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -14078,7 +14078,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/croissant.webp",
+    "imageUrl": "/positions/croissant.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -14112,7 +14112,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/mast.webp",
+    "imageUrl": "/positions/mast.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -14148,7 +14148,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/speaker.webp",
+    "imageUrl": "/positions/speaker.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -14183,7 +14183,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/victory.webp",
+    "imageUrl": "/positions/victory.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -14219,7 +14219,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/bullfighter.webp",
+    "imageUrl": "/positions/bullfighter.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -14255,7 +14255,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/hucklebuck.webp",
+    "imageUrl": "/positions/hucklebuck.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -14290,7 +14290,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/barbell.webp",
+    "imageUrl": "/positions/barbell.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -14326,7 +14326,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "ใช้หมอนหนุนใต้สะโพกสูง องศายกเอียงรับสัมผัสได้ลึกที่สุด",
     "descriptionTh": "การใช้หมอนหรือเบาะรองใต้สะโพกช่วยเปลี่ยนมุมสรีระให้รับการเสียดสีได้อย่างสมบูรณ์แบบ ทั้งจุดคลิตอริสและจีสปอต",
-    "imageUrl": "https://couplesexposition.com/images/positions/magic-mountain.webp",
+    "imageUrl": "/positions/magic-mountain.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -14361,7 +14361,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/sagittarius.webp",
+    "imageUrl": "/positions/sagittarius.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -14397,7 +14397,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมสอดใส่เฉียงขึ้นอย่างนุ่มนวล พร้อมพื้นที่นวดสัมผัสคลิตอริส",
     "descriptionTh": "ท่าที่ออกแบบมาเพื่อบูชาความพึงพอใจของฝ่ายหญิง สัมผัสนุ่มนวล ละมุนละไม และนำพาไปสู่จุดสูงสุดได้อย่างงดงาม",
-    "imageUrl": "https://couplesexposition.com/images/positions/aphrodite.webp",
+    "imageUrl": "/positions/aphrodite.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -14432,7 +14432,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/casket.webp",
+    "imageUrl": "/positions/casket.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -14468,7 +14468,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/bizet.webp",
+    "imageUrl": "/positions/bizet.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -14503,7 +14503,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/soldier.webp",
+    "imageUrl": "/positions/soldier.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -14538,7 +14538,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/cleopatra.webp",
+    "imageUrl": "/positions/cleopatra.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -14573,7 +14573,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 1,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/idyll.webp",
+    "imageUrl": "/positions/idyll.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -14607,7 +14607,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/flame.webp",
+    "imageUrl": "/positions/flame.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -14643,7 +14643,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/cancer.webp",
+    "imageUrl": "/positions/cancer.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -14678,7 +14678,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/hook.webp",
+    "imageUrl": "/positions/hook.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -14714,7 +14714,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/ecstasy.webp",
+    "imageUrl": "/positions/ecstasy.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -14749,7 +14749,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 1,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/harmony.webp",
+    "imageUrl": "/positions/harmony.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -14783,7 +14783,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/ape.webp",
+    "imageUrl": "/positions/ape.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -14819,7 +14819,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/binding.webp",
+    "imageUrl": "/positions/binding.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -14855,7 +14855,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/sex-slave.webp",
+    "imageUrl": "/positions/sex-slave.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -14891,7 +14891,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/gorge.webp",
+    "imageUrl": "/positions/gorge.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -14927,7 +14927,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 2,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/book.webp",
+    "imageUrl": "/positions/book.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -14961,7 +14961,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 2,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/indian-style.webp",
+    "imageUrl": "/positions/indian-style.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -14995,7 +14995,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/speed-bump.webp",
+    "imageUrl": "/positions/speed-bump.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -15030,7 +15030,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "ท่ายืนหรือกึ่งยืน ปรับระดับความสูงให้เข้ากับสะโพก เหมาะสำหรับช่วงเวลาเร่งด่วน",
     "descriptionTh": "ตอบสนองความเร่าร้อนอย่างฉับไว เหมาะสำหรับช่วงเวลาที่ความปรารถนาพุ่งสูง ไม่จำเป็นต้องมีพิธีรีตองมากความ",
-    "imageUrl": "https://couplesexposition.com/images/positions/wall.webp",
+    "imageUrl": "/positions/wall.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -15067,7 +15067,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/sprout.webp",
+    "imageUrl": "/positions/sprout.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -15101,7 +15101,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "สะโพกเลื่อนลงมาที่ริมขอบเตียง ทิ้งขาปล่อยตามสบาย",
     "descriptionTh": "การใช้ประโยชน์จากระดับความสูงของขอบเตียง ช่วยให้ฝ่ายชายส่งมอบความรักได้อย่างถนัดมือและเป็นธรรมชาติที่สุด",
-    "imageUrl": "https://couplesexposition.com/images/positions/waterfall.webp",
+    "imageUrl": "/positions/waterfall.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -15137,7 +15137,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/basset-hound.webp",
+    "imageUrl": "/positions/basset-hound.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -15171,7 +15171,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/tornado.webp",
+    "imageUrl": "/positions/tornado.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -15207,7 +15207,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/swing.webp",
+    "imageUrl": "/positions/swing.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -15242,7 +15242,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/spoon.webp",
+    "imageUrl": "/positions/spoon.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -15276,7 +15276,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 1,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/whisper.webp",
+    "imageUrl": "/positions/whisper.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -15310,7 +15310,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 3,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/inquisitor.webp",
+    "imageUrl": "/positions/inquisitor.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -15346,7 +15346,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/circle.webp",
+    "imageUrl": "/positions/circle.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -15381,7 +15381,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/disco.webp",
+    "imageUrl": "/positions/disco.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -15416,7 +15416,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "แนวราบขนานหรือประกบข้าง สอดใส่ในมุมที่สบาย ไม่เกร็งตัวและไม่ต้องใช้แรงเยอะ",
     "descriptionTh": "เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ เน้นการคลอเคลีย ลูบไล้ และการสัมผัสผิวกายที่มอบความอบอุ่นใจ",
-    "imageUrl": "https://couplesexposition.com/images/positions/boat.webp",
+    "imageUrl": "/positions/boat.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -15450,7 +15450,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 1,
     "angle": "มุมเฉียงแนบชิดหน้าอกสบสายตา กระดูกเชิงกรานและหัวหน่าวบดสัมผัสแนบสนิท",
     "descriptionTh": "เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง",
-    "imageUrl": "https://couplesexposition.com/images/positions/candle.webp",
+    "imageUrl": "/positions/candle.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -15484,7 +15484,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/straddle.webp",
+    "imageUrl": "/positions/straddle.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -15519,7 +15519,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 4,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/clapper.webp",
+    "imageUrl": "/positions/clapper.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -15555,7 +15555,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 5,
     "angle": "มุมยกสะโพกหรือพับขาเปิดองศาลึกพิเศษ สัมผัสถึงจุดเร้าอารมณ์ได้อย่างล้ำลึกที่สุด",
     "descriptionTh": "ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน",
-    "imageUrl": "https://couplesexposition.com/images/positions/shuttle.webp",
+    "imageUrl": "/positions/shuttle.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",
@@ -15590,7 +15590,7 @@ window.COUPLES_POSITIONS = [
     "gspot": 0,
     "angle": "สัมผัสภายนอก / Oral Art: เน้นริมฝีปาก ลิ้น และปลายนิ้ว ควบคุมจังหวะอิสระ",
     "descriptionTh": "ท่า 69 ในมุมผ่อนคลายแบบนอนตะแคง ช่วยให้ทั้งสองฝ่ายสบตากันได้ง่ายและไม่เกร็งกล้ามเนื้อ",
-    "imageUrl": "https://couplesexposition.com/images/positions/new-69.webp",
+    "imageUrl": "/positions/new-69.webp",
     "anatomy": {
       "suitableTh": [
         "ความใกล้ชิด",

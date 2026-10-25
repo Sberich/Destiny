@@ -1,5 +1,5 @@
 // Destiny Velvet PWA Service Worker
-const CACHE_NAME = 'destiny-velvet-v2';
+const CACHE_NAME = 'destiny-velvet-v4';
 const PRECACHE_URLS = [
   '/467',
   '/467.html',
@@ -34,11 +34,33 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
+  const url = new URL(event.request.url);
+
+  // Cache-first for positions illustrations (both local /positions/ and remote fallback)
+  const isPositionImage = url.pathname.startsWith('/positions/') ||
+    (url.hostname === 'couplesexposition.com' && url.pathname.includes('/positions/'));
+
+  if (isPositionImage) {
+    event.respondWith(
+      caches.match(event.request).then((cached) => {
+        if (cached) return cached;
+        return fetch(event.request).then((response) => {
+          if (response && (response.status === 200 || response.type === 'opaque')) {
+            const clone = response.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
+          }
+          return response;
+        }).catch(() => caches.match(event.request));
+      })
+    );
+    return;
+  }
+
   // Network first, fall back to cache
   event.respondWith(
     fetch(event.request)
       .then((response) => {
-        if (response && response.status === 200 && response.type === 'basic') {
+        if (response && response.status === 200) {
           const clone = response.clone();
           caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
         }
