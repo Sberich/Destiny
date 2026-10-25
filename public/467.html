@@ -2009,42 +2009,7 @@
       transform: scale(0.97);
     }
 
-    /* Velvet Luxury Floating Toast Notification */
-    .velvet-toast {
-      position: fixed;
-      top: 24px;
-      left: 50%;
-      transform: translate(-50%, -60px) scale(0.9);
-      background: linear-gradient(135deg, rgba(35, 14, 45, 0.96), rgba(18, 6, 25, 0.98));
-      border: 1.5px solid var(--rose-gold);
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8), 0 0 25px rgba(255, 46, 147, 0.35);
-      border-radius: 24px;
-      padding: 11px 20px;
-      color: var(--champagne);
-      font-size: 0.88rem;
-      font-weight: 500;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      z-index: 10000;
-      pointer-events: none;
-      opacity: 0;
-      transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
-      backdrop-filter: blur(14px);
-      -webkit-backdrop-filter: blur(14px);
-      max-width: 90vw;
-      white-space: nowrap;
-    }
 
-    .velvet-toast.show {
-      transform: translate(-50%, 0) scale(1);
-      opacity: 1;
-    }
-
-    .velvet-toast-icon {
-      font-size: 1.3rem;
-      filter: drop-shadow(0 0 8px rgba(255, 215, 0, 0.6));
-    }
 
     .match-action-sec {
       background: rgba(255, 255, 255, 0.08);
@@ -2525,6 +2490,36 @@
     </div>
   </div>
 
+  <!-- Wheel Transfer Notification Modal (Matching Mini-Tip Style) -->
+  <div class="mini-tip-backdrop" id="wheel-transfer-modal" onclick="onWheelTransferBackdropClick(event)">
+    <div class="mini-tip-card gold-glow">
+      <div class="mini-tip-header">
+        <div class="mini-tip-title-wrap">
+          <span class="mini-tip-icon">🎡</span>
+          <div>
+            <div class="mini-tip-title" style="color: #ffd166;">ส่งท่าเข้าสู่วงล้อสำเร็จ!</div>
+            <div class="mini-tip-score" id="wheel-transfer-count-badge" style="color: #ffe5b4;">คลังวงล้อ: 18 ท่าที่ใจตรงกัน</div>
+          </div>
+        </div>
+        <button class="mini-tip-close" onclick="closeWheelTransferModal()">✕</button>
+      </div>
+      <div class="mini-tip-body">
+        <div class="mini-tip-desc" id="wheel-transfer-desc">
+          ระบบได้นำท่วงท่าทั้งหมดที่คุณและคนรักใจตรงกัน บรรจุลงในวงล้อเสี่ยงทายเรียบร้อยแล้วครับ
+        </div>
+        <div class="mini-tip-box" style="border-left-color: #ffd166; background: rgba(74, 40, 14, 0.35); color: #ffe5b4;">
+          <span class="mini-tip-box-label" style="color: #ffd166;">💡 กงล้อโรแมนติกพร้อมแล้ว:</span>
+          <span class="mini-tip-box-text">
+            เมื่อปิดข้อความนี้ สามารถแตะปุ่ม <strong>SPIN</strong> ตรงกลางเพื่อเริ่มเสี่ยงทายท่วงท่าของค่ำคืนนี้ได้ทันที ✨
+          </span>
+        </div>
+      </div>
+      <button class="mini-tip-btn" onclick="confirmWheelTransfer()" style="background: linear-gradient(135deg, rgba(255, 209, 102, 0.25), rgba(255, 46, 147, 0.35)); border-color: #ffd166; font-weight: 600; padding: 11px;">
+        ✕ ปิดข้อความ & เริ่มหมุนวงล้อ ❯
+      </button>
+    </div>
+  </div>
+
   <!-- Fullscreen Image Lightbox -->
   <div class="lightbox-backdrop" id="lightbox-modal" onclick="closeLightbox()">
     <button class="lightbox-close" onclick="closeLightbox()">✕</button>
@@ -2741,8 +2736,14 @@
         closeLightbox();
         return;
       }
-      // 2. Mini tip popover
-      const tip = document.getElementById('mini-tip-popover');
+      // 2. Wheel Transfer Modal
+      const wt = document.getElementById('wheel-transfer-modal');
+      if (wt && wt.style.display === 'flex') {
+        confirmWheelTransfer();
+        return;
+      }
+      // 3. Mini tip popover
+      const tip = document.getElementById('mini-tip-modal');
       if (tip && tip.style.display === 'flex') {
         closeMiniTip();
         return;
@@ -4091,25 +4092,37 @@
       return card;
     }
 
-    function showVelvetToast(msg, icon = '✨', durationMs = 2800) {
-      const toast = document.getElementById('velvet-toast');
-      if (!toast) return;
-      toast.innerHTML = `<span class="velvet-toast-icon">${icon}</span><span>${msg}</span>`;
-      toast.classList.add('show');
-      playTone(600, 'sine', 0.12);
-      setTimeout(() => playTone(800, 'sine', 0.18), 120);
-      clearTimeout(toast._timeout);
-      toast._timeout = setTimeout(() => {
-        toast.classList.remove('show');
-      }, durationMs);
+    function applyMatchesToWheel() {
+      if (!matchedPositions || matchedPositions.length === 0) return;
+      const countEl = document.getElementById('wheel-transfer-count-badge');
+      const descEl = document.getElementById('wheel-transfer-desc');
+      if (countEl) countEl.textContent = `คลังวงล้อ: ${matchedPositions.length} ท่าที่ใจตรงกัน`;
+      if (descEl) {
+        descEl.textContent = `ระบบได้นำท่วงท่าทั้งหมด ${matchedPositions.length} ท่าที่คุณและคนรักใจตรงกัน บรรจุลงในวงล้อเสี่ยงทายเรียบร้อยแล้วครับ`;
+      }
+      const modal = document.getElementById('wheel-transfer-modal');
+      if (modal) modal.style.display = 'flex';
+      playTone(587.33, 'sine', 0.12);
+      setTimeout(() => playTone(880, 'sine', 0.22), 120);
     }
 
-    function applyMatchesToWheel() {
-      if (matchedPositions.length === 0) return;
+    function closeWheelTransferModal() {
+      const modal = document.getElementById('wheel-transfer-modal');
+      if (modal) modal.style.display = 'none';
+    }
+
+    function onWheelTransferBackdropClick(e) {
+      if (e.target.id === 'wheel-transfer-modal') closeWheelTransferModal();
+    }
+
+    function confirmWheelTransfer() {
+      closeWheelTransferModal();
+      if (!matchedPositions || matchedPositions.length === 0) return;
       wheelItems = matchedPositions.slice();
       switchMode('wheel');
       drawWheel();
-      showVelvetToast(`บรรจุ ${matchedPositions.length} ท่าที่ใจตรงกันลงในวงล้อแล้ว พร้อมหมุน!`, '🎡');
+      playTone(784, 'sine', 0.15);
+      setTimeout(() => playTone(1046.5, 'sine', 0.25), 100);
     }
 
     function resetSecretMatch() {
@@ -4193,7 +4206,6 @@
     }
   </script>
 
-  <!-- Velvet Luxury Floating Toast Notification -->
-  <div id="velvet-toast" class="velvet-toast"></div>
+
 </body>
 </html>
