@@ -103,7 +103,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Clitoral",
     "descriptionEn": "Take control and set the pace with this empowering position.",
     "isPenetrative": true,
-    "etymologyTh": "\"หญิงขี่ม้า / คาวบอยหญิง\" — เปรียบฝ่ายหญิงเป็นผู้กุมบังเหียน นั่งขี่และคุมจังหวะด้วยตนเอง"
+    "etymologyTh": "\"คาวเกิร์ล (หญิงขี่ม้า)\" — เปรียบฝ่ายหญิงเป็นผู้กุมบังเหียน นั่งขี่และคุมจังหวะด้วยตนเอง"
   },
   {
     "id": "sixty-nine",
@@ -140,7 +140,7 @@ window.COUPLES_POSITIONS = [
     "descriptionEn": "Simultaneous oral pleasure in this classic position.",
     "isPenetrative": false,
     "focusType": "oral",
-    "etymologyTh": "\"ตัวเลข 69\" — ตัวเลขสองตัวที่สลับหัวท้ายกัน เปรียบกับการผลัดกันมอบความสุขพร้อมกัน"
+    "etymologyTh": "\"หกสิบเก้า (69)\" — ตัวเลขสองตัวที่สลับหัวท้ายกัน เปรียบกับการผลัดกันมอบความสุขพร้อมกัน"
   },
   {
     "id": "prone-bone",
@@ -212,7 +212,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A fresh angle that brings a new dimension of pleasure.",
     "isPenetrative": true,
-    "etymologyTh": "\"หญิงขี่ม้าหันหลัง\" — ฝ่ายหญิงนั่งหันหลังคุมจังหวะและปรับมุมสัมผัสด้วยตนเอง"
+    "etymologyTh": "\"คาวเกิร์ลหันหลัง\" — ฝ่ายหญิงนั่งหันหลังคุมจังหวะและปรับมุมสัมผัสด้วยตนเอง"
   },
   {
     "id": "amazon",
@@ -357,7 +357,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "Cuddle close with this gentle, sensual side position.",
     "isPenetrative": true,
-    "etymologyTh": "\"การประกบรูปช้อน\" — สรีระนอนตะแคงซ้อนประกบกันแนบแน่นเหมือนช้อนสองคันที่วางซ้อนกัน"
+    "etymologyTh": "\"ช้อนประกบ\" — สรีระนอนตะแคงซ้อนประกบกันแนบแน่นเหมือนช้อนสองคันที่วางซ้อนกัน"
   },
   {
     "id": "scissor",
@@ -541,7 +541,7 @@ window.COUPLES_POSITIONS = [
     "descriptionEn": "A restraining position with arms held behind the head.",
     "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
     "isPenetrative": true,
-    "etymologyTh": "\"ท่าล็อกคอและแขน\" — ท่ายืมชื่อมาจากท่ามวยปล้ำล็อกแขนจากด้านหลัง เพื่อตรึงสรีระให้แนบชิด"
+    "etymologyTh": "\"ท่าล็อกฟูลเนลสัน\" — ท่ายืมชื่อมาจากท่ามวยปล้ำล็อกแขนจากด้านหลัง เพื่อตรึงสรีระให้แนบชิด"
   },
   {
     "id": "piledriver",
@@ -690,7 +690,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A reversed cowgirl variation with the receiver facing away.",
     "isPenetrative": true,
-    "etymologyTh": "\"คาวบอยหันหลัง\" — ฝ่ายชายหรือฝ่ายรุกนั่งหันหลังควบคุมจังหวะและปรับมุมสัมผัส"
+    "etymologyTh": "\"คาวบอยหันหลัง\" — ฝ่ายบนนั่งหันหลังควบคุมจังหวะและปรับมุมสัมผัสด้วยตนเอง"
   },
   {
     "id": "legs-on-shoulders",
@@ -726,7 +726,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A modified missionary with legs raised for deeper angles.",
     "isPenetrative": true,
-    "etymologyTh": "\"ขานพาดไหล่\" — ฝ่ายรับยกขาทั้งสองข้างพาดขึ้นบนบ่าของฝ่ายรุก เพื่อเปิดองศาการสอดใส่ให้ลึกที่สุด"
+    "etymologyTh": "\"สองขาพาดไหล่\" — ฝ่ายรับยกขาทั้งสองข้างพาดขึ้นบนบ่าของฝ่ายรุก เพื่อเปิดองศาการสอดใส่ให้ลึกที่สุด"
   },
   {
     "id": "butter-churner",
@@ -1021,7 +1021,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A flat, face-down position for gentle, grinding sensations.",
     "isPenetrative": true,
-    "etymologyTh": "\"เตารีดผ้า / ตึกเตารีด\" — นอนคว่ำประกบระนาบแนบแน่น รีดทับกันเหมือนเตารีด"
+    "etymologyTh": "\"ตึกเตารีด / เตารีดผ้า\" — นอนคว่ำประกบระนาบแนบแน่น รีดทับกันเหมือนเตารีด"
   },
   {
     "id": "downward-dog",
@@ -1169,7 +1169,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A T-shaped body alignment for perpendicular penetration.",
     "isPenetrative": true,
-    "etymologyTh": "\"T Square\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ไม้ฉากตัวที\" — สรีระของทั้งสองจัดวางทำมุมตั้งฉาก 90 องศา คล้ายรูปทรงของไม้บรรทัดฉากตัวที"
   },
   {
     "id": "bow",
@@ -1206,7 +1206,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "An arched position like a drawn bow for tension and release.",
     "isPenetrative": true,
-    "etymologyTh": "\"คันศร\" — สร้างความรู้สึกผูกพันและเข้าถึงจุดสัมผัสลึกซึ้งได้อย่างอ่อนโยน"
+    "etymologyTh": "\"คันศรธนู\" — ลำตัวแอ่นโค้งเปิดมุมสรีระ ดั่งคันศรที่ถูกง้างจนตึงเพื่อรอการปล่อยสาย"
   },
   {
     "id": "mermaid",
@@ -1242,7 +1242,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A flowing, side-lying position like a mermaid&#39;s tail.",
     "isPenetrative": true,
-    "etymologyTh": "\"นางเงือก\" — รวบขาทั้งสองข้างชิดติดกันแนบแน่น คล้ายหางของนางเงือก"
+    "etymologyTh": "\"นางเงือก\" — รวบขาทั้งสองข้างชิดติดกันแนบแน่น คล้ายการแหวกว่ายของหางนางเงือก"
   },
   {
     "id": "seesaw",
@@ -1316,7 +1316,7 @@ window.COUPLES_POSITIONS = [
     "descriptionEn": "An inverted position with legs over the head like a plow.",
     "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
     "isPenetrative": true,
-    "etymologyTh": "\"Plow\" — ท่ายกขาสูงเปิดมุมระนาบลึก เพื่อลงน้ำหนักที่แนบแน่นและมั่นคง"
+    "etymologyTh": "\"คันไถ\" — ยกขาพับขึ้นสูงข้ามศีรษะจนปลายเท้าจรดพื้น คล้ายรูปทรงของคันไถที่ปักลงดิน"
   },
   {
     "id": "scorpion",
@@ -1354,7 +1354,7 @@ window.COUPLES_POSITIONS = [
     "descriptionEn": "A stinging position with legs arched like a scorpion&#39;s tail.",
     "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
     "isPenetrative": true,
-    "etymologyTh": "\"แมงป่อง\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"แมงป่อง\" — ลำตัวและขาแอ่นโค้งขึ้นด้านหลัง คล้ายปลายหางของแมงป่องที่เตรียมจู่โจม"
   },
   {
     "id": "dolphin",
@@ -1391,7 +1391,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A dolphin-like position with the receiver arched upward.",
     "isPenetrative": true,
-    "etymologyTh": "\"โลมา\" — ให้ความรู้สึกถึงการปกป้องและโอบกอดทั่วทั้งแผ่นหลังอย่างอ่อนโยน"
+    "etymologyTh": "\"โลมา\" — ลำตัวโค้งมนพลิ้วไหวเป็นระลอกคลื่น คล้ายท่วงท่าการกระโดดแหวกว่ายของโลมา"
   },
   {
     "id": "frog",
@@ -1427,7 +1427,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A frog-like squat position for deep, grinding penetration.",
     "isPenetrative": true,
-    "etymologyTh": "\"กบ\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"กบ\" — นั่งหรือหมอบยองๆ โดยกางขาทั้งสองข้างออกกว้าง คล้ายท่วงท่าสรีระของกบ"
   },
   {
     "id": "froggy-style",
@@ -1464,7 +1464,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A frog-style variation with a lower, wider stance.",
     "isPenetrative": true,
-    "etymologyTh": "\"Froggy Style\" — เน้นการบดสัมผัสตรงจุดคลิตอริสอย่างต่อเนื่องและเร้าอารมณ์"
+    "etymologyTh": "\"ท่าเลียนแบบกบ\" — ท่วงท่าหมอบต่ำกางขาออกกว้างคล้ายกบ เพื่อเปิดมุมสอดใส่ได้แนบชิด"
   },
   {
     "id": "eagle",
@@ -1500,7 +1500,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A spread-eagle position with legs wide like wings.",
     "isPenetrative": true,
-    "etymologyTh": "\"นกอินทรีย์\" — ช่วยให้ฝ่ายชายสอดใส่ได้ลึกขึ้นอย่างนุ่มนวล สามารถมองเห็นสีหน้าและปฏิกิริยาแห่งความสุขสมของฝ่ายหญิงได้อย่างชัดเจน"
+    "etymologyTh": "\"นกอินทรี\" — สองขากางสยายกว้างออกอย่างสง่างาม ดุจปีกของนกอินทรีที่โบยบินบนฟ้า"
   },
   {
     "id": "lotus-flower",
@@ -1537,7 +1537,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A seated lotus variation with legs wrapped like petals.",
     "isPenetrative": true,
-    "etymologyTh": "\"Lotus ดอกไม้\" — เปิดโอกาสให้จุมพิต ซอกคอ และสบตากันได้อย่างไม่รู้เบื่อ"
+    "etymologyTh": "\"ดอกบัวบาน\" — นั่งขัดสมาธิโอบกอดกัน โดยขาโอบล้อมคู่รักคล้ายกลีบดอกบัวที่กำลังคลี่บาน"
   },
   {
     "id": "flying-squirrel",
@@ -1575,7 +1575,7 @@ window.COUPLES_POSITIONS = [
     "descriptionEn": "A flying position with the receiver spread wide in mid-air.",
     "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
     "isPenetrative": true,
-    "etymologyTh": "\"บิน / ลอยเหิน Squirrel\" — ท่วงท่าที่ฝ่ายรับถูกพยุงตัวลอยขึ้นกลางอากาศ เปรียบเหมือนการเหินลอยเหนือคลื่นลม"
+    "etymologyTh": "\"กระรอกบิน\" — ฝ่ายรับถูกพยุงตัวลอยขึ้นพร้อมกางแขนขาออก คล้ายพังผืดของกระรอกบินที่ร่อนกลางอากาศ"
   },
   {
     "id": "praying-mantis",
@@ -1612,7 +1612,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A grasping, mantis-like position with arms restrained.",
     "isPenetrative": true,
-    "etymologyTh": "\"Praying Mantis\" — ใช้พื้นที่น้อย คล่องตัว เหมาะกับทุกสถานที่"
+    "etymologyTh": "\"ตั๊กแตนตำข้าว\" — แขนและขาพับงอขึ้นแนบอกอย่างรัดกุม คล้ายท่วงท่าตั้งการ์ดของตั๊กแตนตำข้าว"
   },
   {
     "id": "triceratops",
@@ -1649,7 +1649,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A three-legged position with unique stability and depth.",
     "isPenetrative": true,
-    "etymologyTh": "\"Triceratops\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ไดโนเสาร์สามเขา\" — จัดวางสรีระด้วยจุดค้ำยันสามจุดอย่างมั่นคงและทรงพลัง คล้ายไดโนเสาร์สามเขา"
   },
   {
     "id": "spider-monkey",
@@ -1687,7 +1687,7 @@ window.COUPLES_POSITIONS = [
     "descriptionEn": "A clinging, monkey-like position with wrapped limbs.",
     "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
     "isPenetrative": true,
-    "etymologyTh": "\"แมงมุม ลิง\" — เร่าร้อน ทรงพลัง เหมาะกับจุดเริ่มต้นแห่งความหลงใหลในทุกมุมห้อง"
+    "etymologyTh": "\"ลิงแมงมุม\" — โอบกอดและเกี่ยวรัดแขนขารอบตัวคู่รักอย่างเหนียวแน่น ดั่งลิงแมงมุมเกาะกิ่งไม้"
   },
   {
     "id": "leopard",
@@ -1723,7 +1723,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A spotted, stalking position with slow, deliberate movements.",
     "isPenetrative": true,
-    "etymologyTh": "\"Leopard\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"เสือดาว\" — หมอบซุ่มลำตัวต่ำและเคลื่อนไหวอย่างนุ่มนวลเงียบกริบ ดั่งเสือดาวล่าเหยื่อ"
   },
   {
     "id": "dragon",
@@ -1760,7 +1760,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A fierce, powerful position with fiery intensity.",
     "isPenetrative": true,
-    "etymologyTh": "\"มังกร\" — ท่วงท่าที่เร่งเร้าทรงพลังและมีความร้อนแรงดุจเปลวเพลิงมังกร"
+    "etymologyTh": "\"มังกรไฟ\" — ท่วงท่าที่เร่งเร้าทรงพลังและมีความร้อนแรงดุจเปลวเพลิงของมังกร"
   },
   {
     "id": "tamer",
@@ -1797,7 +1797,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A dominant position for taming your wild partner.",
     "isPenetrative": true,
-    "etymologyTh": "\"Tamer\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ผู้ฝึกสัตว์ร้าย\" — ฝ่ายรุกกุมบังเหียนควบคุมทิศทางอย่างเด็ดขาด ประหนึ่งผู้ฝึกสัตว์ป่าให้อยู่ในโอวาท"
   },
   {
     "id": "jackhammer",
@@ -1834,7 +1834,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A powerful, pounding position with rapid thrusts.",
     "isPenetrative": true,
-    "etymologyTh": "\"เครื่องเจาะถนน\" — จังหวะเร็วและมีพลัง"
+    "etymologyTh": "\"เครื่องเจาะถนน\" — การลงจังหวะสะโพกกระทบอย่างรวดเร็วและหนักแน่น ดุจหัวเจาะกระแทกถนน"
   },
   {
     "id": "throwdown",
@@ -1872,7 +1872,7 @@ window.COUPLES_POSITIONS = [
     "descriptionEn": "A throwing-down position for rough, intense play.",
     "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
     "isPenetrative": true,
-    "etymologyTh": "\"Throwdown\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"การทุ่มลงพื้น\" — ฝ่ายรับถูกดันตัวลงนอนทอดบนเตียงอย่างเร้าใจ คล้ายท่วงท่าทุ่มลงพื้นของนักมวยปล้ำ"
   },
   {
     "id": "crouching-tiger",
@@ -1908,7 +1908,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A crouching, tiger-like position with coiled power.",
     "isPenetrative": true,
-    "etymologyTh": "\"หมอบต่ำ เสือ\" — ฝ่ายหญิงหมอบต่ำแนบอกกับที่นอน ฝ่ายชายโถมตัวเข้าประกบ จังหวะหนักแน่น เร้าอารมณ์ดิบอย่างเป็นธรรมชาติ"
+    "etymologyTh": "\"เสือหมอบ\" — สรีระโน้มหมอบต่ำสะสมพลังไว้ที่สะโพก คล้ายท่วงท่าของเสือที่เตรียมกระโจน"
   },
   {
     "id": "submissive",
@@ -1944,7 +1944,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A vulnerable, submissive position for power dynamics.",
     "isPenetrative": true,
-    "etymologyTh": "\"ยอมจำนน\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ผู้ยอมจำนน\" — นอนเปิดเผยเรือนร่างอย่างผ่อนคลายและยินยอม มอบสิทธิ์ในการควบคุมให้อีกฝ่าย"
   },
   {
     "id": "nun",
@@ -1979,7 +1979,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A modest, crossed-leg position for gentle intimacy.",
     "isPenetrative": true,
-    "etymologyTh": "\"แม่ชี\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"แม่ชี\" — สองขาไขว้แนบชิดกันอย่างสำรวมสุภาพ คล้ายกิริยาอันเรียบร้อยของแม่ชี"
   },
   {
     "id": "fall",
@@ -2017,7 +2017,7 @@ window.COUPLES_POSITIONS = [
     "descriptionEn": "A falling position with the receiver dropping onto the penetrator.",
     "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
     "isPenetrative": true,
-    "etymologyTh": "\"การร่วงหล่น\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"การทิ้งตัวร่วงหล่น\" — ฝ่ายรับทิ้งน้ำหนักตัวลงบนตักของฝ่ายรุก ดั่งการร่วงหล่นตามแรงโน้มถ่วง"
   },
   {
     "id": "rider",
@@ -2052,7 +2052,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A riding position where the receiver controls the motion.",
     "isPenetrative": true,
-    "etymologyTh": "\"ผู้กุมบังเหียน\" — ฝ่ายหญิงเป็นผู้กุมจังหวะและทิศทาง สามารถบดคลึงจุดคลิตอริสและค้นหามุมที่โดนจุดจีสปอตได้ด้วยตนเองอย่างแม่นยำ"
+    "etymologyTh": "\"ผู้ควบขี่\" — ฝ่ายบนนั่งหลังตรงกุมบังเหียนจังหวะรักด้วยตนเอง คล้ายการควบขี่หลังม้า"
   },
   {
     "id": "backshot",
@@ -2088,7 +2088,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A rear-entry position with a focus on deep, powerful thrusts.",
     "isPenetrative": true,
-    "etymologyTh": "\"สอดใส่จากด้านหลัง\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"สอดใส่จากด้านหลัง\" — ท่วงท่าสอดใส่ตรงเข้าหาจากด้านหลังเพื่อส่งแรงสัมผัสได้ลึกที่สุด"
   },
   {
     "id": "spread-eagle",
@@ -2124,7 +2124,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A completely spread position for maximum exposure.",
     "isPenetrative": true,
-    "etymologyTh": "\"กางแผ่ออก นกอินทรีย์\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"นกอินทรีสยายปีก\" — นอนแผ่กางแขนและขาทั้งสองข้างออกกว้าง ดุจนกอินทรีที่กางปีกโผบินเต็มที่"
   },
   {
     "id": "lap-dance",
@@ -2160,7 +2160,7 @@ window.COUPLES_POSITIONS = [
     "descriptionEn": "Enjoy the show, then join in with this fun position.",
     "isPenetrative": false,
     "focusType": "oral",
-    "etymologyTh": "\"ตัก การเต้นระบำ\" — การเคลื่อนไหวบดคลึงบนตักอย่างมีเสน่ห์"
+    "etymologyTh": "\"ระบำหน้าตัก\" — นั่งโยกบดคลึงบนตักอย่างมีเสน่ห์ยั่วยวน ดั่งลีลาการเต้นระบำหน้าตัก"
   },
   {
     "id": "octopus",
@@ -2197,7 +2197,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A multi-limbed position with tentacles everywhere.",
     "isPenetrative": true,
-    "etymologyTh": "\"ปลาหมึกยักษ์\" — แขนและขาโอบรัดเกี่ยวพันรอบตัวอีกฝ่ายแนบแน่นเหมือนหนวดปลาหมึก"
+    "etymologyTh": "\"ปลาหมึกยักษ์\" — แขนและขาโอบรัดเกี่ยวพันรอบตัวอีกฝ่ายแนบแน่น ดั่งหนวดของปลาหมึกยักษ์"
   },
   {
     "id": "yin-yang",
@@ -2233,7 +2233,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Clitoral",
     "descriptionEn": "A balanced, complementary position like yin and yang.",
     "isPenetrative": true,
-    "etymologyTh": "\"Yin Yang\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"หยิน-หยาง\" — ร่างกายสองคนสลับหัวท้ายประกบกันอย่างกลมกลืน ดั่งสัญลักษณ์ความสมดุลหยินหยาง"
   },
   {
     "id": "workout",
@@ -2270,7 +2270,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "An energetic, workout-like position for maximum effort.",
     "isPenetrative": true,
-    "etymologyTh": "\"ออกกำลังกาย\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ออกกำลังกายฟิตเนส\" — ท่วงท่าที่ต้องออกแรงเกร็งกล้ามเนื้อและทรงตัว คล้ายการออกกำลังกายในยิม"
   },
   {
     "id": "lazy-dog",
@@ -2306,7 +2306,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A relaxed, lazy version of doggy for low-effort pleasure.",
     "isPenetrative": true,
-    "etymologyTh": "\"ผ่อนคลายสบายๆ สุนัข\" — ด็อกกี้สไตล์เวอร์ชันนอนพักผ่อน ไม่ต้องชันเข่า เหมาะกับค่ำคืนที่อยากคลอเคลียแบบสบายๆ ไม่เหนื่อยแรง"
+    "etymologyTh": "\"สุนัขขี้เกียจ\" — นอนราบคว่ำหน้าสบายๆ สอดใส่จากด้านหลังโดยไม่ต้องยกชันสะโพกให้เมื่อย"
   },
   {
     "id": "symphony",
@@ -2342,7 +2342,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A harmonious position with synchronized movements.",
     "isPenetrative": true,
-    "etymologyTh": "\"บทเพลงซิมโฟนี\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"บทเพลงซิมโฟนี\" — การเคลื่อนไหวสอดรับกันอย่างกลมกลืนและเป็นจังหวะ ดั่งท่วงทำนองวงดนตรีออร์เคสตรา"
   },
   {
     "id": "shell",
@@ -2377,7 +2377,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A curled, shell-like position for gentle intimacy.",
     "isPenetrative": true,
-    "etymologyTh": "\"เปลือกหอย\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"เปลือกหอย\" — ขดพับขาทั้งสองข้างแนบลำตัว คล้ายฝาหอยที่ประกบหุ้มสิ่งล้ำค่าภายใน"
   },
   {
     "id": "glory-hole",
@@ -2413,7 +2413,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A face-through-hole position for anonymous-style pleasure.",
     "isPenetrative": true,
-    "etymologyTh": "\"Glory Hole\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ช่องกำบังลับ\" — สอดประสานผ่านช่องว่างหรือช่องกำบัง โดยเน้นจินตนาการและความลึกลับ"
   },
   {
     "id": "knot",
@@ -2450,7 +2450,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A tightly knotted position with intertwined bodies.",
     "isPenetrative": true,
-    "etymologyTh": "\"ปมเชือก\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ปมเชือก\" — แขนและขาของทั้งสองเกี่ยวรัดสอดประสานกันแน่นหนาจนแทบแยกไม่ออก ดั่งปมเชือก"
   },
   {
     "id": "rocking-chair",
@@ -2486,7 +2486,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A gentle rocking motion like a rocking chair.",
     "isPenetrative": true,
-    "etymologyTh": "\"เก้าอี้โยก\" — ท่วงท่านั่งตักสบตากันแล้วโยกสะโพกไปมาเบาๆ เหมือนเก้าอี้โยก"
+    "etymologyTh": "\"เก้าอี้โยก\" — ท่วงท่านั่งตักสบตากันแล้วโยกสะโพกไปมาเบาๆ นุ่มนวลเหมือนเก้าอี้โยก"
   },
   {
     "id": "captain",
@@ -2522,7 +2522,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A commanding position with the penetrating partner in charge.",
     "isPenetrative": true,
-    "etymologyTh": "\"กัปตันเรือ\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"กัปตันเรือ\" — ฝ่ายรุกยืนหรือทรงตัวควบคุมจังหวะและทิศทาง ประหนึ่งกัปตันผู้ถือพังงาเรือ"
   },
   {
     "id": "emperor",
@@ -2559,7 +2559,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A royal, commanding position with the receiver displayed.",
     "isPenetrative": true,
-    "etymologyTh": "\"จักรพรรดิ\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"จักรพรรดิ\" — ฝ่ายรับนอนทอดกายสง่างามรับการปรนนิบัติ ดุจองค์จักรพรรดิในพระราชวัง"
   },
   {
     "id": "princess",
@@ -2594,7 +2594,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Clitoral",
     "descriptionEn": "A gentle, princess-like position with tender treatment.",
     "isPenetrative": true,
-    "etymologyTh": "\"Princess\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"เจ้าหญิง\" — ท่วงท่าที่ทะนุถนอมนุ่มนวลและอ่อนหวาน ประหนึ่งการดูแลเจ้าหญิงผู้เลอโฉม"
   },
   {
     "id": "rock-and-roll",
@@ -2631,7 +2631,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "An energetic, rocking position with wild movements.",
     "isPenetrative": true,
-    "etymologyTh": "\"Rock และ Roll\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ร็อกแอนด์โรล\" — การโยกส่ายสะโพกไปมาอย่างเร้าใจและมีพลัง ดั่งจังหวะดนตรีร็อกแอนด์โรล"
   },
   {
     "id": "seashell",
@@ -2668,7 +2668,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A delicate, seashell-like position with gentle curves.",
     "isPenetrative": true,
-    "etymologyTh": "\"เปลือกหอย\" — พับงอขาแนบชิดลำตัวคล้ายฝาหอยที่เปิดอ้าให้เห็นไข่มุกภายใน"
+    "etymologyTh": "\"เปลือกหอยทะเล\" — พับงอขาแนบชิดลำตัวคล้ายฝาหอยที่เปิดอ้าให้เห็นไข่มุกภายใน"
   },
   {
     "id": "propeller",
@@ -2705,7 +2705,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A spinning, propeller-like motion for varied stimulation.",
     "isPenetrative": true,
-    "etymologyTh": "\"Propeller\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ใบพัดหมุน\" — การหมุนควงสะโพกวนเป็นวงกลมอย่างต่อเนื่อง คล้ายใบพัดเครื่องบินที่หมุนตัดอากาศ"
   },
   {
     "id": "fantasy",
@@ -2741,7 +2741,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A dreamy position for living out your deepest fantasies.",
     "isPenetrative": true,
-    "etymologyTh": "\"จินตนาการชวนฝัน\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"จินตนาการชวนฝัน\" — ท่วงท่าที่เปิดรับทุกความปรารถนาและจินตนาการรักให้เป็นจริง"
   },
   {
     "id": "russian-roulette",
@@ -2778,7 +2778,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A random, surprise position for unpredictable pleasure.",
     "isPenetrative": true,
-    "etymologyTh": "\"Russian Roulette\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"รูเล็ตรัสเซีย\" — สรีระจัดวางในมุมที่คาดเดาทิศทางสัมผัสได้ยาก ตื่นเต้นคล้ายการสุ่มวงล้อรูเล็ต"
   },
   {
     "id": "doggy-on-the-edge",
@@ -2813,7 +2813,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A doggy variation using the bed edge for deeper angles.",
     "isPenetrative": true,
-    "etymologyTh": "\"Doggy บน Edge\" — ฝ่ายชายเป็นผู้ควบคุมความลึกและจังหวะการเคลื่อนไหว สัมผัสถึงความกระชับและส่งมอบพลังแห่งความรักได้อย่างเต็มที่"
+    "etymologyTh": "\"ท่าหมาขอบเตียง\" — ยืนหรือคุกเข่าริมขอบเตียงเพื่อปรับมุมสอดใส่จากด้านหลังได้ลึกขึ้น"
   },
   {
     "id": "exotic-foreplay",
@@ -2850,7 +2850,7 @@ window.COUPLES_POSITIONS = [
     "descriptionEn": "An exotic, teasing position focused on foreplay.",
     "isPenetrative": false,
     "focusType": "oral",
-    "etymologyTh": "\"Exotic Foreplay\" — การเล้าโลมสัมผัสรักอย่างประณีต ปลุกเร้าอารมณ์ด้วยริมฝีปากและปลายนิ้วก่อนเข้าสู่กิจกรรมหลัก"
+    "etymologyTh": "\"เล้าโลมสไตล์เอ็กโซติก\" — ท่วงท่าที่เน้นการสัมผัส ผ่อนคลาย และกระตุ้นทุกโสตประสาทอย่างลึกซึ้ง"
   },
   {
     "id": "side-saddle",
@@ -2886,7 +2886,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A comfortable side-sitting position for relaxed pleasure.",
     "isPenetrative": true,
-    "etymologyTh": "\"ด้านข้าง อานม้า\" — นั่งคร่อมด้านข้างช่วยลดการใช้แรงขา ฝ่ายหญิงสามารถลูบไล้และบดสัมผัสได้อย่างนุ่มนวลและผ่อนคลาย"
+    "etymologyTh": "\"นั่งขี่ม้าตะแคงข้าง\" — นั่งคร่อมตักโดยหันตัวไปด้านข้าง คล้ายท่านั่งขี่ม้าข้างเดียวของสุภาพสตรีโบราณ"
   },
   {
     "id": "lizard",
@@ -2923,7 +2923,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A flat, lizard-like position with bodies close to the ground.",
     "isPenetrative": true,
-    "etymologyTh": "\"Lizard\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"กิ้งก่าทะเลทราย\" — นอนราบคว่ำแนบชิดกับพื้นเตียง สอดประสานแนบแน่นคล้ายกิ้งก่าแนบผิวหิน"
   },
   {
     "id": "wild-yoga",
@@ -2960,7 +2960,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A wild, yoga-inspired position for flexible couples.",
     "isPenetrative": true,
-    "etymologyTh": "\"ป่าเถื่อน / เร่าร้อน Yoga\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"โยคะผาดโผน\" — จัดวางสรีระดัดโค้งและยืดเหยียดอย่างยืดหยุ่น ประหนึ่งท่วงท่าโยคะระดับสูง"
   },
   {
     "id": "tight-vagina",
@@ -2996,7 +2996,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A position designed for maximum tightness and friction.",
     "isPenetrative": true,
-    "etymologyTh": "\"แนบแน่นกระชับ อ้อมกอด\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"อ้อมกอดแนบแน่น (Tight Embrace)\" — หนีบต้นขากระชับแน่นหนา เพื่อเพิ่มแรงเสียดสีสัมผัสให้แนบชิดที่สุด"
   },
   {
     "id": "hottest-lover",
@@ -3033,7 +3033,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "An intense, hot position for maximum passion.",
     "isPenetrative": true,
-    "etymologyTh": "\"Hottest Lover\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"คนรักผู้เร่าร้อน\" — ท่วงท่าประจันหน้าแนบชิด ถ่ายทอดความปรารถนาอันร้อนแรงถึงขีดสุด"
   },
   {
     "id": "x-factor",
@@ -3070,7 +3070,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "Legs raised and crossed for a tight, intense fit.",
     "isPenetrative": true,
-    "etymologyTh": "\"X Factor\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"รูปทรงตัวเอ็กซ์ (X)\" — ยกขาไขว้สลับกันเป็นรูปกากบาทตัว X เพิ่มแรงบีบกระชับและมุมสัมผัสใหม่"
   },
   {
     "id": "throat-swab",
@@ -3108,7 +3108,7 @@ window.COUPLES_POSITIONS = [
     "descriptionEn": "A deep oral position for throat stimulation.",
     "isPenetrative": false,
     "focusType": "oral",
-    "etymologyTh": "\"Throat Swab\" — ท่วงท่าใช้ริมฝีปากสัมผัสรักอย่างดื่มด่ำ"
+    "etymologyTh": "\"จุมพิตลึกซึ้ง\" — ท่วงท่าปรนนิบัติด้วยปากอย่างลึกซึ้งและแนบชิด"
   },
   {
     "id": "flying-dutchman",
@@ -3183,7 +3183,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A restraining position using a necktie for bondage.",
     "isPenetrative": true,
-    "etymologyTh": "\"Close ปมเชือก\" — ท่วงท่าที่ตรึงสรีระให้แนบชิดและควบคุมจังหวะรักได้อย่างมั่นคง"
+    "etymologyTh": "\"ปมเนคไท (Close Knot)\" — แขนขาพันธนาการโอบรัดแน่นหนาดั่งเงื่อนปมเนคไท"
   },
   {
     "id": "shameless",
@@ -3220,7 +3220,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A completely exposed position with no shame.",
     "isPenetrative": true,
-    "etymologyTh": "\"Shameless\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ไร้ความขวยเขิน\" — เปิดเผยเรือนร่างอย่างตรงไปตรงมา ปราศจากความกังวลในทุกมุมมอง"
   },
   {
     "id": "plumber",
@@ -3256,7 +3256,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A plumbing-inspired position with deep, reaching movements.",
     "isPenetrative": true,
-    "etymologyTh": "\"Plumber\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ช่างประปา\" — ท่วงท่าคุกเข่าก้มมุดเข้าหามุมลึก คล้ายช่างที่กำลังซ่อมบำรุงท่อน้ำใต้อ่าง"
   },
   {
     "id": "iron-throne",
@@ -3293,7 +3293,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A throne-like position with the receiver on a chair.",
     "isPenetrative": true,
-    "etymologyTh": "\"Iron บัลลังก์\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"บัลลังก์เหล็ก\" — ฝ่ายรับนั่งสง่างามบนเก้าอี้ดั่งนั่งบนบัลลังก์เหล็กในมหากาพย์"
   },
   {
     "id": "apollo",
@@ -3329,7 +3329,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A sun god position with radiant, spreading pleasure.",
     "isPenetrative": true,
-    "etymologyTh": "\"Apollo\" — ฝ่ายชายยืนหรือคุกเข่าควบคุมเกมรักอย่างมั่นคง สง่างามและส่งต่อแรงสัมผัสได้ลึกซึ้ง"
+    "etymologyTh": "\"สุริยเทพอะพอลโล\" — สองขากางแผ่รังสีรับสัมผัส ดุจลำแสงแห่งสุริยเทพอะพอลโล"
   },
   {
     "id": "vulgar-chair",
@@ -3366,7 +3366,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A bold, vulgar chair position for uninhibited pleasure.",
     "isPenetrative": true,
-    "etymologyTh": "\"Sensual เก้าอี้\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"เก้าอี้เร่าร้อน\" — ใช้เก้าอี้เป็นฐานรองรับ ปรับองศาสรีระให้เปิดกว้างอย่างมีเสน่ห์"
   },
   {
     "id": "nice-talk",
@@ -3401,7 +3401,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Clitoral",
     "descriptionEn": "A position centered on verbal intimacy and dirty talk.",
     "isPenetrative": true,
-    "etymologyTh": "\"Nice Talk\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"กระซิบคำหวาน\" — แนบชิดจนริมฝีปากอยู่ข้างใบหู สามารถกระซิบส่งเสียงพร่ำรักได้ตลอดเวลา"
   },
   {
     "id": "pleasure-bible",
@@ -3437,7 +3437,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "The ultimate pleasure position for maximum stimulation.",
     "isPenetrative": true,
-    "etymologyTh": "\"Pleasure Bible\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"คัมภีร์แห่งความสุขสม\" — ท่วงท่าที่ผสานศาสตร์แห่งสรีระและมุมสัมผัสยอดนิยมไว้ด้วยกันอย่างสมบูรณ์แบบ"
   },
   {
     "id": "feeder",
@@ -3472,7 +3472,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A nurturing, feeding position for caring intimacy.",
     "isPenetrative": true,
-    "etymologyTh": "\"Feeder\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"ผู้หล่อเลี้ยงความรัก\" — สวมกอดและปรนนิบัติอย่างทะนุถนอม ดั่งการมอบความรักและความอบอุ่น"
   },
   {
     "id": "launch-pad",
@@ -3509,7 +3509,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A launching position for powerful, upward thrusts.",
     "isPenetrative": true,
-    "etymologyTh": "\"Launch Pad\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ฐานปล่อยจรวด\" — หนุนสะโพกยกมุมขึ้นสูงเพื่อส่งแรงในแนวดิ่ง คล้ายฐานยิงจรวดขึ้นสู่อวกาศ"
   },
   {
     "id": "pokemon",
@@ -3545,7 +3545,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A catching, collecting position for varied stimulation.",
     "isPenetrative": true,
-    "etymologyTh": "\"Pokemon\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"โปเกมอน\" — ท่วงท่าที่เคลื่อนไหวคล่องแคล่วและเกี่ยวรัด คล้ายมอนสเตอร์ที่กระโจนเข้าจับคู่ต่อสู้"
   },
   {
     "id": "reverse-connection",
@@ -3581,7 +3581,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A reversed face-to-face position for deep connection.",
     "isPenetrative": true,
-    "etymologyTh": "\"Reverse Connection\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"แนบชิดกลับทิศ\" — หันหลังประกบแนบแน่นเพื่อสัมผัสแผ่นหลังและสะโพกในมุมแปลกใหม่"
   },
   {
     "id": "bent-cowgirl",
@@ -3617,7 +3617,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A cowgirl variation with the receiver bent forward.",
     "isPenetrative": true,
-    "etymologyTh": "\"Bent Cowgirl\" — ฝ่ายหญิงเป็นผู้กุมจังหวะและทิศทาง สามารถบดคลึงจุดคลิตอริสและค้นหามุมที่โดนจุดจีสปอตได้ด้วยตนเองอย่างแม่นยำ"
+    "etymologyTh": "\"คาวเกิร์ลโน้มตัว\" — ฝ่ายหญิงนั่งขี่และโน้มลำตัวไปข้างหน้า สัมผัสแนบอกและควบคุมจังหวะด้วยตนเอง"
   },
   {
     "id": "low-start",
@@ -3651,7 +3651,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A low, gentle start position for building gradually.",
     "isPenetrative": true,
-    "etymologyTh": "\"Low Start\" — ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย"
+    "etymologyTh": "\"เริ่มต้นจากระดับต่ำ\" — เริ่มเคลื่อนไหวช้าๆ จากระนาบแนบพื้นเตียง ก่อนค่อยๆ เพิ่มจังหวะความลึก"
   },
   {
     "id": "desert-island",
@@ -3724,7 +3724,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A split-leg position for maximum access and stimulation.",
     "isPenetrative": true,
-    "etymologyTh": "\"Banana Split\" — เปิดพื้นที่ให้การสัมผัสเป็นไปอย่างทั่วถึง ทั้งสองฝ่ายสามารถเพลิดเพลินกับความลึกและความใกล้ชิด"
+    "etymologyTh": "\"ไอศกรีมบานานาสปลิต\" — แยกขาทั้งสองข้างออกกว้าง คล้ายผลกล้วยผ่าซีกในถ้วยไอศกรีม"
   },
   {
     "id": "grasshopper",
@@ -3761,7 +3761,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A jumping, grasshopper-like position with dynamic bouncing.",
     "isPenetrative": true,
-    "etymologyTh": "\"Grasshopper\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ตั๊กแตนกระโดด\" — ย่อเข่าและเด้งสะโพกเป็นจังหวะ คล้ายขาหลังอันทรงพลังของตั๊กแตน"
   },
   {
     "id": "fantastic-elevator",
@@ -3797,7 +3797,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A vertical lift that changes the height of pleasure.",
     "isPenetrative": true,
-    "etymologyTh": "\"Fantastic Elevator\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ลิฟต์มหัศจรรย์\" — ยกลอยตัวขึ้นลงในแนวดิ่งดั่งลิฟต์แก้ว ปรับระดับความสูงสลับจังหวะ"
   },
   {
     "id": "jamaican-cocktail",
@@ -3833,7 +3833,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A tropical twist with elevated hips and grinding motions.",
     "isPenetrative": true,
-    "etymologyTh": "\"Jamaican ค็อกเทล\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"ค็อกเทลจาไมกา\" — ยกสะโพกหนุนสูงและบดคลึงเป็นวงกลม ดั่งจังหวะระบำเร้าใจแถบแคริบเบียน"
   },
   {
     "id": "chef",
@@ -3868,7 +3868,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Clitoral",
     "descriptionEn": "A kneading, caressing position that&#39;s all about touch.",
     "isPenetrative": true,
-    "etymologyTh": "\"Chef\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"เชฟปรุงอาหาร\" — ลูบไล้และนวดเฟ้นเรือนร่างอย่างประณีต คล้ายเชฟที่กำลังนวดแป้งอย่างพิถีพิถัน"
   },
   {
     "id": "st-valentines-day",
@@ -3904,7 +3904,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Clitoral",
     "descriptionEn": "A heart-shaped embrace for deep emotional connection.",
     "isPenetrative": true,
-    "etymologyTh": "\"St Valentine S Day\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"วันวาเลนไทน์\" — ท่วงท่าสวมกอดแนบชิด ลำตัวโค้งประสานกันคล้ายรูปหัวใจในวันแห่งความรัก"
   },
   {
     "id": "sucker-punch",
@@ -3941,7 +3941,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A surprise angle change that delivers intense sensations.",
     "isPenetrative": true,
-    "etymologyTh": "\"Sucker Punch\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"หมัดแย็บจู่โจม\" — เปลี่ยนมุมองศาการสอดใส่อย่างกะทันหัน สร้างสัมผัสแปลกใหม่ที่คาดไม่ถึง"
   },
   {
     "id": "low-doggy",
@@ -3976,7 +3976,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A flattened doggy variation for deeper, tighter sensations.",
     "isPenetrative": true,
-    "etymologyTh": "\"Low Doggy\" — ฝ่ายชายเป็นผู้ควบคุมความลึกและจังหวะการเคลื่อนไหว สัมผัสถึงความกระชับและส่งมอบพลังแห่งความรักได้อย่างเต็มที่"
+    "etymologyTh": "\"ท่าหมาหมอบต่ำ\" — ท่าสุนัขที่โน้มอกแนบชิดพื้นเตียง เพื่อให้มุมสอดใส่จากด้านหลังแนบแน่นยิ่งขึ้น"
   },
   {
     "id": "merger",
@@ -4012,7 +4012,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Neutral",
     "descriptionEn": "Two bodies become one in this close, intertwined embrace.",
     "isPenetrative": true,
-    "etymologyTh": "\"Merger\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"การรวมร่างเป็นหนึ่งเดียว\" — โอบกอดสรีระแนบแน่นจนไร้ช่องว่าง ดุจการหลอมรวมสองร่างให้เป็นหนึ่งเดียว"
   },
   {
     "id": "rear-admiral",
@@ -4047,7 +4047,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A commanding rear-entry position with a naval twist.",
     "isPenetrative": true,
-    "etymologyTh": "\"Rear Admiral\" — ฝ่ายชายเป็นผู้ควบคุมความลึกและจังหวะการเคลื่อนไหว สัมผัสถึงความกระชับและส่งมอบพลังแห่งความรักได้อย่างเต็มที่"
+    "etymologyTh": "\"พลเรือตรี\" — สอดใส่จากด้านหลังพร้อมคุมจังหวะอย่างทรงเกียรติ ดั่งนายพลเรือบัญชาการรบ"
   },
   {
     "id": "watermelon",
@@ -4082,7 +4082,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Clitoral & G-spot",
     "descriptionEn": "A sweet, juicy position with legs wide open.",
     "isPenetrative": true,
-    "etymologyTh": "\"Watermelon\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"ผลแตงโม\" — แยกขาทั้งสองข้างออกกว้าง คล้ายผลแตงโมผ่าซีกสีแดงสด"
   },
   {
     "id": "tantric-cosmo",
@@ -4119,7 +4119,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Neutral",
     "descriptionEn": "A tantric twist on cowgirl for spiritual connection.",
     "isPenetrative": true,
-    "etymologyTh": "\"Tantric Cosmo\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ตันตระแห่งจักรวาล\" — นั่งสบตาและผสานลมหายใจเป็นหนึ่งเดียว ตามศาสตร์แห่งตันตระโบราณ"
   },
   {
     "id": "cobra",
@@ -4155,7 +4155,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A striking position with the receiving partner raised up.",
     "isPenetrative": true,
-    "etymologyTh": "\"งูจงอาง\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"งูจงอาง\" — ฝ่ายรับชูคอและแอ่นลำตัวท่อนบนขึ้น คล้ายงูจงอางที่แผ่แม่เบี้ยเตรียมฉก"
   },
   {
     "id": "canadian",
@@ -4189,7 +4189,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A friendly, comfortable position with easy access.",
     "isPenetrative": true,
-    "etymologyTh": "\"Canadian\" — ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย"
+    "etymologyTh": "\"ชาวแคนาดา (สบายๆ เป็นมิตร)\" — ท่วงท่านอนตะแคงผ่อนคลาย เรียบง่ายและอบอุ่นเป็นกันเอง"
   },
   {
     "id": "truck",
@@ -4225,7 +4225,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A grinding, driving motion that moves with power.",
     "isPenetrative": true,
-    "etymologyTh": "\"Truck\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"รถบรรทุกหนัก\" — ลงจังหวะสะโพกหนักแน่นและทรงพลัง ดั่งเครื่องยนต์ของรถบรรทุกขนาดใหญ่"
   },
   {
     "id": "superwoman",
@@ -4262,7 +4262,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "An empowering position where the receiving partner flies.",
     "isPenetrative": true,
-    "etymologyTh": "\"Superwoman\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ซูเปอร์วูแมน\" — ฝ่ายรับยกลอยตัวขึ้นและกางแขนออก ดั่งยอดหญิงซูเปอร์ฮีโร่ที่เหินเวหา"
   },
   {
     "id": "zodiac",
@@ -4298,7 +4298,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A celestial alignment of bodies for cosmic pleasure.",
     "isPenetrative": true,
-    "etymologyTh": "\"Zodiac\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"จักรราศีแห่งดวงดาว\" — สรีระจัดวางโค้งมนสัมพันธ์กัน ดั่งการโคจรของดวงดาวในจักรราศี"
   },
   {
     "id": "fallen-warrior",
@@ -4335,7 +4335,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A dramatic, intense position with the receiver spread wide.",
     "isPenetrative": true,
-    "etymologyTh": "\"Fallen Warrior\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"นักรบผู้ล้มลง\" — นอนแผ่ตัวราบกับผืนเตียงอย่างผ่อนคลาย ดั่งนักรบที่พักรบหลังศึกสงคราม"
   },
   {
     "id": "slow-dance",
@@ -4370,7 +4370,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Neutral",
     "descriptionEn": "A gentle, swaying motion like a slow dance together.",
     "isPenetrative": true,
-    "etymologyTh": "\"Slow การเต้นระบำ\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"การเต้นรำสโลว์แดนซ์\" — ยืนหรือนั่งกอดแนบชิดแล้วโยกตัวช้าๆ คล้ายการเต้นรำสโลว์ในงานเต้นรำ"
   },
   {
     "id": "deck-chair",
@@ -4406,7 +4406,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A reclined position using a chair for support.",
     "isPenetrative": true,
-    "etymologyTh": "\"Deck เก้าอี้\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"เก้าอี้ผ้าใบชายหาด\" — เอนหลังพิงบนเก้าอี้หรือหมอนหนุนสบายๆ ดั่งการพักผ่อนบนเก้าอี้ชายหาด"
   },
   {
     "id": "holder",
@@ -4441,7 +4441,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A supportive embrace where one partner holds the other.",
     "isPenetrative": true,
-    "etymologyTh": "\"Holder\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"อ้อมแขนแห่งการประคอง\" — ฝ่ายรุกโอบอุ้มช้อนสะโพกของฝ่ายรับไว้อย่างทะนุถนอมและมั่นคง"
   },
   {
     "id": "louise",
@@ -4477,7 +4477,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A graceful, elegant position with extended legs.",
     "isPenetrative": true,
-    "etymologyTh": "\"Louise\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"หลุยส์ (ความสง่างาม)\" — เหยียดปลายขาตรงอย่างอ่อนช้อยและประณีต ดั่งกุลสตรีในราชสำนักฝรั่งเศส"
   },
   {
     "id": "soft-chair",
@@ -4512,7 +4512,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Clitoral",
     "descriptionEn": "A comfortable seated position on a soft surface.",
     "isPenetrative": true,
-    "etymologyTh": "\"Soft เก้าอี้\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"เก้าอี้นวมนุ่ม\" — นั่งบนเก้าอี้นวมหนานุ่ม รองรับสรีระให้เปิดมุมสัมผัสอย่างสบายตัว"
   },
   {
     "id": "astrologer",
@@ -4548,7 +4548,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A stargazing position with eyes turned upward.",
     "isPenetrative": true,
-    "etymologyTh": "\"Astrologer\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"นักโหราศาสตร์\" — เงยหน้าขึ้นมองดวงดาวหรือสบตากันอย่างลึกซึ้ง ดั่งนักดาราศาสตร์ส่องกล้อง"
   },
   {
     "id": "chairman",
@@ -4584,7 +4584,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A commanding seated position with full control.",
     "isPenetrative": true,
-    "etymologyTh": "\"Chairman\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"ประธานกรรมการ\" — ฝ่ายรุกนั่งสง่างามบนเก้าอี้และควบคุมจังหวะ ประหนึ่งประธานในที่ประชุม"
   },
   {
     "id": "fulcrum",
@@ -4621,7 +4621,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A leverage-based position using the bed edge as a pivot.",
     "isPenetrative": true,
-    "etymologyTh": "\"Fulcrum\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"จุดหมุนคานดีด\" — ใช้ขอบเตียงเป็นจุดหมุนรองรับสะโพก เพื่อผ่อนแรงและเพิ่มมุมงัดอันลึกซึ้ง"
   },
   {
     "id": "tug-of-war",
@@ -4658,7 +4658,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A pulling, pushing dynamic for intense, primal sensations.",
     "isPenetrative": true,
-    "etymologyTh": "\"Tug แห่ง War\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ชักเย่อ\" — ดึงรั้งและผลักดันสลับกันเป็นจังหวะ คล้ายการดึงเชือกชักเย่อ"
   },
   {
     "id": "back-door",
@@ -4694,7 +4694,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A rear-entry position with a focus on anal play.",
     "isPenetrative": true,
-    "etymologyTh": "\"Back Door\" — ตอบสนองความเร่าร้อนอย่างฉับไว เหมาะสำหรับช่วงเวลาที่ความปรารถนาพุ่งสูง ไม่จำเป็นต้องมีพิธีรีตองมากความ"
+    "etymologyTh": "\"ประตูลับด้านหลัง\" — สอดใส่ตรงเข้าหาจากด้านหลังอย่างนุ่มนวลและเปิดเผย"
   },
   {
     "id": "dutch-oven",
@@ -4730,7 +4730,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A playful, enclosed position under the covers.",
     "isPenetrative": true,
-    "etymologyTh": "\"Dutch Oven\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"หม้อตุ๋นดัตช์\" — ท่วงท่าร่วมรักใต้ผ้าห่มที่อบอุ่นและมิดชิด ดั่งอาหารที่ตุ๋นอย่างหอมกรุ่นในหม้อ"
   },
   {
     "id": "chili-dog",
@@ -4767,7 +4767,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A spicy, intense position with legs tightly together.",
     "isPenetrative": true,
-    "etymologyTh": "\"Chili สุนัข\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ฮอทด็อกรสเผ็ด\" — หนีบขาทั้งสองข้างประกบแนบชิด ดั่งขนมปังประกบไส้กรอกร้อนๆ"
   },
   {
     "id": "deep-throat",
@@ -4805,7 +4805,7 @@ window.COUPLES_POSITIONS = [
     "descriptionEn": "A position designed for deep oral penetration.",
     "isPenetrative": false,
     "focusType": "oral",
-    "etymologyTh": "\"แนบลึก Throat\" — ท่วงท่าแห่งความลึกซึ้งของการใช้ปาก"
+    "etymologyTh": "\"ปรนนิบัติล้ำลึก\" — ท่วงท่าปรนนิบัติด้วยปากในมุมดิ่งอย่างแนบชิดและลึกซึ้ง"
   },
   {
     "id": "silence",
@@ -4840,7 +4840,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Neutral",
     "descriptionEn": "A quiet, meditative position focused on sensation.",
     "isPenetrative": true,
-    "etymologyTh": "\"Silence\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"ความเงียบสงัด\" — เคลื่อนไหวอย่างแผ่วเบา เน้นการสบตาและฟังเสียงลมหายใจในความเงียบ"
   },
   {
     "id": "american-pie",
@@ -4877,7 +4877,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A classic American position with a sweet twist.",
     "isPenetrative": true,
-    "etymologyTh": "\"American Pie\" — เหมาะสำหรับช่วงเวลาเร่งด่วนที่เต็มไปด้วยความเสน่หา ฝ่ายหญิงยกสะโพกขึ้นเล็กน้อยเพื่อรองรับจังหวะอันเร่าร้อน"
+    "etymologyTh": "\"พายแอปเปิลอเมริกัน\" — ท่วงท่าคลาสสิกที่อบอุ่นและหอมหวาน ดั่งพายอบสดใหม่สไตล์อเมริกัน"
   },
   {
     "id": "recharge",
@@ -4912,7 +4912,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Clitoral",
     "descriptionEn": "A restful position for recharging between rounds.",
     "isPenetrative": true,
-    "etymologyTh": "\"Recharge\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"ชาร์จพลังชีวิต\" — นอนกอดกุมแนบชิดนิ่งๆ ถ่ายทอดความอบอุ่นเพื่อเติมเต็มพลังใจ"
   },
   {
     "id": "pie-in-the-sky",
@@ -4949,7 +4949,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "An elevated, dreamy position with legs skyward.",
     "isPenetrative": true,
-    "etymologyTh": "\"Pie ใน Sky\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"พายลอยฟ้า (ความฝันอันสูงส่ง)\" — ยกขาทั้งสองข้างชี้ตรงขึ้นฟ้า เพื่อเปิดมุมลึกที่ลอยเด่นกลางอากาศ"
   },
   {
     "id": "spanish-guitar",
@@ -4985,7 +4985,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Clitoral",
     "descriptionEn": "A strumming, rhythmic position with a Latin flair.",
     "isPenetrative": true,
-    "etymologyTh": "\"Spanish Guitar\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"กีตาร์สเปน\" — ประคองโอบสะโพกอันเว้าโค้งและลูบไล้เป็นจังหวะ ดั่งการดีดสายกีตาร์สเปน"
   },
   {
     "id": "guillotine",
@@ -5023,7 +5023,7 @@ window.COUPLES_POSITIONS = [
     "descriptionEn": "A sharp, intense position with a dropping motion.",
     "caution": "⚠️ ท่าทรงพลัง: ระวังน้ำหนักกดทับบริเวณลำคอและหน้าอก",
     "isPenetrative": true,
-    "etymologyTh": "\"Intense เปลเด็ก\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"กิโยติน (Intense Cradle)\" — ขาพับลงดิ่งแนบชิดและทิ้งน้ำหนักรวดเร็ว ดั่งใบมีดกิโยตินที่ทิ้งตัวลงมา"
   },
   {
     "id": "tulip",
@@ -5058,7 +5058,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A delicate, flower-like position with legs gently folded.",
     "isPenetrative": true,
-    "etymologyTh": "\"Tulip\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"ดอกทิวลิป\" — ขาทั้งสองข้างพับหุบแนบชิดอย่างอ่อนช้อย คล้ายกลีบดอกทิวลิปที่ห่อหุ้มเกสร"
   },
   {
     "id": "moonlight",
@@ -5094,7 +5094,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A nighttime position bathed in soft, romantic light.",
     "isPenetrative": true,
-    "etymologyTh": "\"Moonlight\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"ใต้แสงจันทร์\" — ท่วงท่าที่นุ่มนวลและเยือกเย็น ประหนึ่งอาบแสงจันทร์ยามค่ำคืน"
   },
   {
     "id": "xxx",
@@ -5131,7 +5131,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "An explicit, no-holds-barred position for maximum intensity.",
     "isPenetrative": true,
-    "etymologyTh": "\"Xxx\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"เอ็กซ์ตรีมระดับสามเอ็กซ์\" — ท่วงท่าท้าทายเปิดเผยเรือนร่างเต็มพิกัด สำหรับคู่รักที่ชอบความเร่าร้อน"
   },
   {
     "id": "appetite",
@@ -5167,7 +5167,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A position that builds hunger and anticipation.",
     "isPenetrative": true,
-    "etymologyTh": "\"Appetite\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"ความกระหายรัก\" — เคลื่อนไหวรวดเร็วและต่อเนื่อง ดั่งความหิวกระหายที่รอการเติมเต็ม"
   },
   {
     "id": "weightlessness",
@@ -5204,7 +5204,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A floating sensation from being fully supported.",
     "isPenetrative": true,
-    "etymologyTh": "\"Weightlessness\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"สภาวะไร้น้ำหนัก\" — พยุงโอบอุ้มจนตัวเบาลอย คล้ายล่องลอยอยู่ในสภาวะไร้น้ำหนัก"
   },
   {
     "id": "captivity",
@@ -5241,7 +5241,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A restraining, dominant position for power play.",
     "isPenetrative": true,
-    "etymologyTh": "\"Enchanted Lock\" — ท่วงท่าที่ตรึงสรีระให้แนบชิดและควบคุมจังหวะรักได้อย่างมั่นคง"
+    "etymologyTh": "\"พันธนาการสะกดใจ (Enchanted Lock)\" — โอบรัดแขนขาตรึงไว้แนบแน่น ดุจถูกสะกดให้อยู่ในมนตร์ตรา"
   },
   {
     "id": "compliment",
@@ -5276,7 +5276,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Clitoral",
     "descriptionEn": "A position where partners exchange sweet words.",
     "isPenetrative": true,
-    "etymologyTh": "\"Compliment\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"คำชมเชย\" — แนบชิดสบตากันอย่างหวานซึ้ง พร้อมกระซิบคำยกย่องชื่นชมซึ่งกันและกัน"
   },
   {
     "id": "bowstring",
@@ -5313,7 +5313,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A tension-filled position like a drawn bow.",
     "isPenetrative": true,
-    "etymologyTh": "\"Bowstring\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"สายคันศร\" — ลำตัวและขาเหยียดตึงแอ่นโค้ง ดั่งสายธนูที่ถูกน้าวขึงตึงเปรี๊ยะ"
   },
   {
     "id": "lazy-evening",
@@ -5348,7 +5348,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A relaxed, low-effort position for cozy nights.",
     "isPenetrative": true,
-    "etymologyTh": "\"ผ่อนคลายสบายๆ Evening\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"ค่ำคืนแสนขี้เกียจ\" — นอนตะแคงกอดกันสบายๆ เคลื่อนไหวอย่างช้าๆ ในคืนพักผ่อน"
   },
   {
     "id": "pterodactyl",
@@ -5385,7 +5385,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A winged position with arms spread wide.",
     "isPenetrative": true,
-    "etymologyTh": "\"Pterodactyl\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"เทอโรแดกทิล (กิ้งก่าบินดึกดำบรรพ์)\" — กางแขนและขากว้างคล้ายปีกหนังสัตว์ของไดโนเสาร์บินยุคโบราณ"
   },
   {
     "id": "hard-worker",
@@ -5422,7 +5422,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "An energetic position requiring stamina and effort.",
     "isPenetrative": true,
-    "etymologyTh": "\"Hard Worker\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"คนสู้งานหนัก\" — ท่วงท่าที่ลงแรงสะโพกอย่างมุ่งมั่นและต่อเนื่อง ประหนึ่งการทำงานอย่างทุ่มเท"
   },
   {
     "id": "shy-girl",
@@ -5457,7 +5457,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A modest, comfortable position for shy partners.",
     "isPenetrative": true,
-    "etymologyTh": "\"Shy Girl\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"สาวน้อยขี้อาย\" — นอนหงายหุบขาเข้าหากันเล็กน้อยอย่างเรียบร้อยและน่าทะนุถนอม"
   },
   {
     "id": "kinky-spider",
@@ -5494,7 +5494,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "A multi-limbed position with limbs everywhere.",
     "isPenetrative": true,
-    "etymologyTh": "\"Kinky แมงมุม\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"แมงมุมเจ้าเสน่ห์\" — แขนขาพันเกี่ยวรัดรอบตัวหลายทิศทาง ดั่งใยแมงมุมที่ถักทอเหนียวแน่น"
   },
   {
     "id": "courtesan",
@@ -5530,7 +5530,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "An elegant, seductive position worthy of royalty.",
     "isPenetrative": true,
-    "etymologyTh": "\"Courtesan\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"คอร์ทิซาน (นางในราชสำนัก)\" — ท่วงท่านอนเอกเขนกชั้นสูงที่สง่างามและเปี่ยมด้วยเสน่ห์เย้ายวน"
   },
   {
     "id": "snow-angel",
@@ -5565,7 +5565,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Clitoral",
     "descriptionEn": "A spread-eagle position like making a snow angel.",
     "isPenetrative": true,
-    "etymologyTh": "\"หิมะ นางฟ้า\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"นางฟ้าหิมะ\" — นอนหงายกางแขนและขากวาดไปมาบนผืนเตียง คล้ายการทำรอยรูปนางฟ้าบนหิมะ"
   },
   {
     "id": "french-kiss",
@@ -5601,7 +5601,7 @@ window.COUPLES_POSITIONS = [
     "descriptionEn": "A position centered on deep, passionate kissing.",
     "isPenetrative": false,
     "focusType": "oral",
-    "etymologyTh": "\"French Kiss\" — ท่วงท่าที่เน้นการจูบและประสานสายตาอย่างดูดดื่ม ส่งผ่านความรักและความอบอุ่นแนบชิด"
+    "etymologyTh": "\"จูบแบบฝรั่งเศส\" — สวมกอดแนบชิดให้ใบหน้าตรงกัน เพื่อมอบจุมพิตแลกลิ้นอย่างดูดดื่ม"
   },
   {
     "id": "downstroke",
@@ -5637,7 +5637,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A downward-stroking motion for rhythmic pleasure.",
     "isPenetrative": true,
-    "etymologyTh": "\"Downstroke\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"จังหวะกดลงดิ่ง\" — เน้นแรงกดจังหวะในแนวดิ่งลงลึกสู่จุดศูนย์กลางอย่างหนักแน่น"
   },
   {
     "id": "harness",
@@ -5674,7 +5674,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A restraining position that harnesses your partner&#39;s body.",
     "isPenetrative": true,
-    "etymologyTh": "\"Harness\" — ท่วงท่าที่ตรึงสรีระให้แนบชิดและควบคุมจังหวะรักได้อย่างมั่นคง"
+    "etymologyTh": "\"สายรัดบังเหียน\" — ฝ่ายรุกจับยึดสะโพกหรือเอวไว้มั่นคง คล้ายการจับสายบังเหียนคุมม้า"
   },
   {
     "id": "dirty-dancing",
@@ -5710,7 +5710,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A dance-inspired position with rhythmic hip movements.",
     "isPenetrative": true,
-    "etymologyTh": "\"Dirty Dancing\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"เดอร์ตี้แดนซิ่ง (ระบำแนบเนื้อ)\" — ส่ายสะโพกเสียดสีบดคลึงเป็นจังหวะเพลง ดั่งการเต้นรำแนบชิดในภาพยนตร์"
   },
   {
     "id": "milk-chocolate",
@@ -5745,7 +5745,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A smooth, sweet position with creamy comfort.",
     "isPenetrative": true,
-    "etymologyTh": "\"Milk Chocolate\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"ช็อกโกแลตนม\" — การสัมผัสที่เนียนนุ่ม หวานละมุน และกลมกล่อมดั่งช็อกโกแลตนมแท้"
   },
   {
     "id": "nasty-desire",
@@ -5782,7 +5782,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A raw, primal position that unleashes deepest desires.",
     "isPenetrative": true,
-    "etymologyTh": "\"Nasty Desire\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"แรงปรารถนาดิบเถื่อน\" — ปลดปล่อยสัญชาตญาณความต้องการอย่างเต็มที่ ไร้สิ่งปิดบัง"
   },
   {
     "id": "military-style",
@@ -5819,7 +5819,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A disciplined, positions-based approach to sex.",
     "isPenetrative": true,
-    "etymologyTh": "\"Military Style\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ระเบียบแถวทหาร\" — จัดระเบียบสรีระลำตัวเหยียดตรงและเป๊ะตามจังหวะ ดั่งแถวทหารเดินสวนสนาม"
   },
   {
     "id": "kitchen",
@@ -5855,7 +5855,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A spontaneous position using kitchen surfaces.",
     "isPenetrative": true,
-    "etymologyTh": "\"Kitchen\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"บนเคาน์เตอร์ครัว\" — ใช้ระดับความสูงของเคาน์เตอร์ครัวรองรับสะโพก เพื่อสอดใส่ได้ถนัดในท่ายืน"
   },
   {
     "id": "multiply-pleasure",
@@ -5892,7 +5892,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "A multi-position approach for varied sensations.",
     "isPenetrative": true,
-    "etymologyTh": "\"Multiply Pleasure\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ทวีคูณความสุข\" — ผสมผสานการสัมผัสหลายจุดพร้อมกัน ทั้งการสอดใส่และการลูบไล้"
   },
   {
     "id": "amazing-meeting",
@@ -5928,7 +5928,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A face-to-face encounter of incredible intimacy.",
     "isPenetrative": true,
-    "etymologyTh": "\"Amazing Meeting\" — เน้นความโรแมนติกขั้นสุด ทั้งสองฝ่ายกอดแนบแน่น จูบและกระซิบข้างหูได้ตลอดการบรรเลงเพลงรัก"
+    "etymologyTh": "\"การพานพบอันน่าอัศจรรย์\" — นั่งกอดประจันหน้าแนบชิด สบตากันลึกซึ้งดั่งสองดวงใจที่มาบรรจบกัน"
   },
   {
     "id": "fairy",
@@ -5963,7 +5963,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Clitoral",
     "descriptionEn": "A light, ethereal position with minimal weight.",
     "isPenetrative": true,
-    "etymologyTh": "\"Fairy\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"นางฟ้าตัวน้อย\" — ทอดตัวอย่างแผ่วเบาแทบไร้น้ำหนัก ดั่งนางฟ้าตัวน้อยที่ร่อนลงบนดอกไม้"
   },
   {
     "id": "wedge",
@@ -5999,7 +5999,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A pillow-based position using a wedge for optimal angles.",
     "isPenetrative": true,
-    "etymologyTh": "\"Wedge\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"หมอนสามเหลี่ยม (Wedge)\" — ใช้หมอนทรงลิ่มสามเหลี่ยมหนุนใต้สะโพก เพื่อปรับองศาให้เปิดรับมุมสอดลึก"
   },
   {
     "id": "air-rider",
@@ -6036,7 +6036,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A bouncing, riding position with the receiving partner airborne.",
     "isPenetrative": true,
-    "etymologyTh": "\"Air ผู้กุมบังเหียน\" — ฝ่ายหญิงอยู่ด้านบนและควบคุมการเคลื่อนไหวแบบอิสระรอบทิศทาง สามารถบดคลึงจุดคลิตอริสได้อย่างแม่นยำ"
+    "etymologyTh": "\"ผู้ขี่เหินเวหา\" — ฝ่ายรับถูกยกลอยตัวขึ้นเหนือเตียงและขยับเป็นจังหวะ ดั่งการควบขี่กลางอากาศ"
   },
   {
     "id": "inventive-69",
@@ -6073,7 +6073,7 @@ window.COUPLES_POSITIONS = [
     "descriptionEn": "A creative twist on the classic 69 position.",
     "isPenetrative": false,
     "focusType": "oral",
-    "etymologyTh": "\"Inventive\" — การปรับองศาท่า 69 ให้ทั้งคู่ผ่อนคลายยิ่งขึ้น สามารถใช้มือช่วยเสริมสัมผัสได้อย่างอิสระ"
+    "etymologyTh": "\"ท่า 69 สร้างสรรค์\" — ปรับมุมนอนสลับหัวท้ายให้สบายตัวขึ้น เพื่อมอบความสุขให้กันได้อย่างราบรื่น"
   },
   {
     "id": "oasis",
@@ -6108,7 +6108,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A refreshing, hydrating position for the soul.",
     "isPenetrative": true,
-    "etymologyTh": "\"โอเอซิส\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"โอเอซิสกลางทะเลทราย\" — จุดพักผ่อนอันชุ่มฉ่ำใจ ท่ามกลางความร้อนแรงแห่งเพลิงพิศวาส"
   },
   {
     "id": "amateur",
@@ -6142,7 +6142,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Clitoral",
     "descriptionEn": "A simple, straightforward position for beginners.",
     "isPenetrative": true,
-    "etymologyTh": "\"Amateur\" — ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย"
+    "etymologyTh": "\"มือสมัครเล่นผู้ไร้เดียงสา\" — ท่วงท่าพื้นฐานที่เรียบง่าย ซื่อตรง และเปี่ยมด้วยความจริงใจ"
   },
   {
     "id": "holiday",
@@ -6178,7 +6178,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A vacation-style position for exotic locations.",
     "isPenetrative": true,
-    "etymologyTh": "\"Holiday\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"วันหยุดพักร้อน\" — ทอดกายสบายๆ ปล่อยใจไปกับสายลมแห่งความสุข ดั่งการพักร้อนริมทะเล"
   },
   {
     "id": "punishment",
@@ -6215,7 +6215,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A disciplinary, dominant position for power dynamics.",
     "isPenetrative": true,
-    "etymologyTh": "\"Passionate Demand\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ข้อเรียกร้องอันเร่าร้อน (Passionate Demand)\" — ฝ่ายรุกคุมเกมและกำหนดจังหวะรัก ประหนึ่งการลงทัณฑ์อันแสนหวาน"
   },
   {
     "id": "riverside",
@@ -6251,7 +6251,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A flowing, natural position like a gentle river.",
     "isPenetrative": true,
-    "etymologyTh": "\"Riverside\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"ริมสายธารไหลริน\" — ร่างกายเคลื่อนไหวเป็นระลอกคลื่นอย่างต่อเนื่อง คล้ายสายน้ำที่ไหลผ่านโขดหิน"
   },
   {
     "id": "adventurer",
@@ -6288,7 +6288,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "An exploring, discovery-oriented position for bold lovers.",
     "isPenetrative": true,
-    "etymologyTh": "\"Adventurer\" — เปิดประสบการณ์ใหม่ด้วยการปรับองศาที่ช่วยให้สอดใส่ได้ลึกขึ้น พร้อมสบสายตาและสัมผัสร่างกายได้อย่างอิสระ"
+    "etymologyTh": "\"นักผจญภัย\" — ท่วงท่าที่เปิดรับมุมสัมผัสแปลกใหม่ ดั่งนักสำรวจที่ก้าวสู่ดินแดนลึกลับ"
   },
   {
     "id": "equilibrium",
@@ -6324,7 +6324,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A balanced, centered position for harmonious pleasure.",
     "isPenetrative": true,
-    "etymologyTh": "\"Equilibrium\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"สมดุลแห่งสรีระ\" — ถ่ายเทน้ำหนักตัวของทั้งสองฝ่ายอย่างสมดุล ไม่เหนื่อยล้าฝ่ายใดฝ่ายหนึ่ง"
   },
   {
     "id": "penguin",
@@ -6359,7 +6359,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A cute, waddling position with close body contact.",
     "isPenetrative": true,
-    "etymologyTh": "\"Penguin\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"นกเพนกวิน\" — ยืนกอดแนบชิดแล้วโยกตัวไปมา คล้ายการเดินเตาะแตะของนกเพนกวินบนลานน้ำแข็ง"
   },
   {
     "id": "mexican-style",
@@ -6395,7 +6395,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A spicy, south-of-the-border inspired position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Mexican Style\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ลีลาเม็กซิกัน\" — จังหวะขยับสะโพกที่เร่งเร้าและมีชีวิตชีวา ดั่งเสียงดนตรีมาริอาชิของเม็กซิโก"
   },
   {
     "id": "face-sitting",
@@ -6432,7 +6432,7 @@ window.COUPLES_POSITIONS = [
     "descriptionEn": "A dominant position where one partner sits on the other&#39;s face.",
     "isPenetrative": false,
     "focusType": "oral",
-    "etymologyTh": "\"Face Sitting\" — ฝ่ายหญิงเป็นผู้ควบคุมจังหวะและน้ำหนักสัมผัสบนตักอย่างมั่นใจ มอบความพึงพอใจด้วยริมฝีปาก"
+    "etymologyTh": "\"นั่งสลับมุมใบหน้า\" — ฝ่ายหนึ่งนั่งคร่อมเพื่อรับการปรนนิบัติด้วยปากอย่างใกล้ชิด"
   },
   {
     "id": "delicacy",
@@ -6467,7 +6467,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A delicate, gentle position for tender moments.",
     "isPenetrative": true,
-    "etymologyTh": "\"Delicacy\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"อาหารรสเลิศอันประณีต\" — สัมผัสอย่างทะนุถนอม ละเมียดละไม ดั่งการลิ้มรสอาหารจานหรู"
   },
   {
     "id": "v-formation",
@@ -6504,7 +6504,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "A V-shaped leg position for intense stimulation.",
     "isPenetrative": true,
-    "etymologyTh": "\"V Formation\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"บินรูปตัววี (V-Formation)\" — สองขากางแยกออกเป็นมุมแหลมรูปตัว V ดั่งฝูงนกที่บินแปรขบวนรูปตัววี"
   },
   {
     "id": "straight-line",
@@ -6539,7 +6539,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A simple, linear position with bodies aligned.",
     "isPenetrative": true,
-    "etymologyTh": "\"Straight Line\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"แนวเส้นตรง\" — ลำตัวของทั้งสองเหยียดตรงขนานกันเป็นเส้นตรง สอดประสานแนบแน่น"
   },
   {
     "id": "spanish-sunset",
@@ -6575,7 +6575,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A warm, golden position inspired by sunset hues.",
     "isPenetrative": true,
-    "etymologyTh": "\"Spanish Sunset\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"อาทิตย์อัสดงสเปน\" — สรีระทอดตัวใต้แสงอบอุ่นโทนสีส้มทอง ดั่งบรรยากาศยามเย็นในสเปน"
   },
   {
     "id": "keeper",
@@ -6610,7 +6610,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A holding position that makes your partner feel kept.",
     "isPenetrative": true,
-    "etymologyTh": "\"Keeper\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"ผู้พิทักษ์\" — โอบกอดรัดสะโพกไว้อย่างมั่นคง เพื่อให้รู้สึกถึงความปลอดภัยและการปกป้อง"
   },
   {
     "id": "moan",
@@ -6646,7 +6646,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A position designed to elicit loud moans of pleasure.",
     "isPenetrative": true,
-    "etymologyTh": "\"Moan\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"เสียงครางหวาน\" — ปรับองศาและการบดคลึงที่กระตุ้นให้เกิดเสียงครางแห่งความสุขสม"
   },
   {
     "id": "tugboat",
@@ -6683,7 +6683,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A pulling, towing position with a nautical theme.",
     "isPenetrative": true,
-    "etymologyTh": "\"Tugboat\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"เรือลากจูง\" — ฝ่ายรุกโน้มตัวไปข้างหน้าพร้อมดึงรั้งสะโพกฝ่ายรับ คล้ายเรือลากจูงเรือสินค้า"
   },
   {
     "id": "nosedive",
@@ -6721,7 +6721,7 @@ window.COUPLES_POSITIONS = [
     "descriptionEn": "A diving position with the receiving partner&#39;s head down.",
     "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
     "isPenetrative": true,
-    "etymologyTh": "\"Nosedive\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"หัวทิ่มดิ่งลง\" — สะโพกยกสูงแต่ศีรษะและลำตัวท่อนบนทอดดิ่งลง คล้ายเครื่องบินปักหัวดิ่งลงสู่พื้น"
   },
   {
     "id": "barbie",
@@ -6757,7 +6757,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A doll-like position with posed, flexible positioning.",
     "isPenetrative": true,
-    "etymologyTh": "\"Barbie\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ตุ๊กตาบาร์บี้\" — จัดวางแขนขาและสรีระอย่างอ่อนช้อยและงดงาม ดั่งตุ๊กตาแฟชั่นบาร์บี้"
   },
   {
     "id": "star-wars",
@@ -6794,7 +6794,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "A galactic position with legs spread like a star.",
     "isPenetrative": true,
-    "etymologyTh": "\"ดวงดาว Wars\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"สตาร์วอร์ส (ศึกอวกาศ)\" — กางแขนขาออกกว้างพร้อมเคลื่อนไหวฉวัดเฉวียน ดั่งยานรบในสงครามอวกาศ"
   },
   {
     "id": "sea-horse",
@@ -6830,7 +6830,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A curvy, flowing position inspired by the sea horse.",
     "isPenetrative": true,
-    "etymologyTh": "\"Sea ม้า\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"ม้าน้ำ\" — ร่างกายแอ่นโค้งตั้งตรงแนบชิดกัน คล้ายสรีระโค้งมนของม้าน้ำใต้ท้องทะเล"
   },
   {
     "id": "deep-stick",
@@ -6867,7 +6867,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A stick-straight penetration for maximum depth.",
     "isPenetrative": true,
-    "etymologyTh": "\"แนบลึก Stick\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"แท่งไม้สอดลึก\" — ลำตัวเหยียดตรงเป็นแนวเดียว สอดใส่ในมุมตรงเพื่อให้สัมผัสได้ลึกที่สุด"
   },
   {
     "id": "catch",
@@ -6902,7 +6902,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A catching, catching-your-breath position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Catch\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"การคว้าจับ\" — โอบแขนรัดรอบลำตัวคู่รักไว้แน่นหนา คล้ายการคว้าจับสิ่งล้ำค่าไม่ให้หลุดมือ"
   },
   {
     "id": "car-mechanic",
@@ -6939,7 +6939,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A position that requires getting under the hood.",
     "isPenetrative": true,
-    "etymologyTh": "\"Car Mechanic\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ช่างซ่อมรถยนต์\" — ท่วงท่าก้มมุดและเข้าหามุมต่ำ คล้ายช่างที่กำลังตรวจเช็กใต้ท้องรถ"
   },
   {
     "id": "fireworks",
@@ -6976,7 +6976,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "An explosive position for explosive orgasms.",
     "isPenetrative": true,
-    "etymologyTh": "\"Fireworks\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ดอกไม้ไฟเฉลิมฉลอง\" — การเร่งจังหวะระรัวจนถึงจุดไคลแมกซ์ ดั่งการแตกกระจายของพลุดอกไม้ไฟ"
   },
   {
     "id": "bung",
@@ -7013,7 +7013,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A tight, bunged-up position for maximum pressure.",
     "isPenetrative": true,
-    "etymologyTh": "\"Bung\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"จุกอุดถังไม้\" — สรีระแนบชิดและกระชับแน่นหนาจนไร้ช่องว่าง คล้ายจุกไม้ที่อุดถังไวน์"
   },
   {
     "id": "titanic",
@@ -7049,7 +7049,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A romantic, sinking position like the famous ship.",
     "isPenetrative": true,
-    "etymologyTh": "\"Titanic\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"เรือไททานิค\" — กอดประคองแนบชิดหัวเรือและทิ้งน้ำหนักจมดิ่ง ดั่งฉากรักโรแมนติกบนเรือไททานิค"
   },
   {
     "id": "sweet-pussy",
@@ -7084,7 +7084,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Clitoral",
     "descriptionEn": "A sweet, gentle position focused on clitoral pleasure.",
     "isPenetrative": true,
-    "etymologyTh": "\"Sweet Velvet\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"สัมผัสกำมะหยี่หวาน (Sweet Velvet)\" — เน้นการสัมผัสจุดคลิตอริสอย่างอ่อนโยนและนุ่มนวล ดั่งสัมผัสผ้ากำมะหยี่"
   },
   {
     "id": "snack",
@@ -7119,7 +7119,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A quick, satisfying snack between meals.",
     "isPenetrative": true,
-    "etymologyTh": "\"Snack\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"ของว่างยามบ่าย\" — ท่วงท่าที่กระชับ รวดเร็ว และเติมความหวานได้อย่างอิ่มเอมระหว่างวัน"
   },
   {
     "id": "g-force",
@@ -7156,7 +7156,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "An intense, g-force generating position for maximum pressure.",
     "isPenetrative": true,
-    "etymologyTh": "\"G Force\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"แรงจี (G-Force)\" — ลงน้ำหนักสะโพกกระแทกอย่างหนักแน่น ดั่งแรงเหวี่ยงหนีศูนย์กลางในเครื่องบินขับไล่"
   },
   {
     "id": "magic-carpet",
@@ -7193,7 +7193,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A flying, carpet-like position for a magical ride.",
     "isPenetrative": true,
-    "etymologyTh": "\"มายากล Carpet\" — ท่วงท่าที่ฝ่ายรับถูกพยุงตัวลอยขึ้นกลางอากาศ เปรียบเหมือนการเหินลอยเหนือคลื่นลม"
+    "etymologyTh": "\"พรมวิเศษ\" — ฝ่ายรับนอนเหยียดราบและถูกพยุงให้ลอยเหิน คล้ายการเหาะบนพรมวิเศษในอาหรับราตรี"
   },
   {
     "id": "cowgirl-on-the-chair",
@@ -7229,7 +7229,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A cowgirl variation using a chair for support.",
     "isPenetrative": true,
-    "etymologyTh": "\"Cowgirl บน เก้าอี้\" — ฝ่ายหญิงเป็นผู้กุมจังหวะและทิศทาง สามารถบดคลึงจุดคลิตอริสและค้นหามุมที่โดนจุดจีสปอตได้ด้วยตนเองอย่างแม่นยำ"
+    "etymologyTh": "\"คาวเกิร์ลบนเก้าอี้\" — ฝ่ายหญิงนั่งขี่และคุมจังหวะบนเก้าอี้ ปรับมุมสัมผัสได้สะดวกและมั่นคง"
   },
   {
     "id": "thors-hammer",
@@ -7265,7 +7265,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A powerful, hammering position with divine force.",
     "isPenetrative": true,
-    "etymologyTh": "\"Thor S ค้อน\" — ฝ่ายชายเป็นผู้ควบคุมความลึกและจังหวะการเคลื่อนไหว สัมผัสถึงความกระชับและส่งมอบพลังแห่งความรักได้อย่างเต็มที่"
+    "etymologyTh": "\"ค้อนสายฟ้าธอร์\" — ทรงตัวมั่นคงและลงน้ำหนักจังหวะหนักแน่น ดุจเทพเจ้าค้อนสายฟ้าโยเนียร์"
   },
   {
     "id": "overturned",
@@ -7302,7 +7302,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "An overturned position with the receiver flipped over.",
     "isPenetrative": true,
-    "etymologyTh": "\"Overturned\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"พลิกคว่ำกลับด้าน\" — ฝ่ายรับถูกพลิกตัวสลับจากนอนหงายเป็นนอนคว่ำ เพื่อเปลี่ยนมิติสัมผัส"
   },
   {
     "id": "wild-pony",
@@ -7339,7 +7339,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A wild, bucking position like riding a bronco.",
     "isPenetrative": true,
-    "etymologyTh": "\"ป่าเถื่อน / เร่าร้อน Pony\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ม้าป่าพยศ\" — เด้งสะโพกขึ้นลงอย่างมีชีวิตชีวา คล้ายการควบขี่ม้าป่าที่กำลังกระโดดพยศ"
   },
   {
     "id": "stuntman",
@@ -7377,7 +7377,7 @@ window.COUPLES_POSITIONS = [
     "descriptionEn": "An acrobatic position for the brave and flexible.",
     "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
     "isPenetrative": true,
-    "etymologyTh": "\"Stuntman\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"นักแสดงสตันท์\" — ท่วงท่าที่ต้องอาศัยการทรงตัวและความยืดหยุ่นสูง ดั่งนักแสดงคิวบู๊ผาดโผน"
   },
   {
     "id": "plank",
@@ -7414,7 +7414,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A fitness-inspired position with a plank hold.",
     "isPenetrative": true,
-    "etymologyTh": "\"ไม้กระดาน\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ท่าแพลงก์\" — ทรงตัวด้วยปลายเท้าและท่อนแขนลำตัวเหยียดตรง คล้ายท่าออกกำลังกายแพลงก์"
   },
   {
     "id": "midnight",
@@ -7449,7 +7449,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A late-night position for sleepy, passionate moments.",
     "isPenetrative": true,
-    "etymologyTh": "\"Midnight\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"เที่ยงคืนอันเงียบสงบ\" — ท่วงท่าที่นุ่มนวล ช้าๆ เหมาะสำหรับค่ำคืนดึกสงัดที่ต้องการความผ่อนคลาย"
   },
   {
     "id": "bomb",
@@ -7486,7 +7486,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "An explosive position that detonates pleasure.",
     "isPenetrative": true,
-    "etymologyTh": "\"Bomb\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ระเบิดพิศวาส\" — จังหวะส่งแรงที่ระเบิดความรู้สึกออกมาอย่างรุนแรงและฉับพลัน"
   },
   {
     "id": "flexible-beauty",
@@ -7523,7 +7523,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A yoga-inspired position showcasing flexibility and grace.",
     "isPenetrative": true,
-    "etymologyTh": "\"Flexible Beauty\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ความงามอันยืดหยุ่น\" — ดัดพับสรีระอย่างอ่อนช้อย อวดความยืดหยุ่นของร่างกายที่งดงาม"
   },
   {
     "id": "orgazmic-penetration",
@@ -7559,7 +7559,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "Slow, deliberate movements focused on building orgasm.",
     "isPenetrative": true,
-    "etymologyTh": "\"Orgasmic Penetration\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"จังหวะสู่สุขสม\" — เคลื่อนไหวเป็นจังหวะสม่ำเสมอและนุ่มนวล เพื่อนำพาสู่จุดไคลแมกซ์ร่วมกัน"
   },
   {
     "id": "julia",
@@ -7593,7 +7593,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A relaxed side-lying position with gentle penetration.",
     "isPenetrative": true,
-    "etymologyTh": "\"Julia\" — ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย"
+    "etymologyTh": "\"จูเลีย (ความอ่อนหวาน)\" — นอนตะแคงข้างอย่างสบายๆ สอดประสานนุ่มนวลและเป็นธรรมชาติ"
   },
   {
     "id": "comfortable-place",
@@ -7628,7 +7628,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A cozy position prioritizing comfort and closeness.",
     "isPenetrative": true,
-    "etymologyTh": "\"Comfortable Place\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"มุมโปรดแสนสบาย\" — จัดวางท่าทางที่ผ่อนคลายที่สุด เน้นความอบอุ่นและแนบชิดโดยไม่เหนื่อย"
   },
   {
     "id": "counterblow",
@@ -7664,7 +7664,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & A-spot",
     "descriptionEn": "A reverse missionary with a powerful, grinding rhythm.",
     "isPenetrative": true,
-    "etymologyTh": "\"Counterblow\" — ตอบสนองความเร่าร้อนอย่างฉับไว เหมาะสำหรับช่วงเวลาที่ความปรารถนาพุ่งสูง ไม่จำเป็นต้องมีพิธีรีตองมากความ"
+    "etymologyTh": "\"จังหวะสวนกลับ\" — ฝ่ายล่างขยับสะโพกยกรับจังหวะของฝ่ายบน ดั่งการออกหมัดสวนกลับที่แม่นยำ"
   },
   {
     "id": "bermuda-triangle",
@@ -7701,7 +7701,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A complex three-point position that feels like a puzzle.",
     "isPenetrative": true,
-    "etymologyTh": "\"Bermuda สามเหลี่ยม\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"สามเหลี่ยมเบอร์มิวดา\" — ขาและสะโพกจัดวางทำมุมสามเหลี่ยมลึกลับ ดั่งเขตสามเหลี่ยมอาถรรพ์"
   },
   {
     "id": "tangle",
@@ -7737,7 +7737,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Clitoral & G-spot",
     "descriptionEn": "Intertwined bodies creating a complex, pleasurable knot.",
     "isPenetrative": true,
-    "etymologyTh": "\"Tangle\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"เงื่อนปมผูกพัน\" — ร่างกายและแขนขาสอดประสานเกี่ยวรัดกันแน่นจนแยกไม่ออก"
   },
   {
     "id": "worship",
@@ -7772,7 +7772,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Clitoral & A-spot",
     "descriptionEn": "Devotee-style worship through intimate oral attention.",
     "isPenetrative": true,
-    "etymologyTh": "\"Worship\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"การสักการะบูชา\" — ก้มกราบและปรนนิบัติด้วยปากอย่างเทิดทูน ดั่งการสักการะสิ่งศักดิ์สิทธิ์"
   },
   {
     "id": "saddle",
@@ -7807,7 +7807,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Clitoral & G-spot",
     "descriptionEn": "A straddling position like cowgirl with a forward lean.",
     "isPenetrative": true,
-    "etymologyTh": "\"อานม้า\" — ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย"
+    "etymologyTh": "\"อานม้า\" — นั่งคร่อมบนสะโพกและโน้มตัวไปข้างหน้า ดั่งการนั่งบนอานม้าพร้อมควบทะยาน"
   },
   {
     "id": "skewer",
@@ -7844,7 +7844,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot & A-spot",
     "descriptionEn": "A deep, intense position that hits all the right spots.",
     "isPenetrative": true,
-    "etymologyTh": "\"Skewer\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ไม้เสียบย่าง\" — ลำตัวเหยียดตรงเป็นแนวเดียว สอดใส่ตามแนวยาวเหมือนไม้เสียบที่ร้อยผ่านวัตถุ"
   },
   {
     "id": "chameleon",
@@ -7880,7 +7880,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "A versatile position that changes with small adjustments.",
     "isPenetrative": true,
-    "etymologyTh": "\"Chameleon\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"กิ้งก่าเปลี่ยนสี\" — แนบตัวราบกับพื้นผิวและปรับเปลี่ยนองศาตามสภาพแวดล้อม คล้ายกิ้งก่าพรางตัว"
   },
   {
     "id": "jack",
@@ -7914,7 +7914,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A straightforward, reliable position that just works.",
     "isPenetrative": true,
-    "etymologyTh": "\"Jack\" — ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย"
+    "etymologyTh": "\"แม่แรงยกรถ\" — ยกหนุนสะโพกให้สูงขึ้นอย่างมั่นคง ดั่งแม่แรงไฮดรอลิกที่ยกรถขึ้นซ่อม"
   },
   {
     "id": "passive-doggy",
@@ -7948,7 +7948,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A relaxed variation where the receiver lies flat and still.",
     "isPenetrative": true,
-    "etymologyTh": "\"Passive Doggy\" — ฝ่ายชายเป็นผู้ควบคุมความลึกและจังหวะการเคลื่อนไหว สัมผัสถึงความกระชับและส่งมอบพลังแห่งความรักได้อย่างเต็มที่"
+    "etymologyTh": "\"ท่าหมาแบบผ่อนคลาย\" — ฝ่ายรับนอนราบตัวลงกับเตียง สอดใส่จากด้านหลังโดยไม่ต้องเกร็งสะโพก"
   },
   {
     "id": "look-to-the-sky",
@@ -7984,7 +7984,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "Gaze upward in pleasure as your partner takes the lead.",
     "isPenetrative": true,
-    "etymologyTh": "\"Look สู่ Sky\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"แหงนมองฟากฟ้า\" — นอนหงายแหงนหน้ามองเพดานอย่างสุขสม ปล่อยให้คนรักเป็นผู้นำจังหวะรัก"
   },
   {
     "id": "wrestling",
@@ -8020,7 +8020,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "A playful, energetic position with a tussling vibe.",
     "isPenetrative": true,
-    "etymologyTh": "\"Wrestling\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"มวยปล้ำกอดรัด\" — สองร่างเกี่ยวพันคลุกวงในบนเบาะ คล้ายท่วงท่ากอดรัดของนักมวยปล้ำ"
   },
   {
     "id": "hill",
@@ -8054,7 +8054,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "The receiving partner arches up like a hill for better angles.",
     "isPenetrative": true,
-    "etymologyTh": "\"Hill\" — ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย"
+    "etymologyTh": "\"เนินเขา\" — แอ่นสะโพกยกโค้งขึ้น คล้ายเนินเขาลาดชันที่เปิดรับมุมสัมผัสใหม่"
   },
   {
     "id": "mountain-creek",
@@ -8091,7 +8091,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & A-spot",
     "descriptionEn": "A flowing, undulating position with varying depths.",
     "isPenetrative": true,
-    "etymologyTh": "\"ภูเขา Creek\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ลำธารบนภูเขา\" — เคลื่อนไหวพลิ้วไหวขึ้นลงสลับกัน ดั่งสายธารที่ลัดเลาะตามซอกหินบนภูเขา"
   },
   {
     "id": "hood",
@@ -8126,7 +8126,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "A close, enveloping position with maximum coverage.",
     "isPenetrative": true,
-    "etymologyTh": "\"Hood\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"หมวกฮู้ดคลุมศีรษะ\" — โน้มตัวลงมาปกคลุมและโอบล้อมคู่รักไว้มิดชิด ดั่งเสื้อคลุมฮู้ดกันหนาว"
   },
   {
     "id": "knight",
@@ -8197,7 +8197,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "A primal, animalistic position with a wild edge.",
     "isPenetrative": true,
-    "etymologyTh": "\"Satyr\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ซาไทร์ (เทพครึ่งคนครึ่งแพะ)\" — ท่วงท่าหมอบต่ำปล่อยอารมณ์ตามสัญชาตญาณธรรมชาติ คล้ายเทพซาไทร์แห่งป่ากรีก"
   },
   {
     "id": "rocket",
@@ -8234,7 +8234,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot & A-spot",
     "descriptionEn": "A launching position with legs up for maximum depth.",
     "isPenetrative": true,
-    "etymologyTh": "\"จรวด\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"จรวดพุ่งทะยาน\" — ยกขาสองข้างชี้ตรงขึ้นฟ้าและลงจังหวะแนวดิ่ง คล้ายจรวดที่พุ่งทะยานสู่ท้องฟ้า"
   },
   {
     "id": "niagara-falls",
@@ -8271,7 +8271,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A cascading position with the receiver draped backward.",
     "isPenetrative": true,
-    "etymologyTh": "\"Niagara Falls\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"น้ำตกไนแองการา\" — แอ่นสะโพกและทอดลำตัวท่อนบนลาดลง คล้ายสายน้ำตกไนแองการาที่หลั่งไหลลงสู่เบื้องล่าง"
   },
   {
     "id": "tight-pussy",
@@ -8307,7 +8307,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "A squeezing position that intensifies the sensation.",
     "isPenetrative": true,
-    "etymologyTh": "\"แนบแน่นกระชับ Fit\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"กระชับแนบแน่น (Tight Fit)\" — บีบต้นขาชิดติดกันเพื่อเพิ่มแรงเสียดสีสัมผัสให้กระชับแน่นที่สุด"
   },
   {
     "id": "relaxation",
@@ -8342,7 +8342,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "The ultimate low-effort position for pure relaxation.",
     "isPenetrative": true,
-    "etymologyTh": "\"Relaxation\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"การผ่อนคลายอย่างสมบูรณ์\" — นอนตะแคงกอดกันนิ่งๆ ขยับสรีระอย่างนุ่มนวลเพื่อคลายความเหนื่อยล้า"
   },
   {
     "id": "gimlet",
@@ -8379,7 +8379,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & A-spot",
     "descriptionEn": "A drilling, circular motion that targets internal spots.",
     "isPenetrative": true,
-    "etymologyTh": "\"Gimlet\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"สว่านเจาะไม้ (กิมเล็ต)\" — ควงสะโพกเป็นวงกลมแบบเกลียวเจาะ ดั่งหัวสว่านมือที่หมุนเจาะเนื้อไม้"
   },
   {
     "id": "pinwheel",
@@ -8416,7 +8416,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "A spinning, rotating position with constant movement.",
     "isPenetrative": true,
-    "etymologyTh": "\"Pinwheel\" — ฝ่ายหญิงควบคุมการเคลื่อนไหวเหมือนกังหัน บดคลึงและควงสะโพกเพื่อค้นหามุมที่สร้างความสุขสมได้ดีที่สุด"
+    "etymologyTh": "\"กังหันลมกระดาษ\" — หมุนเวียนเปลี่ยนองศาสรีระอย่างต่อเนื่อง คล้ายใบพัดกังหันกระดาษของเล่นที่หมุนตามลม"
   },
   {
     "id": "loop",
@@ -8452,7 +8452,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A continuous loop of motion and pleasure.",
     "isPenetrative": true,
-    "etymologyTh": "\"Loop\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"วงแหวนวนซ้ำ\" — การขยับสะโพกหมุนวนเป็นรอบต่อเนื่องไม่สะดุด ดั่งการวนลูปของวงแหวน"
   },
   {
     "id": "slope",
@@ -8486,7 +8486,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A gentle incline position that&#39;s easy on the body.",
     "isPenetrative": true,
-    "etymologyTh": "\"Slope\" — ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย"
+    "etymologyTh": "\"ทางลาดเอียง\" — ทอดลำตัวทำมุมลาดเอียงสบายๆ เพื่อให้สอดใส่ในมุมที่นุ่มนวลและไม่เมื่อย"
   },
   {
     "id": "funny-joke",
@@ -8522,7 +8522,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "A playful, laugh-out-loud position for couples who enjoy fun.",
     "isPenetrative": true,
-    "etymologyTh": "\"Funny Joke\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"เรื่องขำขันชวนหัวเราะ\" — ท่วงท่าสบายๆ ที่เคล้าคลอไปด้วยรอยยิ้ม เสียงหัวเราะ และความเป็นกันเอง"
   },
   {
     "id": "ladies-man",
@@ -8557,7 +8557,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "A position focused entirely on the receiving partner&#39;s pleasure.",
     "isPenetrative": true,
-    "etymologyTh": "\"Ladies Man\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"สุภาพบุรุษขวัญใจสตรี\" — ฝ่ายชายยอมจำนนและทุ่มเทปรนนิบัติ เพื่อความสุขสมของฝ่ายหญิงเป็นหลัก"
   },
   {
     "id": "juicy-ass",
@@ -8592,7 +8592,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "A position that highlights the backside with a great view.",
     "isPenetrative": true,
-    "etymologyTh": "\"Juicy Rear\" — ฝ่ายชายเป็นผู้ควบคุมความลึกและจังหวะการเคลื่อนไหว สัมผัสถึงความกระชับและส่งมอบพลังแห่งความรักได้อย่างเต็มที่"
+    "etymologyTh": "\"สะโพกกลมกลึง (Juicy Rear)\" — สอดใส่จากด้านหลังในมุมที่มองเห็นสรีระสะโพกเว้าโค้งได้อย่างเด่นชัด"
   },
   {
     "id": "new-69-on-the-chair",
@@ -8630,7 +8630,7 @@ window.COUPLES_POSITIONS = [
     "descriptionEn": "A chair-based 69 with a fresh, elevated angle.",
     "isPenetrative": false,
     "focusType": "oral",
-    "etymologyTh": "\"New บน เก้าอี้\" — ท่า 69 บนเก้าอี้หรือโซฟาที่รองรับสรีระได้ลงตัว ลดอาการเมื่อยล้าและเพิ่มความสบาย"
+    "etymologyTh": "\"ท่า 69 บนเก้าอี้\" — ผลัดกันมอบความสุขสลับหัวท้ายบนเก้าอี้ ปรับระดับความสูงให้สบายตัวขึ้น"
   },
   {
     "id": "stickman",
@@ -8665,7 +8665,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A simple, stick-figure-like position with straight lines.",
     "isPenetrative": true,
-    "etymologyTh": "\"Stickman\" — ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย"
+    "etymologyTh": "\"มนุษย์กิ่งไม้\" — เหยียดแขนและขาตรงเป็นเส้นตรงแนบชิด คล้ายภาพวาดคนกิ่งไม้"
   },
   {
     "id": "licking-master",
@@ -8701,7 +8701,7 @@ window.COUPLES_POSITIONS = [
     "descriptionEn": "An expert-level oral position for giving maximum pleasure.",
     "isPenetrative": false,
     "focusType": "oral",
-    "etymologyTh": "\"Licking Master\" — ศิลปะแห่งการใช้ปลายลิ้นปรนเปรอจุดสัมผัสภายนอกอย่างละเอียดอ่อนและต่อเนื่อง"
+    "etymologyTh": "\"ปรมาจารย์แห่งปลายลิ้น\" — ท่วงท่าปรนนิบัติด้วยปากอย่างช่ำชองและเชี่ยวชาญในทุกจุดสัมผัส"
   },
   {
     "id": "descent",
@@ -8738,7 +8738,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A gradual lowering onto the partner for maximum depth.",
     "isPenetrative": true,
-    "etymologyTh": "\"Descent\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"การร่อนลงสู่พื้น\" — ค่อยๆ ทิ้งตัวและลดระดับสะโพกลงอย่างช้าๆ นุ่มนวล ดั่งเครื่องบินร่อนลงจอด"
   },
   {
     "id": "source",
@@ -8773,7 +8773,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A grounded, centering position that feels deeply connected.",
     "isPenetrative": true,
-    "etymologyTh": "\"Source\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"ต้นกำเนิดแห่งสายน้ำ\" — สวมกอดแนบชิดแนบแน่น สัมผัสถึงความอบอุ่นลึกซึ้งจากจุดกำเนิดแห่งชีวิต"
   },
   {
     "id": "apex",
@@ -8809,7 +8809,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "Reaching the peak with a high, elevated position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Apex\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"จุดยอดสูงสุด (ยอดพีระมิด)\" — ยกสะโพกหนุนขึ้นสูงสุด เพื่อเปิดมุมสอดลึกถึงจุดบนสุดของสรีระ"
   },
   {
     "id": "hot-carl",
@@ -8845,7 +8845,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Clitoral",
     "descriptionEn": "A face-sitting position for oral pleasure enthusiasts.",
     "isPenetrative": true,
-    "etymologyTh": "\"Hot Carl\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"นั่งรับสัมผัสใกล้ชิด\" — ฝ่ายหนึ่งนั่งคร่อมเพื่อรับการปรนนิบัติด้วยปากอย่างใกล้ชิดและอบอุ่น"
   },
   {
     "id": "chibi",
@@ -8880,7 +8880,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A small, compact position perfect for close quarters.",
     "isPenetrative": true,
-    "etymologyTh": "\"Chibi\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"จิบิ (ย่อส่วนน่ารัก)\" — ขดตัวแนบชิดกะทัดรัด คล้ายสัดส่วนตัวการ์ตูนตัวเล็กๆ ที่น่าทะนุถนอม"
   },
   {
     "id": "snake-charmer",
@@ -8917,7 +8917,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "A hypnotic, undulating motion that mesmerizes both partners.",
     "isPenetrative": true,
-    "etymologyTh": "\"งู Charmer\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"หมองูเป่าปี่\" — โยกส่ายสะโพกพลิ้วไหวอย่างชดช้อย ดั่งลีลาของงูที่ต้องมนต์เสียงปี่ของหมองู"
   },
   {
     "id": "twerk-on-dick",
@@ -8953,7 +8953,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Clitoral & G-spot",
     "descriptionEn": "An energetic, twerking variation of the riding position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Twerk Ride\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ทเวิร์กโยกสะโพก\" — ฝ่ายหญิงนั่งขี่และร่อนสะโพกเขย่าเป็นจังหวะ ดั่งการเต้นทเวิร์กเร่าร้อน"
   },
   {
     "id": "ghetto",
@@ -8989,7 +8989,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "A raw, intense position with a street-style edge.",
     "isPenetrative": true,
-    "etymologyTh": "\"Ghetto\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"สตรีทสไตล์ (ความดุดัน)\" — จังหวะขยับสะโพกที่หนักแน่น ตรงไปตรงมา และเปี่ยมด้วยความมั่นใจ"
   },
   {
     "id": "tantra-chair",
@@ -9025,7 +9025,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "A tantric-inspired position on a chair for deep connection.",
     "isPenetrative": true,
-    "etymologyTh": "\"Tantra เก้าอี้\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"เก้าอี้ตันตระ\" — นั่งกอดสบตาบนเก้าอี้ ผสานลมหายใจและพลังงานร่วมกันตามศาสตร์ตันตระ"
   },
   {
     "id": "crazy-doggy",
@@ -9061,7 +9061,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "An intense, wild variation of the classic doggy style.",
     "isPenetrative": true,
-    "etymologyTh": "\"บ้าคลั่ง / ผาดโผน Doggy\" — ฝ่ายชายเป็นผู้ควบคุมความลึกและจังหวะการเคลื่อนไหว สัมผัสถึงความกระชับและส่งมอบพลังแห่งความรักได้อย่างเต็มที่"
+    "etymologyTh": "\"ท่าหมาสุดเหวี่ยง\" — ท่าสุนัขที่เร่งจังหวะสะโพกอย่างเร้าใจและมีพลัง สำหรับคู่รักสายผาดโผน"
   },
   {
     "id": "pearl",
@@ -9096,7 +9096,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "A precious, gentle position that reveals hidden treasure.",
     "isPenetrative": true,
-    "etymologyTh": "\"ไข่มุก\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"ไข่มุกใต้สมุทร\" — เปิดเผยจุดสัมผัสล้ำค่าที่ซ่อนอยู่ภายใน ดั่งการค้นพบไข่มุกงามในฝาหอย"
   },
   {
     "id": "anna",
@@ -9131,7 +9131,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A named, personal position that feels like a secret between two.",
     "isPenetrative": true,
-    "etymologyTh": "\"Anna\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"แอนนา (ความลับส่วนตัว)\" — ท่วงท่านอนเคียงข้างที่อบอุ่นและเงียบสงบ เป็นความลับเฉพาะสองเรา"
   },
   {
     "id": "curiosity",
@@ -9167,7 +9167,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & A-spot",
     "descriptionEn": "An exploratory position for discovering new sensations.",
     "isPenetrative": true,
-    "etymologyTh": "\"Curiosity\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ความอยากรู้อยากลอง\" — ท่วงท่าที่เปิดโอกาสให้สำรวจมุมสัมผัสใหม่ๆ ที่ไม่เคยลองมาก่อน"
   },
   {
     "id": "khaleesi",
@@ -9203,7 +9203,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "A queen-on-top position with power and dominance.",
     "isPenetrative": true,
-    "etymologyTh": "\"Khaleesi\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"คาลีซี (ราชินีมังกร)\" — ฝ่ายหญิงนั่งคุมเกมสง่างามและเปี่ยมพลัง ดั่งแม่มังกรคาลีซีผู้กุมบังเหียน"
   },
   {
     "id": "insatiable-clitoris",
@@ -9239,7 +9239,7 @@ window.COUPLES_POSITIONS = [
     "descriptionEn": "A position designed for relentless clitoral stimulation.",
     "isPenetrative": false,
     "focusType": "oral",
-    "etymologyTh": "\"Insatiable Clitoris\" — เน้นการกระตุ้นคลิตอริสอย่างตรงจุดด้วยริมฝีปากและปลายนิ้ว นำพาสู่จุดสุดยอดภายนอก"
+    "etymologyTh": "\"คลิตอริสผู้ไม่เคยอิ่มเอม\" — จัดมุมสะโพกประกบแนบสนิทเพื่อเสียดสีจุดคลิตอริสตลอดเวลาโดยไม่เว้นช่วง ดั่งความปรารถนาที่ไม่รู้จบ"
   },
   {
     "id": "breeze",
@@ -9274,7 +9274,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A light, airy position that feels effortless and refreshing.",
     "isPenetrative": true,
-    "etymologyTh": "\"Breeze\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"สายลมอ่อนพัดผ่าน\" — สัมผัสอย่างแผ่วเบา สบายตัว และพลิ้วไหวดั่งสายลมโชยยามเช้า"
   },
   {
     "id": "weird-fantasy",
@@ -9311,7 +9311,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "An unconventional position for couples who love the unusual.",
     "isPenetrative": true,
-    "etymologyTh": "\"Weird จินตนาการชวนฝัน\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"จินตนาการพิสดาร\" — ท่วงท่าที่ฉีกกฎเกณฑ์เดิมๆ ผสานมุมองศาแปลกตาเพื่อความตื่นเต้น"
   },
   {
     "id": "crazy-monkey",
@@ -9348,7 +9348,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "A wild, energetic position with a playful primate vibe.",
     "isPenetrative": true,
-    "etymologyTh": "\"บ้าคลั่ง / ผาดโผน ลิง\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ลิงแสนซน\" — โอบกอดและเกี่ยวขากระโดดหยอกล้อ ดั่งลิงน้อยที่ปีนป่ายบนกิ่งไม้อย่างสนุกสนาน"
   },
   {
     "id": "butler",
@@ -9383,7 +9383,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "The penetrating partner serves the receiver&#39;s every need.",
     "isPenetrative": true,
-    "etymologyTh": "\"Butler\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"พ่อบ้านผู้ซื่อสัตย์\" — ฝ่ายรุกยอมจำนนและคอยดูแลปรนนิบัติคนรักในทุกความต้องการดั่งพ่อบ้าน"
   },
   {
     "id": "houdini",
@@ -9420,7 +9420,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "A disappearing, reappearing position that defies expectations.",
     "isPenetrative": true,
-    "etymologyTh": "\"Houdini\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ฮูดินี (นักมายากลหลบหนี)\" — บิดสรีระและหลุดพ้นจากพันธนาการอย่างน่าอัศจรรย์ ดั่งกลปลดพันธนาการของแฮร์รี ฮูดินี"
   },
   {
     "id": "tea-bag",
@@ -9456,7 +9456,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A dipping position with a playful, rhythmic motion.",
     "isPenetrative": true,
-    "etymologyTh": "\"Tea Bag\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ถุงชาจุ่มน้ำ\" — ยกตัวขึ้นลงในแนวดิ่งเป็นจังหวะ คล้ายการจุ่มถุงชาลงในแก้วน้ำร้อน"
   },
   {
     "id": "dream",
@@ -9491,7 +9491,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A dreamy, slow position that feels like floating.",
     "isPenetrative": true,
-    "etymologyTh": "\"Dream\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"ความฝันอันแสนหวาน\" — เคลื่อนไหวช้าๆ นุ่มนวล ละมุนละไม ดั่งกำลังล่องลอยอยู่ในห้วงนิทรา"
   },
   {
     "id": "donkey-punch",
@@ -9529,7 +9529,7 @@ window.COUPLES_POSITIONS = [
     "descriptionEn": "A rough, intense position not for the faint of heart.",
     "caution": "💬 ความยินยอม & ปลอดภัย: เน้นการควบคุมจังหวะหนักแน่นแต่นุ่มนวล ต้องสื่อสารและยินยอมพร้อมใจ (Consent) เสมอ",
     "isPenetrative": true,
-    "etymologyTh": "\"Midnight Pulse\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"จังหวะกระตุ้นเร้า (Midnight Pulse)\" — การลงจังหวะสะโพกอย่างหนักแน่นและเซอร์ไพรส์ ปลุกเร้าอารมณ์ให้ตื่นตัว"
   },
   {
     "id": "venus-flytrap",
@@ -9565,7 +9565,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "A trapping, enveloping position that closes around the partner.",
     "isPenetrative": true,
-    "etymologyTh": "\"Venus Flytrap\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"กาบหอยแครง (พืชกินแมลง)\" — ขาทั้งสองข้างหนีบประกบโอบรัดรอบตัว ดั่งกาบใบของต้นกาบหอยแครงที่ปิดงับเหยื่อ"
   },
   {
     "id": "crazy-train",
@@ -9602,7 +9602,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "A wild, non-stop ride that keeps going and going.",
     "isPenetrative": true,
-    "etymologyTh": "\"บ้าคลั่ง / ผาดโผน รถไฟ\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"รถไฟสายบ้าคลั่ง\" — จังหวะขับเคลื่อนต่อเนื่องไม่หยุดยั้ง ดั่งขบวนรถไฟที่แล่นด้วยความเร็วสูง"
   },
   {
     "id": "special-fellatio",
@@ -9638,7 +9638,7 @@ window.COUPLES_POSITIONS = [
     "descriptionEn": "An elevated oral position for exceptional pleasure.",
     "isPenetrative": false,
     "focusType": "oral",
-    "etymologyTh": "\"Special Fellatio\" — การปรนเปรอฝ่ายชายด้วยริมฝีปากในมุมองศาที่ผ่อนคลายและสบายตัวที่สุด"
+    "etymologyTh": "\"ออรัลสุดพิเศษ\" — ท่วงท่าจัดวางสรีระให้ฝ่ายรุกปรนนิบัติด้วยปากได้อย่างสะดวกและถนัดมือ"
   },
   {
     "id": "pussy-licking",
@@ -9674,7 +9674,7 @@ window.COUPLES_POSITIONS = [
     "descriptionEn": "A dedicated position for giving cunnilingus.",
     "isPenetrative": false,
     "focusType": "oral",
-    "etymologyTh": "\"Cunnilingus Focus\" — การปรนเปรอคลิตอริสด้วยริมฝีปากและลิ้นอย่างละเมียดละไม มอบคลื่นความสุขสมที่ล้ำลึก"
+    "etymologyTh": "\"ปรนนิบัติคลิตอริส (Cunnilingus Focus)\" — ท่วงท่าที่เปิดมุมกว้างเพื่อมอบสัมผัสจากปลายลิ้นได้อย่างเต็มที่"
   },
   {
     "id": "woven-rose",
@@ -9711,7 +9711,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "An intricate, interlocking position of beauty and depth.",
     "isPenetrative": true,
-    "etymologyTh": "\"Woven ดอกกุหลาบ\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"กุหลาบถักทอ\" — แขนขาและลำตัวโอบกอดสอดประสานกันอย่างงดงาม ดั่งกลีบกุหลาบที่ถักทอเรียงซ้อนกัน"
   },
   {
     "id": "fireman",
@@ -9748,7 +9748,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "A carrying position that requires strength and trust.",
     "isPenetrative": true,
-    "etymologyTh": "\"Fireman\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"นักผจญเพลิง\" — ฝ่ายรุกอุ้มยกลอยตัวฝ่ายรับขึ้นพาดบ่าหรือสะโพก ดั่งท่านักดับเพลิงแบกผู้ประสบภัย"
   },
   {
     "id": "revelation",
@@ -9784,7 +9784,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & A-spot",
     "descriptionEn": "A revealing position that unveils new sensations.",
     "isPenetrative": true,
-    "etymologyTh": "\"Revelation\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"การเปิดเผยความลับ\" — เปิดกางสรีระออกกว้าง เผยให้เห็นทุกมิติสัมผัสอย่างชัดเจนไร้สิ่งปิดบัง"
   },
   {
     "id": "column",
@@ -9819,7 +9819,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "A strong, upright position like a supporting pillar.",
     "isPenetrative": true,
-    "etymologyTh": "\"Column\" — ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย"
+    "etymologyTh": "\"เสาหินค้ำยัน\" — ยืนหรือตั้งลำตัวตรงแน่วแน่มั่นคง ดั่งเสาหินสถาปัตยกรรมโรมันค้ำจุนอาคาร"
   },
   {
     "id": "shocker",
@@ -9855,7 +9855,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "A stimulating position that truly shocks with pleasure.",
     "isPenetrative": true,
-    "etymologyTh": "\"Shocker\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"สัมผัสช็อกหัวใจ\" — กระตุ้นสองจุดสัมผัสพร้อมกัน สร้างความตื่นเต้นระทึกใจแบบไม่ทันตั้งตัว"
   },
   {
     "id": "drum",
@@ -9891,7 +9891,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A rhythmic, beating position with a steady tempo.",
     "isPenetrative": true,
-    "etymologyTh": "\"Drum\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"กลองเคาะจังหวะ\" — ลงจังหวะสะโพกกระทบหนักแน่นและสม่ำเสมอ ดั่งไม้ตีกลองที่เคาะรัวเป็นจังหวะดนตรี"
   },
   {
     "id": "young-stallion",
@@ -9927,7 +9927,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "An energetic, vigorous position for the enthusiastic.",
     "isPenetrative": true,
-    "etymologyTh": "\"Young Stallion\" — ฝ่ายชายเป็นผู้ควบคุมความลึกและจังหวะการเคลื่อนไหว สัมผัสถึงความกระชับและส่งมอบพลังแห่งความรักได้อย่างเต็มที่"
+    "etymologyTh": "\"ม้าหนุ่มคะนองศึก\" — การเคลื่อนไหวที่เปี่ยมด้วยพละกำลังและความคึกคัก ดั่งม้าหนุ่มที่พร้อมวิ่งในสนาม"
   },
   {
     "id": "inseminator",
@@ -9963,7 +9963,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot & A-spot",
     "descriptionEn": "A deep, purposeful position designed for maximum depth.",
     "isPenetrative": true,
-    "etymologyTh": "\"Inseminator\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ผู้มอบเมล็ดพันธุ์\" — สอดใส่ตรงเข้าหามุมลึกที่สุดและแนบชิด เพื่อสัมผัสที่ลึกซึ้งถึงแก่นกลาง"
   },
   {
     "id": "master",
@@ -10000,7 +10000,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "A dominant position with the penetrating partner in full control.",
     "isPenetrative": true,
-    "etymologyTh": "\"Master\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"นายท่านผู้กุมอำนาจ\" — ฝ่ายรุกคุมเกม กำหนดจังหวะ และบัญชาการรักอย่างเด็ดขาด"
   },
   {
     "id": "capricorn",
@@ -10036,7 +10036,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A determined, persistent position inspired by the sea-goat.",
     "isPenetrative": true,
-    "etymologyTh": "\"Capricorn\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"ราศีมังกร (แพะทะเล)\" — ปีนป่ายและคุมจังหวะอย่างมุ่งมั่นอดทน ดั่งสัญลักษณ์แพะภูเขาแห่งราศีมังกร"
   },
   {
     "id": "libra",
@@ -10071,7 +10071,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "A balanced, harmonious position with equal give and take.",
     "isPenetrative": true,
-    "etymologyTh": "\"Libra\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"ราศีตุลย์ (คันชั่ง)\" — ประสานสรีระขึ้นลงอย่างสมดุลและเท่าเทียม ดั่งตาชั่งแห่งความยุติธรรม"
   },
   {
     "id": "gemini",
@@ -10107,7 +10107,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "A dual-natured position with two sides of pleasure.",
     "isPenetrative": true,
-    "etymologyTh": "\"Gemini\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ราศีเมถุน (คนคู่)\" — โอบกอดสบตาและผสานสองร่างกายเป็นหนึ่งเดียว ดั่งสัญลักษณ์คนคู่แห่งราศีเมถุน"
   },
   {
     "id": "fusion",
@@ -10143,7 +10143,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "A merging position where two bodies become one.",
     "isPenetrative": true,
-    "etymologyTh": "\"Fusion\" — การผสมผสานระหว่างความผ่อนคลายและความรักแนบแน่น นอนหันหน้าเข้าหากัน ขาเกี่ยวประสาน สัมผัสถึงลมหายใจของกันและกัน"
+    "etymologyTh": "\"การหลอมรวมสรีระ\" — สองร่างประสานเข้าด้วยกันจนแทบไม่เหลือช่องว่าง ดั่งปฏิกิริยาฟิวชันแห่งความรัก"
   },
   {
     "id": "clock",
@@ -10180,7 +10180,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & A-spot",
     "descriptionEn": "A rotating position that moves through different angles.",
     "isPenetrative": true,
-    "etymologyTh": "\"นาฬิกา\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"เข็มนาฬิกา\" — สรีระหมุนเปลี่ยนองศาเป็นวงกลม คล้ายเข็มนาฬิกาที่เดินวนรอบหน้าปัด"
   },
   {
     "id": "hot-lunch",
@@ -10216,7 +10216,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "A serving position where the receiver is presented on a platter.",
     "isPenetrative": true,
-    "etymologyTh": "\"Hot Lunch\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"อาหารกลางวันจานร้อน\" — ฝ่ายรับนอนทอดกายพร้อมเสิร์ฟบนเตียง ให้คนรักได้ลิ้มรสความสุขอย่างเต็มอิ่ม"
   },
   {
     "id": "concubine",
@@ -10252,7 +10252,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A position of devotion and dedicated pleasure.",
     "isPenetrative": true,
-    "etymologyTh": "\"Concubine\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"นางสนมผู้ภักดี\" — ท่วงท่าที่อ่อนน้อม ยินยอม และพร้อมมอบความสุขสมให้คนรักอย่างเต็มใจ"
   },
   {
     "id": "leapfrog",
@@ -10289,7 +10289,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "A jumping, acrobatic position that requires agility.",
     "isPenetrative": true,
-    "etymologyTh": "\"กระโดดกบ\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"กระโดดกบ\" — โน้มตัวหมอบต่ำแล้วยกขยับสะโพก คล้ายท่าทางการละเล่นกระโดดข้ามกบ"
   },
   {
     "id": "torch",
@@ -10325,7 +10325,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "A position that ignites passion like a burning flame.",
     "isPenetrative": true,
-    "etymologyTh": "\"คบเพลิง\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"คบเพลิงลุกโชน\" — ยกขาสองข้างชี้ขึ้นสูงและเปล่งประกายความเร่าร้อน ดั่งเปลวไฟบนคบเพลิง"
   },
   {
     "id": "spork",
@@ -10361,7 +10361,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "A hybrid position combining two positions into one.",
     "isPenetrative": true,
-    "etymologyTh": "\"Spork\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ช้อนกึ่งส้อม (สปอร์ก)\" — ท่วงท่าลูกผสมที่ผสานการนอนตะแคงแบบช้อนคู่เข้ากับมุมสอดลึกแบบกรรไกร"
   },
   {
     "id": "fire-hydrant",
@@ -10398,7 +10398,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "A lifted position with the receiver raised and open.",
     "isPenetrative": true,
-    "etymologyTh": "\"เปลวเพลิง Hydrant\" — เปิดมุมสอดใส่ด้านข้างที่แปลกใหม่ กระชับและกระตุ้นจุดรับสัมผัสภายในได้อย่างมหัศจรรย์"
+    "etymologyTh": "\"หัวจ่ายน้ำดับเพลิง\" — ยกขาข้างหนึ่งขึ้นสูงเปิดมุมด้านข้าง คล้ายสุนัขที่ยกขาที่หัวดับเพลิง"
   },
   {
     "id": "lace",
@@ -10433,7 +10433,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Clitoral & G-spot",
     "descriptionEn": "A delicate, intricate position with light touches.",
     "isPenetrative": true,
-    "etymologyTh": "\"Lace\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"ลูกไม้ถัก\" — ปลายขาและนิ้วสัมผัสเกี่ยวประสานกันแผ่วเบา ดั่งลวดลายอันประณีตของผ้าลูกไม้"
   },
   {
     "id": "spring",
@@ -10469,7 +10469,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "A bouncy, energetic position with spring-like movement.",
     "isPenetrative": true,
-    "etymologyTh": "\"Spring\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"สปริงเด้งดึ๋ง\" — สะโพกเด้งขึ้นลงเป็นจังหวะยืดหยุ่นและมีแรงส่ง ดั่งขดลวดสปริงที่คืนตัว"
   },
   {
     "id": "spiderman",
@@ -10506,7 +10506,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "A wall-crawling position requiring acrobatic skill.",
     "isPenetrative": true,
-    "etymologyTh": "\"Spiderman\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ไอ้แมงมุม (สไปเดอร์แมน)\" — กางแขนขาค้ำยันพื้นหรือผนังอย่างยืดหยุ่น ดั่งท่ายึดเกาะผนังของสไปเดอร์แมน"
   },
   {
     "id": "elephant",
@@ -10540,7 +10540,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A slow, powerful position with a gentle giant feel.",
     "isPenetrative": true,
-    "etymologyTh": "\"ช้าง\" — ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย"
+    "etymologyTh": "\"ช้างสารผู้ทรงพลัง\" — การเคลื่อนไหวที่ช้าๆ หนักแน่น และมั่นคง ดั่งย่างก้าวของพญาคชสาร"
   },
   {
     "id": "orchid",
@@ -10576,7 +10576,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "A rare, exotic position of exquisite beauty.",
     "isPenetrative": true,
-    "etymologyTh": "\"Orchid\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"กล้วยไม้ป่า\" — ขาทั้งสองข้างแยกกางและแอ่นช้อย คล้ายกลีบดอกกล้วยไม้ที่บานรับน้ำค้าง"
   },
   {
     "id": "bicycle",
@@ -10613,7 +10613,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "A pedaling, cycling motion for varied stimulation.",
     "isPenetrative": true,
-    "etymologyTh": "\"จักรยาน\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ปั่นจักรยาน\" — ขยับขาทั้งสองข้างวนขึ้นลงสลับกัน คล้ายการถีบลูกบันไดจักรยาน"
   },
   {
     "id": "caramel",
@@ -10648,7 +10648,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A smooth, sweet position that melts like caramel.",
     "isPenetrative": true,
-    "etymologyTh": "\"Caramel\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"คาราเมลหวานละมุน\" — การเคลื่อนไหวที่นุ่มนวลและเหนียวแน่นแนบเนื้อ ดั่งคาราเมลอุ่นๆ ที่ละลาย"
   },
   {
     "id": "python",
@@ -10685,7 +10685,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "A squeezing, constricting position with a powerful grip.",
     "isPenetrative": true,
-    "etymologyTh": "\"Python\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"งูหลามรัดเหยื่อ\" — ขาทั้งสองข้างรัดรอบเอวหรือสะโพกแน่นหนา ดั่งงูหลามที่รัดพันร่างเหยื่อ"
   },
   {
     "id": "watch",
@@ -10720,7 +10720,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "A position where you can gaze at each other like watching.",
     "isPenetrative": true,
-    "etymologyTh": "\"Watch\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"การเฝ้ามอง (Watch)\" — แนบชิดในมุมที่สามารถมองสบตากันและชื่นชมสีหน้าแห่งความสุขได้อย่างชัดเจน"
   },
   {
     "id": "cradle",
@@ -10756,7 +10756,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A nurturing, cradling position that holds your partner close.",
     "isPenetrative": true,
-    "etymologyTh": "\"เปลเด็ก\" — ท่านั่งโอบกอดที่อบอุ่นที่สุด ฝ่ายหญิงนั่งบนตักฝ่ายชาย ทั้งคู่สามารถจูบ ลูบไล้แผ่นหลัง และสบสายตากันได้เต็มที่"
+    "etymologyTh": "\"เปลไกว\" — โอบอุ้มช้อนประคองสะโพกไว้ในอ้อมแขน ดั่งแม่ที่ไกวเปลกล่อมลูกน้อย"
   },
   {
     "id": "unicorn",
@@ -10793,7 +10793,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "A rare, magical position that feels mythical.",
     "isPenetrative": true,
-    "etymologyTh": "\"ยูนิคอร์น\" — ท่าที่สง่างามชวนฝัน ผสานความอ่อนหวานและเสน่ห์ลึกลับ"
+    "etymologyTh": "\"ยูนิคอร์นในตำนาน\" — ท่วงท่าที่สง่างามชวนฝัน ผสานความอ่อนหวานและเสน่ห์ลึกลับดั่งม้าเขายูนิคอร์น"
   },
   {
     "id": "staff",
@@ -10828,7 +10828,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "A strong, upright position with a commanding presence.",
     "isPenetrative": true,
-    "etymologyTh": "\"Staff\" — ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย"
+    "etymologyTh": "\"ไม้เท้าค้ำยัน\" — เหยียดลำตัวตรงและมั่นคง ดั่งไม้เท้าของผู้นำทางที่ปักลงบนผืนดิน"
   },
   {
     "id": "virgo",
@@ -10863,7 +10863,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A pure, precise position focused on perfect technique.",
     "isPenetrative": true,
-    "etymologyTh": "\"Virgo\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"ราศีกันย์ (หญิงพรหมจารี)\" — ท่วงท่าที่ประณีต เรียบร้อย และใส่ใจในทุกรายละเอียดของมุมองศา"
   },
   {
     "id": "prison-guard",
@@ -10900,7 +10900,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "A restraining position with a dominant, controlling feel.",
     "isPenetrative": true,
-    "etymologyTh": "\"Guarded Passion\" — ท่วงท่าที่ตรึงสรีระให้แนบชิดและควบคุมจังหวะรักได้อย่างมั่นคง"
+    "etymologyTh": "\"ผู้คุมเรือนจำ (Guarded Passion)\" — ตรึงแขนขาและคุมเกมอย่างใกล้ชิด ดั่งผู้คุมที่เฝ้าดูแลนักโทษคนสำคัญ"
   },
   {
     "id": "cello",
@@ -10936,7 +10936,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "A position that plays the body like a beautiful instrument.",
     "isPenetrative": true,
-    "etymologyTh": "\"Cello\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"เชลโล (เครื่องดนตรี)\" — ประคองโอบสะโพกและลูบไล้เป็นจังหวะ คล้ายนักดนตรีกำลังสีคันชักบนตัวเชลโล"
   },
   {
     "id": "crucifixion",
@@ -10973,7 +10973,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "An arms-spread position of vulnerability and depth.",
     "isPenetrative": true,
-    "etymologyTh": "\"Open อ้อมกอด\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"กางแขนเปิดรับ (Open Embrace)\" — นอนหงายกางแขนออกกว้างอย่างเปิดเผย ดั่งการยอมรับทุกสิ่งด้วยหัวใจ"
   },
   {
     "id": "puzzle",
@@ -11010,7 +11010,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "A complex position that&#39;s like solving a body puzzle.",
     "isPenetrative": true,
-    "etymologyTh": "\"Puzzle\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ตัวต่อจิ๊กซอว์\" — สรีระของทั้งสองสอดประสานเข้าล็อกกันอย่างพอดี ดั่งชิ้นส่วนจิ๊กซอว์ที่ลงตัว"
   },
   {
     "id": "fan",
@@ -11045,7 +11045,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "An opening, fanning position that unfolds like a fan.",
     "isPenetrative": true,
-    "etymologyTh": "\"พัดโบก\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"พัดพับคลี่บาน\" — ขาทั้งสองค่อยๆ กางแผ่ออกกว้าง คล้ายใบพัดที่คลี่กางออกอย่างงดงาม"
   },
   {
     "id": "taurus",
@@ -11081,7 +11081,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "A stubborn, powerful position with a charging energy.",
     "isPenetrative": true,
-    "etymologyTh": "\"Taurus\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ราศีพฤษภ (วัวกระทิง)\" — ยึดหลักสะโพกมั่นคงและดันไปข้างหน้าทรงพลัง ดั่งวัวกระทิงพุ่งชน"
   },
   {
     "id": "nirvana",
@@ -11116,7 +11116,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "A transcendent position that leads to ultimate bliss.",
     "isPenetrative": true,
-    "etymologyTh": "\"Nirvana\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"นิพพาน (สุขสงบสูงสุด)\" — เข้าสู่สภาวะความสุขสมที่สงบ ลึกซึ้ง และหลุดพ้นจากความกังวลทั้งปวง"
   },
   {
     "id": "airplane",
@@ -11152,7 +11152,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "A flying position with the receiver lifted and soaring.",
     "isPenetrative": true,
-    "etymologyTh": "\"Airplane\" — ท่วงท่าที่ฝ่ายรับถูกพยุงตัวลอยขึ้นกลางอากาศ เปรียบเหมือนการเหินลอยเหนือคลื่นลม"
+    "etymologyTh": "\"เครื่องบินทะยานฟ้า\" — ฝ่ายรับถูกอุ้มยกลอยขึ้นและกางแขนออก คล้ายปีกเครื่องบินที่กำลังร่อนบนฟ้า"
   },
   {
     "id": "ribbon",
@@ -11187,7 +11187,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A reverse spooning position with a ribbon-like connection.",
     "isPenetrative": true,
-    "etymologyTh": "\"Ribbon\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"ริบบิ้นผูกรัก (Reverse Spoon)\" — นอนประกบซ้อนกันจากด้านหลังและโอบรัด คล้ายริบบิ้นที่ผูกเป็นโบของขวัญ"
   },
   {
     "id": "liana",
@@ -11223,7 +11223,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "Entwine together like jungle vines in this wrapped embrace.",
     "isPenetrative": true,
-    "etymologyTh": "\"Liana\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"เถาวัลย์ป่าดงดิบ\" — แขนขาพันรัดรอบตัวกันแนบชิด ดั่งเถาวัลย์ในป่าลึกที่พันเกี่ยวต้นไม้ใหญ่"
   },
   {
     "id": "cowboy",
@@ -11257,7 +11257,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "The penetrating partner takes the reins in this classic position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Cowboy\" — ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย"
+    "etymologyTh": "\"คาวบอยกุมบังเหียน\" — ฝ่ายรุกขึ้นคร่อมและควบคุมทิศทางจังหวะ ดั่งคาวบอยที่กุมสายบังเหียนม้า"
   },
   {
     "id": "oath",
@@ -11294,7 +11294,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A solemn, deeply connected pose that requires trust and balance.",
     "isPenetrative": true,
-    "etymologyTh": "\"Oath\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"คำสัตย์ปฏิญาณ\" — สบตากันอย่างแน่วแน่และจริงใจ ท่ามกลางการสอดประสานที่มั่นคงดั่งคำมั่นสัญญา"
   },
   {
     "id": "hero",
@@ -11331,7 +11331,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A dominant, powerful position where one partner lifts the other.",
     "isPenetrative": true,
-    "etymologyTh": "\"Hero\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"วีรบุรุษผู้พิทักษ์\" — ฝ่ายรุกอุ้มยกตัวฝ่ายรับขึ้นด้วยพละกำลัง ดั่งวีรบุรุษที่โอบอุ้มคนรักไว้ในอ้อมอก"
   },
   {
     "id": "ice-cream",
@@ -11366,7 +11366,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Clitoral",
     "descriptionEn": "A lazy, sensual position perfect for slow indulgence.",
     "isPenetrative": true,
-    "etymologyTh": "\"Ice Cream\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"ไอศกรีมเย็นฉ่ำ\" — เคลื่อนไหวช้าๆ เน้นการเลียสัมผัสและลิ้มรส ดั่งการละเลียดไอศกรีมในวันแดดจ้า"
   },
   {
     "id": "brute",
@@ -11403,7 +11403,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A rough, animalistic position for intense, primal connection.",
     "isPenetrative": true,
-    "etymologyTh": "\"Brute\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"จอมพลังคนเถื่อน\" — ท่วงท่าที่ตรงไปตรงมา หนักแน่น และเต็มไปด้วยพลังงานตามธรรมชาติ"
   },
   {
     "id": "backwards-cowgirl",
@@ -11439,7 +11439,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A reverse angle of the classic cowgirl for new sensations.",
     "isPenetrative": true,
-    "etymologyTh": "\"Backwards Cowgirl\" — ฝ่ายหญิงเป็นผู้กุมจังหวะและทิศทาง สามารถบดคลึงจุดคลิตอริสและค้นหามุมที่โดนจุดจีสปอตได้ด้วยตนเองอย่างแม่นยำ"
+    "etymologyTh": "\"คาวเกิร์ลหันหลังถอย\" — ฝ่ายหญิงนั่งคร่อมหันหลังและปรับเอนมุมสะโพก เพื่อสัมผัสมุมใหม่"
   },
   {
     "id": "bud",
@@ -11474,7 +11474,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A gentle, blossoming position perfect for new connections.",
     "isPenetrative": true,
-    "etymologyTh": "\"Bud\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"ดอกตูมแรกแย้ม\" — ขดตัวแนบชิดก่อนจะค่อยๆ คลี่ขยายออก คล้ายดอกไม้ตูมที่รอเวลาผลิบาน"
   },
   {
     "id": "sphinx",
@@ -11511,7 +11511,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A mysterious, regal pose that demands flexibility and poise.",
     "isPenetrative": true,
-    "etymologyTh": "\"Sphinx\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"สฟิงซ์\" — นอนคว่ำและชันข้อศอกยกอกขึ้นอย่างสง่างาม ดั่งรูปปั้นสฟิงซ์หมอบพิทักษ์พีระมิด"
   },
   {
     "id": "reflection",
@@ -11547,7 +11547,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "Mirror each other&#39;s movements in this face-to-face embrace.",
     "isPenetrative": true,
-    "etymologyTh": "\"Reflection\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"เงาสะท้อนในกระจก\" — นั่งประจันหน้ากันและเคลื่อนไหวตามกันอย่างพร้อมเพรียง ดั่งภาพสะท้อนในกระจก"
   },
   {
     "id": "leo",
@@ -11583,7 +11583,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A fierce, dominant position inspired by the lion king.",
     "isPenetrative": true,
-    "etymologyTh": "\"Leo\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ราศีสิงห์ (พญาราชสีห์)\" — สง่างาม ทรงพลัง และคุมเกมด้วยความภาคภูมิ ดั่งพญาราชสีห์เจ้าป่า"
   },
   {
     "id": "poplar",
@@ -11619,7 +11619,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "Stand tall together like a tree swaying in the wind.",
     "isPenetrative": true,
-    "etymologyTh": "\"Poplar\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"ต้นป็อปลาร์\" — ยืนตรงแนบชิดลำตัวขนานกันและโยกไหวเบาๆ คล้ายลำต้นป็อปลาร์ที่ลู่ลม"
   },
   {
     "id": "iron",
@@ -11656,7 +11656,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A hard, unyielding position for intense, firm stimulation.",
     "isPenetrative": true,
-    "etymologyTh": "\"Iron\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"เหล็กกล้า\" — เกร็งสะโพกและสรีระให้มั่นคงแข็งแกร่ง ดั่งแท่งเหล็กกล้าที่ไม่อาจหักโค้ง"
   },
   {
     "id": "overpass",
@@ -11693,7 +11693,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "Cross over your partner in this elevated, bridging position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Overpass\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"สะพานยกระดับ / ทางข้าม\" — คร่อมลำตัวและแอ่นสะโพกข้ามผ่านอีกฝ่าย คล้ายโครงสร้างสะพานข้ามแยก"
   },
   {
     "id": "aries",
@@ -11729,7 +11729,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A bold, ram-inspired position with raised hips and deep entry.",
     "isPenetrative": true,
-    "etymologyTh": "\"Aries\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ราศีเมษ (แกะภูเขา)\" — ยกสะโพกสูงและเคลื่อนไหวอย่างกล้าหาญมุ่งมั่น ดั่งแกะภูเขาที่กระโจนขึ้นหน้าผา"
   },
   {
     "id": "arch",
@@ -11765,7 +11765,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & A-spot",
     "descriptionEn": "Arch your back like a bridge for deeper, more intense angles.",
     "isPenetrative": true,
-    "etymologyTh": "\"ซุ้มโค้ง\" — แอ่นสะโพกโค้งตัวขึ้นคล้ายสะพานเปิดองศาให้สอดใส่ได้ลึกซึ้ง"
+    "etymologyTh": "\"ซุ้มประตูโค้ง\" — แอ่นสะโพกและหลังโค้งมน ดั่งซุ้มประตูโค้งหินแบบโรมัน"
   },
   {
     "id": "marmalade",
@@ -11800,7 +11800,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "Spread thick and sweet like your favorite morning preserve.",
     "isPenetrative": true,
-    "etymologyTh": "\"Marmalade\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"แยมส้มมาร์มาเลด\" — ทอดกายแนบสนิทและเกลี่ยสัมผัสทั่วเรือนร่าง คล้ายการทาแยมส้มบนขนมปัง"
   },
   {
     "id": "mexican-halloween",
@@ -11837,7 +11837,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "A wild, fiesta-inspired position with legs everywhere.",
     "isPenetrative": true,
-    "etymologyTh": "\"Mexican Halloween\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ปาร์ตี้ฮาโลวีนเม็กซิกัน\" — ท่วงท่าสนุกสนานที่มีแขนขาสลับทิศทาง ดั่งเทศกาลแห่งความตาย (Día de los Muertos)"
   },
   {
     "id": "valedictorian",
@@ -11873,7 +11873,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "Graduate to new levels of pleasure with this elevated position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Valedictorian\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"ผู้สำเร็จการศึกษาเกียรตินิยม\" — ท่วงท่าที่ผสานมุมสรีระได้อย่างประณีตและช่ำชอง ดั่งนักเรียนดีเด่นบนเวที"
   },
   {
     "id": "snake",
@@ -11908,7 +11908,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "Slither together in this fluid, full-body connected position.",
     "isPenetrative": true,
-    "etymologyTh": "\"งู\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"อสรพิษเลื้อย\" — เลื้อยแนบลำตัวไปกับผืนเตียงอย่างนุ่มนวลและไร้รอยต่อ คล้ายงูที่เลื้อยผ่านผืนทราย"
   },
   {
     "id": "jellyfish",
@@ -11945,7 +11945,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "Float and pulse together like a mesmerizing sea creature.",
     "isPenetrative": true,
-    "etymologyTh": "\"Jellyfish\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"แมงกะพรุน\" — ร่างกายทอดผ่อนคลายและขยับเป็นระลอกคลื่น คล้ายการลอยตัวหดขยายของแมงกะพรุน"
   },
   {
     "id": "surf-board",
@@ -11982,7 +11982,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "Ride the waves in this balanced, board-like position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Surf Board\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"กระดานโต้คลื่น\" — ทรงตัวนอนคว่ำราบและขยับสรีระตามจังหวะ ดั่งการทรงตัวบนกระดานโต้คลื่น"
   },
   {
     "id": "sledge",
@@ -12018,7 +12018,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A powerful, hammering position with deep, rhythmic thrusts.",
     "isPenetrative": true,
-    "etymologyTh": "\"Sledge\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ค้อนปอนด์ตีเหล็ก (Sledge)\" — ลงจังหวะสะโพกหนักแน่นและสม่ำเสมอ ดั่งค้อนปอนด์ที่เหวี่ยงลงบนทั่ง"
   },
   {
     "id": "glass",
@@ -12054,7 +12054,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "Clear, transparent intimacy where you see everything.",
     "isPenetrative": true,
-    "etymologyTh": "\"Glass\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"แก้วคริสตัลใส\" — ท่วงท่าที่เปิดเผยเรือนร่างชัดเจน มองเห็นปฏิกิริยาความสุขของกันและกันไร้สิ่งบดบัง"
   },
   {
     "id": "angry-pirate",
@@ -12091,7 +12091,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A wild, swashbuckling position with unexpected twists.",
     "isPenetrative": true,
-    "etymologyTh": "\"Angry โจรสลัด\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"โจรสลัดจอมลุย\" — ท่วงท่าที่ดุดัน เร้าใจ และมีการเปลี่ยนมุมองศาอย่างไม่คาดคิด"
   },
   {
     "id": "train",
@@ -12127,7 +12127,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "Chug along in this rhythmic, chugging position with steady momentum.",
     "isPenetrative": true,
-    "etymologyTh": "\"รถไฟ\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ขบวนรถไฟ\" — สอดใส่จากด้านหลังและโยกเป็นจังหวะต่อเนื่อง ดั่งล้อเหล็กของขบวนรถไฟที่ขับเคลื่อนบนราง"
   },
   {
     "id": "twins",
@@ -12162,7 +12162,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "Two becoming one in this perfectly mirrored face-to-face position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Twins\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"ฝาแฝดส่องกระจก\" — นั่งหรือนอนประจันหน้ากันในท่าทางที่เหมือนกันเป๊ะ ดั่งเงาสะท้อนของฝาแฝด"
   },
   {
     "id": "jockey",
@@ -12197,7 +12197,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "Ride to victory with this low, streamlined position.",
     "isPenetrative": true,
-    "etymologyTh": "\"จ๊อกกี้ขี่ม้า\" — ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย"
+    "etymologyTh": "\"จ๊อกกี้ควบม้า\" — ฝ่ายบนโน้มลำตัวลงต่ำแนบหลังอีกฝ่าย คล้ายท่านักขี่ม้าจ๊อกกี้ที่หมอบลู่ลมเพื่อเข้าเส้นชัย"
   },
   {
     "id": "trunk",
@@ -12234,7 +12234,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A strong, elephant-inspired position with lifted legs.",
     "isPenetrative": true,
-    "etymologyTh": "\"Trunk\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"งวงช้าง\" — ขาทั้งสองข้างถูกยกชูขึ้นสูงพาดร่วมกัน คล้ายงวงช้างที่ชูขึ้นฟ้าอย่างสง่างาม"
   },
   {
     "id": "honeymoon",
@@ -12269,7 +12269,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Clitoral",
     "descriptionEn": "Relive the magic of your first night together.",
     "isPenetrative": true,
-    "etymologyTh": "\"Honeymoon\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"ดื่มน้ำผึ้งพระจันทร์\" — ท่วงท่าที่อ่อนหวาน ดื่มด่ำ และเปี่ยมด้วยความโรแมนติก ดั่งค่ำคืนฮันนีมูน"
   },
   {
     "id": "twix",
@@ -12305,7 +12305,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "Two layers of pleasure in this sandwich-style position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Twix\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ขนมทวิกซ์ (สองแท่งคู่)\" — นอนประกบขนานแนบชิดกันเหมือนขนมช็อกโกแลตเวเฟอร์สองแท่งในซอง"
   },
   {
     "id": "ball",
@@ -12340,7 +12340,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "Curl up together in this cozy, fetal-like embrace.",
     "isPenetrative": true,
-    "etymologyTh": "\"Ball\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"ลูกบอลกลม (ท่าทารกในครรภ์)\" — ขดตัวงอเข่าแนบอก คล้ายลูกบอลกลมหรือท่วงท่าของทารกในครรภ์"
   },
   {
     "id": "plaid",
@@ -12376,7 +12376,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "A crosshatch of sensations in this intertwined position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Plaid\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"ลายสก็อตไขว้\" — แขนและขาสอดประสานสลับฟันปลา คล้ายเส้นสายตารางของผืนผ้าลายสก็อต"
   },
   {
     "id": "batman",
@@ -12413,7 +12413,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A superhero-worthy position with dramatic, cape-like leg positioning.",
     "isPenetrative": true,
-    "etymologyTh": "\"Batman\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"แบทแมน (อัศวินรัตติกาล)\" — สองขากางออกกว้างและสะบัด คล้ายผ้าคลุมค้างคาวของแบทแมน"
   },
   {
     "id": "emmanuel",
@@ -12449,7 +12449,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & A-spot",
     "descriptionEn": "A luxurious, cinematic position worthy of the silver screen.",
     "isPenetrative": true,
-    "etymologyTh": "\"Emmanuel\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"เอ็มมานูเอล (ภาพยนตร์โรแมนติก)\" — ท่วงท่านอนเอกเขนกสง่างามและเปี่ยมเสน่ห์คลาสสิก ดั่งฉากรักในภาพยนตร์ยุโรป"
   },
   {
     "id": "zombie",
@@ -12486,7 +12486,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "Arms outstretched like the undead in this flat, rigid position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Zombie\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ซอมบี้เหยียดแขน\" — นอนหงายเหยียดแขนและขาตรงแน่วแน่ คล้ายท่วงท่าเดินเหยียดตรงของซอมบี้"
   },
   {
     "id": "stick-figure",
@@ -12523,7 +12523,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "Create human stick figures with your extended limbs.",
     "isPenetrative": true,
-    "etymologyTh": "\"Stick Figure\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"หุ่นกิ่งไม้\" — เหยียดแขนขาตรงกางออกเป็นเส้นตรง คล้ายรูปวาดหุ่นกิ่งไม้จำลอง"
   },
   {
     "id": "rabbit-ears",
@@ -12558,7 +12558,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "Perky and playful like a bunny in this gentle, upright position.",
     "isPenetrative": true,
-    "etymologyTh": "\"กระต่าย Ears\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"หูกระต่าย\" — ขาทั้งสองข้างชี้ตรงขึ้นสูงและขยับกระดิก คล้ายหูของกระต่ายที่กำลังตั้งชัน"
   },
   {
     "id": "she-wolf",
@@ -12594,7 +12594,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "A fierce, dominant position where she takes control.",
     "isPenetrative": true,
-    "etymologyTh": "\"She หมาป่า\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"นางหมาป่า\" — ฝ่ายหญิงคุมเกมด้วยสัญชาตญาณอันดุดันและปราดเปรียว ดั่งจ่าฝูงนางหมาป่า"
   },
   {
     "id": "rainbow",
@@ -12630,7 +12630,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & A-spot",
     "descriptionEn": "Arch into a colorful spectrum of sensations.",
     "isPenetrative": true,
-    "etymologyTh": "\"สายรุ้ง\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"สายรุ้งโค้ง\" — แอ่นสะโพกและหลังโค้งมนเป็นรูปครึ่งวงกลม ดุจแนวโค้งของสายรุ้งบนท้องฟ้า"
   },
   {
     "id": "asian-cowgirl",
@@ -12665,7 +12665,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "A refined variation of cowgirl with subtle angle changes.",
     "isPenetrative": true,
-    "etymologyTh": "\"Asian Cowgirl\" — ฝ่ายหญิงเป็นผู้กุมจังหวะและทิศทาง สามารถบดคลึงจุดคลิตอริสและค้นหามุมที่โดนจุดจีสปอตได้ด้วยตนเองอย่างแม่นยำ"
+    "etymologyTh": "\"คาวเกิร์ลเอเชียน\" — ฝ่ายหญิงนั่งขี่และปรับเอนมุมสะโพกอย่างนุ่มนวลและอ่อนช้อย"
   },
   {
     "id": "starfish",
@@ -12735,7 +12735,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Clitoral",
     "descriptionEn": "Quench your desire with this eager, mouth-to-body position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Thirst\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"ความกระหายน้ำ\" — ปรนนิบัติด้วยปากอย่างกระตือรือร้นและดูดดื่ม ดั่งผู้หิวกระหายที่ได้ดื่มน้ำเย็น"
   },
   {
     "id": "anaconda",
@@ -12771,7 +12771,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "A squeezing, constricting position for intense pressure.",
     "isPenetrative": true,
-    "etymologyTh": "\"Anaconda\" — เน้นการโอบรัดและควบคุมจังหวะโดยฝ่ายชาย ให้ความรู้สึกปกป้องและแนบสนิททุกตารางนิ้ว"
+    "etymologyTh": "\"งูอนาคอนดา\" — ขาทั้งสองข้างรัดรอบลำตัวแน่นหนาและทรงพลัง ดั่งงูยักษ์อนาคอนดารัดตรึง"
   },
   {
     "id": "goddess",
@@ -12807,7 +12807,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & A-spot",
     "descriptionEn": "Worship and be worshipped in this reverent, elevated position.",
     "isPenetrative": true,
-    "etymologyTh": "\"เทพธิดา\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"เทพธิดาแห่งความงาม\" — ฝ่ายหญิงนอนทอดกายสง่างามรับการบูชา ดั่งเทพธิดาผู้สูงส่ง"
   },
   {
     "id": "amphibian",
@@ -12843,7 +12843,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "A frog-like position that works on land and in the shower.",
     "isPenetrative": true,
-    "etymologyTh": "\"Amphibian\" — ท่ากึ่งคว่ำที่ผ่อนคลายสบายตัว ไม่เมื่อยล้า สามารถเพลิดเพลินกับจังหวะรักได้อย่างยาวนาน"
+    "etymologyTh": "\"สัตว์ครึ่งบกครึ่งน้ำ\" — ท่วงท่าหมอบต่ำที่คล่องตัว ยืดหยุ่น และใช้ได้ดีทั้งบนเตียงและในห้องน้ำ"
   },
   {
     "id": "female-peasant",
@@ -12879,7 +12879,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Gspot",
     "descriptionEn": "A humble, hardworking position that gets the job done.",
     "isPenetrative": true,
-    "etymologyTh": "\"Female Peasant\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"สาวชาวไร่ผู้ขยัน\" — ท่วงท่าเรียบง่าย ขยันขันแข็ง และมุ่งมั่นลงจังหวะอย่างซื่อตรง"
   },
   {
     "id": "plain",
@@ -12913,7 +12913,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "Simple, no-frills pleasure that gets straight to the point.",
     "isPenetrative": true,
-    "etymologyTh": "\"Plain\" — ท่วงท่ามาตรฐานที่ให้ความรู้สึกคุ้นเคยและอบอุ่น เข้าถึงจุดรับสัมผัสได้ดีทั้งสองฝ่าย"
+    "etymologyTh": "\"ทุ่งราบเรียบง่าย\" — ท่วงท่านอนราบที่ตรงไปตรงมา ปราศจากความซับซ้อนแต่ได้สัมผัสที่ชัดเจน"
   },
   {
     "id": "ballet-dancer",
@@ -12950,7 +12950,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A graceful, dance-like position requiring balance and poise.",
     "isPenetrative": true,
-    "etymologyTh": "\"บัลเลต์ Dancer\" — ท่วงท่าที่งดงามประหนึ่งการร่ายรำ ให้ความรู้สึกเย้ายวน สง่างาม และได้สัมผัสมุมใหม่ที่ไม่ซ้ำใคร"
+    "etymologyTh": "\"นักเต้นบัลเลต์\" — เหยียดปลายเท้าและกางเรียวขาอย่างอ่อนช้อย ดั่งลีลาของนักเต้นบัลเลต์"
   },
   {
     "id": "acrobat",
@@ -12988,7 +12988,7 @@ window.COUPLES_POSITIONS = [
     "descriptionEn": "Defy gravity and expectations with this circus-worthy position.",
     "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
     "isPenetrative": true,
-    "etymologyTh": "\"Acrobat\" — ท่าท้าทายที่ต้องใช้ความยืดหยุ่นและพละกำลัง ให้มุมมองทางสายตาที่เร้าใจและสัมผัสลึกซึ้ง"
+    "etymologyTh": "\"นักกายกรรมผาดโผน\" — ยกขาสูงและดัดตัวทรงตัวอย่างยืดหยุ่น ท้าทายแรงโน้มถ่วงดั่งนักกายกรรม"
   },
   {
     "id": "italian-chandelier",
@@ -13025,7 +13025,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "An ornate, hanging position inspired by elegant lighting fixtures.",
     "isPenetrative": true,
-    "etymologyTh": "\"Italian Chandelier\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"โคมระย้าอิตาลี\" — ฝ่ายรับถูกอุ้มยกขาขึ้นสูงในแนวดิ่ง ดั่งแชนเดอเลียร์แก้วระย้าที่ห้อยจากเพดาน"
   },
   {
     "id": "alley",
@@ -13061,7 +13061,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "A tight, narrow passage for intense, confined sensations.",
     "isPenetrative": true,
-    "etymologyTh": "\"Alley\" — ท่าสบายๆ ที่ให้ความรู้สึกอบอุ่นแนบแน่น ขาทั้งสองข้างหนีบชิดช่วยเพิ่มแรงเสียดสีและความสุขสม"
+    "etymologyTh": "\"ตรอกซอยแคบ\" — หนีบต้นขาประกบชิดกันจนเกิดเป็นช่องแคบ ดั่งตรอกทางเดินในเมืองเก่า"
   },
   {
     "id": "clip",
@@ -13097,7 +13097,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "Clip onto your partner for this secure, attached position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Clip\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"คลิปหนีบกระดาษ\" — งอขาหนีบกระชับลำตัวคู่รักไว้แน่นหนา คล้ายคลิปโลหะที่หนีบแผ่นกระดาษ"
   },
   {
     "id": "mirage",
@@ -13133,7 +13133,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "An illusory, dreamlike position where reality blurs.",
     "isPenetrative": true,
-    "etymologyTh": "\"Mirage\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"ภาพลวงตาในทะเลทราย\" — การเคลื่อนไหวที่นุ่มนวล ลื่นไหล ชวนเคลิบเคลิ้มดั่งภาพมายา"
   },
   {
     "id": "eraser",
@@ -13169,7 +13169,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Clitoral",
     "descriptionEn": "Rub away all your stress in this grinding, erasing motion.",
     "isPenetrative": true,
-    "etymologyTh": "\"Eraser\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ยางลบ\" — บดคลึงสะโพกไปมาบนระนาบแนบแน่น คล้ายการถูยางลบเพื่อลบสิ่งตกค้าง"
   },
   {
     "id": "pointer",
@@ -13205,7 +13205,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & A-spot",
     "descriptionEn": "Point your partner in the right direction with this guided position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Pointer\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"เข็มทิศชี้ทาง\" — เหยียดขาข้างหนึ่งชี้ตรงไปข้างหน้า คล้ายเข็มชี้บอกพิกัดการเดินทาง"
   },
   {
     "id": "aquarius",
@@ -13241,7 +13241,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "Flow like water in this fluid, wave-like position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Aquarius\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"ราศีกุมภ์ (คนแบกคนโทน้ำ)\" — ร่างกายเคลื่อนไหวพลิ้วไหวเป็นระลอกคลื่น ดั่งสายน้ำที่รินไหลจากคนโท"
   },
   {
     "id": "barberry",
@@ -13276,7 +13276,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A tart, tangy position that adds a little zing.",
     "isPenetrative": true,
-    "etymologyTh": "\"Barberry\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"ผลบาร์เบอร์รี\" — สัมผัสที่จี๊ดจ๊าด สดชื่น และปลุกความรู้สึกให้ตื่นตัว ดั่งผลเบอร์รีรสเปรี้ยวอมหวาน"
   },
   {
     "id": "superman",
@@ -13314,7 +13314,7 @@ window.COUPLES_POSITIONS = [
     "descriptionEn": "Fly through the air in this elevated, flying-inspired position.",
     "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
     "isPenetrative": true,
-    "etymologyTh": "\"Superman\" — ท่วงท่าที่ฝ่ายรับถูกพยุงตัวลอยขึ้นกลางอากาศ เปรียบเหมือนการเหินลอยเหนือคลื่นลม"
+    "etymologyTh": "\"ซูเปอร์แมนเหินฟ้า\" — นอนคว่ำเหยียดแขนทั้งสองข้างไปข้างหน้าตรง คล้ายท่าบินของซูเปอร์แมน"
   },
   {
     "id": "pretzel-dip",
@@ -13350,7 +13350,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & A-spot",
     "descriptionEn": "Twist and turn like a pretzel for multiple angles of stimulation.",
     "isPenetrative": true,
-    "etymologyTh": "\"Pretzel การจุ่มดิ่ง\" — แขนและขาบิดไขว้สอดประสานกันแน่นคล้ายรูปทรงขนมเพรทเซล"
+    "etymologyTh": "\"ขนมเพรทเซลจุ่มซอส\" — บิดขาไขว้สลับทิศทางพร้อมทิ้งน้ำหนักสะโพกลงลึก ดั่งขนมเพรทเซลที่จุ่มลงในดิป"
   },
   {
     "id": "joystick",
@@ -13386,7 +13386,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "Take control of the game in this interactive, hands-on position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Joystick\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"จอยสติ๊ก (คันโยกเกม)\" — ฝ่ายบนกุมสะโพกหรือเอวแล้วปรับทิศทาง คล้ายการโยกคันบังคับตู้เกม"
   },
   {
     "id": "horizon",
@@ -13422,7 +13422,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "Gaze at the horizon in this expansive, open position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Horizon\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"เส้นขอบฟ้ากว้าง\" — นอนทอดลำตัวเหยียดขนานกับแนวระนาบเตียง ดั่งเส้นขอบฟ้าจรดแผ่นดิน"
   },
   {
     "id": "tiramisu",
@@ -13457,7 +13457,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Gspot & Clitoral",
     "descriptionEn": "A layered, indulgent experience like the Italian dessert.",
     "isPenetrative": true,
-    "etymologyTh": "\"Tiramisu\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"ขนมทีรามิสุ\" — สรีระประกบซ้อนกันเป็นชั้นๆ อย่างกลมกล่อม ดั่งชั้นเค้กกาแฟทีรามิสุของอิตาลี"
   },
   {
     "id": "golden-gate",
@@ -13494,7 +13494,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "Bridge the gap between you in this arching, bridging position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Golden ประตูเมือง\" — แอ่นสะโพกโค้งตัวขึ้นคล้ายสะพานเปิดองศาให้สอดใส่ได้ลึกซึ้ง"
+    "etymologyTh": "\"สะพานโกลเดนเกต\" — แอ่นสะโพกโค้งสูงเชื่อมต่อกัน ดั่งสะพานแขวนสีแดงแห่งซานฟรานซิสโก"
   },
   {
     "id": "caliper",
@@ -13530,7 +13530,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "Measure and adjust with precision in this measured position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Caliper\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"เวอร์เนียร์แคลิเปอร์ (คีมวัด)\" — ขาทั้งสองข้างหนีบประกบกระชับ คล้ายปากคีมวัดความแม่นยำของช่าง"
   },
   {
     "id": "basket",
@@ -13565,7 +13565,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "Hold your partner close like a precious basket.",
     "isPenetrative": true,
-    "etymologyTh": "\"ตะกร้า\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"ตะกร้าสานโอบอุ้ม\" — โอบแขนและขารัดรอบตัวคู่รัก ดั่งตะกร้าสานที่รองรับสิ่งล้ำค่าไว้ภายใน"
   },
   {
     "id": "flash",
@@ -13601,7 +13601,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A quick, lightning-fast position for intense, brief encounters.",
     "isPenetrative": true,
-    "etymologyTh": "\"Flash\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ประกายสายฟ้าแลบ\" — เคลื่อนไหวรวดเร็ว กระชับ และจบจังหวะอย่างฉับพลันดั่งสายฟ้าฟาด"
   },
   {
     "id": "libido",
@@ -13637,7 +13637,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "Awaken your raw desire in this passionate, hunger-driven position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Libido\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"ไฟราคะลุกโชน\" — ปลดปล่อยพลังปรารถนาอย่างเต็มที่ ขยับสรีระตามแรงขับเคลื่อนของหัวใจ"
   },
   {
     "id": "watering-can",
@@ -13673,7 +13673,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "Pour pleasure like water from a can in this tilted position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Watering Can\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"บัวรดน้ำ\" — ลำตัวเอียงเทลาดลง คล้ายพวยกาของบัวรดน้ำที่เทรินสายน้ำลงสู่ต้นไม้"
   },
   {
     "id": "accordion",
@@ -13710,7 +13710,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "Fold and expand like an accordion for varied sensations.",
     "isPenetrative": true,
-    "etymologyTh": "\"Accordion\" — ฝ่ายหญิงนอนหงายและยกขาทั้งสองข้างพับแนบชิดอก"
+    "etymologyTh": "\"แอคคอร์เดียน (หีบเพลงชัก)\" — ขยับพับและยืดเหยียดขาทั้งสองข้างสลับกัน คล้ายการชักแผงหีบเพลง"
   },
   {
     "id": "blade",
@@ -13747,7 +13747,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Gspot & Deep spot",
     "descriptionEn": "A sharp, cutting angle that slices through the ordinary.",
     "isPenetrative": true,
-    "etymologyTh": "\"Blade\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"คมมีดผ่าระนาบ\" — สอดใส่ในมุมเฉียงที่คมกริบและแม่นยำ ดั่งคมมีดที่กรีดผ่านอากาศ"
   },
   {
     "id": "snail",
@@ -13782,7 +13782,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Gspot",
     "descriptionEn": "Slow and steady wins the race in this shell-like position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Snail\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"หอยทากเดินช้า\" — เคลื่อนไหวอย่างเชื่องช้า ละเมียดละไม คล้ายหอยทากที่ค่อยๆ คืบคลาน"
   },
   {
     "id": "shining",
@@ -13818,7 +13818,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Gspot & Clitoral",
     "descriptionEn": "Let your partner shine in this spotlight-inspired position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Shining\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"แสงสปอตไลต์เปล่งประกาย\" — เปิดเผยสรีระในมุมเด่นชัด ประหนึ่งยืนอยู่ใต้แสงไฟสปอตไลต์บนเวที"
   },
   {
     "id": "narcissus",
@@ -13854,7 +13854,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Gspot & Clitoral",
     "descriptionEn": "Gaze at your reflection in your partner&#39;s eyes during lovemaking.",
     "isPenetrative": true,
-    "etymologyTh": "\"Narcissus\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"นาร์ซิสซัส (จ้องตาสะท้อนเงา)\" — โน้มหน้าสบตากันลึกซึ้ง มองเห็นเงาสะท้อนของตนเองในดวงตาคู่รัก"
   },
   {
     "id": "diamond",
@@ -13890,7 +13890,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Gspot & Deep spot",
     "descriptionEn": "Create a diamond shape with your legs for a precious experience.",
     "isPenetrative": true,
-    "etymologyTh": "\"เพชร\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"เพชรน้ำเอก\" — ชันเข่าแยกออกโดยประกบฝ่าเท้าชนกัน คล้ายรูปทรงสี่เหลี่ยมข้าวหลามตัดของเพชร"
   },
   {
     "id": "screwdriver",
@@ -13925,7 +13925,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Gspot & Deep spot",
     "descriptionEn": "Twist and turn like a screwdriver for varied stimulation.",
     "isPenetrative": true,
-    "etymologyTh": "\"Screwdriver\" — ฝ่ายชายเป็นผู้ควบคุมความลึกและจังหวะการเคลื่อนไหว สัมผัสถึงความกระชับและส่งมอบพลังแห่งความรักได้อย่างเต็มที่"
+    "etymologyTh": "\"ไขควงขันน็อต\" — สอดใส่พร้อมบิดหมุนเกลียวสะโพก คล้ายคมไขควงที่หมุนขันเกลียวน็อต"
   },
   {
     "id": "iris",
@@ -13960,7 +13960,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Gspot & Clitoral",
     "descriptionEn": "A flower-inspired position that unfolds like a blooming iris.",
     "isPenetrative": true,
-    "etymologyTh": "\"Iris\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"ดอกไอริส\" — ขากางคลี่ออกอย่างสง่างาม ดุจกลีบดอกไอริสที่กำลังแย้มบาน"
   },
   {
     "id": "bench",
@@ -13995,7 +13995,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Gspot",
     "descriptionEn": "A sturdy, reliable position like a well-built bench.",
     "isPenetrative": true,
-    "etymologyTh": "\"Bench\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ม้านั่งยาว\" — ใช้ระดับความสูงของขอบม้านั่งหรือเตียงค้ำยัน ให้มุมสอดใส่สะดวกและมั่นคง"
   },
   {
     "id": "dejavu",
@@ -14030,7 +14030,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Gspot & Clitoral",
     "descriptionEn": "That familiar feeling of coming home to each other.",
     "isPenetrative": true,
-    "etymologyTh": "\"D J Vu\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"เดจาวู (ห้วงอดีตหวนคืน)\" — สัมผัสอันคุ้นเคยที่ทำให้รู้สึกเหมือนเคยผ่านช่วงเวลานี้ร่วมกันมาก่อน"
   },
   {
     "id": "belt",
@@ -14066,7 +14066,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Gspot & Deep spot",
     "descriptionEn": "Hold on tight like a belt in this gripping, restraining position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Belt\" — ท่วงท่าที่ตรึงสรีระให้แนบชิดและควบคุมจังหวะรักได้อย่างมั่นคง"
+    "etymologyTh": "\"เข็มขัดรัดเอว\" — โอบแขนรัดรอบสะโพกแนบแน่น ดั่งเข็มขัดหนังที่รัดกระชับเอว"
   },
   {
     "id": "discharge",
@@ -14103,7 +14103,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "Release all your energy in this explosive, cathartic position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Discharge\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"การปลดปล่อยพลังงาน\" — ระเบิดจังหวะสุดท้ายเพื่อปลดเปลื้องทุกความตึงเครียดให้หมดไป"
   },
   {
     "id": "forbidden-fruit",
@@ -14139,7 +14139,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Gspot & Deep spot",
     "descriptionEn": "Indulge in something naughty and taboo with this daring position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Forbidden Fruit\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ผลไม้ต้องห้าม\" — ท่วงท่าที่เปิดประตูสู่ความเย้ายวนใจอันเร้าอารมณ์ ดั่งผลแอปเปิลในสวนเอเดน"
   },
   {
     "id": "scorpio",
@@ -14176,7 +14176,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A stinging, intense position inspired by the scorpion&#39;s tail.",
     "isPenetrative": true,
-    "etymologyTh": "\"Scorpio\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ราศีพิจิก (แมงป่อง)\" — แอ่นสะโพกยกขาสูงโค้งข้ามหลัง คล้ายปลายหางของแมงป่องแห่งราศีพิจิก"
   },
   {
     "id": "olympus",
@@ -14213,7 +14213,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "Reach the heights of the gods in this elevated, majestic position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Olympus\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ยอดเขาโอลิมปัส\" — ยกสะโพกหนุนสูงเปรียบเหมือนการขึ้นสู่ที่ประทับของเหล่าทวยเทพบนยอดเขาโอลิมปัส"
   },
   {
     "id": "depth",
@@ -14250,7 +14250,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "Plunge to new depths in this maximum-penetration position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Depth\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ดำดิ่งสู่ก้นบึ้ง\" — ปรับองศาให้สอดลึกที่สุด สัมผัสถึงจุดลึกสุดของสรีระภายใน"
   },
   {
     "id": "venus",
@@ -14286,7 +14286,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Gspot & Clitoral",
     "descriptionEn": "Channel the goddess of love in this beautiful, worship-inspired position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Venus\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"เทพีวีนัส\" — ท่วงท่านอนอวดสรีระอันเย้ายวน ดั่งภาพวาดกำเนิดเทพีวีนัสบนฟองคลื่น"
   },
   {
     "id": "lock",
@@ -14321,7 +14321,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Gspot & Clitoral",
     "descriptionEn": "Lock together in this secure, interlocking position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Lock\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"แม่กุญแจลงกลอน\" — แขนขาสอดประสานล็อกตรึงกันแนบแน่น ดั่งแม่กุญแจที่ไขลงกลอนสนิท"
   },
   {
     "id": "avalanche",
@@ -14358,7 +14358,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "An overwhelming rush of sensation like a snow avalanche.",
     "isPenetrative": true,
-    "etymologyTh": "\"Avalanche\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"หิมะถล่มทลาย\" — จังหวะส่งแรงโถมลงมาอย่างท่วมท้น ดั่งหิมะที่พังทลายลงมาจากยอดเขา"
   },
   {
     "id": "rodeo",
@@ -14395,7 +14395,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Gspot & Deep spot",
     "descriptionEn": "Hold on tight for this wild, bucking bronco ride.",
     "isPenetrative": true,
-    "etymologyTh": "\"Rodeo\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"โรดิโอ (คาวบอยประลองสัตว์)\" — ฝ่ายบนโยกสะโพกเด้งเป็นจังหวะเร้าใจ คล้ายการแข่งขันขี่ม้าพยศในงานโรดิโอ"
   },
   {
     "id": "case",
@@ -14430,7 +14430,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Gspot",
     "descriptionEn": "A protective, enclosed position like a precious case.",
     "isPenetrative": true,
-    "etymologyTh": "\"Case\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"กล่องใส่ของล้ำค่า\" — โอบล้อมประคองเรือนร่างไว้มิดชิด ดั่งกล่องกำมะหยี่ที่ปกป้องอัญมณี"
   },
   {
     "id": "tango",
@@ -14466,7 +14466,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Gspot",
     "descriptionEn": "A passionate dance of bodies in this rhythmic, flowing position.",
     "isPenetrative": true,
-    "etymologyTh": "\"แทงโก้\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"ระบำแทงโก้\" — กอดประสานแนบชิดและก้าวสลับจังหวะเร่าร้อน ดั่งลีลาการเต้นแทงโก้อาร์เจนตินา"
   },
   {
     "id": "croissant",
@@ -14538,7 +14538,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A tall, rigid position inspired by a ship&#39;s mast.",
     "isPenetrative": true,
-    "etymologyTh": "\"Mast\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"เสากระโดงเรือ\" — เหยียดลำตัวตั้งตรงและสูงสง่า ดั่งเสากระโดงเรือใบที่ต้านแรงลมกลางทะเล"
   },
   {
     "id": "speaker",
@@ -14574,7 +14574,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Gspot & Deep spot",
     "descriptionEn": "Turn up the volume on pleasure in this amplifying position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Speaker\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ลำโพงขยายเสียง\" — เปิดเผยตัวตนและส่งเสียงแห่งความสุขได้อย่างเต็มที่ ไร้สิ่งกักขัง"
   },
   {
     "id": "victory",
@@ -14611,7 +14611,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Gspot & Clitoral",
     "descriptionEn": "Raise your arms in triumph in this victorious, celebratory position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Victory\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ชัยชนะแห่งรัก\" — ยกสองแขนขึ้นเหนือศีรษะอย่างปลาบปลื้ม ดั่งผู้ชนะที่ชูมือฉลองชัย"
   },
   {
     "id": "bullfighter",
@@ -14648,7 +14648,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Gspot & Deep spot",
     "descriptionEn": "Face the bull in this dramatic, matador-inspired position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Bullfighter\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"มาทาดอร์สู้วัวกระทิง\" — ประจันหน้ากันอย่างเร่าร้อนและสง่างาม ดุจมาทาดอร์ในสนามสู้วัวกระทิง"
   },
   {
     "id": "hucklebuck",
@@ -14684,7 +14684,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Gspot",
     "descriptionEn": "A retro, dance-inspired position with a fun, bouncy rhythm.",
     "isPenetrative": true,
-    "etymologyTh": "\"Hucklebuck\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ระบำฮัคเคิลบัค (Hucklebuck)\" — ขยับสะโพกเด้งขึ้นลงเป็นจังหวะสนุกสนาน คล้ายท่าเต้นฮัคเคิลบัคยุคเรโทร"
   },
   {
     "id": "barbell",
@@ -14721,7 +14721,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "Lift heavy in this weightlifting-inspired power position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Barbell\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"บาร์เบล (คานยกน้ำหนัก)\" — เปรียบการยกและทรงตัวของสรีระกับการออกแรงยกคานน้ำหนักในยิม"
   },
   {
     "id": "magic-mountain",
@@ -14757,7 +14757,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Gspot & Deep spot",
     "descriptionEn": "Climb to the peak of pleasure in this mountainous position.",
     "isPenetrative": true,
-    "etymologyTh": "\"มายากล ภูเขา\" — การใช้หมอนหรือเบาะรองใต้สะโพกช่วยเปลี่ยนมุมสรีระให้รับการเสียดสีได้อย่างสมบูรณ์แบบ ทั้งจุดคลิตอริสและจีสปอต"
+    "etymologyTh": "\"ภูเขาเวทมนตร์\" — ยกสะโพกหนุนสูงเปรียบเหมือนการปีนป่ายขึ้นสู่ยอดเขาสูงชัน"
   },
   {
     "id": "sagittarius",
@@ -14794,7 +14794,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Gspot & Deep spot",
     "descriptionEn": "Aim for the stars with this archer-inspired leg extension.",
     "isPenetrative": true,
-    "etymologyTh": "\"Sagittarius\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ราศีธนู (คนยิงธนู)\" — เหยียดขาข้างหนึ่งชี้ตรงขึ้นฟ้า คล้ายคันศรของนักธนูราศีธนูที่กำลังเล็งเป้า"
   },
   {
     "id": "aphrodite",
@@ -14830,7 +14830,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Gspot & Clitoral",
     "descriptionEn": "Channel the goddess of love in this beautiful, worshipful position.",
     "isPenetrative": true,
-    "etymologyTh": "\"Aphrodite\" — ท่าที่ออกแบบมาเพื่อบูชาความพึงพอใจของฝ่ายหญิง สัมผัสนุ่มนวล ละมุนละไม และนำพาไปสู่จุดสูงสุดได้อย่างงดงาม"
+    "etymologyTh": "\"เทพีอโฟรไดท์ (เทพีแห่งความรัก)\" — ท่วงท่าบูชาความงามของสรีระดั่งเทพีแห่งความรักและความงามของกรีก"
   },
   {
     "id": "casket",
@@ -14867,7 +14867,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A dark, enclosed position for intense, coffin-like sensations.",
     "isPenetrative": true,
-    "etymologyTh": "\"Casket\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"หีบศพโบราณ\" — รวบแขนแนบอกและเหยียดตัวตรงแนบแน่น คล้ายการนอนสงบนิ่งในหีบแก้ว"
   },
   {
     "id": "bizet",
@@ -14903,7 +14903,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Gspot & Clitoral",
     "descriptionEn": "A passionate, opera-inspired position with dramatic flair.",
     "isPenetrative": true,
-    "etymologyTh": "\"Bizet\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"บิเซต์ (คีตกวีโอเปร่า)\" — ท่วงท่าที่เปี่ยมด้วยอารมณ์ดราม่าและมนต์เสน่ห์ ดั่งบทละครโอเปร่าของบิเซต์"
   },
   {
     "id": "soldier",
@@ -14939,7 +14939,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Gspot & Deep spot",
     "descriptionEn": "A disciplined, rigid position with legs at attention.",
     "isPenetrative": true,
-    "etymologyTh": "\"Soldier\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ทหารเกณฑ์\" — นอนเหยียดขาตรงแนบชิดในท่ายืนตรงเคารพธงของทหาร"
   },
   {
     "id": "cleopatra",
@@ -14975,7 +14975,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A regal position worthy of the legendary queen.",
     "isPenetrative": true,
-    "etymologyTh": "\"Cleopatra\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"พระนางคลีโอพัตรา\" — ท่วงท่านอนเอกเขนกสง่างามและเปี่ยมเสน่ห์ดั่งราชินีแห่งลุ่มน้ำไนล์"
   },
   {
     "id": "idyll",
@@ -15010,7 +15010,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Clitoral",
     "descriptionEn": "A peaceful, pastoral position for pure bliss.",
     "isPenetrative": true,
-    "etymologyTh": "\"Idyll\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"ภาพฝันชนบท (ไอดิล)\" — ท่วงท่านอนเคียงข้างแสนสงบผ่อนคลาย ดั่งภาพบรรยากาศชนบทอันงดงาม"
   },
   {
     "id": "flame",
@@ -15047,7 +15047,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A fiery position that burns with intense passion.",
     "isPenetrative": true,
-    "etymologyTh": "\"Flame\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"เปลวเพลิงพิศวาส\" — การเคลื่อนไหวที่เร่าร้อนและลุกโชน ดั่งเปลวไฟที่เผาผลาญความหนาวเย็น"
   },
   {
     "id": "cancer",
@@ -15083,7 +15083,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A sideways-crab position with legs and arms working.",
     "isPenetrative": true,
-    "etymologyTh": "\"Cancer\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ราศีกรกฎ (ปู)\" — การขยับสรีระและสอดใส่จากด้านข้าง คล้ายการเดินเยื้องย่างของปู"
   },
   {
     "id": "hook",
@@ -15120,7 +15120,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A hooking position with one leg hooked over the shoulder.",
     "isPenetrative": true,
-    "etymologyTh": "\"Hook\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ตะขอเกี่ยว\" — ยกขาข้างหนึ่งเกี่ยวพาดไว้บนไหล่หรือสะโพกคล้ายตะขอเกี่ยว"
   },
   {
     "id": "ecstasy",
@@ -15156,7 +15156,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "A position designed to build to mind-blowing orgasms.",
     "isPenetrative": true,
-    "etymologyTh": "\"Ecstasy\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"ความสุขสมล้นพ้น\" — นำพาร่างกายและจิตวิญญาณสู่จุดสูงสุดแห่งความดื่มด่ำ"
   },
   {
     "id": "harmony",
@@ -15191,7 +15191,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Neutral",
     "descriptionEn": "A harmonious position where both partners move as one.",
     "isPenetrative": true,
-    "etymologyTh": "\"Harmony\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"ความกลมกลืน (ฮาร์โมนี)\" — การเคลื่อนไหวสอดคล้องรับส่งกันอย่างสมบูรณ์ ดั่งเสียงประสานในดนตรี"
   },
   {
     "id": "ape",
@@ -15228,7 +15228,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A primal, animalistic position for raw pleasure.",
     "isPenetrative": true,
-    "etymologyTh": "\"Ape\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"วานรไร้หาง\" — ท่วงท่าหมอบคุกเข่าตามสัญชาตญาณธรรมชาติคล้ายสรีระของวานร"
   },
   {
     "id": "binding",
@@ -15265,7 +15265,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A tied-up, restrained position for submission play.",
     "isPenetrative": true,
-    "etymologyTh": "\"Silk Bond\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"พันธนาการผ้าไหม (Silk Bond)\" — จำลองการตรึงแขนขาให้แนบชิด ดั่งถูกพันธนาการด้วยผ้าไหม"
   },
   {
     "id": "sex-slave",
@@ -15302,7 +15302,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A total submission position for power exchange.",
     "isPenetrative": true,
-    "etymologyTh": "\"Sweet Surrender\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ยอมจำนนด้วยความเต็มใจ (Sweet Surrender)\" — ท่วงท่ายอมจำนนอย่างสมบูรณ์แบบ มอบการควบคุมทั้งหมดให้คนรัก"
   },
   {
     "id": "gorge",
@@ -15339,7 +15339,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A deep, narrow position for maximum tightness.",
     "isPenetrative": true,
-    "etymologyTh": "\"Gorge\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"หุบเหวลึก\" — หนีบต้นขาทั้งสองข้างเข้าหากันแน่นคล้ายช่องแคบของหุบเหว"
   },
   {
     "id": "book",
@@ -15374,7 +15374,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Clitoral",
     "descriptionEn": "An open-book position with complete vulnerability.",
     "isPenetrative": true,
-    "etymologyTh": "\"Book\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"หนังสือที่เปิดอ้า\" — นอนหงายกางขากว้างและเปิดรับสัมผัส คล้ายหน้าหนังสือที่กางเปิดออก"
   },
   {
     "id": "indian-style",
@@ -15409,7 +15409,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Neutral",
     "descriptionEn": "A cross-legged seated position for tantric connection.",
     "isPenetrative": true,
-    "etymologyTh": "\"Indian Style\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"นั่งขัดสมาธิ\" — นั่งขัดสมาธิหันหน้าสบตากันตามศาสตร์ตันตระตะวันออก"
   },
   {
     "id": "speed-bump",
@@ -15445,7 +15445,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A bump-and-grind position for rhythmic pleasure.",
     "isPenetrative": true,
-    "etymologyTh": "\"Speed Bump\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ลูกระนาดชะลอความเร็ว\" — วางหมอนหนุนใต้สะโพกให้ยกนูนขึ้นเหมือนเนินลูกระนาดบนถนน"
   },
   {
     "id": "wall",
@@ -15483,7 +15483,7 @@ window.COUPLES_POSITIONS = [
     "descriptionEn": "A standing-against-the-wall position for adventure.",
     "caution": "⚠️ ท่าผาดโผน: ต้องใช้ความยืดหยุ่นและแรงพยุงตัวสูง ควรมีหมอนหรือเบาะรองรับน้ำหนัก และหยุดทันทีหากรู้สึกตึงหรือเจ็บข้อต่อ/ต้นคอ",
     "isPenetrative": true,
-    "etymologyTh": "\"Wall\" — ตอบสนองความเร่าร้อนอย่างฉับไว เหมาะสำหรับช่วงเวลาที่ความปรารถนาพุ่งสูง ไม่จำเป็นต้องมีพิธีรีตองมากความ"
+    "etymologyTh": "\"แนบกำแพง\" — ยืนพิงกำแพงโดยใช้ผนังเป็นจุดค้ำยันรับน้ำหนักสรีระ"
   },
   {
     "id": "sprout",
@@ -15518,7 +15518,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A growing, budding position that starts small and expands.",
     "isPenetrative": true,
-    "etymologyTh": "\"Sprout\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"ต้นกล้าแรกผลิ\" — สรีระขดตัวแนบชิดแล้วค่อยๆ เหยียดขยายออกคล้ายยอดต้นกล้าที่ผลิใบ"
   },
   {
     "id": "waterfall",
@@ -15590,7 +15590,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A droopy, relaxed position like the laid-back hound.",
     "isPenetrative": true,
-    "etymologyTh": "\"Basset Hound\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"สุนัขพันธุ์บาสเซ็ตฮาวด์\" — ทอดตัวนอนราบอย่างผ่อนคลายคล้ายสุนัขหูยาวนอนเหยียดพักผ่อน"
   },
   {
     "id": "tornado",
@@ -15627,7 +15627,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Deep spot",
     "descriptionEn": "A swirling, spinning position for wild sensations.",
     "isPenetrative": true,
-    "etymologyTh": "\"พายุทอร์นาโด\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"พายุทอร์นาโด\" — การหมุนวนและเปลี่ยนทิศทางสะโพกอย่างรวดเร็วคล้ายเกลียวพายุหมุน"
   },
   {
     "id": "swing",
@@ -15663,7 +15663,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A swinging, pendulum-like position for rhythmic motion.",
     "isPenetrative": true,
-    "etymologyTh": "\"ชิงช้า\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ชิงช้า\" — ขยับสะโพกโยกไกวไปมาเป็นจังหวะต่อเนื่องคล้ายการแกว่งชิงช้า"
   },
   {
     "id": "spoon",
@@ -15698,7 +15698,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A classic spooning position for maximum closeness.",
     "isPenetrative": true,
-    "etymologyTh": "\"Spoon\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"ช้อนประกบ\" — สรีระนอนตะแคงซ้อนประกบกันแนบแน่นเหมือนช้อนสองคันที่วางซ้อนกัน"
   },
   {
     "id": "whisper",
@@ -15733,7 +15733,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Clitoral",
     "descriptionEn": "A close position designed for whispered intimacy.",
     "isPenetrative": true,
-    "etymologyTh": "\"Whisper\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"เสียงกระซิบข้างหู\" — โน้มศีรษะแนบชิดริมหูจนสามารถกระซิบส่งเสียงแผ่วเบาได้ตลอดเวลา"
   },
   {
     "id": "inquisitor",
@@ -15770,7 +15770,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Deep spot",
     "descriptionEn": "A dominant, questioning position for interrogation play.",
     "isPenetrative": true,
-    "etymologyTh": "\"Inquisitor\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ผู้สอบสวน\" — ฝ่ายรุกก้มมองสบตาและคุมเกมอย่างใกล้ชิด ประหนึ่งการไต่สวน"
   },
   {
     "id": "circle",
@@ -15806,7 +15806,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot & Clitoral",
     "descriptionEn": "A circular, grinding position for continuous pleasure.",
     "isPenetrative": true,
-    "etymologyTh": "\"วงกลม\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"วงกลมไร้สิ้นสุด\" — การบดควงสะโพกเป็นแนวโค้งวงกลมรอบจุดศูนย์กลาง"
   },
   {
     "id": "disco",
@@ -15842,7 +15842,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A dancing, grooving position with funky movements.",
     "isPenetrative": true,
-    "etymologyTh": "\"Disco\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"ระบำดิสโก้\" — ขยับสะโพกและเอวโยกย้ายตามจังหวะสนุกสนานคล้ายการเต้นดิสโก้"
   },
   {
     "id": "boat",
@@ -15877,7 +15877,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A rocking, floating position like a boat on water.",
     "isPenetrative": true,
-    "etymologyTh": "\"เรือ\" — เหมาะสำหรับค่ำคืนสบายๆ หรือช่วงเช้าที่ไม่ต้องการออกแรงเยอะ"
+    "etymologyTh": "\"เรือลอยลำ\" — โยกไหวสรีระไปตามจังหวะขึ้นลง คล้ายเรือที่โคลงเคลงบนผิวน้ำ"
   },
   {
     "id": "candle",
@@ -15912,7 +15912,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "Clitoral",
     "descriptionEn": "A warm, flickering position for romantic evenings.",
     "isPenetrative": true,
-    "etymologyTh": "\"เปลวเทียน\" — เน้นการสื่อสารผ่านสายตาและลมหายใจ ทั้งคู่โอบกอดกันอย่างแนบแน่น จูบและกระซิบความรู้สึกได้อย่างไร้สิ่งกีดขวาง"
+    "etymologyTh": "\"เปลวเทียนอบอุ่น\" — เหยียดขาทั้งสองข้างชี้ตรงขึ้นฟ้าประกบกัน คล้ายลำเทียนที่เปล่งแสง"
   },
   {
     "id": "straddle",
@@ -15948,7 +15948,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A straddling position with full control for the rider.",
     "isPenetrative": true,
-    "etymologyTh": "\"Straddle\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"การนั่งคร่อม\" — ฝ่ายรับนั่งคร่อมทับบนสะโพกและควบคุมจังหวะด้วยตนเอง"
   },
   {
     "id": "clapper",
@@ -15985,7 +15985,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A clapping, slapping position for rhythmic impact.",
     "isPenetrative": true,
-    "etymologyTh": "\"Clapper\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"มือตบจังหวะ\" — จังหวะกระทบของสะโพกที่สม่ำเสมอ คล้ายการปรบมือเป็นจังหวะ"
   },
   {
     "id": "shuttle",
@@ -16021,7 +16021,7 @@ window.COUPLES_POSITIONS = [
     "stimulationFocus": "G-spot",
     "descriptionEn": "A back-and-forth shuttle motion for consistent pleasure.",
     "isPenetrative": true,
-    "etymologyTh": "\"Shuttle\" — ท่วงท่าท้าทายที่ช่วยปลุกเร้าความตื่นเต้น แปลกใหม่ และเปิดมิติสัมผัสที่คุณและคนรักอาจไม่เคยค้นพบมาก่อน"
+    "etymologyTh": "\"กระสวยทอผ้า\" — การขยับสอดประสานเข้าออกเป็นแนวเส้นตรงสม่ำเสมอดุจกระสวยพุ่งผ่านกี่ทอผ้า"
   },
   {
     "id": "new-69",
@@ -16058,6 +16058,6 @@ window.COUPLES_POSITIONS = [
     "descriptionEn": "A modern twist on the classic 69 position.",
     "isPenetrative": false,
     "focusType": "oral",
-    "etymologyTh": "\"New\" — ท่า 69 ในมุมผ่อนคลายแบบนอนตะแคง"
+    "etymologyTh": "\"ท่า 69 รูปแบบใหม่\" — ท่าผลัดกันมอบความสุขแบบสลับหัวท้ายที่ปรับมุมองศาให้สบายตัวขึ้น"
   }
 ];
