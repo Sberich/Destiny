@@ -2634,10 +2634,14 @@
 
     .dn-phase-mood-tip {
       margin-top: 10px;
-      font-size: 0.84rem;
-      color: rgba(255, 255, 255, 0.75);
-      font-style: italic;
+      font-size: 0.82rem;
+      color: rgba(255, 255, 255, 0.88);
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(226, 149, 120, 0.2);
+      border-radius: 12px;
+      padding: 8px 12px;
       line-height: 1.5;
+      text-align: left;
     }
 
     .dn-bottom-controller {
@@ -3181,7 +3185,7 @@
         <!-- Top bar with Phase Badge & Step Indicators & Exit -->
         <div class="dn-top-bar">
           <div class="dn-phase-badge phase-warmup" id="dn-phase-badge">
-            <span id="dn-phase-icon">🌙</span> <span id="dn-phase-name">องก์ที่ 1: Warm-up</span>
+            <span id="dn-phase-icon">🌙</span> <span id="dn-phase-name">Warm-up & Connection</span>
           </div>
           <div class="dn-step-dots" id="dn-step-dots">
             <!-- Injected via JS -->
@@ -3193,7 +3197,6 @@
         <div class="dn-journey-card" id="dn-journey-card">
           <div class="dn-img-container" onclick="openDateNightLightbox()" title="แตะเพื่อดูภาพขยายเต็มจอ">
             <img id="dn-pose-img" src="" alt="Date Night Pose" onerror="handleImageError(this)" />
-            <div class="dn-img-tap-hint">🔍 แตะเพื่อดูภาพเต็ม</div>
           </div>
           
           <div class="dn-card-details">
@@ -3201,7 +3204,7 @@
             <div class="dn-pose-th" id="dn-pose-th">ดอกบัวบาน (Lotus Bloom)</div>
             <div class="dn-pose-etymology" id="dn-pose-etymology">ที่มา: ท่าสมาธิโอบรัดเสมือนกลีบดอกบัว</div>
             <div class="dn-phase-mood-tip" id="dn-phase-mood-tip">
-              ช่วงเวลาแห่งการปรับลมหายใจ สบตา และโอบกอดให้สนิทแนบเนื้อ
+              <span style="color: var(--rose-gold); font-weight: 600; margin-right: 4px;">📐 แนวมุมองศา:</span> แนวระนาบตรง ความลึกระดับปานกลาง ปลายทำมุมเฉียงขึ้นเล็กน้อย
             </div>
           </div>
         </div>
@@ -3226,7 +3229,7 @@
 
       <!-- SUBVIEW 3: Aftercare & Wind-Down View -->
       <div id="datenight-aftercare-view" class="datenight-card-shell dn-aftercare-shell" style="display: none;">
-        <div class="dn-aftercare-badge">✦ องก์ส่งท้าย: AFTERCARE & EMBRACE ✦</div>
+        <div class="dn-aftercare-badge">✦ AFTERCARE & EMBRACE ✦</div>
         <div class="dn-aftercare-heart">🤍</div>
         <h2 class="dn-aftercare-title">ไออุ่นแห่งการดูแลใจ</h2>
         <div class="dn-aftercare-msg">
@@ -5216,25 +5219,25 @@
       {
         badgeClass: 'phase-warmup',
         icon: '🌙',
-        name: 'องก์ที่ 1: Warm-up & Connection',
+        name: 'Warm-up & Connection',
         tip: 'ช่วงเวลาแห่งการปรับลมหายใจ สบตา ลูบไล้ และโอบกอดให้สนิทแนบเนื้อ'
       },
       {
         badgeClass: 'phase-buildup',
         icon: '🔥',
-        name: 'องก์ที่ 2: Build-up & Passion',
+        name: 'Build-up & Passion',
         tip: 'สัมผัสการเคลื่อนไหวที่แนบแน่น ลึกซึ้ง และสอดประสานกันอย่างลงตัว'
       },
       {
         badgeClass: 'phase-buildup',
         icon: '💫',
-        name: 'องก์ที่ 3: Passion Flow',
+        name: 'Passion Flow',
         tip: 'เปิดรับความรู้สึก เปล่งเสียงแผ่วเบา และดื่มด่ำกับความวาบหวามไปด้วยกัน'
       },
       {
         badgeClass: 'phase-climax',
         icon: '⚡',
-        name: 'องก์ที่ 4: Climax Peak & Ecstasy',
+        name: 'Climax Peak & Ecstasy',
         tip: 'ปลดปล่อยทุกความรู้สึกอย่างเป็นอิสระ เดินทางสู่จุดสูงสุดของความสุขอิ่มเอม'
       }
     ];
@@ -5243,19 +5246,19 @@
       {
         badgeClass: 'phase-warmup',
         icon: '🌙',
-        name: 'องก์ที่ 1: Warm-up & Connection',
+        name: 'Warm-up & Connection',
         tip: 'ช่วงเวลาแห่งการปรับลมหายใจ สบตา ลูบไล้ และโอบกอดให้สนิทแนบเนื้อ'
       },
       {
         badgeClass: 'phase-buildup',
         icon: '🔥',
-        name: 'องก์ที่ 2: Build-up & Passion',
+        name: 'Build-up & Passion',
         tip: 'สัมผัสการเคลื่อนไหวที่แนบแน่น ลึกซึ้ง และสอดประสานกันอย่างลงตัว'
       },
       {
         badgeClass: 'phase-climax',
         icon: '⚡',
-        name: 'องก์ที่ 3: Climax Peak & Ecstasy',
+        name: 'Climax Peak & Ecstasy',
         tip: 'ปลดปล่อยทุกความรู้สึกอย่างเป็นอิสระ เดินทางสู่จุดสูงสุดของความสุขอิ่มเอม'
       }
     ];
@@ -5494,8 +5497,12 @@
         etyEl.style.display = 'inline-block';
       }
 
-      // Update Phase Mood Tip
-      document.getElementById('dn-phase-mood-tip').textContent = phase.tip;
+      // Update Angle & Alignment Info
+      const angleEl = document.getElementById('dn-phase-mood-tip');
+      if (angleEl) {
+        const angleText = item.angle || (item.anatomy && item.anatomy.angleDetailTh) || 'ปรับมุมและองศาตามสรีระและความสบายของทั้งสองฝ่าย';
+        angleEl.innerHTML = `<span style="color: var(--rose-gold); font-weight: 600; margin-right: 4px;">📐 แนวมุมองศา:</span> ${escapeHTML(angleText)}`;
+      }
     }
 
     function startPoseTimer() {
