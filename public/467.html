@@ -138,7 +138,7 @@
       border-radius: 30px;
       padding: 4px;
       margin: 0 auto 18px;
-      max-width: 440px;
+      max-width: 480px;
       width: 100%;
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
     }
@@ -146,9 +146,9 @@
     .mode-tab {
       flex: 1;
       text-align: center;
-      padding: 9px 6px;
+      padding: 8px 3px;
       border-radius: 24px;
-      font-size: 0.82rem;
+      font-size: 0.78rem;
       font-weight: 600;
       color: var(--text-muted);
       cursor: pointer;
@@ -156,7 +156,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 5px;
+      gap: 3px;
       white-space: nowrap;
     }
 
@@ -798,17 +798,11 @@
       padding: 0;
       transform: scale(1.12);
       filter: drop-shadow(0 14px 28px rgba(0, 0, 0, 0.9));
-      transition: transform 0.35s ease;
+      transition: transform 0.35s ease, opacity 0.25s ease;
     }
 
     .modal-img-wrap:hover img {
       transform: scale(1.18);
-    }
-
-    /* Hide the previous position's picture until the new one has loaded,
-       so a name is never shown next to the wrong image */
-    .modal-img-wrap img {
-      transition: transform 0.35s ease, opacity 0.25s ease;
     }
 
     .modal-img-wrap img.img-loading {
@@ -2253,6 +2247,606 @@
       opacity: 0.4;
       padding: 4px;
     }
+
+    /* ========================================================
+       MODE 4: DATE NIGHT FLOW (โหมดคืนพิเศษ)
+       ======================================================== */
+    .datenight-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      max-width: 480px;
+      margin: 0 auto;
+      animation: fadeIn 0.4s ease;
+    }
+
+    .datenight-card-shell {
+      background: rgba(18, 9, 29, 0.85);
+      border: 1px solid var(--glass-border);
+      border-radius: 24px;
+      padding: 24px 20px;
+      width: 100%;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5), 0 0 20px rgba(226, 149, 120, 0.15);
+      backdrop-filter: blur(20px);
+      text-align: center;
+    }
+
+    .datenight-badge {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: var(--champagne);
+      background: rgba(255, 209, 102, 0.12);
+      border: 1px solid rgba(255, 209, 102, 0.3);
+      padding: 4px 14px;
+      border-radius: 20px;
+      margin-bottom: 10px;
+    }
+
+    .datenight-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #fff;
+      margin: 0 0 6px;
+      background: linear-gradient(135deg, #fff, #ffd166, #ff2e93);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .datenight-subtitle {
+      font-size: 0.84rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+
+    .datenight-config-box {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      text-align: left;
+      margin-bottom: 24px;
+    }
+
+    .dn-config-group {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 16px;
+      padding: 12px 14px;
+    }
+
+    .dn-label {
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--rose-gold);
+      margin-bottom: 10px;
+    }
+
+    .dn-pill-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 6px;
+    }
+
+    .dn-pill-grid.cols-2 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .dn-pill {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(226, 149, 120, 0.2);
+      border-radius: 12px;
+      color: var(--text-muted);
+      font-size: 0.78rem;
+      padding: 8px 4px;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      line-height: 1.3;
+    }
+
+    .dn-pill:hover {
+      background: rgba(226, 149, 120, 0.15);
+      color: #fff;
+      border-color: rgba(226, 149, 120, 0.4);
+    }
+
+    .dn-pill.active {
+      background: linear-gradient(135deg, rgba(226, 149, 120, 0.35), rgba(255, 46, 147, 0.25));
+      border: 1px solid var(--rose-gold);
+      color: #fff;
+      font-weight: 600;
+      box-shadow: 0 0 12px rgba(226, 149, 120, 0.35);
+    }
+
+    .dn-rec {
+      font-size: 0.68rem;
+      color: #ffd166;
+    }
+
+    .dn-sub {
+      font-size: 0.68rem;
+      opacity: 0.75;
+    }
+
+    .dn-source-options {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .dn-source-btn {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 14px;
+      padding: 10px 12px;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      text-align: left;
+      color: var(--text-main);
+    }
+
+    .dn-source-btn:hover {
+      background: rgba(226, 149, 120, 0.12);
+      border-color: rgba(226, 149, 120, 0.3);
+    }
+
+    .dn-source-btn.active {
+      background: linear-gradient(135deg, rgba(226, 149, 120, 0.25), rgba(255, 46, 147, 0.2));
+      border: 1px solid var(--rose-gold);
+      box-shadow: 0 0 14px rgba(226, 149, 120, 0.25);
+    }
+
+    .dn-source-icon {
+      font-size: 1.5rem;
+      flex-shrink: 0;
+    }
+
+    .dn-source-title {
+      font-size: 0.86rem;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .dn-source-desc {
+      font-size: 0.74rem;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .dn-start-btn {
+      width: 100%;
+      min-height: 50px;
+      border: none;
+      border-radius: 25px;
+      background: linear-gradient(135deg, #e29578, #ff2e93);
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      box-shadow: 0 4px 20px rgba(255, 46, 147, 0.4);
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .dn-start-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 26px rgba(255, 46, 147, 0.55);
+    }
+
+    /* SUBVIEW 2: Journey Player Shell */
+    .datenight-journey-shell {
+      width: 100%;
+      max-width: 440px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      animation: fadeIn 0.4s ease;
+    }
+
+    .dn-top-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      background: rgba(18, 9, 29, 0.85);
+      border: 1px solid var(--glass-border);
+      border-radius: 20px;
+      padding: 8px 14px;
+      backdrop-filter: blur(15px);
+    }
+
+    .dn-phase-badge {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 14px;
+      transition: all 0.3s ease;
+    }
+
+    .dn-phase-badge.phase-warmup {
+      background: rgba(216, 194, 255, 0.15);
+      border: 1px solid rgba(216, 194, 255, 0.4);
+      color: #d8c2ff;
+      text-shadow: 0 0 8px rgba(216, 194, 255, 0.5);
+    }
+
+    .dn-phase-badge.phase-buildup {
+      background: rgba(255, 183, 3, 0.15);
+      border: 1px solid rgba(255, 183, 3, 0.4);
+      color: #ffd166;
+      text-shadow: 0 0 8px rgba(255, 183, 3, 0.5);
+    }
+
+    .dn-phase-badge.phase-climax {
+      background: rgba(255, 46, 147, 0.2);
+      border: 1px solid rgba(255, 46, 147, 0.5);
+      color: #ff2e93;
+      text-shadow: 0 0 10px rgba(255, 46, 147, 0.6);
+      animation: pulseGlow 2s infinite ease-in-out;
+    }
+
+    .dn-step-dots {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .dn-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.2);
+      transition: all 0.3s ease;
+    }
+
+    .dn-dot.completed {
+      background: var(--rose-gold);
+      opacity: 0.6;
+    }
+
+    .dn-dot.current {
+      width: 18px;
+      border-radius: 6px;
+      background: linear-gradient(90deg, var(--rose-gold), #ff2e93);
+      box-shadow: 0 0 10px rgba(255, 46, 147, 0.5);
+    }
+
+    .dn-exit-btn {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: var(--text-muted);
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.9rem;
+      transition: all 0.2s ease;
+    }
+
+    .dn-exit-btn:hover {
+      background: rgba(255, 77, 77, 0.2);
+      color: #ff6b6b;
+      border-color: #ff6b6b;
+    }
+
+    .dn-journey-card {
+      background: rgba(18, 9, 29, 0.9);
+      border: 1px solid var(--glass-border);
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(20px);
+      transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+
+    .dn-journey-card.transitioning {
+      opacity: 0.3;
+      transform: scale(0.97);
+    }
+
+    .dn-img-container {
+      width: 100%;
+      height: 250px;
+      background: radial-gradient(circle at center, rgba(30, 12, 38, 0.9), rgba(10, 5, 18, 0.95));
+      position: relative;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .dn-img-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      transition: transform 0.4s ease;
+    }
+
+    .dn-img-container:hover img {
+      transform: scale(1.05);
+    }
+
+    .dn-img-tap-hint {
+      position: absolute;
+      bottom: 8px;
+      right: 10px;
+      font-size: 0.7rem;
+      color: rgba(255, 255, 255, 0.7);
+      background: rgba(0, 0, 0, 0.6);
+      padding: 3px 8px;
+      border-radius: 12px;
+      backdrop-filter: blur(6px);
+      pointer-events: none;
+    }
+
+    .dn-card-details {
+      padding: 16px 18px 20px;
+      text-align: center;
+    }
+
+    .dn-pose-en {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 0.5px;
+    }
+
+    .dn-pose-th {
+      font-size: 0.96rem;
+      color: var(--rose-gold);
+      margin-top: 3px;
+      font-weight: 500;
+    }
+
+    .dn-pose-etymology {
+      margin-top: 8px;
+      font-size: 0.8rem;
+      color: #ffd166;
+      background: rgba(255, 209, 102, 0.1);
+      border: 1px solid rgba(255, 209, 102, 0.25);
+      border-radius: 14px;
+      padding: 4px 12px;
+      display: inline-block;
+      line-height: 1.4;
+    }
+
+    .dn-phase-mood-tip {
+      margin-top: 10px;
+      font-size: 0.84rem;
+      color: rgba(255, 255, 255, 0.75);
+      font-style: italic;
+      line-height: 1.5;
+    }
+
+    .dn-bottom-controller {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .dn-timer-circle {
+      background: rgba(18, 9, 29, 0.95);
+      border: 2px solid var(--rose-gold);
+      border-radius: 35px;
+      padding: 8px 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 0 0 25px rgba(226, 149, 120, 0.35);
+      transition: all 0.3s ease;
+    }
+
+    .dn-timer-circle.paused {
+      border-color: #ffd166;
+      box-shadow: 0 0 20px rgba(255, 209, 102, 0.3);
+    }
+
+    .dn-timer-text {
+      font-family: 'Outfit', monospace;
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: #fff;
+      letter-spacing: 2px;
+      line-height: 1;
+      text-shadow: 0 0 12px rgba(226, 149, 120, 0.5);
+    }
+
+    .dn-timer-status {
+      font-size: 0.7rem;
+      color: var(--champagne);
+      letter-spacing: 1px;
+      margin-top: 2px;
+      text-transform: uppercase;
+    }
+
+    .dn-controls-actions {
+      display: flex;
+      gap: 12px;
+      width: 100%;
+      max-width: 340px;
+    }
+
+    .dn-ctrl-btn {
+      flex: 1;
+      min-height: 44px;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(226, 149, 120, 0.3);
+      border-radius: 22px;
+      color: #fff;
+      font-size: 0.86rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      transition: all 0.25s ease;
+    }
+
+    .dn-ctrl-btn:hover {
+      background: rgba(226, 149, 120, 0.2);
+      border-color: var(--rose-gold);
+      transform: translateY(-1px);
+    }
+
+    .dn-btn-skip {
+      background: rgba(255, 255, 255, 0.04);
+      border-color: rgba(255, 255, 255, 0.15);
+      color: var(--text-muted);
+    }
+
+    .dn-btn-skip:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+    }
+
+    /* SUBVIEW 3: Aftercare View */
+    .dn-aftercare-shell {
+      border-color: rgba(187, 242, 216, 0.3);
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6), 0 0 30px rgba(187, 242, 216, 0.15);
+      animation: fadeIn 0.6s ease;
+    }
+
+    .dn-aftercare-badge {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: #bbf2d8;
+      background: rgba(187, 242, 216, 0.12);
+      border: 1px solid rgba(187, 242, 216, 0.3);
+      padding: 4px 14px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+    }
+
+    .dn-aftercare-heart {
+      font-size: 2.2rem;
+      margin-bottom: 6px;
+      animation: pulseGlow 3s infinite ease-in-out;
+    }
+
+    .dn-aftercare-title {
+      font-size: 1.45rem;
+      font-weight: 700;
+      color: #fff;
+      margin: 0 0 8px;
+      background: linear-gradient(135deg, #fff, #bbf2d8, #e29578);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .dn-aftercare-msg {
+      font-size: 0.88rem;
+      color: rgba(255, 255, 255, 0.8);
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .dn-aftercare-timer-box {
+      background: rgba(187, 242, 216, 0.06);
+      border: 1px solid rgba(187, 242, 216, 0.2);
+      border-radius: 18px;
+      padding: 12px;
+      margin-bottom: 18px;
+    }
+
+    .dn-aftercare-timer-label {
+      font-size: 0.75rem;
+      color: #bbf2d8;
+      margin-bottom: 4px;
+    }
+
+    .dn-aftercare-timer-num {
+      font-family: 'Outfit', monospace;
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .dn-summary-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 14px;
+      padding: 12px 16px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      text-align: left;
+    }
+
+    .dn-summary-item {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.82rem;
+    }
+
+    .dn-summary-label {
+      color: var(--text-muted);
+    }
+
+    .dn-summary-val {
+      color: #ffd166;
+      font-weight: 600;
+    }
+
+    .dn-finish-btn {
+      width: 100%;
+      min-height: 48px;
+      border: 1px solid var(--rose-gold);
+      border-radius: 24px;
+      background: linear-gradient(135deg, rgba(226, 149, 120, 0.4), rgba(255, 46, 147, 0.3));
+      color: #fff;
+      font-size: 0.95rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: all 0.3s ease;
+    }
+
+    .dn-finish-btn:hover {
+      background: linear-gradient(135deg, rgba(226, 149, 120, 0.6), rgba(255, 46, 147, 0.5));
+      transform: translateY(-2px);
+    }
+
+    @media (max-width: 400px) {
+      .mode-tab {
+        padding: 7px 2px;
+        font-size: 0.74rem;
+        gap: 2px;
+      }
+      .dn-pill {
+        font-size: 0.72rem;
+        padding: 6px 2px;
+      }
+    }
   </style>
 </head>
 
@@ -2324,6 +2918,9 @@
       </div>
       <div class="mode-tab" id="tab-match" onclick="switchMode('match')">
         <span>💖</span> ทายใจ
+      </div>
+      <div class="mode-tab" id="tab-datenight" onclick="switchMode('datenight')">
+        <span>🍷</span> คืนพิเศษ
       </div>
     </div>
 
@@ -2510,11 +3107,154 @@
           <button class="match-action-prime" id="match-spin-btn" onclick="applyMatchesToWheel()" style="display: none;">
             <span>🎡</span> นำท่าที่ใจตรงกันไปหมุนวงล้อ
           </button>
+          <button class="match-action-prime" id="match-datenight-btn" onclick="prepareDateNightFromMatches()" style="display: none; background: linear-gradient(135deg, rgba(255, 46, 147, 0.45), rgba(226, 149, 120, 0.45)); border-color: var(--rose-gold); margin-top: 6px;">
+            <span>🍷</span> จัดทริปคืนพิเศษจากท่าที่ตรงกัน ❯
+          </button>
           <button class="match-action-sec" onclick="resetSecretMatch()">
             <span>🔄</span> เล่นทายใจรอบใหม่
           </button>
         </div>
       </div>
+    </section>
+
+    <!-- MODE 4: Date Night Flow (โหมดคืนพิเศษ) -->
+    <section id="section-datenight" class="datenight-section" style="display: none;">
+      
+      <!-- SUBVIEW 1: Setup View -->
+      <div id="datenight-setup-view" class="datenight-card-shell">
+        <div class="datenight-header">
+          <div class="datenight-badge">✦ THE INTIMATE JOURNEY ✦</div>
+          <h2 class="datenight-title">🍷 คืนพิเศษสองเรา</h2>
+          <div class="datenight-subtitle">สัมผัสประสบการณ์โรแมนติกแบบแฮนด์ฟรี 4 องก์ ผ่อนคลายโดยไม่ต้องคอยจับมือถือ</div>
+        </div>
+
+        <div class="datenight-config-box">
+          <!-- Step 1: Duration per pose -->
+          <div class="dn-config-group">
+            <label class="dn-label">⏱️ ระยะเวลาต่อท่วงท่า</label>
+            <div class="dn-pill-grid">
+              <button type="button" class="dn-pill" data-seconds="120" onclick="setDateNightDuration(120, this)">2 นาที</button>
+              <button type="button" class="dn-pill active" data-seconds="180" onclick="setDateNightDuration(180, this)">3 นาที <span class="dn-rec">(แนะนำ)</span></button>
+              <button type="button" class="dn-pill" data-seconds="240" onclick="setDateNightDuration(240, this)">4 นาที</button>
+              <button type="button" class="dn-pill" data-seconds="300" onclick="setDateNightDuration(300, this)">5 นาที</button>
+            </div>
+          </div>
+
+          <!-- Step 2: Pose Count -->
+          <div class="dn-config-group">
+            <label class="dn-label">✨ จำนวนท่วงท่า</label>
+            <div class="dn-pill-grid cols-2">
+              <button type="button" class="dn-pill" data-count="3" onclick="setDateNightCount(3, this)">3 ท่า <span class="dn-sub">(กระชับ คล่องตัว)</span></button>
+              <button type="button" class="dn-pill active" data-count="4" onclick="setDateNightCount(4, this)">4 ท่า <span class="dn-sub">(ครบรส 4 องก์)</span></button>
+            </div>
+          </div>
+
+          <!-- Step 3: Source -->
+          <div class="dn-config-group">
+            <label class="dn-label">💫 ที่มาของท่วงท่า</label>
+            <div class="dn-source-options">
+              <button type="button" class="dn-source-btn active" id="dn-source-auto" onclick="setDateNightSource('auto')">
+                <div class="dn-source-icon">🌟</div>
+                <div class="dn-source-text">
+                  <div class="dn-source-title">จัดสรรตาม 4 องก์อารมณ์</div>
+                  <div class="dn-source-desc">คัดสรรจากคลัง 444 ท่า: อุ่นใจ ➔ เร้าอารมณ์ ➔ จุดสูงสุด</div>
+                </div>
+              </button>
+              <button type="button" class="dn-source-btn" id="dn-source-matched" onclick="setDateNightSource('matched')">
+                <div class="dn-source-icon">💖</div>
+                <div class="dn-source-text">
+                  <div class="dn-source-title" id="dn-matched-title">คัดจากท่าที่ใจตรงกัน</div>
+                  <div class="dn-source-desc" id="dn-matched-desc">ดึงท่วงท่าที่ทั้งสองคนโหวตตรงกันจากโหมดทายใจ</div>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <button class="dn-start-btn" onclick="startDateNightJourney()">
+          <span>🍷</span> เริ่มต้นการเดินทางสองเรา ❯
+        </button>
+      </div>
+
+      <!-- SUBVIEW 2: Journey View (Hands-Free Romantic Player) -->
+      <div id="datenight-journey-view" class="datenight-journey-shell" style="display: none;">
+        <!-- Top bar with Phase Badge & Step Indicators & Exit -->
+        <div class="dn-top-bar">
+          <div class="dn-phase-badge phase-warmup" id="dn-phase-badge">
+            <span id="dn-phase-icon">🌙</span> <span id="dn-phase-name">องก์ที่ 1: Warm-up</span>
+          </div>
+          <div class="dn-step-dots" id="dn-step-dots">
+            <!-- Injected via JS -->
+          </div>
+          <button class="dn-exit-btn" onclick="exitDateNight()" title="ออกจากโหมดคืนพิเศษ">✕</button>
+        </div>
+
+        <!-- Center Card (Current Pose) -->
+        <div class="dn-journey-card" id="dn-journey-card">
+          <div class="dn-img-container" onclick="openDateNightLightbox()" title="แตะเพื่อดูภาพขยายเต็มจอ">
+            <img id="dn-pose-img" src="" alt="Date Night Pose" onerror="handleImageError(this)" />
+            <div class="dn-img-tap-hint">🔍 แตะเพื่อดูภาพเต็ม</div>
+          </div>
+          
+          <div class="dn-card-details">
+            <div class="dn-pose-en" id="dn-pose-en">Lotus Bloom</div>
+            <div class="dn-pose-th" id="dn-pose-th">ดอกบัวบาน (Lotus Bloom)</div>
+            <div class="dn-pose-etymology" id="dn-pose-etymology">ที่มา: ท่าสมาธิโอบรัดเสมือนกลีบดอกบัว</div>
+            <div class="dn-phase-mood-tip" id="dn-phase-mood-tip">
+              ช่วงเวลาแห่งการปรับลมหายใจ สบตา และโอบกอดให้สนิทแนบเนื้อ
+            </div>
+          </div>
+        </div>
+
+        <!-- Floating Minimalist Timer & Controller -->
+        <div class="dn-bottom-controller">
+          <div class="dn-timer-circle" id="dn-timer-circle">
+            <span class="dn-timer-text" id="dn-timer-display">03:00</span>
+            <span class="dn-timer-status" id="dn-timer-status">กำลังไหลลื่น</span>
+          </div>
+
+          <div class="dn-controls-actions">
+            <button class="dn-ctrl-btn" id="dn-pause-btn" onclick="toggleDateNightPause()">
+              <span id="dn-pause-icon">⏸️</span> <span id="dn-pause-text">พักชั่วคราว</span>
+            </button>
+            <button class="dn-ctrl-btn dn-btn-skip" onclick="skipDateNightPose()">
+              <span>⏭️</span> ข้ามท่านี้
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- SUBVIEW 3: Aftercare & Wind-Down View -->
+      <div id="datenight-aftercare-view" class="datenight-card-shell dn-aftercare-shell" style="display: none;">
+        <div class="dn-aftercare-badge">✦ องก์ส่งท้าย: AFTERCARE & EMBRACE ✦</div>
+        <div class="dn-aftercare-heart">🤍</div>
+        <h2 class="dn-aftercare-title">ไออุ่นแห่งการดูแลใจ</h2>
+        <div class="dn-aftercare-msg">
+          ค่ำคืนนี้งดงามเพราะมีเราทั้งสองคน...<br />
+          นอนพักผ่อนเคียงข้างในอ้อมกอด ลูบไล้ สบตา และรับฟังเสียงลมหายใจของกันและกัน
+        </div>
+
+        <div class="dn-aftercare-timer-box">
+          <div class="dn-aftercare-timer-label">ช่วงเวลาพักผ่อนโอบกอด (Wind-Down)</div>
+          <div class="dn-aftercare-timer-num" id="dn-aftercare-timer-display">03:00</div>
+        </div>
+
+        <div class="dn-summary-card">
+          <div class="dn-summary-item">
+            <span class="dn-summary-label">ท่วงท่าที่เดินทางร่วมกัน:</span>
+            <span class="dn-summary-val" id="dn-summary-count">4 ท่วงท่า</span>
+          </div>
+          <div class="dn-summary-item">
+            <span class="dn-summary-label">เวลาแห่งความใกล้ชิด:</span>
+            <span class="dn-summary-val" id="dn-summary-duration">~12 นาที</span>
+          </div>
+        </div>
+
+        <button class="dn-finish-btn" onclick="finishDateNight()">
+          <span>✨</span> เสร็จสิ้นค่ำคืนอันแสนหวาน
+        </button>
+      </div>
+
     </section>
   </div>
 
@@ -2563,7 +3303,7 @@
       <div class="indicators-box">
         <div class="indicator-item" onclick="openMiniTip('clitoral')" title="แตะอ่านเทคนิคสัมผัส">
           <div class="ind-left">
-            <span class="ind-icon">🌸</span>
+            <span class="ind-icon" id="clit-icon">🌸</span>
             <span class="ind-name-th" id="clit-label-th">กระตุ้นคลิตอริส</span>
             <span class="ind-name-en" id="clit-label-en">(Clitoral)</span>
           </div>
@@ -2705,7 +3445,7 @@
       <!-- 2-column Grid: Clitoral & G-Spot -->
       <div class="edu-grid-2col">
         <div class="edu-card-block">
-          <div class="edu-block-header">🌸 การกระตุ้นคลิตอริส</div>
+          <div class="edu-block-header" id="edu-clit-header">🌸 การกระตุ้นคลิตอริส</div>
           <div class="edu-block-text" id="edu-clit-text">-</div>
           <div class="edu-block-tip" id="edu-clit-tip">-</div>
         </div>
@@ -2890,6 +3630,11 @@
     });
 
     function handleEscapeKey() {
+      // 0. Active Date Night Journey (Safely pause/exit back to setup)
+      if (typeof dateNightJourneyActive !== 'undefined' && dateNightJourneyActive) {
+        exitDateNight();
+        return;
+      }
       // 1. Lightbox
       const lb = document.getElementById('lightbox-modal');
       if (lb && lb.style.display === 'flex') {
@@ -2974,6 +3719,7 @@
        PIN AUTHENTICATION
        ======================================================== */
     function enterPin(digit) {
+      initAudio();
       if (currentPinInput.length < 4) {
         currentPinInput += digit;
         updatePinDots();
@@ -2984,6 +3730,7 @@
     }
 
     function deletePin() {
+      initAudio();
       currentPinInput = currentPinInput.slice(0, -1);
       updatePinDots();
     }
@@ -3030,24 +3777,34 @@
       watchOverlays();
     }
 
-    /* Switch between Cards, Wheel and Secret Match Mode */
+    /* Switch between Cards, Wheel, Secret Match and Date Night Mode */
     function switchMode(mode) {
       currentMode = mode;
       document.getElementById('tab-cards').classList.toggle('active', mode === 'cards');
       document.getElementById('tab-wheel').classList.toggle('active', mode === 'wheel');
       document.getElementById('tab-match').classList.toggle('active', mode === 'match');
+      const tabDn = document.getElementById('tab-datenight');
+      if (tabDn) tabDn.classList.toggle('active', mode === 'datenight');
 
       document.getElementById('section-cards').style.display = (mode === 'cards') ? 'block' : 'none';
       document.getElementById('section-wheel').style.display = (mode === 'wheel') ? 'flex' : 'none';
       document.getElementById('section-match').style.display = (mode === 'match') ? 'flex' : 'none';
+      const secDn = document.getElementById('section-datenight');
+      if (secDn) secDn.style.display = (mode === 'datenight') ? 'flex' : 'none';
 
-      // Hide category dropdown during match mode to keep full focus on the secret survey
-      document.getElementById('category-dropdown-wrap').style.display = (mode === 'match') ? 'none' : 'block';
+      // Hide category dropdown during match & datenight modes to keep full romantic focus
+      document.getElementById('category-dropdown-wrap').style.display = (mode === 'match' || mode === 'datenight') ? 'none' : 'block';
+
+      if (mode !== 'datenight' && dateNightJourneyActive && !dateNightIsPaused) {
+        toggleDateNightPause(true); // Auto-pause Date Night if user switches mode
+      }
 
       if (mode === 'wheel') {
         drawWheel();
       } else if (mode === 'match') {
         initSecretMatchView();
+      } else if (mode === 'datenight') {
+        initDateNightView();
       }
     }
 
@@ -3239,17 +3996,20 @@
     }
 
     function flipCard(index, cardElement, item) {
+      if (cardElement.classList.contains('flipping')) return;
       if (cardElement.classList.contains('flipped')) {
         // already flipped, just open detail
         openModal(item);
         return;
       }
 
+      cardElement.classList.add('flipping');
       playTone(520, 'sine', 0.15);
       cardElement.classList.add('flipped');
 
       // Auto-popup modal after 0.55s
       setTimeout(() => {
+        cardElement.classList.remove('flipping');
         openModal(item);
       }, 550);
     }
@@ -3477,21 +4237,40 @@
         cautionEl.style.display = 'none';
       }
 
-      // Clitoral & G-Spot Indicators (Adjusted dynamically for Oral vs Penetrative)
+      // Clitoral & G-Spot Indicators (Adjusted dynamically for Oral vs Penetrative & Male Recipient)
       const isOral = (item.isPenetrative === false);
+      const isMale = (item.recipient === 'him');
+      const clitIcon = document.getElementById('clit-icon');
+      const clitLabelTh = document.getElementById('clit-label-th');
+      const clitLabelEn = document.getElementById('clit-label-en');
       const gspotLabelTh = document.getElementById('gspot-label-th');
       const gspotLabelEn = document.getElementById('gspot-label-en');
       const angleLabelTh = document.getElementById('angle-label-th');
       const angleLabelEn = document.getElementById('angle-label-en');
       const angleBadge = document.getElementById('modal-angle');
 
-      if (isOral) {
+      if (isMale) {
+        if (clitIcon) clitIcon.textContent = '🌿';
+        if (clitLabelTh) clitLabelTh.textContent = 'การสัมผัสฝ่ายชาย';
+        if (clitLabelEn) clitLabelEn.textContent = '(Male Focus)';
+        if (gspotLabelTh) gspotLabelTh.textContent = 'สัมผัสเฉพาะจุด';
+        if (gspotLabelEn) gspotLabelEn.textContent = '(External)';
+        if (angleLabelTh) angleLabelTh.textContent = 'รูปแบบสัมผัส';
+        if (angleLabelEn) angleLabelEn.textContent = '(Touch Focus)';
+        angleBadge.textContent = 'อ่านทริค 💬';
+      } else if (isOral) {
+        if (clitIcon) clitIcon.textContent = '🌸';
+        if (clitLabelTh) clitLabelTh.textContent = 'กระตุ้นคลิตอริส';
+        if (clitLabelEn) clitLabelEn.textContent = '(Clitoral)';
         if (gspotLabelTh) gspotLabelTh.textContent = 'สัมผัสเฉพาะจุด';
         if (gspotLabelEn) gspotLabelEn.textContent = '(External)';
         if (angleLabelTh) angleLabelTh.textContent = 'รูปแบบสัมผัส';
         if (angleLabelEn) angleLabelEn.textContent = '(Touch Focus)';
         angleBadge.textContent = 'สัมผัสภายนอก 💬';
       } else {
+        if (clitIcon) clitIcon.textContent = '🌸';
+        if (clitLabelTh) clitLabelTh.textContent = 'กระตุ้นคลิตอริส';
+        if (clitLabelEn) clitLabelEn.textContent = '(Clitoral)';
         if (gspotLabelTh) gspotLabelTh.textContent = 'กระตุ้นจุดจีสปอต';
         if (gspotLabelEn) gspotLabelEn.textContent = '(G-Spot)';
         if (angleLabelTh) angleLabelTh.textContent = 'มุมและองศา';
@@ -3544,12 +4323,21 @@
       card.classList.remove('pink-glow', 'gold-glow', 'rose-glow');
 
       if (type === 'clitoral') {
-        card.classList.add('pink-glow');
-        document.getElementById('mini-tip-icon').textContent = '🌸';
-        document.getElementById('mini-tip-title').textContent = 'เคล็ดลับสัมผัสคลิตอริส';
-        document.getElementById('mini-tip-score').textContent = `ความเข้มข้นสัมผัส: ${item.clitoral || 4}/5 ดาว`;
-        document.getElementById('mini-tip-desc').textContent = anatomy.clitoralTextTh || `เทคนิคหน้างานสำหรับท่า ${item.name}: เน้นการทิ้งน้ำหนักสะโพกให้กระดูกเชิงกรานแนบสนิท พร้อมบดคลึงจังหวะเป็นวงกลมเบาๆ จะช่วยส่งกระแสความเสียวซ่านได้ต่อเนื่องที่สุด`;
-        document.getElementById('mini-tip-advice').textContent = anatomy.clitoralTipTh || 'สามารถใช้ปลายนิ้วช่วยนวดวนเบาๆ เป็นจังหวะตามการเคลื่อนไหวเพื่อเร่งเร้าคลื่นอารมณ์';
+        if (item.recipient === 'him') {
+          card.classList.add('gold-glow');
+          document.getElementById('mini-tip-icon').textContent = '🌿';
+          document.getElementById('mini-tip-title').textContent = 'เคล็ดลับสัมผัสสรีระฝ่ายชาย';
+          document.getElementById('mini-tip-score').textContent = `ความเข้มข้นสัมผัส: ${item.clitoral || 5}/5 ดาว`;
+          document.getElementById('mini-tip-desc').textContent = anatomy.clitoralTextTh || `เทคนิคหน้างานสำหรับท่า ${item.name}: เน้นการใช้ริมฝีปาก ปลายลิ้น หรือการสัมผัสโอบกระชับที่ฐานและส่วนปลายอย่างเป็นจังหวะ`;
+          document.getElementById('mini-tip-advice').textContent = anatomy.clitoralTipTh || 'ควบคุมจังหวะและแรงดูดเบา-หนักสลับกัน พร้อมใช้มือช่วยประคองฐานเพื่อสร้างความรัญจวนใจ';
+        } else {
+          card.classList.add('pink-glow');
+          document.getElementById('mini-tip-icon').textContent = '🌸';
+          document.getElementById('mini-tip-title').textContent = 'เคล็ดลับสัมผัสคลิตอริส';
+          document.getElementById('mini-tip-score').textContent = `ความเข้มข้นสัมผัส: ${item.clitoral || 4}/5 ดาว`;
+          document.getElementById('mini-tip-desc').textContent = anatomy.clitoralTextTh || `เทคนิคหน้างานสำหรับท่า ${item.name}: เน้นการทิ้งน้ำหนักสะโพกให้กระดูกเชิงกรานแนบสนิท พร้อมบดคลึงจังหวะเป็นวงกลมเบาๆ จะช่วยส่งกระแสความเสียวซ่านได้ต่อเนื่องที่สุด`;
+          document.getElementById('mini-tip-advice').textContent = anatomy.clitoralTipTh || 'สามารถใช้ปลายนิ้วช่วยนวดวนเบาๆ เป็นจังหวะตามการเคลื่อนไหวเพื่อเร่งเร้าคลื่นอารมณ์';
+        }
       } else if (type === 'gspot') {
         card.classList.add('gold-glow');
         document.getElementById('mini-tip-icon').textContent = '✨';
@@ -3633,8 +4421,12 @@
         tagsWrap.appendChild(pill);
       });
 
-      // Clitoral details
-      document.getElementById('edu-clit-text').textContent = anatomy.clitoralTextTh || 'การกระตุ้นคลิตอริสอย่างเป็นธรรมชาติ';
+      // Clitoral / Male details
+      const eduClitHeader = document.getElementById('edu-clit-header');
+      if (eduClitHeader) {
+        eduClitHeader.textContent = (item.recipient === 'him') ? '🌿 การสัมผัสสรีระฝ่ายชาย' : '🌸 การกระตุ้นคลิตอริส';
+      }
+      document.getElementById('edu-clit-text').textContent = anatomy.clitoralTextTh || 'การกระตุ้นสรีระอย่างตรงจุด';
       document.getElementById('edu-clit-tip').textContent = anatomy.clitoralTipTh || '';
 
       // G-Spot details
@@ -3993,6 +4785,32 @@
        ======================================================== */
     let deferredPWAInstallPrompt = null;
 
+    function checkPWAInstallState() {
+      const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone;
+      const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+      if (isStandalone) return;
+
+      if (isIOS) {
+        const pinInstallWrap = document.getElementById('pwa-install-wrap');
+        const headerInstallBtn = document.getElementById('pwa-header-install-btn');
+        if (pinInstallWrap) {
+          pinInstallWrap.style.display = 'block';
+          const btn = pinInstallWrap.querySelector('.pwa-install-btn');
+          if (btn) btn.innerHTML = '📲 วิธีติดตั้งเป็นแอปส่วนตัว (iPhone)';
+        }
+        if (headerInstallBtn) {
+          headerInstallBtn.style.display = 'inline-flex';
+          headerInstallBtn.innerHTML = '📲 ติดตั้งแอป';
+        }
+      }
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', checkPWAInstallState);
+    } else {
+      checkPWAInstallState();
+    }
+
     window.addEventListener('beforeinstallprompt', (e) => {
       e.preventDefault();
       deferredPWAInstallPrompt = e;
@@ -4208,6 +5026,7 @@
       const summaryEl = document.getElementById('match-results-summary');
       const spinBtn = document.getElementById('match-spin-btn');
 
+      const dnBtn = document.getElementById('match-datenight-btn');
       if (matchedPositions.length === 0) {
         summaryEl.textContent = 'รอบนี้ยังไม่มีท่าที่ตรงกันพอดี ไม่เป็นไรเลยครับ!';
         listEl.innerHTML = `
@@ -4217,9 +5036,11 @@
           </div>
         `;
         spinBtn.style.display = 'none';
+        if (dnBtn) dnBtn.style.display = 'none';
       } else {
         summaryEl.textContent = `ค้นพบ ${matchedPositions.length} ท่วงท่าที่ใจตรงกัน! ✦`;
         spinBtn.style.display = 'flex';
+        if (dnBtn) dnBtn.style.display = 'flex';
 
         // Render Perfect Matches first
         perfectMatches.forEach(item => {
@@ -4295,6 +5116,8 @@
       document.getElementById('match-view-voting').style.display = 'none';
       document.getElementById('match-view-handover').style.display = 'none';
       document.getElementById('match-view-results').style.display = 'none';
+      const dnBtn = document.getElementById('match-datenight-btn');
+      if (dnBtn) dnBtn.style.display = 'none';
     }
 
     function openMatchLightbox() {
@@ -4360,6 +5183,500 @@
           osc.stop(now + i * 0.09 + 0.55);
         });
       } catch (e) { }
+    }
+
+
+    /* ========================================================
+       AUDIO HELPER & GETTER
+       ======================================================== */
+    function getAudioCtx() {
+      initAudio();
+      return audioCtx;
+    }
+
+    /* ========================================================
+       MODE 4: DATE NIGHT FLOW LOGIC (โหมดคืนพิเศษ)
+       ======================================================== */
+    let dateNightPoses = [];
+    let dateNightCurrentIndex = 0;
+    let dateNightDurationSec = 180; // 3 minutes default
+    let dateNightRemainingSec = 180;
+    let dateNightTimerEndAt = 0;
+    let dateNightInterval = null;
+    let dateNightIsPaused = false;
+    let dateNightWakeLock = null;
+    let dateNightPoseCount = 4;
+    let dateNightSource = 'auto'; // 'auto' | 'matched'
+    let dateNightStartTime = 0;
+    let dateNightAftercareInterval = null;
+    let dateNightAftercareEndAt = 0;
+    let dateNightJourneyActive = false;
+
+    const DATE_NIGHT_PHASES_4 = [
+      {
+        badgeClass: 'phase-warmup',
+        icon: '🌙',
+        name: 'องก์ที่ 1: Warm-up & Connection',
+        tip: 'ช่วงเวลาแห่งการปรับลมหายใจ สบตา ลูบไล้ และโอบกอดให้สนิทแนบเนื้อ'
+      },
+      {
+        badgeClass: 'phase-buildup',
+        icon: '🔥',
+        name: 'องก์ที่ 2: Build-up & Passion',
+        tip: 'สัมผัสการเคลื่อนไหวที่แนบแน่น ลึกซึ้ง และสอดประสานกันอย่างลงตัว'
+      },
+      {
+        badgeClass: 'phase-buildup',
+        icon: '💫',
+        name: 'องก์ที่ 3: Passion Flow',
+        tip: 'เปิดรับความรู้สึก เปล่งเสียงแผ่วเบา และดื่มด่ำกับความวาบหวามไปด้วยกัน'
+      },
+      {
+        badgeClass: 'phase-climax',
+        icon: '⚡',
+        name: 'องก์ที่ 4: Climax Peak & Ecstasy',
+        tip: 'ปลดปล่อยทุกความรู้สึกอย่างเป็นอิสระ เดินทางสู่จุดสูงสุดของความสุขอิ่มเอม'
+      }
+    ];
+
+    const DATE_NIGHT_PHASES_3 = [
+      {
+        badgeClass: 'phase-warmup',
+        icon: '🌙',
+        name: 'องก์ที่ 1: Warm-up & Connection',
+        tip: 'ช่วงเวลาแห่งการปรับลมหายใจ สบตา ลูบไล้ และโอบกอดให้สนิทแนบเนื้อ'
+      },
+      {
+        badgeClass: 'phase-buildup',
+        icon: '🔥',
+        name: 'องก์ที่ 2: Build-up & Passion',
+        tip: 'สัมผัสการเคลื่อนไหวที่แนบแน่น ลึกซึ้ง และสอดประสานกันอย่างลงตัว'
+      },
+      {
+        badgeClass: 'phase-climax',
+        icon: '⚡',
+        name: 'องก์ที่ 3: Climax Peak & Ecstasy',
+        tip: 'ปลดปล่อยทุกความรู้สึกอย่างเป็นอิสระ เดินทางสู่จุดสูงสุดของความสุขอิ่มเอม'
+      }
+    ];
+
+    function initDateNightView() {
+      // Show setup, hide others
+      document.getElementById('datenight-setup-view').style.display = 'block';
+      document.getElementById('datenight-journey-view').style.display = 'none';
+      document.getElementById('datenight-aftercare-view').style.display = 'none';
+      dateNightJourneyActive = false;
+      updateDateNightSourceUI();
+    }
+
+    function setDateNightDuration(seconds, btn) {
+      dateNightDurationSec = parseInt(seconds, 10);
+      dateNightRemainingSec = dateNightDurationSec;
+      const pills = btn.parentElement.querySelectorAll('.dn-pill');
+      pills.forEach(p => p.classList.remove('active'));
+      btn.classList.add('active');
+      playTone(520, 'sine', 0.05);
+    }
+
+    function setDateNightCount(count, btn) {
+      dateNightPoseCount = parseInt(count, 10);
+      const pills = btn.parentElement.querySelectorAll('.dn-pill');
+      pills.forEach(p => p.classList.remove('active'));
+      btn.classList.add('active');
+      playTone(560, 'sine', 0.05);
+    }
+
+    function setDateNightSource(source) {
+      if (source === 'matched' && (!matchedPositions || matchedPositions.length === 0)) {
+        alert('ยังไม่มีท่วงท่าที่ใจตรงกัน กรุณาเล่นโหมดทายใจ (Secret Match) ให้เสร็จสิ้นก่อน หรือเลือกจัดสรรตาม 4 องก์อารมณ์ ✨');
+        return;
+      }
+      dateNightSource = source;
+      updateDateNightSourceUI();
+      playTone(600, 'sine', 0.06);
+    }
+
+    function updateDateNightSourceUI() {
+      const btnAuto = document.getElementById('dn-source-auto');
+      const btnMatched = document.getElementById('dn-source-matched');
+      const titleMatched = document.getElementById('dn-matched-title');
+      const descMatched = document.getElementById('dn-matched-desc');
+
+      if (btnAuto && btnMatched) {
+        btnAuto.classList.toggle('active', dateNightSource === 'auto');
+        btnMatched.classList.toggle('active', dateNightSource === 'matched');
+      }
+
+      if (titleMatched && descMatched) {
+        if (matchedPositions && matchedPositions.length > 0) {
+          titleMatched.textContent = `คัดจากท่าที่ใจตรงกัน (${matchedPositions.length} ท่า)`;
+          descMatched.textContent = 'ดึงท่วงท่าที่ทั้งสองคนโหวตตรงกันจากโหมดทายใจมาร้อยเรียง';
+          btnMatched.style.opacity = '1';
+        } else {
+          titleMatched.textContent = 'คัดจากท่าที่ใจตรงกัน (ยังไม่มี)';
+          descMatched.textContent = 'ต้องเล่นโหมดทายใจก่อน จึงจะปลดล็อกตัวเลือกนี้ได้';
+          btnMatched.style.opacity = '0.55';
+        }
+      }
+    }
+
+    function prepareDateNightFromMatches() {
+      if (!matchedPositions || matchedPositions.length === 0) return;
+      dateNightSource = 'matched';
+      switchMode('datenight');
+      updateDateNightSourceUI();
+      playTone(659.25, 'sine', 0.15);
+      setTimeout(() => playTone(880, 'sine', 0.25), 100);
+    }
+
+    function generateDateNightJourney() {
+      const poses = [];
+      const totalCount = dateNightPoseCount;
+      const catalog = window.COUPLES_POSITIONS || [];
+
+      if (dateNightSource === 'matched' && matchedPositions && matchedPositions.length > 0) {
+        const sorted = matchedPositions.slice().sort((a, b) => (a.difficulty || 1) - (b.difficulty || 1));
+        if (sorted.length <= totalCount) {
+          poses.push(...sorted);
+        } else {
+          for (let i = 0; i < totalCount; i++) {
+            const idx = Math.floor(i * (sorted.length / totalCount));
+            poses.push(sorted[idx]);
+          }
+        }
+        if (poses.length < totalCount) {
+          const usedIds = new Set(poses.map(p => p.id));
+          const available = catalog.filter(p => !usedIds.has(p.id));
+          const shuffled = shuffleArray(available.slice());
+          while (poses.length < totalCount && shuffled.length > 0) {
+            poses.push(shuffled.pop());
+          }
+        }
+        return poses.slice(0, totalCount);
+      }
+
+      // Auto generation based on 4 Emotional Phases
+      const usedIds = new Set();
+      function pickOneFrom(filterFn, fallbackPool) {
+        let pool = catalog.filter(p => !usedIds.has(p.id) && filterFn(p));
+        if (pool.length === 0 && fallbackPool) {
+          pool = fallbackPool.filter(p => !usedIds.has(p.id));
+        }
+        if (pool.length === 0) {
+          pool = catalog.filter(p => !usedIds.has(p.id));
+        }
+        if (pool.length === 0) return null;
+        const picked = pool[Math.floor(Math.random() * pool.length)];
+        usedIds.add(picked.id);
+        return picked;
+      }
+
+      // Phase 1: Warm-up (Chill / Romantic, difficulty <= 2)
+      const p1 = pickOneFrom(p => (p.category === 'chill' || p.category === 'romantic') && p.difficulty <= 2,
+                             catalog.filter(p => p.category === 'chill' || p.category === 'romantic'));
+      if (p1) poses.push(p1);
+
+      if (totalCount === 4) {
+        // Phase 2: Build-up 1 (Classic / Her Lead, difficulty <= 3)
+        const p2 = pickOneFrom(p => (p.category === 'classic' || p.category === 'her_lead') && p.difficulty <= 3,
+                               catalog.filter(p => p.category === 'classic' || p.category === 'her_lead'));
+        if (p2) poses.push(p2);
+
+        // Phase 3: Passion Flow (Him Lead / Romantic / Classic, difficulty <= 3)
+        const p3 = pickOneFrom(p => (p.category === 'him_lead' || p.category === 'romantic' || p.category === 'classic') && p.difficulty <= 3,
+                               catalog.filter(p => p.category === 'him_lead' || p.category === 'classic'));
+        if (p3) poses.push(p3);
+      } else {
+        // 3 poses: Build-up
+        const p2 = pickOneFrom(p => (p.category === 'classic' || p.category === 'her_lead' || p.category === 'him_lead') && p.difficulty <= 3,
+                               catalog.filter(p => p.category === 'classic' || p.category === 'her_lead' || p.category === 'him_lead'));
+        if (p2) poses.push(p2);
+      }
+
+      // Final: Climax Peak
+      const pPeak = pickOneFrom(p => p.category === 'adventurous' || (p.anatomy && ((p.anatomy.gspot || 0) >= 4 || (p.anatomy.clitoral || 0) >= 4)),
+                                catalog.filter(p => p.category === 'adventurous'));
+      if (pPeak) poses.push(pPeak);
+
+      return poses;
+    }
+
+    async function requestDateNightWakeLock() {
+      if ('wakeLock' in navigator) {
+        try {
+          dateNightWakeLock = await navigator.wakeLock.request('screen');
+          dateNightWakeLock.addEventListener('release', () => {
+            dateNightWakeLock = null;
+          });
+        } catch (err) {
+          dateNightWakeLock = null;
+        }
+      }
+    }
+
+    function releaseDateNightWakeLock() {
+      if (dateNightWakeLock) {
+        try {
+          dateNightWakeLock.release();
+        } catch (e) { }
+        dateNightWakeLock = null;
+      }
+    }
+
+    document.addEventListener('visibilitychange', async () => {
+      if (document.visibilityState === 'visible' && currentMode === 'datenight' && dateNightJourneyActive && !dateNightIsPaused) {
+        await requestDateNightWakeLock();
+      }
+    });
+
+    function startDateNightJourney() {
+      dateNightPoses = generateDateNightJourney();
+      if (!dateNightPoses || dateNightPoses.length === 0) {
+        alert('ไม่สามารถจัดสรรท่วงท่าได้ กรุณาลองใหม่อีกครั้ง');
+        return;
+      }
+
+      dateNightCurrentIndex = 0;
+      dateNightIsPaused = false;
+      dateNightJourneyActive = true;
+      dateNightStartTime = Date.now();
+
+      document.getElementById('datenight-setup-view').style.display = 'none';
+      document.getElementById('datenight-journey-view').style.display = 'flex';
+      document.getElementById('datenight-aftercare-view').style.display = 'none';
+
+      requestDateNightWakeLock();
+      renderDateNightPose();
+      startPoseTimer();
+
+      playTone(440, 'sine', 0.1);
+      setTimeout(() => playTone(554.37, 'sine', 0.15), 80);
+      setTimeout(() => playTone(659.25, 'sine', 0.25), 180);
+    }
+
+    function renderDateNightPose() {
+      if (!dateNightPoses || dateNightCurrentIndex >= dateNightPoses.length) return;
+      const item = dateNightPoses[dateNightCurrentIndex];
+      lastWinnerItem = item; // Synchronize for lightbox inspection
+
+      const phases = (dateNightPoses.length === 3) ? DATE_NIGHT_PHASES_3 : DATE_NIGHT_PHASES_4;
+      const phase = phases[dateNightCurrentIndex] || phases[phases.length - 1];
+
+      // Update Phase Badge
+      const badgeEl = document.getElementById('dn-phase-badge');
+      badgeEl.className = 'dn-phase-badge ' + phase.badgeClass;
+      document.getElementById('dn-phase-icon').textContent = phase.icon;
+      document.getElementById('dn-phase-name').textContent = phase.name;
+
+      // Update Step Dots
+      const dotsEl = document.getElementById('dn-step-dots');
+      dotsEl.innerHTML = '';
+      for (let i = 0; i < dateNightPoses.length; i++) {
+        const dot = document.createElement('div');
+        dot.className = 'dn-dot';
+        if (i < dateNightCurrentIndex) dot.classList.add('completed');
+        else if (i === dateNightCurrentIndex) dot.classList.add('current');
+        dotsEl.appendChild(dot);
+      }
+
+      // Update Image & Titles
+      loadImageInto(document.getElementById('dn-pose-img'), item);
+      document.getElementById('dn-pose-en').textContent = item.name;
+      document.getElementById('dn-pose-th').textContent = item.nameTh;
+
+      // Update Etymology
+      const etyEl = document.getElementById('dn-pose-etymology');
+      if (item.etymologyTh) {
+        etyEl.textContent = 'ที่มา: ' + item.etymologyTh;
+        etyEl.style.display = 'inline-block';
+      } else {
+        etyEl.textContent = 'ท่วงท่าแห่งความอบอุ่นลึกซึ้ง';
+        etyEl.style.display = 'inline-block';
+      }
+
+      // Update Phase Mood Tip
+      document.getElementById('dn-phase-mood-tip').textContent = phase.tip;
+    }
+
+    function startPoseTimer() {
+      if (dateNightInterval) clearInterval(dateNightInterval);
+      dateNightRemainingSec = dateNightDurationSec;
+      dateNightTimerEndAt = Date.now() + dateNightRemainingSec * 1000;
+      updateTimerDisplay(dateNightRemainingSec);
+
+      dateNightInterval = setInterval(() => {
+        if (dateNightIsPaused) return;
+        const now = Date.now();
+        const left = Math.max(0, Math.ceil((dateNightTimerEndAt - now) / 1000));
+        dateNightRemainingSec = left;
+        updateTimerDisplay(left);
+
+        if (left <= 0) {
+          clearInterval(dateNightInterval);
+          dateNightInterval = null;
+          nextDateNightPose();
+        }
+      }, 500);
+    }
+
+    function resetPoseTimer() {
+      startPoseTimer();
+    }
+
+    function updateTimerDisplay(totalSec) {
+      const m = Math.floor(totalSec / 60);
+      const s = totalSec % 60;
+      const text = `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+      const el = document.getElementById('dn-timer-display');
+      if (el) el.textContent = text;
+    }
+
+    function toggleDateNightPause(forcePause = false) {
+      const circle = document.getElementById('dn-timer-circle');
+      const icon = document.getElementById('dn-pause-icon');
+      const text = document.getElementById('dn-pause-text');
+      const status = document.getElementById('dn-timer-status');
+
+      if (forcePause || !dateNightIsPaused) {
+        dateNightIsPaused = true;
+        dateNightRemainingSec = Math.max(0, Math.ceil((dateNightTimerEndAt - Date.now()) / 1000));
+        if (circle) circle.classList.add('paused');
+        if (icon) icon.textContent = '▶️';
+        if (text) text.textContent = 'ดำเนินต่อ';
+        if (status) status.textContent = 'พักชั่วคราว';
+        playTone(380, 'sine', 0.08);
+      } else {
+        dateNightIsPaused = false;
+        dateNightTimerEndAt = Date.now() + dateNightRemainingSec * 1000;
+        if (circle) circle.classList.remove('paused');
+        if (icon) icon.textContent = '⏸️';
+        if (text) text.textContent = 'พักชั่วคราว';
+        if (status) status.textContent = 'กำลังไหลลื่น';
+        playTone(520, 'sine', 0.08);
+      }
+    }
+
+    function skipDateNightPose() {
+      playTone(600, 'sine', 0.08);
+      nextDateNightPose();
+    }
+
+    function playDateNightChime() {
+      try {
+        const ctx = getAudioCtx();
+        if (!ctx) return;
+        const now = ctx.currentTime;
+        [528, 659.25, 783.99].forEach((freq, idx) => {
+          const osc = ctx.createOscillator();
+          const gain = ctx.createGain();
+          osc.type = 'sine';
+          osc.frequency.setValueAtTime(freq, now + idx * 0.12);
+          gain.gain.setValueAtTime(0.2, now + idx * 0.12);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + idx * 0.12 + 0.45);
+          osc.connect(gain);
+          gain.connect(ctx.destination);
+          osc.start(now + idx * 0.12);
+          osc.stop(now + idx * 0.12 + 0.5);
+        });
+      } catch (e) { }
+    }
+
+    function triggerHapticPulse() {
+      if ('vibrate' in navigator) {
+        try {
+          navigator.vibrate([100, 80, 150]);
+        } catch (e) { }
+      }
+    }
+
+    function nextDateNightPose() {
+      triggerHapticPulse();
+      playDateNightChime();
+
+      dateNightCurrentIndex++;
+      if (dateNightCurrentIndex >= dateNightPoses.length) {
+        renderDateNightAftercare();
+      } else {
+        renderDateNightPose();
+        const card = document.getElementById('dn-journey-card');
+        if (card) {
+          card.classList.add('transitioning');
+          setTimeout(() => {
+            card.classList.remove('transitioning');
+          }, 250);
+        }
+        resetPoseTimer();
+      }
+    }
+
+    function openDateNightLightbox() {
+      if (dateNightPoses.length > 0 && dateNightCurrentIndex < dateNightPoses.length) {
+        lastWinnerItem = dateNightPoses[dateNightCurrentIndex];
+        openLightbox();
+      }
+    }
+
+    function renderDateNightAftercare() {
+      if (dateNightInterval) clearInterval(dateNightInterval);
+      dateNightInterval = null;
+      dateNightJourneyActive = false;
+      releaseDateNightWakeLock();
+
+      document.getElementById('datenight-journey-view').style.display = 'none';
+      document.getElementById('datenight-aftercare-view').style.display = 'block';
+
+      const countEl = document.getElementById('dn-summary-count');
+      if (countEl) countEl.textContent = `${dateNightPoses.length} ท่วงท่า`;
+      const timeSpentMinutes = Math.max(1, Math.round((Date.now() - dateNightStartTime) / 60000));
+      const durEl = document.getElementById('dn-summary-duration');
+      if (durEl) durEl.textContent = `~${timeSpentMinutes} นาที`;
+
+      let aftercareLeft = 180;
+      dateNightAftercareEndAt = Date.now() + aftercareLeft * 1000;
+      updateAftercareDisplay(aftercareLeft);
+
+      if (dateNightAftercareInterval) clearInterval(dateNightAftercareInterval);
+      dateNightAftercareInterval = setInterval(() => {
+        const left = Math.max(0, Math.ceil((dateNightAftercareEndAt - Date.now()) / 1000));
+        updateAftercareDisplay(left);
+        if (left <= 0) {
+          clearInterval(dateNightAftercareInterval);
+          dateNightAftercareInterval = null;
+        }
+      }, 500);
+    }
+
+    function updateAftercareDisplay(totalSec) {
+      const m = Math.floor(totalSec / 60);
+      const s = totalSec % 60;
+      const text = `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+      const el = document.getElementById('dn-aftercare-timer-display');
+      if (el) el.textContent = text;
+    }
+
+    function finishDateNight() {
+      if (dateNightAftercareInterval) {
+        clearInterval(dateNightAftercareInterval);
+        dateNightAftercareInterval = null;
+      }
+      playCelebrationChime();
+      initDateNightView();
+    }
+
+    function exitDateNight() {
+      if (confirm('คุณต้องการหยุดพักและออกจากโหมดคืนพิเศษใช่หรือไม่?')) {
+        if (dateNightInterval) {
+          clearInterval(dateNightInterval);
+          dateNightInterval = null;
+        }
+        if (dateNightAftercareInterval) {
+          clearInterval(dateNightAftercareInterval);
+          dateNightAftercareInterval = null;
+        }
+        dateNightJourneyActive = false;
+        releaseDateNightWakeLock();
+        initDateNightView();
+      }
     }
 
     // Register dedicated Service Worker
