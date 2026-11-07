@@ -2632,17 +2632,7 @@
       line-height: 1.4;
     }
 
-    .dn-phase-mood-tip {
-      margin-top: 10px;
-      font-size: 0.82rem;
-      color: rgba(255, 255, 255, 0.88);
-      background: rgba(255, 255, 255, 0.04);
-      border: 1px solid rgba(226, 149, 120, 0.2);
-      border-radius: 12px;
-      padding: 8px 12px;
-      line-height: 1.5;
-      text-align: left;
-    }
+
 
     .dn-bottom-controller {
       display: flex;
@@ -3203,9 +3193,6 @@
             <div class="dn-pose-en" id="dn-pose-en">Lotus Bloom</div>
             <div class="dn-pose-th" id="dn-pose-th">ดอกบัวบาน (Lotus Bloom)</div>
             <div class="dn-pose-etymology" id="dn-pose-etymology">ที่มา: ท่าสมาธิโอบรัดเสมือนกลีบดอกบัว</div>
-            <div class="dn-phase-mood-tip" id="dn-phase-mood-tip">
-              <span style="color: var(--rose-gold); font-weight: 600; margin-right: 4px;">📐 แนวมุมองศา:</span> แนวระนาบตรง ความลึกระดับปานกลาง ปลายทำมุมเฉียงขึ้นเล็กน้อย
-            </div>
           </div>
         </div>
 
@@ -5497,12 +5484,7 @@
         etyEl.style.display = 'inline-block';
       }
 
-      // Update Angle & Alignment Info
-      const angleEl = document.getElementById('dn-phase-mood-tip');
-      if (angleEl) {
-        const angleText = item.angle || (item.anatomy && item.anatomy.angleDetailTh) || 'ปรับมุมและองศาตามสรีระและความสบายของทั้งสองฝ่าย';
-        angleEl.innerHTML = `<span style="color: var(--rose-gold); font-weight: 600; margin-right: 4px;">📐 แนวมุมองศา:</span> ${escapeHTML(angleText)}`;
-      }
+
     }
 
     function startPoseTimer() {
