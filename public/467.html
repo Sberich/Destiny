@@ -2168,7 +2168,7 @@
     }
 
     /* ========================================================
-       DECOY SCREEN: STEALTH TRADE SETUP CHECKLIST
+       DECOY SCREEN: STEALTH TRADE SETUP CHECKLIST (ULTRA-COMPACT)
        ======================================================== */
     #decoy-screen {
       position: fixed;
@@ -2177,24 +2177,24 @@
       z-index: 99999;
       color: #e2e8f0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-      padding: max(16px, env(safe-area-inset-top)) 16px max(16px, env(safe-area-inset-bottom));
+      padding: max(10px, env(safe-area-inset-top)) 12px max(10px, env(safe-area-inset-bottom));
       display: none;
       overflow-y: auto;
     }
 
     .decoy-container {
-      max-width: 480px;
+      max-width: 440px;
       margin: 0 auto;
       display: flex;
       flex-direction: column;
-      gap: 11px;
+      gap: 6px;
     }
 
     .decoy-header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding-bottom: 10px;
+      padding-bottom: 5px;
       border-bottom: 1px solid #1e293b;
     }
 
@@ -2206,94 +2206,70 @@
     .decoy-logo {
       display: flex;
       align-items: center;
-      gap: 8px;
-      font-size: 1.15rem;
+      gap: 6px;
+      font-size: 1.08rem;
       font-weight: 700;
       color: #f8fafc;
       letter-spacing: -0.3px;
     }
 
-    .decoy-subtext {
-      font-size: 0.72rem;
-      color: #64748b;
+    .decoy-sub-th {
+      font-size: 0.73rem;
+      color: #94a3b8;
+      font-weight: 500;
       margin-top: 2px;
+      line-height: 1.2;
+    }
+
+    .decoy-sub-en {
+      font-size: 0.64rem;
+      color: #64748b;
+      font-family: monospace;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-top: 1px;
     }
 
     .decoy-live-status {
       display: flex;
       align-items: center;
-      gap: 6px;
+      gap: 5px;
       background: rgba(16, 185, 129, 0.1);
       border: 1px solid rgba(16, 185, 129, 0.25);
-      border-radius: 12px;
-      padding: 4px 10px;
+      border-radius: 10px;
+      padding: 3px 8px;
     }
 
     .decoy-pulse-dot {
-      width: 7px;
-      height: 7px;
+      width: 6px;
+      height: 6px;
       border-radius: 50%;
       background: #10b981;
-      box-shadow: 0 0 8px #10b981;
+      box-shadow: 0 0 6px #10b981;
       animation: pulseGlow 1.5s infinite ease-in-out;
     }
 
     .decoy-date {
-      font-size: 0.72rem;
+      font-size: 0.68rem;
       font-weight: 600;
       color: #34d399;
       font-family: 'Outfit', monospace, sans-serif;
     }
 
-    .decoy-ticker-bar {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      background: #111827;
-      border: 1px solid #1f2937;
-      border-radius: 10px;
-      padding: 7px 12px;
-      font-size: 0.74rem;
-      color: #94a3b8;
-      font-family: monospace;
-      overflow-x: auto;
-      white-space: nowrap;
-    }
-
-    .ticker-sym {
-      color: #f1f5f9;
-      font-weight: 700;
-      margin-right: 4px;
-    }
-
-    .t-up {
-      color: #10b981;
-      font-weight: 600;
-    }
-
-    .t-down {
-      color: #ef4444;
-      font-weight: 600;
-    }
-
-    .ticker-dot {
-      color: #334155;
-    }
-
     .decoy-checklist {
       display: flex;
       flex-direction: column;
-      gap: 9px;
+      gap: 5px;
     }
 
     .trade-check-card {
       background: #111827;
       border: 1px solid #1e293b;
-      border-radius: 14px;
-      padding: 11px 13px;
+      border-radius: 11px;
+      padding: 7px 10px;
       display: flex;
-      align-items: flex-start;
-      gap: 12px;
+      align-items: center;
+      gap: 10px;
       cursor: pointer;
       user-select: none;
       transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
@@ -2307,25 +2283,34 @@
     .trade-check-card.checked {
       background: rgba(16, 185, 129, 0.08);
       border-color: rgba(16, 185, 129, 0.4);
-      box-shadow: 0 0 14px rgba(16, 185, 129, 0.15);
+      box-shadow: 0 0 10px rgba(16, 185, 129, 0.12);
     }
 
     .tcc-left {
       display: flex;
+      flex-direction: column;
       align-items: center;
-      gap: 8px;
-      margin-top: 2px;
+      justify-content: center;
+      gap: 3px;
+      width: 48px;
+      flex-shrink: 0;
+    }
+
+    .tcc-left-top {
+      display: flex;
+      align-items: center;
+      gap: 5px;
     }
 
     .tcc-check-box {
-      width: 22px;
-      height: 22px;
+      width: 19px;
+      height: 19px;
       border: 1.5px solid #475569;
-      border-radius: 6px;
+      border-radius: 5px;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 0.85rem;
+      font-size: 0.78rem;
       font-weight: 700;
       color: transparent;
       background: rgba(255, 255, 255, 0.03);
@@ -2337,34 +2322,24 @@
       border-color: #10b981;
       background: #10b981;
       color: #fff;
-      box-shadow: 0 0 8px rgba(16, 185, 129, 0.5);
+      box-shadow: 0 0 6px rgba(16, 185, 129, 0.5);
     }
 
     .tcc-icon {
-      font-size: 1.22rem;
+      font-size: 1.1rem;
       flex-shrink: 0;
     }
 
-    .tcc-body {
-      flex: 1;
-      min-width: 0;
-    }
-
-    .tcc-row {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-
     .tcc-tag {
-      font-size: 0.65rem;
+      font-size: 0.58rem;
       font-weight: 700;
-      letter-spacing: 0.5px;
+      letter-spacing: 0.3px;
       text-transform: uppercase;
-      padding: 2px 7px;
-      border-radius: 6px;
+      padding: 1px 5px;
+      border-radius: 4px;
       font-family: monospace;
+      text-align: center;
+      white-space: nowrap;
     }
 
     .tag-trend { background: rgba(59, 130, 246, 0.15); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); }
@@ -2374,10 +2349,20 @@
     .tag-rr { background: rgba(168, 85, 247, 0.15); color: #c084fc; border: 1px solid rgba(168, 85, 247, 0.3); }
     .tag-mm { background: rgba(14, 165, 233, 0.15); color: #38bdf8; border: 1px solid rgba(14, 165, 233, 0.3); }
 
+    .tcc-body {
+      flex: 1;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
     .tcc-headline {
-      font-size: 0.88rem;
+      font-size: 0.81rem;
       font-weight: 600;
       color: #f1f5f9;
+      line-height: 1.3;
+      word-break: break-word;
     }
 
     .trade-check-card.checked .tcc-headline {
@@ -2385,10 +2370,11 @@
     }
 
     .tcc-desc {
-      font-size: 0.76rem;
+      font-size: 0.68rem;
       color: #94a3b8;
-      line-height: 1.45;
-      margin-top: 3px;
+      line-height: 1.38;
+      margin-top: 2px;
+      word-break: break-word;
     }
 
     .trade-check-card.checked .tcc-desc {
@@ -2396,13 +2382,13 @@
     }
 
     .trade-status-banner {
-      border-radius: 14px;
-      padding: 12px 14px;
+      border-radius: 11px;
+      padding: 7px 12px;
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 10px;
       transition: all 0.3s ease;
-      margin-top: 3px;
+      margin-top: 2px;
     }
 
     .trade-status-banner.warning {
@@ -2415,48 +2401,48 @@
       background: linear-gradient(135deg, rgba(16, 185, 129, 0.2), rgba(5, 150, 105, 0.12));
       border: 1.5px solid #10b981;
       color: #a7f3d0;
-      box-shadow: 0 0 16px rgba(16, 185, 129, 0.25);
+      box-shadow: 0 0 14px rgba(16, 185, 129, 0.22);
     }
 
     .status-icon {
-      font-size: 1.5rem;
+      font-size: 1.25rem;
       flex-shrink: 0;
     }
 
     .status-title {
-      font-size: 0.88rem;
+      font-size: 0.79rem;
       font-weight: 700;
       letter-spacing: -0.2px;
     }
 
     .status-sub {
-      font-size: 0.74rem;
+      font-size: 0.67rem;
       opacity: 0.85;
-      margin-top: 2px;
+      margin-top: 1px;
     }
 
     .decoy-footer {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding-top: 10px;
+      padding-top: 5px;
       border-top: 1px solid #1e293b;
-      margin-top: 2px;
+      margin-top: 1px;
     }
 
     .decoy-footer-actions {
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 8px;
     }
 
     .decoy-reset-btn {
       background: rgba(255, 255, 255, 0.05);
       border: 1px solid #334155;
       color: #94a3b8;
-      font-size: 0.74rem;
-      padding: 4px 10px;
-      border-radius: 8px;
+      font-size: 0.70rem;
+      padding: 3px 8px;
+      border-radius: 6px;
       cursor: pointer;
       transition: all 0.2s ease;
     }
@@ -2467,7 +2453,7 @@
     }
 
     .decoy-sync-info {
-      font-size: 0.72rem;
+      font-size: 0.68rem;
       color: #64748b;
     }
 
@@ -2475,10 +2461,10 @@
       background: none;
       border: none;
       color: #475569;
-      font-size: 1rem;
+      font-size: 0.95rem;
       cursor: pointer;
       opacity: 0.35;
-      padding: 4px;
+      padding: 3px;
       transition: opacity 0.2s ease;
     }
 
@@ -3888,121 +3874,113 @@
     </section>
   </div>
 
-  <!-- Decoy Screen for Panic Mode (Stealth Trade Setup Checklist) -->
+  <!-- Decoy Screen for Panic Mode (Stealth Trade Setup Checklist - Ultra Compact) -->
   <div id="decoy-screen">
     <div class="decoy-container">
-      <!-- Decoy Header -->
+      <!-- Decoy Header (Separate Thai & English Rows) -->
       <div class="decoy-header">
         <div class="decoy-brand-wrap" onclick="handleDecoySecretTap()" title="Trade Discipline System">
           <div class="decoy-logo">
             <span class="decoy-logo-icon">📈</span>
             <span class="decoy-title-text">Trade Setup Checklist</span>
           </div>
-          <div class="decoy-subtext">5 กฎเหล็กก่อนกดออกออเดอร์ • Discipline Rules</div>
+          <div class="decoy-sub-th">5 กฎเหล็กก่อนกดออกออเดอร์</div>
+          <div class="decoy-sub-en">Trade Discipline Rules</div>
         </div>
         <div class="decoy-live-status">
           <span class="decoy-pulse-dot"></span>
-          <span class="decoy-date" id="decoy-time-text">LIVE • 10:15 AM</span>
+          <span class="decoy-date" id="decoy-time-text">LIVE • 13:46</span>
         </div>
       </div>
 
-      <!-- Live Ticker Bar (Ultra-realistic Trading Feel) -->
-      <div class="decoy-ticker-bar">
-        <span class="ticker-item"><span class="ticker-sym">XAUUSD</span> 2,748.20 <span class="t-up">+0.84%</span></span>
-        <span class="ticker-dot">•</span>
-        <span class="ticker-item"><span class="ticker-sym">EURUSD</span> 1.0842 <span class="t-down">-0.12%</span></span>
-        <span class="ticker-dot">•</span>
-        <span class="ticker-item"><span class="ticker-sym">BTCUSDT</span> 89,450 <span class="t-up">+2.45%</span></span>
-      </div>
-
-      <!-- Checklist Items Container -->
+      <!-- Checklist Items Container (Tag moved below checkbox, explanations elevated) -->
       <div class="decoy-checklist" id="decoy-checklist">
         <!-- Item 1: Trend -->
         <div class="trade-check-card" onclick="toggleTradeCheck(this)">
           <div class="tcc-left">
-            <div class="tcc-check-box">☐</div>
-            <div class="tcc-icon">📈</div>
+            <div class="tcc-left-top">
+              <div class="tcc-check-box">☐</div>
+              <div class="tcc-icon">📈</div>
+            </div>
+            <span class="tcc-tag tag-trend">Trend</span>
           </div>
           <div class="tcc-body">
-            <div class="tcc-row">
-              <span class="tcc-tag tag-trend">Trend</span>
-              <span class="tcc-headline">กราฟหลักเป็นขาขึ้นหรือขาลง?</span>
-            </div>
-            <div class="tcc-desc">ดูโครงสร้าง Market Structure ใน TF ใหญ่ (H4/H1) — <strong>อย่าสวนเทรนด์เด็ดขาด</strong></div>
+            <div class="tcc-headline">กราฟหลักเป็นขาขึ้นหรือขาลง?</div>
+            <div class="tcc-desc">ดูโครงสร้าง Market Structure (TF ใหญ่) — <strong>อย่าสวนเทรนด์</strong></div>
           </div>
         </div>
 
         <!-- Item 2: Level -->
         <div class="trade-check-card" onclick="toggleTradeCheck(this)">
           <div class="tcc-left">
-            <div class="tcc-check-box">☐</div>
-            <div class="tcc-icon">🧱</div>
+            <div class="tcc-left-top">
+              <div class="tcc-check-box">☐</div>
+              <div class="tcc-icon">🧱</div>
+            </div>
+            <span class="tcc-tag tag-level">Level</span>
           </div>
           <div class="tcc-body">
-            <div class="tcc-row">
-              <span class="tcc-tag tag-level">Level</span>
-              <span class="tcc-headline">ราคาถึงแนวรับ/ต้าน สำคัญหรือยัง?</span>
-            </div>
-            <div class="tcc-desc">รอราคาเข้าสู่ Key Level, Demand/Supply Zone หรือ FVG สำคัญ ไม่เข้ากลางทาง</div>
+            <div class="tcc-headline">ราคาถึงแนวรับ/ต้าน สำคัญหรือยัง?</div>
+            <div class="tcc-desc">รอราคาเข้า Key Level, Demand/Supply หรือ FVG ไม่เข้ากลางทาง</div>
           </div>
         </div>
 
         <!-- Item 3: Signal -->
         <div class="trade-check-card" onclick="toggleTradeCheck(this)">
           <div class="tcc-left">
-            <div class="tcc-check-box">☐</div>
-            <div class="tcc-icon">🕯️</div>
+            <div class="tcc-left-top">
+              <div class="tcc-check-box">☐</div>
+              <div class="tcc-icon">🕯️</div>
+            </div>
+            <span class="tcc-tag tag-signal">Signal</span>
           </div>
           <div class="tcc-body">
-            <div class="tcc-row">
-              <span class="tcc-tag tag-signal">Signal</span>
-              <span class="tcc-headline">มีแท่งเทียนกลับตัวยืนยันไหม?</span>
-            </div>
-            <div class="tcc-desc">รอสัญญาณ Price Action ยืนยัน (Pinbar / Engulfing / Rejection) ก่อนปิดแท่ง</div>
+            <div class="tcc-headline">มีแท่งเทียนกลับตัวยืนยันไหม?</div>
+            <div class="tcc-desc">รอ Price Action ยืนยัน (Pinbar / Engulfing / Rejection) ก่อนปิดแท่ง</div>
           </div>
         </div>
 
         <!-- Item 4: News -->
         <div class="trade-check-card" onclick="toggleTradeCheck(this)">
           <div class="tcc-left">
-            <div class="tcc-check-box">☐</div>
-            <div class="tcc-icon">📰</div>
+            <div class="tcc-left-top">
+              <div class="tcc-check-box">☐</div>
+              <div class="tcc-icon">📰</div>
+            </div>
+            <span class="tcc-tag tag-news">News</span>
           </div>
           <div class="tcc-body">
-            <div class="tcc-row">
-              <span class="tcc-tag tag-news">News</span>
-              <span class="tcc-headline">เช็กข่าวแดง ตารางเศรษฐกิจหรือยัง?</span>
-            </div>
-            <div class="tcc-desc">ตรวจ Forex Factory / ตารางข่าวเศรษฐกิจ (CPI, FOMC, NFP) เลี่ยงเปิดไม้ช่วงข่าวผันผวน</div>
+            <div class="tcc-headline">เช็กข่าวแดง ตารางเศรษฐกิจหรือยัง?</div>
+            <div class="tcc-desc">ตรวจ Forex Factory / ตารางข่าวเศรษฐกิจ (CPI, FOMC, NFP)</div>
           </div>
         </div>
 
         <!-- Item 5: Risk / Reward -->
         <div class="trade-check-card" onclick="toggleTradeCheck(this)">
           <div class="tcc-left">
-            <div class="tcc-check-box">☐</div>
-            <div class="tcc-icon">⚖️</div>
+            <div class="tcc-left-top">
+              <div class="tcc-check-box">☐</div>
+              <div class="tcc-icon">⚖️</div>
+            </div>
+            <span class="tcc-tag tag-rr">R:R</span>
           </div>
           <div class="tcc-body">
-            <div class="tcc-row">
-              <span class="tcc-tag tag-rr">R:R Ratio</span>
-              <span class="tcc-headline">คุ้มเสี่ยงไหม? (ถ้าเสีย 1 ต้องได้ 2)</span>
-            </div>
-            <div class="tcc-desc">อัตราส่วนความคุ้มค่า Risk:Reward ต้องมากกว่า 1:2 ขึ้นไป วาง Stop Loss ชัดเจน</div>
+            <div class="tcc-headline">คุ้มเสี่ยงไหม? (ถ้าเสีย 1 ต้องได้คืน 2)</div>
+            <div class="tcc-desc">อัตราส่วน Risk:Reward ต้องมากกว่า 1:2 ขึ้นไป วาง Stop Loss ชัดเจน</div>
           </div>
         </div>
 
         <!-- Item 6: Money Management (Bonus Rule) -->
         <div class="trade-check-card" onclick="toggleTradeCheck(this)">
           <div class="tcc-left">
-            <div class="tcc-check-box">☐</div>
-            <div class="tcc-icon">🛡️</div>
+            <div class="tcc-left-top">
+              <div class="tcc-check-box">☐</div>
+              <div class="tcc-icon">🛡️</div>
+            </div>
+            <span class="tcc-tag tag-mm">MM</span>
           </div>
           <div class="tcc-body">
-            <div class="tcc-row">
-              <span class="tcc-tag tag-mm">MM</span>
-              <span class="tcc-headline">คำนวณ Lot Size & ความเสี่ยงหรือยัง?</span>
-            </div>
+            <div class="tcc-headline">คำนวณ Lot Size & ความเสี่ยงหรือยัง?</div>
             <div class="tcc-desc">จำกัดความเสี่ยงไม่เกิน 1 - 2% ของพอร์ต ห้าม Overtrade ตามอารมณ์</div>
           </div>
         </div>
