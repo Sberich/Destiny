@@ -2843,6 +2843,11 @@
     }
 
     @media (max-width: 400px) {
+      .vault-tab-btn {
+        font-size: 0.70rem;
+        padding: 6px 1px;
+        gap: 2px;
+      }
       .mode-tab {
         padding: 7px 2px;
         font-size: 0.74rem;
@@ -2851,6 +2856,377 @@
       .dn-pill {
         font-size: 0.72rem;
         padding: 6px 2px;
+      }
+    }
+
+    /* ========================================================
+       OUR COLLECTION & VAULT STYLES (รายการของเรา)
+       ======================================================== */
+    .vault-top-btn {
+      background: linear-gradient(135deg, rgba(255, 46, 147, 0.2), rgba(226, 149, 120, 0.2));
+      border: 1px solid var(--rose-gold);
+      color: #fff;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 0.84rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      box-shadow: 0 0 12px rgba(226, 149, 120, 0.25);
+      transition: all 0.25s ease;
+    }
+
+    .vault-top-btn:hover {
+      background: linear-gradient(135deg, rgba(255, 46, 147, 0.35), rgba(226, 149, 120, 0.35));
+      box-shadow: 0 0 18px rgba(255, 46, 147, 0.45);
+      transform: translateY(-1px);
+    }
+
+    .vault-badge {
+      font-family: 'Outfit', monospace;
+      font-weight: 800;
+      color: #ffd166;
+    }
+
+    .panic-btn {
+      min-width: 38px;
+      padding: 6px 10px;
+      justify-content: center;
+    }
+
+    /* Filter Controls Row & Glowing Favorites Chip */
+    .filter-controls-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      max-width: 480px;
+      margin: 0 auto 18px;
+      width: 100%;
+    }
+
+    .category-dropdown-container {
+      margin: 0;
+      flex: 1;
+      max-width: 270px;
+      min-width: 170px;
+    }
+
+    .fav-filter-chip {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(226, 149, 120, 0.25);
+      border-radius: 20px;
+      color: var(--text-muted);
+      padding: 9px 12px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      white-space: nowrap;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .fav-filter-chip:hover {
+      background: rgba(226, 149, 120, 0.15);
+      color: #fff;
+      border-color: rgba(226, 149, 120, 0.45);
+    }
+
+    .fav-filter-chip.active {
+      background: linear-gradient(135deg, rgba(255, 46, 147, 0.35), rgba(226, 149, 120, 0.35));
+      border: 1px solid #ff2e93;
+      color: #fff;
+      box-shadow: 0 0 16px rgba(255, 46, 147, 0.45), 0 0 6px rgba(226, 149, 120, 0.4);
+      animation: pulseGlow 2.5s infinite ease-in-out;
+    }
+
+    /* Modal Quick Vault Actions */
+    .modal-vault-actions {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin: 10px 0 14px;
+      width: 100%;
+    }
+
+    .m-vault-btn {
+      flex: 1;
+      max-width: 110px;
+      min-height: 36px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(226, 149, 120, 0.25);
+      border-radius: 18px;
+      color: var(--text-muted);
+      font-size: 0.78rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      transition: all 0.25s ease;
+    }
+
+    .m-vault-btn:hover {
+      background: rgba(226, 149, 120, 0.15);
+      color: #fff;
+    }
+
+    .m-vault-btn#mv-btn-fav.active {
+      background: linear-gradient(135deg, rgba(255, 46, 147, 0.35), rgba(226, 149, 120, 0.25));
+      border-color: #ff2e93;
+      color: #fff;
+      box-shadow: 0 0 14px rgba(255, 46, 147, 0.4);
+    }
+
+    .m-vault-btn#mv-btn-tried.active {
+      background: linear-gradient(135deg, rgba(52, 211, 153, 0.3), rgba(16, 185, 129, 0.2));
+      border-color: #34d399;
+      color: #fff;
+      box-shadow: 0 0 14px rgba(52, 211, 153, 0.35);
+    }
+
+    .m-vault-btn#mv-btn-hide.active {
+      background: linear-gradient(135deg, rgba(239, 68, 68, 0.35), rgba(185, 28, 28, 0.25));
+      border-color: #ef4444;
+      color: #fca5a5;
+      box-shadow: 0 0 14px rgba(239, 68, 68, 0.4);
+    }
+
+    /* Vault Modal Card */
+    .vault-modal-card {
+      background: rgba(18, 9, 29, 0.95);
+      border: 1px solid var(--glass-border);
+      border-radius: 24px;
+      padding: 22px 14px 18px;
+      width: 94%;
+      max-width: 480px;
+      max-height: 85vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      box-shadow: 0 16px 50px rgba(0, 0, 0, 0.7), 0 0 30px rgba(226, 149, 120, 0.2);
+      backdrop-filter: blur(25px);
+      animation: modalZoomIn 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .vault-modal-header {
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 14px;
+      padding: 0 32px;
+    }
+
+    .vault-modal-badge {
+      display: inline-block;
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: var(--champagne);
+      background: rgba(255, 209, 102, 0.1);
+      border: 1px solid rgba(255, 209, 102, 0.25);
+      padding: 3px 12px;
+      border-radius: 14px;
+      margin-bottom: 6px;
+    }
+
+    .vault-modal-title {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: #fff;
+      margin: 0 0 4px;
+      background: linear-gradient(135deg, #fff, #ffd166, #ff2e93);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .vault-modal-desc {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .vault-tabs-bar {
+      display: flex;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 20px;
+      padding: 3px;
+      margin-bottom: 14px;
+      gap: 4px;
+    }
+
+    .vault-tab-btn {
+      flex: 1;
+      background: none;
+      border: none;
+      border-radius: 16px;
+      padding: 7px 4px;
+      color: var(--text-muted);
+      font-size: 0.72rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+      transition: all 0.25s ease;
+      white-space: nowrap;
+    }
+
+    .vtab-badge {
+      background: rgba(255, 255, 255, 0.12);
+      border-radius: 10px;
+      padding: 1px 6px;
+      font-size: 0.68rem;
+      font-family: 'Outfit', monospace;
+      font-weight: 700;
+      color: #ffd166;
+    }
+
+    .vault-tab-btn.active .vtab-badge {
+      background: rgba(255, 46, 147, 0.35);
+      color: #fff;
+    }
+
+    .vault-tab-btn.active {
+      background: linear-gradient(135deg, rgba(226, 149, 120, 0.3), rgba(255, 46, 147, 0.25));
+      border: 1px solid var(--rose-gold);
+      color: #fff;
+      box-shadow: 0 0 10px rgba(226, 149, 120, 0.3);
+    }
+
+    .vault-content-container {
+      flex: 1;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding-right: 4px;
+    }
+
+    .vault-item-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 14px;
+      padding: 8px 12px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+
+    .vault-item-card:hover {
+      background: rgba(226, 149, 120, 0.1);
+      border-color: rgba(226, 149, 120, 0.3);
+    }
+
+    .vault-item-thumb {
+      width: 52px;
+      height: 52px;
+      border-radius: 10px;
+      object-fit: cover;
+      background: rgba(0, 0, 0, 0.5);
+      flex-shrink: 0;
+    }
+
+    .vault-item-info {
+      flex: 1;
+      min-width: 0;
+      text-align: left;
+    }
+
+    .vault-item-en {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #fff;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .vault-item-th {
+      font-size: 0.78rem;
+      color: var(--rose-gold);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-top: 1px;
+    }
+
+    .vault-restore-btn {
+      background: linear-gradient(135deg, rgba(52, 211, 153, 0.25), rgba(16, 185, 129, 0.25));
+      border: 1px solid #34d399;
+      color: #a7f3d0;
+      border-radius: 16px;
+      padding: 6px 12px;
+      font-size: 0.76rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.2s ease;
+      flex-shrink: 0;
+    }
+
+    .vault-restore-btn:hover {
+      background: linear-gradient(135deg, rgba(52, 211, 153, 0.4), rgba(16, 185, 129, 0.4));
+      color: #fff;
+      box-shadow: 0 0 10px rgba(52, 211, 153, 0.4);
+      transform: translateY(-1px);
+    }
+
+    .vault-remove-fav-btn {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 46, 147, 0.3);
+      color: #ff85c0;
+      border-radius: 14px;
+      padding: 5px 10px;
+      font-size: 0.74rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      flex-shrink: 0;
+    }
+
+    .vault-remove-fav-btn:hover {
+      background: rgba(255, 46, 147, 0.2);
+      color: #fff;
+    }
+
+    .vault-empty-state {
+      padding: 30px 16px;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.88rem;
+      line-height: 1.6;
+    }
+
+    .vault-empty-icon {
+      font-size: 2.2rem;
+      margin-bottom: 8px;
+      opacity: 0.6;
+    }
+
+    @media (max-width: 400px) {
+      .filter-controls-row {
+        gap: 6px;
+      }
+      .fav-filter-chip {
+        font-size: 0.72rem;
+        padding: 8px 7px;
+        gap: 3px;
+      }
+      .m-vault-btn {
+        font-size: 0.72rem;
+        padding: 6px 4px;
+        gap: 3px;
       }
     }
   </style>
@@ -2908,8 +3284,11 @@
           title="ติดตั้งเป็นแอป">
           <span>📲</span> ติดตั้งแอป
         </button>
+        <button class="vault-top-btn" id="vault-header-btn" onclick="openVaultModal()" title="คลังท่วงท่าสองเรา">
+          <span class="vault-icon">💖</span> <span id="vault-fav-badge" class="vault-badge">0</span>
+        </button>
         <button class="panic-btn" onclick="panicExit()" title="ออกทันที">
-          <span>🚪</span> ออกทันที
+          <span>🚪</span>
         </button>
       </div>
     </header>
@@ -2930,21 +3309,27 @@
       </div>
     </div>
 
-    <!-- Category Filter Dropdown (Midnight Velvet Custom Select) -->
-    <div class="category-dropdown-container" id="category-dropdown-wrap">
-      <div class="cat-dropdown-trigger" id="cat-dropdown-trigger" onclick="toggleCatDropdown(event)">
-        <div class="cat-trigger-content">
-          <span class="cat-trigger-label">หมวดหมู่</span>
-          <span class="cat-trigger-icon" id="cat-trigger-icon">✨</span>
-          <span class="cat-trigger-name" id="cat-trigger-name">ทั้งหมด (All)</span>
+    <!-- Filter Controls Row (Category + Favorites Filter Chip) -->
+    <div class="filter-controls-row" id="filter-controls-row">
+      <div class="category-dropdown-container" id="category-dropdown-wrap">
+        <div class="cat-dropdown-trigger" id="cat-dropdown-trigger" onclick="toggleCatDropdown(event)">
+          <div class="cat-trigger-content">
+            <span class="cat-trigger-label">หมวดหมู่</span>
+            <span class="cat-trigger-icon" id="cat-trigger-icon">✨</span>
+            <span class="cat-trigger-name" id="cat-trigger-name">ทั้งหมด (All)</span>
+          </div>
+          <span class="cat-trigger-arrow" id="cat-trigger-arrow">▾</span>
         </div>
-        <span class="cat-trigger-arrow" id="cat-trigger-arrow">▾</span>
+
+        <!-- Dropdown Menu Panel -->
+        <div class="cat-dropdown-menu" id="cat-dropdown-menu">
+          <!-- Injected via JS -->
+        </div>
       </div>
 
-      <!-- Dropdown Menu Panel -->
-      <div class="cat-dropdown-menu" id="cat-dropdown-menu">
-        <!-- Injected via JS -->
-      </div>
+      <button type="button" class="fav-filter-chip" id="fav-filter-chip" onclick="toggleFavoritesOnlyFilter()" title="สลับการสุ่ม: เฉพาะท่าโปรด / ทุกท่า">
+        <span class="fav-chip-sparkle">💫</span> เล่นเฉพาะท่าโปรด
+      </button>
     </div>
 
     <!-- MODE 1: 3D Mystery Card Flip (6 Cards) -->
@@ -3298,6 +3683,19 @@
       <div class="modal-title-en" id="modal-name-en">Missionary</div>
       <div class="modal-title-th" id="modal-name-th">มิชชันนารี (คลาสสิกมาตรฐาน)</div>
 
+      <!-- Quick Vault Actions (Favorite / Tried / Hide) -->
+      <div class="modal-vault-actions" id="modal-vault-actions">
+        <button type="button" class="m-vault-btn" id="mv-btn-fav" onclick="toggleCurrentPoseFavorite()" title="บันทึกเป็นท่าโปรด">
+          <span class="mv-icon">❤️</span> <span class="mv-label">ท่าโปรด</span>
+        </button>
+        <button type="button" class="m-vault-btn" id="mv-btn-tried" onclick="toggleCurrentPoseTried()" title="บันทึกว่าลองแล้ว">
+          <span class="mv-icon">✅</span> <span class="mv-label">ลองแล้ว</span>
+        </button>
+        <button type="button" class="m-vault-btn" id="mv-btn-hide" onclick="toggleCurrentPoseHidden()" title="ซ่อนท่านี้ออกจากการสุ่ม">
+          <span class="mv-icon">🚫</span> <span class="mv-label" id="mv-hide-label">ซ่อนท่า</span>
+        </button>
+      </div>
+
       <!-- Caution / Safety Badge (Shown when position has safety tips) -->
       <div class="modal-caution-box" id="modal-caution">
         <span class="caution-icon">⚠️</span>
@@ -3429,6 +3827,38 @@
     <button class="lightbox-close" onclick="closeLightbox()">✕</button>
     <img class="lightbox-img" id="lightbox-img" src="" alt="Fullscreen Position Preview"
       onclick="event.stopPropagation()" onerror="handleImageError(this)" />
+  </div>
+
+
+  <!-- Our Intimate Vault Modal (คลังท่วงท่าสองเรา) -->
+  <div class="modal-backdrop" id="vault-modal" onclick="onVaultBackdropClick(event)" style="display: none;">
+    <div class="vault-modal-card">
+      <button class="modal-close-btn" onclick="closeVaultModal()">✕</button>
+
+      <div class="vault-modal-header">
+        <div class="vault-modal-badge">✦ OUR INTIMATE COLLECTION ✦</div>
+        <h2 class="vault-modal-title">💖 คลังท่วงท่าสองเรา</h2>
+        <div class="vault-modal-desc">ท่วงท่าโปรด ประวัติที่เคยลอง และคลังท่าที่ซ่อนไว้</div>
+      </div>
+
+      <!-- Vault Tabs Bar -->
+      <div class="vault-tabs-bar">
+        <button type="button" class="vault-tab-btn active" id="vtab-fav" onclick="switchVaultTab('favorites')">
+          <span>❤️</span> ท่าโปรด <span id="vtab-fav-count" class="vtab-badge">0</span>
+        </button>
+        <button type="button" class="vault-tab-btn" id="vtab-tried" onclick="switchVaultTab('tried')">
+          <span>✅</span> ลองแล้ว <span id="vtab-tried-count" class="vtab-badge">0</span>
+        </button>
+        <button type="button" class="vault-tab-btn" id="vtab-hidden" onclick="switchVaultTab('hidden')">
+          <span>🚫</span> ซ่อนไว้ <span id="vtab-hidden-count" class="vtab-badge">0</span>
+        </button>
+      </div>
+
+      <!-- Vault Content Container -->
+      <div class="vault-content-container" id="vault-content-list">
+        <!-- Injected via JS -->
+      </div>
+    </div>
   </div>
 
   <!-- Educational & Anatomy Deep Dive Modal -->
@@ -3588,7 +4018,7 @@
     // Blurred overlays re-blur whatever is animating behind them on every frame.
     // Track whether any overlay is open so the background sky can pause meanwhile.
     let overlayOpen = false;
-    const OVERLAY_IDS = ['result-modal', 'edu-modal', 'mini-tip-modal', 'lightbox-modal'];
+    const OVERLAY_IDS = ['result-modal', 'edu-modal', 'mini-tip-modal', 'lightbox-modal', 'vault-modal'];
     function syncOverlayFlag() {
       overlayOpen = OVERLAY_IDS.some((id) => {
         const el = document.getElementById(id);
@@ -3638,6 +4068,12 @@
       // 0. Active Date Night Journey (Safely pause/exit back to setup)
       if (typeof dateNightJourneyActive !== 'undefined' && dateNightJourneyActive) {
         exitDateNight();
+        return;
+      }
+      // 0.5. Vault Modal
+      const vm = document.getElementById('vault-modal');
+      if (vm && vm.style.display === 'flex') {
+        closeVaultModal();
         return;
       }
       // 1. Lightbox
@@ -3775,6 +4211,7 @@
        APP INITIALIZATION
        ======================================================== */
     function initApp() {
+      loadUserCollection();
       renderCategoriesBar();
       dealCards();
       setupWheel();
@@ -3798,7 +4235,8 @@
       if (secDn) secDn.style.display = (mode === 'datenight') ? 'flex' : 'none';
 
       // Hide category dropdown during match & datenight modes to keep full romantic focus
-      document.getElementById('category-dropdown-wrap').style.display = (mode === 'match' || mode === 'datenight') ? 'none' : 'block';
+      const filterRow = document.getElementById('filter-controls-row') || document.getElementById('category-dropdown-wrap');
+      if (filterRow) filterRow.style.display = (mode === 'match' || mode === 'datenight') ? 'none' : 'flex';
 
       if (mode !== 'datenight' && dateNightJourneyActive && !dateNightIsPaused) {
         toggleDateNightPause(true); // Auto-pause Date Night if user switches mode
@@ -3891,8 +4329,17 @@
     }
 
     function getFilteredPositions() {
-      if (currentCategory === 'all') return window.COUPLES_POSITIONS;
-      return window.COUPLES_POSITIONS.filter(p => p.category === currentCategory);
+      const allPos = window.COUPLES_POSITIONS || [];
+      const hiddenSet = new Set((userCollection && userCollection.hidden) || []);
+      let pool = allPos.filter(p => !hiddenSet.has(p.id));
+
+      if (isFavoritesOnlyFilterActive) {
+        const favSet = new Set((userCollection && userCollection.favorites) || []);
+        pool = pool.filter(p => favSet.has(p.id));
+      }
+
+      if (currentCategory === 'all') return pool;
+      return pool.filter(p => p.category === currentCategory);
     }
 
     /* ========================================================
@@ -4232,6 +4679,9 @@
       document.getElementById('modal-name-en').textContent = item.name;
       document.getElementById('modal-name-th').textContent = item.nameTh;
       document.getElementById('modal-desc').textContent = item.descriptionTh;
+
+      // Sync Vault Quick Actions
+      syncModalVaultActions(item.id);
 
       // Caution / Safety Notice
       const cautionEl = document.getElementById('modal-caution');
@@ -5337,7 +5787,13 @@
     function generateDateNightJourney() {
       const poses = [];
       const totalCount = dateNightPoseCount;
-      const catalog = window.COUPLES_POSITIONS || [];
+      const hiddenSet = new Set((userCollection && userCollection.hidden) || []);
+      let catalog = (window.COUPLES_POSITIONS || []).filter(p => !hiddenSet.has(p.id));
+      if (dateNightSource === 'favorites') {
+        const favSet = new Set((userCollection && userCollection.favorites) || []);
+        const favCatalog = catalog.filter(p => favSet.has(p.id));
+        if (favCatalog.length >= 3) catalog = favCatalog;
+      }
 
       if (dateNightSource === 'matched' && matchedPositions && matchedPositions.length > 0) {
         const sorted = matchedPositions.slice().sort((a, b) => (a.difficulty || 1) - (b.difficulty || 1));
@@ -5689,6 +6145,317 @@
         releaseDateNightWakeLock();
         initDateNightView();
       }
+    }
+
+
+    /* ========================================================
+       OUR COLLECTION & VAULT LOGIC (รายการของเรา)
+       ======================================================== */
+    const VAULT_STORAGE_KEY = 'destiny_velvet_collection_v1';
+    let userCollection = {
+      favorites: [],
+      tried: [],
+      hidden: []
+    };
+    let isFavoritesOnlyFilterActive = false;
+    let currentVaultTab = 'favorites';
+
+    function loadUserCollection() {
+      try {
+        const raw = localStorage.getItem(VAULT_STORAGE_KEY);
+        if (raw) {
+          const parsed = JSON.parse(raw);
+          userCollection.favorites = Array.isArray(parsed.favorites) ? parsed.favorites : [];
+          userCollection.tried = Array.isArray(parsed.tried) ? parsed.tried : [];
+          userCollection.hidden = Array.isArray(parsed.hidden) ? parsed.hidden : [];
+        }
+      } catch (e) {
+        userCollection = { favorites: [], tried: [], hidden: [] };
+      }
+      updateVaultBadges();
+    }
+
+    function saveUserCollection() {
+      try {
+        localStorage.setItem(VAULT_STORAGE_KEY, JSON.stringify(userCollection));
+      } catch (e) { }
+      updateVaultBadges();
+    }
+
+    function updateVaultBadges() {
+      const favCount = (userCollection.favorites || []).length;
+      const triedCount = (userCollection.tried || []).length;
+      const hiddenCount = (userCollection.hidden || []).length;
+
+      const headerBadge = document.getElementById('vault-fav-badge');
+      if (headerBadge) headerBadge.textContent = favCount;
+
+      const vfav = document.getElementById('vtab-fav-count');
+      if (vfav) vfav.textContent = favCount;
+
+      const vtried = document.getElementById('vtab-tried-count');
+      if (vtried) vtried.textContent = triedCount;
+
+      const vhidden = document.getElementById('vtab-hidden-count');
+      if (vhidden) vhidden.textContent = hiddenCount;
+    }
+
+    function syncModalVaultActions(poseId) {
+      const isFav = (userCollection.favorites || []).includes(poseId);
+      const isTr = (userCollection.tried || []).includes(poseId);
+      const isHid = (userCollection.hidden || []).includes(poseId);
+
+      const btnFav = document.getElementById('mv-btn-fav');
+      const btnTried = document.getElementById('mv-btn-tried');
+      const btnHide = document.getElementById('mv-btn-hide');
+      const hideLabel = document.getElementById('mv-hide-label');
+
+      if (btnFav) btnFav.classList.toggle('active', isFav);
+      if (btnTried) btnTried.classList.toggle('active', isTr);
+      if (btnHide) btnHide.classList.toggle('active', isHid);
+      if (hideLabel) hideLabel.textContent = isHid ? 'ซ่อนอยู่' : 'ซ่อนท่า';
+    }
+
+    function toggleCurrentPoseFavorite() {
+      if (!lastWinnerItem) return;
+      const id = lastWinnerItem.id;
+      const idx = (userCollection.favorites || []).indexOf(id);
+      if (idx > -1) {
+        userCollection.favorites.splice(idx, 1);
+        playTone(400, 'sine', 0.08);
+      } else {
+        if (!userCollection.favorites) userCollection.favorites = [];
+        userCollection.favorites.push(id);
+        playTone(659.25, 'sine', 0.12);
+        setTimeout(() => playTone(880, 'sine', 0.2), 80);
+      }
+      saveUserCollection();
+      syncModalVaultActions(id);
+
+      if (isFavoritesOnlyFilterActive) {
+        if (currentMode === 'cards') dealCards();
+        else if (currentMode === 'wheel') { setupWheel(); drawWheel(); }
+      }
+    }
+
+    function toggleCurrentPoseTried() {
+      if (!lastWinnerItem) return;
+      const id = lastWinnerItem.id;
+      const idx = (userCollection.tried || []).indexOf(id);
+      if (idx > -1) {
+        userCollection.tried.splice(idx, 1);
+        playTone(380, 'sine', 0.08);
+      } else {
+        if (!userCollection.tried) userCollection.tried = [];
+        userCollection.tried.push(id);
+        playTone(587.33, 'sine', 0.12);
+        setTimeout(() => playTone(880, 'sine', 0.18), 70);
+      }
+      saveUserCollection();
+      syncModalVaultActions(id);
+    }
+
+    function toggleCurrentPoseHidden() {
+      if (!lastWinnerItem) return;
+      const item = lastWinnerItem;
+      const id = item.id;
+      if (!userCollection.hidden) userCollection.hidden = [];
+      const idx = userCollection.hidden.indexOf(id);
+
+      if (idx > -1) {
+        userCollection.hidden.splice(idx, 1);
+        saveUserCollection();
+        syncModalVaultActions(id);
+        playTone(520, 'sine', 0.1);
+      } else {
+        userCollection.hidden.push(id);
+        // If hidden, also remove from favorites
+        if (userCollection.favorites) {
+          const fIdx = userCollection.favorites.indexOf(id);
+          if (fIdx > -1) userCollection.favorites.splice(fIdx, 1);
+        }
+
+        saveUserCollection();
+        playTone(300, 'sine', 0.15);
+        closeModal();
+
+        // Refresh current mode so hidden pose disappears immediately
+        if (currentMode === 'cards') dealCards();
+        else if (currentMode === 'wheel') { setupWheel(); drawWheel(); }
+      }
+    }
+
+    function toggleFavoritesOnlyFilter() {
+      const chip = document.getElementById('fav-filter-chip');
+      if (!isFavoritesOnlyFilterActive) {
+        if (!userCollection.favorites || userCollection.favorites.length === 0) {
+          alert('ยังไม่มีท่าโปรดที่บันทึกไว้ครับ ✨\nแตะที่รูปหัวใจ ❤️ ในการ์ดท่าใดก็ได้เพื่อสะสมเข้าคลังก่อนนะครับ');
+          return;
+        }
+        isFavoritesOnlyFilterActive = true;
+        if (chip) chip.classList.add('active');
+        playTone(659.25, 'sine', 0.12);
+        setTimeout(() => playTone(880, 'sine', 0.2), 90);
+      } else {
+        isFavoritesOnlyFilterActive = false;
+        if (chip) chip.classList.remove('active');
+        playTone(440, 'sine', 0.1);
+      }
+
+      if (currentMode === 'cards') {
+        dealCards();
+      } else if (currentMode === 'wheel') {
+        setupWheel();
+        drawWheel();
+      }
+    }
+
+    /* Vault Modal UI Handlers */
+    function openVaultModal() {
+      currentVaultTab = 'favorites';
+      document.getElementById('vault-modal').style.display = 'flex';
+      switchVaultTab('favorites');
+      playTone(523.25, 'sine', 0.1);
+      setTimeout(() => playTone(659.25, 'sine', 0.15), 80);
+    }
+
+    function closeVaultModal() {
+      const modal = document.getElementById('vault-modal');
+      if (modal) modal.style.display = 'none';
+    }
+
+    function onVaultBackdropClick(e) {
+      if (e.target.id === 'vault-modal') closeVaultModal();
+    }
+
+    function switchVaultTab(tab) {
+      currentVaultTab = tab;
+      const fTab = document.getElementById('vtab-fav');
+      const tTab = document.getElementById('vtab-tried');
+      const hTab = document.getElementById('vtab-hidden');
+      if (fTab) fTab.classList.toggle('active', tab === 'favorites');
+      if (tTab) tTab.classList.toggle('active', tab === 'tried');
+      if (hTab) hTab.classList.toggle('active', tab === 'hidden');
+      renderVaultList(tab);
+    }
+
+    function renderVaultList(tab) {
+      const listEl = document.getElementById('vault-content-list');
+      if (!listEl) return;
+      listEl.innerHTML = '';
+
+      const catalog = window.COUPLES_POSITIONS || [];
+      const itemMap = new Map(catalog.map(p => [p.id, p]));
+      const ids = userCollection[tab] || [];
+
+      if (ids.length === 0) {
+        const emptyState = document.createElement('div');
+        emptyState.className = 'vault-empty-state';
+        if (tab === 'favorites') {
+          emptyState.innerHTML = `
+            <div class="vault-empty-icon">❤️</div>
+            <div><strong>ยังไม่มีท่าโปรดที่บันทึกไว้</strong></div>
+            <div style="margin-top: 4px; font-size: 0.8rem; opacity: 0.75;">แตะที่ปุ่ม ❤️ ในหน้าต่างรายละเอียดของแต่ละท่า เพื่อสะสมเข้าคลังความสุขส่วนตัว ✨</div>
+          `;
+        } else if (tab === 'tried') {
+          emptyState.innerHTML = `
+            <div class="vault-empty-icon">✅</div>
+            <div><strong>ยังไม่มีประวัติท่าที่เคยลอง</strong></div>
+            <div style="margin-top: 4px; font-size: 0.8rem; opacity: 0.75;">เมื่อลองท่วงท่าใดร่วมกันแล้ว แตะปุ่ม ✅ เพื่อบันทึกความทรงจำการเดินทางรักร่วมกัน</div>
+          `;
+        } else if (tab === 'hidden') {
+          emptyState.innerHTML = `
+            <div class="vault-empty-icon">🌿</div>
+            <div><strong>ไม่มีท่วงท่าที่ซ่อนไว้</strong></div>
+            <div style="margin-top: 4px; font-size: 0.8rem; opacity: 0.75;">ทุกท่าในคลัง 444 ท่า สามารถสุ่มได้ตามปกติ หากมีท่าที่ไม่ชอบ สามารถกด 🚫 ซ่อนได้ตลอดเวลา</div>
+          `;
+        }
+        listEl.appendChild(emptyState);
+        return;
+      }
+
+      ids.forEach(id => {
+        const item = itemMap.get(id);
+        if (!item) return;
+
+        const card = document.createElement('div');
+        card.className = 'vault-item-card';
+
+        const thumb = document.createElement('img');
+        thumb.className = 'vault-item-thumb';
+        thumb.src = normalizeImagePath(item.imageUrl);
+        thumb.alt = item.name;
+        thumb.onerror = function() { handleImageError(this); };
+
+        const info = document.createElement('div');
+        info.className = 'vault-item-info';
+        info.innerHTML = `
+          <div class="vault-item-en">${escapeHTML(item.name)}</div>
+          <div class="vault-item-th">${escapeHTML(item.nameTh)}</div>
+        `;
+
+        card.appendChild(thumb);
+        card.appendChild(info);
+
+        if (tab === 'hidden') {
+          const restoreBtn = document.createElement('button');
+          restoreBtn.className = 'vault-restore-btn';
+          restoreBtn.innerHTML = '<span>↺</span> กู้คืน';
+          restoreBtn.title = 'นำท่านี้กลับเข้าสู่วงล้อและการ์ดสุ่ม';
+          restoreBtn.onclick = (e) => restoreHiddenPose(item.id, e);
+          card.appendChild(restoreBtn);
+        } else if (tab === 'favorites') {
+          const remBtn = document.createElement('button');
+          remBtn.className = 'vault-remove-fav-btn';
+          remBtn.innerHTML = '💔 เอาออก';
+          remBtn.onclick = (e) => {
+            e.stopPropagation();
+            toggleCurrentPoseFavoriteById(item.id);
+          };
+          card.appendChild(remBtn);
+          card.onclick = () => {
+            closeVaultModal();
+            openModal(item);
+          };
+        } else {
+          card.onclick = () => {
+            closeVaultModal();
+            openModal(item);
+          };
+        }
+
+        listEl.appendChild(card);
+      });
+    }
+
+    function toggleCurrentPoseFavoriteById(id) {
+      if (!userCollection.favorites) userCollection.favorites = [];
+      const idx = userCollection.favorites.indexOf(id);
+      if (idx > -1) {
+        userCollection.favorites.splice(idx, 1);
+        playTone(380, 'sine', 0.08);
+      }
+      saveUserCollection();
+      switchVaultTab('favorites');
+      if (lastWinnerItem && lastWinnerItem.id === id) {
+        syncModalVaultActions(id);
+      }
+      if (isFavoritesOnlyFilterActive) {
+        if (currentMode === 'cards') dealCards();
+        else if (currentMode === 'wheel') { setupWheel(); drawWheel(); }
+      }
+    }
+
+    function restoreHiddenPose(id, e) {
+      if (e) e.stopPropagation();
+      userCollection.hidden = (userCollection.hidden || []).filter(x => x !== id);
+      saveUserCollection();
+      playTone(659.25, 'sine', 0.12);
+      switchVaultTab('hidden');
+      updateVaultBadges();
+
+      if (currentMode === 'cards') dealCards();
+      else if (currentMode === 'wheel') { setupWheel(); drawWheel(); }
     }
 
     // Register dedicated Service Worker
