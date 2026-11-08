@@ -2167,15 +2167,17 @@
       cursor: pointer;
     }
 
-    /* Decoy Screen */
+    /* ========================================================
+       DECOY SCREEN: STEALTH TRADE SETUP CHECKLIST
+       ======================================================== */
     #decoy-screen {
       position: fixed;
       inset: 0;
-      background: #0f1117;
+      background: #0a0e17;
       z-index: 99999;
-      color: #e1e4ea;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      padding: max(20px, env(safe-area-inset-top)) 20px max(20px, env(safe-area-inset-bottom));
+      color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+      padding: max(16px, env(safe-area-inset-top)) 16px max(16px, env(safe-area-inset-bottom));
       display: none;
       overflow-y: auto;
     }
@@ -2183,69 +2185,306 @@
     .decoy-container {
       max-width: 480px;
       margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 11px;
     }
 
     .decoy-header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      border-bottom: 1px solid #232733;
-      padding-bottom: 14px;
-      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #1e293b;
     }
 
-    .decoy-logo {
-      font-size: 1.15rem;
-      font-weight: 600;
-      color: #fff;
+    .decoy-brand-wrap {
       cursor: pointer;
       user-select: none;
     }
 
-    .decoy-date {
-      font-size: 0.8rem;
-      color: #8b949e;
+    .decoy-logo {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #f8fafc;
+      letter-spacing: -0.3px;
     }
 
-    .decoy-content {
+    .decoy-subtext {
+      font-size: 0.72rem;
+      color: #64748b;
+      margin-top: 2px;
+    }
+
+    .decoy-live-status {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(16, 185, 129, 0.1);
+      border: 1px solid rgba(16, 185, 129, 0.25);
+      border-radius: 12px;
+      padding: 4px 10px;
+    }
+
+    .decoy-pulse-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #10b981;
+      box-shadow: 0 0 8px #10b981;
+      animation: pulseGlow 1.5s infinite ease-in-out;
+    }
+
+    .decoy-date {
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: #34d399;
+      font-family: 'Outfit', monospace, sans-serif;
+    }
+
+    .decoy-ticker-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #111827;
+      border: 1px solid #1f2937;
+      border-radius: 10px;
+      padding: 7px 12px;
+      font-size: 0.74rem;
+      color: #94a3b8;
+      font-family: monospace;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+
+    .ticker-sym {
+      color: #f1f5f9;
+      font-weight: 700;
+      margin-right: 4px;
+    }
+
+    .t-up {
+      color: #10b981;
+      font-weight: 600;
+    }
+
+    .t-down {
+      color: #ef4444;
+      font-weight: 600;
+    }
+
+    .ticker-dot {
+      color: #334155;
+    }
+
+    .decoy-checklist {
       display: flex;
       flex-direction: column;
+      gap: 9px;
+    }
+
+    .trade-check-card {
+      background: #111827;
+      border: 1px solid #1e293b;
+      border-radius: 14px;
+      padding: 11px 13px;
+      display: flex;
+      align-items: flex-start;
       gap: 12px;
-      margin-bottom: 24px;
+      cursor: pointer;
+      user-select: none;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .decoy-note-item {
-      background: #161b22;
-      border: 1px solid #30363d;
-      border-radius: 12px;
-      padding: 14px 16px;
-      font-size: 0.9rem;
-      color: #c9d1d9;
+    .trade-check-card:hover {
+      background: #172133;
+      border-color: #334155;
     }
 
-    .decoy-note-item.done {
-      color: #8b949e;
-      text-decoration: line-through;
+    .trade-check-card.checked {
+      background: rgba(16, 185, 129, 0.08);
+      border-color: rgba(16, 185, 129, 0.4);
+      box-shadow: 0 0 14px rgba(16, 185, 129, 0.15);
+    }
+
+    .tcc-left {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 2px;
+    }
+
+    .tcc-check-box {
+      width: 22px;
+      height: 22px;
+      border: 1.5px solid #475569;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: transparent;
+      background: rgba(255, 255, 255, 0.03);
+      transition: all 0.2s ease;
+      flex-shrink: 0;
+    }
+
+    .trade-check-card.checked .tcc-check-box {
+      border-color: #10b981;
+      background: #10b981;
+      color: #fff;
+      box-shadow: 0 0 8px rgba(16, 185, 129, 0.5);
+    }
+
+    .tcc-icon {
+      font-size: 1.22rem;
+      flex-shrink: 0;
+    }
+
+    .tcc-body {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .tcc-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .tcc-tag {
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      padding: 2px 7px;
+      border-radius: 6px;
+      font-family: monospace;
+    }
+
+    .tag-trend { background: rgba(59, 130, 246, 0.15); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); }
+    .tag-level { background: rgba(245, 158, 11, 0.15); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.3); }
+    .tag-signal { background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); }
+    .tag-news { background: rgba(239, 68, 68, 0.15); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.3); }
+    .tag-rr { background: rgba(168, 85, 247, 0.15); color: #c084fc; border: 1px solid rgba(168, 85, 247, 0.3); }
+    .tag-mm { background: rgba(14, 165, 233, 0.15); color: #38bdf8; border: 1px solid rgba(14, 165, 233, 0.3); }
+
+    .tcc-headline {
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: #f1f5f9;
+    }
+
+    .trade-check-card.checked .tcc-headline {
+      color: #e2e8f0;
+    }
+
+    .tcc-desc {
+      font-size: 0.76rem;
+      color: #94a3b8;
+      line-height: 1.45;
+      margin-top: 3px;
+    }
+
+    .trade-check-card.checked .tcc-desc {
+      color: #cbd5e1;
+    }
+
+    .trade-status-banner {
+      border-radius: 14px;
+      padding: 12px 14px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      transition: all 0.3s ease;
+      margin-top: 3px;
+    }
+
+    .trade-status-banner.warning {
+      background: linear-gradient(135deg, rgba(239, 68, 68, 0.15), rgba(185, 28, 28, 0.08));
+      border: 1px solid rgba(239, 68, 68, 0.35);
+      color: #fca5a5;
+    }
+
+    .trade-status-banner.approved {
+      background: linear-gradient(135deg, rgba(16, 185, 129, 0.2), rgba(5, 150, 105, 0.12));
+      border: 1.5px solid #10b981;
+      color: #a7f3d0;
+      box-shadow: 0 0 16px rgba(16, 185, 129, 0.25);
+    }
+
+    .status-icon {
+      font-size: 1.5rem;
+      flex-shrink: 0;
+    }
+
+    .status-title {
+      font-size: 0.88rem;
+      font-weight: 700;
+      letter-spacing: -0.2px;
+    }
+
+    .status-sub {
+      font-size: 0.74rem;
+      opacity: 0.85;
+      margin-top: 2px;
     }
 
     .decoy-footer {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      border-top: 1px solid #232733;
-      padding-top: 14px;
-      font-size: 0.78rem;
-      color: #8b949e;
+      padding-top: 10px;
+      border-top: 1px solid #1e293b;
+      margin-top: 2px;
+    }
+
+    .decoy-footer-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .decoy-reset-btn {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid #334155;
+      color: #94a3b8;
+      font-size: 0.74rem;
+      padding: 4px 10px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .decoy-reset-btn:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+    }
+
+    .decoy-sync-info {
+      font-size: 0.72rem;
+      color: #64748b;
     }
 
     .decoy-unlock-btn {
       background: none;
       border: none;
-      color: #8b949e;
-      font-size: 1.1rem;
+      color: #475569;
+      font-size: 1rem;
       cursor: pointer;
-      opacity: 0.4;
+      opacity: 0.35;
       padding: 4px;
+      transition: opacity 0.2s ease;
+    }
+
+    .decoy-unlock-btn:hover {
+      opacity: 0.8;
+      color: #94a3b8;
     }
 
     /* ========================================================
@@ -2910,39 +3149,40 @@
     .category-dropdown-container {
       margin: 0;
       flex: 1;
-      max-width: 270px;
-      min-width: 170px;
+      max-width: 330px;
+      min-width: 180px;
     }
 
     .fav-filter-chip {
       background: rgba(255, 255, 255, 0.05);
       border: 1px solid rgba(226, 149, 120, 0.25);
-      border-radius: 20px;
-      color: var(--text-muted);
-      padding: 9px 12px;
-      font-size: 0.78rem;
-      font-weight: 600;
+      border-radius: 50%;
+      width: 44px;
+      height: 44px;
+      min-width: 44px;
+      padding: 0;
+      font-size: 1.18rem;
       cursor: pointer;
       display: inline-flex;
       align-items: center;
-      gap: 5px;
-      white-space: nowrap;
+      justify-content: center;
+      flex-shrink: 0;
       transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     }
 
     .fav-filter-chip:hover {
-      background: rgba(226, 149, 120, 0.15);
-      color: #fff;
-      border-color: rgba(226, 149, 120, 0.45);
+      background: rgba(226, 149, 120, 0.2);
+      border-color: rgba(226, 149, 120, 0.5);
+      transform: scale(1.08);
     }
 
     .fav-filter-chip.active {
-      background: linear-gradient(135deg, rgba(255, 46, 147, 0.35), rgba(226, 149, 120, 0.35));
-      border: 1px solid #ff2e93;
-      color: #fff;
-      box-shadow: 0 0 16px rgba(255, 46, 147, 0.45), 0 0 6px rgba(226, 149, 120, 0.4);
-      animation: pulseGlow 2.5s infinite ease-in-out;
+      background: linear-gradient(135deg, rgba(255, 46, 147, 0.45), rgba(226, 149, 120, 0.35));
+      border: 1.5px solid #ff2e93;
+      box-shadow: 0 0 18px rgba(255, 46, 147, 0.6), 0 0 8px rgba(226, 149, 120, 0.5);
+      animation: pulseGlow 2.2s infinite ease-in-out;
+      transform: scale(1.06);
     }
 
     /* Modal Quick Vault Actions */
@@ -2985,10 +3225,10 @@
     }
 
     .m-vault-btn#mv-btn-tried.active {
-      background: linear-gradient(135deg, rgba(52, 211, 153, 0.3), rgba(16, 185, 129, 0.2));
-      border-color: #34d399;
-      color: #fff;
-      box-shadow: 0 0 14px rgba(52, 211, 153, 0.35);
+      background: linear-gradient(135deg, rgba(255, 209, 102, 0.35), rgba(226, 149, 120, 0.25));
+      border-color: #ffd166;
+      color: #ffd166;
+      box-shadow: 0 0 16px rgba(255, 209, 102, 0.5);
     }
 
     .m-vault-btn#mv-btn-hide.active {
@@ -3327,8 +3567,8 @@
         </div>
       </div>
 
-      <button type="button" class="fav-filter-chip" id="fav-filter-chip" onclick="toggleFavoritesOnlyFilter()" title="สลับการสุ่ม: เฉพาะท่าโปรด / ทุกท่า">
-        <span class="fav-chip-sparkle">💫</span> เล่นเฉพาะท่าโปรด
+      <button type="button" class="fav-filter-chip" id="fav-filter-chip" onclick="toggleFavoritesOnlyFilter()" title="เล่นเฉพาะท่าโปรด (สลับการสุ่ม: เฉพาะท่าโปรด / ทุกท่า)">
+        <span class="fav-chip-icon">💖</span>
       </button>
     </div>
 
@@ -3648,24 +3888,141 @@
     </section>
   </div>
 
-  <!-- Decoy Screen for Panic Mode (Stealth Notes & Calculator) -->
+  <!-- Decoy Screen for Panic Mode (Stealth Trade Setup Checklist) -->
   <div id="decoy-screen">
     <div class="decoy-container">
+      <!-- Decoy Header -->
       <div class="decoy-header">
-        <div class="decoy-logo" onclick="handleDecoySecretTap()">
-          <span>📝</span> Personal Notes
+        <div class="decoy-brand-wrap" onclick="handleDecoySecretTap()" title="Trade Discipline System">
+          <div class="decoy-logo">
+            <span class="decoy-logo-icon">📈</span>
+            <span class="decoy-title-text">Trade Setup Checklist</span>
+          </div>
+          <div class="decoy-subtext">5 กฎเหล็กก่อนกดออกออเดอร์ • Discipline Rules</div>
         </div>
-        <div class="decoy-date" id="decoy-time-text">Today, 10:15 AM</div>
+        <div class="decoy-live-status">
+          <span class="decoy-pulse-dot"></span>
+          <span class="decoy-date" id="decoy-time-text">LIVE • 10:15 AM</span>
+        </div>
       </div>
-      <div class="decoy-content">
-        <div class="decoy-note-item done">✓ ตรวจเช็คเอกสารและสรุปรายงานประจำเดือน</div>
-        <div class="decoy-note-item done">✓ นัดช่างตรวจเช็คระบบแอร์ที่บ้าน</div>
-        <div class="decoy-note-item">☐ ส่งรายการคำสั่งซื้อวัสดุอุปกรณ์สำนักงาน</div>
-        <div class="decoy-note-item">☐ นัดหมายประชุมทีมผ่าน Google Meet (14:00)</div>
-        <div class="decoy-note-item">☐ ทบทวนแผนการดำเนินงานสัปดาห์หน้า</div>
+
+      <!-- Live Ticker Bar (Ultra-realistic Trading Feel) -->
+      <div class="decoy-ticker-bar">
+        <span class="ticker-item"><span class="ticker-sym">XAUUSD</span> 2,748.20 <span class="t-up">+0.84%</span></span>
+        <span class="ticker-dot">•</span>
+        <span class="ticker-item"><span class="ticker-sym">EURUSD</span> 1.0842 <span class="t-down">-0.12%</span></span>
+        <span class="ticker-dot">•</span>
+        <span class="ticker-item"><span class="ticker-sym">BTCUSDT</span> 89,450 <span class="t-up">+2.45%</span></span>
       </div>
+
+      <!-- Checklist Items Container -->
+      <div class="decoy-checklist" id="decoy-checklist">
+        <!-- Item 1: Trend -->
+        <div class="trade-check-card" onclick="toggleTradeCheck(this)">
+          <div class="tcc-left">
+            <div class="tcc-check-box">☐</div>
+            <div class="tcc-icon">📈</div>
+          </div>
+          <div class="tcc-body">
+            <div class="tcc-row">
+              <span class="tcc-tag tag-trend">Trend</span>
+              <span class="tcc-headline">กราฟหลักเป็นขาขึ้นหรือขาลง?</span>
+            </div>
+            <div class="tcc-desc">ดูโครงสร้าง Market Structure ใน TF ใหญ่ (H4/H1) — <strong>อย่าสวนเทรนด์เด็ดขาด</strong></div>
+          </div>
+        </div>
+
+        <!-- Item 2: Level -->
+        <div class="trade-check-card" onclick="toggleTradeCheck(this)">
+          <div class="tcc-left">
+            <div class="tcc-check-box">☐</div>
+            <div class="tcc-icon">🧱</div>
+          </div>
+          <div class="tcc-body">
+            <div class="tcc-row">
+              <span class="tcc-tag tag-level">Level</span>
+              <span class="tcc-headline">ราคาถึงแนวรับ/ต้าน สำคัญหรือยัง?</span>
+            </div>
+            <div class="tcc-desc">รอราคาเข้าสู่ Key Level, Demand/Supply Zone หรือ FVG สำคัญ ไม่เข้ากลางทาง</div>
+          </div>
+        </div>
+
+        <!-- Item 3: Signal -->
+        <div class="trade-check-card" onclick="toggleTradeCheck(this)">
+          <div class="tcc-left">
+            <div class="tcc-check-box">☐</div>
+            <div class="tcc-icon">🕯️</div>
+          </div>
+          <div class="tcc-body">
+            <div class="tcc-row">
+              <span class="tcc-tag tag-signal">Signal</span>
+              <span class="tcc-headline">มีแท่งเทียนกลับตัวยืนยันไหม?</span>
+            </div>
+            <div class="tcc-desc">รอสัญญาณ Price Action ยืนยัน (Pinbar / Engulfing / Rejection) ก่อนปิดแท่ง</div>
+          </div>
+        </div>
+
+        <!-- Item 4: News -->
+        <div class="trade-check-card" onclick="toggleTradeCheck(this)">
+          <div class="tcc-left">
+            <div class="tcc-check-box">☐</div>
+            <div class="tcc-icon">📰</div>
+          </div>
+          <div class="tcc-body">
+            <div class="tcc-row">
+              <span class="tcc-tag tag-news">News</span>
+              <span class="tcc-headline">เช็กข่าวแดง ตารางเศรษฐกิจหรือยัง?</span>
+            </div>
+            <div class="tcc-desc">ตรวจ Forex Factory / ตารางข่าวเศรษฐกิจ (CPI, FOMC, NFP) เลี่ยงเปิดไม้ช่วงข่าวผันผวน</div>
+          </div>
+        </div>
+
+        <!-- Item 5: Risk / Reward -->
+        <div class="trade-check-card" onclick="toggleTradeCheck(this)">
+          <div class="tcc-left">
+            <div class="tcc-check-box">☐</div>
+            <div class="tcc-icon">⚖️</div>
+          </div>
+          <div class="tcc-body">
+            <div class="tcc-row">
+              <span class="tcc-tag tag-rr">R:R Ratio</span>
+              <span class="tcc-headline">คุ้มเสี่ยงไหม? (ถ้าเสีย 1 ต้องได้ 2)</span>
+            </div>
+            <div class="tcc-desc">อัตราส่วนความคุ้มค่า Risk:Reward ต้องมากกว่า 1:2 ขึ้นไป วาง Stop Loss ชัดเจน</div>
+          </div>
+        </div>
+
+        <!-- Item 6: Money Management (Bonus Rule) -->
+        <div class="trade-check-card" onclick="toggleTradeCheck(this)">
+          <div class="tcc-left">
+            <div class="tcc-check-box">☐</div>
+            <div class="tcc-icon">🛡️</div>
+          </div>
+          <div class="tcc-body">
+            <div class="tcc-row">
+              <span class="tcc-tag tag-mm">MM</span>
+              <span class="tcc-headline">คำนวณ Lot Size & ความเสี่ยงหรือยัง?</span>
+            </div>
+            <div class="tcc-desc">จำกัดความเสี่ยงไม่เกิน 1 - 2% ของพอร์ต ห้าม Overtrade ตามอารมณ์</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Trade Decision Status Banner (Updates dynamically) -->
+      <div class="trade-status-banner warning" id="trade-status-banner">
+        <span class="status-icon">⛔</span>
+        <div class="status-text-wrap">
+          <div class="status-title" id="trade-status-title">ถ้าไม่ครบทุกข้อ = ห้ามเข้าออเดอร์เด็ดขาด!</div>
+          <div class="status-sub" id="trade-status-count">ผ่านเงื่อนไข 0 / 6 ข้อ (ระบบล็อกคำสั่งซื้อขาย)</div>
+        </div>
+      </div>
+
+      <!-- Decoy Footer -->
       <div class="decoy-footer">
-        <span class="decoy-sync">Cloud synced • 5 minutes ago</span>
+        <div class="decoy-footer-actions">
+          <button type="button" class="decoy-reset-btn" onclick="resetTradeChecks()">↺ รีเซ็ตเช็กลิสต์</button>
+          <span class="decoy-sync-info">TradingView Cloud Synced</span>
+        </div>
         <button class="decoy-unlock-btn" onclick="exitDecoy()" title="กลับสู่ระบบ">🔒</button>
       </div>
     </div>
@@ -3688,8 +4045,8 @@
         <button type="button" class="m-vault-btn" id="mv-btn-fav" onclick="toggleCurrentPoseFavorite()" title="บันทึกเป็นท่าโปรด">
           <span class="mv-icon">❤️</span> <span class="mv-label">ท่าโปรด</span>
         </button>
-        <button type="button" class="m-vault-btn" id="mv-btn-tried" onclick="toggleCurrentPoseTried()" title="บันทึกว่าลองแล้ว">
-          <span class="mv-icon">✅</span> <span class="mv-label">ลองแล้ว</span>
+        <button type="button" class="m-vault-btn" id="mv-btn-tried" onclick="toggleCurrentPoseTried()" title="บันทึกว่าปลดล็อคแล้ว">
+          <span class="mv-icon">🗝️</span> <span class="mv-label">ปลดล็อค</span>
         </button>
         <button type="button" class="m-vault-btn" id="mv-btn-hide" onclick="toggleCurrentPoseHidden()" title="ซ่อนท่านี้ออกจากการสุ่ม">
           <span class="mv-icon">🚫</span> <span class="mv-label" id="mv-hide-label">ซ่อนท่า</span>
@@ -3847,7 +4204,7 @@
           <span>❤️</span> ท่าโปรด <span id="vtab-fav-count" class="vtab-badge">0</span>
         </button>
         <button type="button" class="vault-tab-btn" id="vtab-tried" onclick="switchVaultTab('tried')">
-          <span>✅</span> ลองแล้ว <span id="vtab-tried-count" class="vtab-badge">0</span>
+          <span>🗝️</span> ปลดล็อค <span id="vtab-tried-count" class="vtab-badge">0</span>
         </button>
         <button type="button" class="vault-tab-btn" id="vtab-hidden" onclick="switchVaultTab('hidden')">
           <span>🚫</span> ซ่อนไว้ <span id="vtab-hidden-count" class="vtab-badge">0</span>
@@ -4152,7 +4509,51 @@
       const el = document.getElementById('decoy-time-text');
       if (el) {
         const now = new Date();
-        el.textContent = `Today, ${now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}`;
+        el.textContent = `LIVE • ${now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}`;
+      }
+    }
+
+    function toggleTradeCheck(card) {
+      if (!card) return;
+      const isChecked = card.classList.toggle('checked');
+      const box = card.querySelector('.tcc-check-box');
+      if (box) box.textContent = isChecked ? '✓' : '☐';
+      playTone(isChecked ? 587.33 : 330, 'sine', 0.06);
+      updateTradeStatus();
+    }
+
+    function resetTradeChecks() {
+      const cards = document.querySelectorAll('.trade-check-card');
+      cards.forEach(c => {
+        c.classList.remove('checked');
+        const box = c.querySelector('.tcc-check-box');
+        if (box) box.textContent = '☐';
+      });
+      playTone(400, 'sine', 0.08);
+      updateTradeStatus();
+    }
+
+    function updateTradeStatus() {
+      const cards = document.querySelectorAll('.trade-check-card');
+      const total = cards.length;
+      const checked = document.querySelectorAll('.trade-check-card.checked').length;
+      const banner = document.getElementById('trade-status-banner');
+      const title = document.getElementById('trade-status-title');
+      const count = document.getElementById('trade-status-count');
+      const icon = banner ? banner.querySelector('.status-icon') : null;
+
+      if (!banner || !title || !count) return;
+
+      if (checked === total && total > 0) {
+        banner.className = 'trade-status-banner approved';
+        if (icon) icon.textContent = '🚀';
+        title.textContent = 'SYSTEM READY: เงื่อนไขครบ พร้อมเปิดออเดอร์!';
+        count.textContent = `ผ่านครบทุกข้อ (${checked}/${total}) • รักษาวินัยตามแผนการเทรด`;
+      } else {
+        banner.className = 'trade-status-banner warning';
+        if (icon) icon.textContent = '⛔';
+        title.textContent = 'ถ้าไม่ครบทุกข้อ = ห้ามเข้าออเดอร์เด็ดขาด!';
+        count.textContent = `ผ่านเงื่อนไข ${checked} / ${total} ข้อ (ระบบล็อกคำสั่งซื้อขาย)`;
       }
     }
 
@@ -6248,8 +6649,9 @@
       } else {
         if (!userCollection.tried) userCollection.tried = [];
         userCollection.tried.push(id);
-        playTone(587.33, 'sine', 0.12);
-        setTimeout(() => playTone(880, 'sine', 0.18), 70);
+        playTone(523.25, 'sine', 0.1);
+        setTimeout(() => playTone(659.25, 'sine', 0.12), 70);
+        setTimeout(() => playTone(1046.50, 'sine', 0.2), 140);
       }
       saveUserCollection();
       syncModalVaultActions(id);
@@ -6359,9 +6761,9 @@
           `;
         } else if (tab === 'tried') {
           emptyState.innerHTML = `
-            <div class="vault-empty-icon">✅</div>
-            <div><strong>ยังไม่มีประวัติท่าที่เคยลอง</strong></div>
-            <div style="margin-top: 4px; font-size: 0.8rem; opacity: 0.75;">เมื่อลองท่วงท่าใดร่วมกันแล้ว แตะปุ่ม ✅ เพื่อบันทึกความทรงจำการเดินทางรักร่วมกัน</div>
+            <div class="vault-empty-icon">🗝️</div>
+            <div><strong>ยังไม่มีท่วงท่าที่ปลดล็อค</strong></div>
+            <div style="margin-top: 4px; font-size: 0.8rem; opacity: 0.75;">เมื่อได้สัมผัสท่วงท่าใดร่วมกันแล้ว แตะปุ่ม 🗝️ เพื่อปลดล็อคบันทึกความทรงจำรักร่วมกัน ✨</div>
           `;
         } else if (tab === 'hidden') {
           emptyState.innerHTML = `
