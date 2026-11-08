@@ -2632,6 +2632,18 @@
       line-height: 1.4;
     }
 
+    .dn-pose-desc-box {
+      margin-top: 10px;
+      font-size: 0.82rem;
+      color: rgba(255, 255, 255, 0.88);
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(226, 149, 120, 0.2);
+      border-radius: 12px;
+      padding: 8px 12px;
+      line-height: 1.5;
+      text-align: left;
+    }
+
 
 
     .dn-bottom-controller {
@@ -3193,6 +3205,9 @@
             <div class="dn-pose-en" id="dn-pose-en">Lotus Bloom</div>
             <div class="dn-pose-th" id="dn-pose-th">ดอกบัวบาน (Lotus Bloom)</div>
             <div class="dn-pose-etymology" id="dn-pose-etymology">ที่มา: ท่าสมาธิโอบรัดเสมือนกลีบดอกบัว</div>
+            <div class="dn-pose-desc-box" id="dn-pose-desc-box">
+              แนวระนาบตรง ความลึกระดับปานกลาง ปลายทำมุมเฉียงขึ้นเล็กน้อย
+            </div>
           </div>
         </div>
 
@@ -5482,6 +5497,14 @@
       } else {
         etyEl.textContent = 'ท่วงท่าแห่งความอบอุ่นลึกซึ้ง';
         etyEl.style.display = 'inline-block';
+      }
+
+      // Update Guidance Info (Description/Angle text kept for reading, without "แนวมุมองศา" label)
+      const descEl = document.getElementById('dn-pose-desc-box');
+      if (descEl) {
+        const text = item.angle || (item.anatomy && item.anatomy.angleDetailTh) || item.descriptionTh || '';
+        descEl.textContent = text;
+        descEl.style.display = text ? 'block' : 'none';
       }
 
 
