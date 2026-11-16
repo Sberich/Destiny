@@ -4385,7 +4385,73 @@
     let isSpinning = false;
     let wheelRotation = 0;
     let lastWinnerItem = null;
-    let recentWinnerIds = []; // Anti-repeat history buffer
+    let recentWinnerIds = []; // Legacy buffer
+
+    /* ========================================================
+       SMART ANTI-REPEAT DECK & DRAW PILE ENGINE
+       Guarantees zero duplicate poses across consecutive draws/spins
+       ======================================================== */
+    const antiRepeatDecks = {
+      cards: {},        // Keyed by filter key (e.g. 'all_all', 'fav_romantic') -> unplayed array
+      wheelSlices: {},  // Keyed by filter key -> unplayed array for wheel slices
+      wheelWonIds: new Set(), // Set of position IDs that have won on the wheel in current cycle
+      match: {},        // Keyed by filter key -> unplayed array for Secret Match rounds
+      dateNightSeenIds: new Set() // Set of position IDs used in recent Date Night flows
+    };
+
+    function getFilterDeckKey() {
+      const favPrefix = isFavoritesOnlyFilterActive ? 'fav_' : 'all_';
+      return `${favPrefix}${currentCategory}`;
+    }
+
+    function shuffleArray(arr) {
+      const a = arr.slice();
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+
+    function drawUniqueCards(count, deckType = 'cards') {
+      const pool = getFilteredPositions();
+      if (!pool || pool.length === 0) return [];
+      if (pool.length <= count) {
+        return shuffleArray(pool);
+      }
+
+      const key = getFilterDeckKey();
+      if (!antiRepeatDecks[deckType]) antiRepeatDecks[deckType] = {};
+      let deck = antiRepeatDecks[deckType][key];
+
+      const poolIdSet = new Set(pool.map(p => p.id));
+      if (deck) {
+        deck = deck.filter(p => poolIdSet.has(p.id));
+      }
+
+      // If deck does not have enough remaining cards to deal a full fresh set
+      if (!deck || deck.length < count) {
+        const remaining = deck || [];
+        const needed = count - remaining.length;
+        const remainingIds = new Set(remaining.map(p => p.id));
+
+        // When refilling, avoid cards currently displayed on screen so the transition never duplicates them
+        const visibleHandIds = new Set(deckType === 'cards' ? currentCardsHand.map(p => p.id) : (deckType === 'wheelSlices' ? wheelItems.map(p => p.id) : []));
+        const excludeIds = new Set([...remainingIds, ...visibleHandIds]);
+
+        let freshCandidates = pool.filter(p => !excludeIds.has(p.id));
+        if (freshCandidates.length < needed) {
+          freshCandidates = pool.filter(p => !remainingIds.has(p.id));
+        }
+
+        const newlyShuffled = shuffleArray(freshCandidates);
+        deck = remaining.concat(newlyShuffled);
+      }
+
+      const drawn = deck.slice(0, count);
+      antiRepeatDecks[deckType][key] = deck.slice(count);
+      return drawn;
+    }
 
     // Timer State (Default 1 minute)
     let timerDurationSeconds = 1 * 60;
@@ -4732,7 +4798,14 @@
       const grid = document.getElementById('cards-grid');
       if (!grid) return;
 
-      currentCardsHand = sampleN(getFilteredPositions(), 6);
+      const pool = getFilteredPositions();
+      if (!pool || pool.length === 0) {
+        currentCardsHand = [];
+        renderCardsDOM();
+        return;
+      }
+      const drawCount = Math.min(6, pool.length);
+      currentCardsHand = drawUniqueCards(drawCount, 'cards');
       const token = ++dealToken;
 
       if (!withAnimation || grid.children.length === 0) {
@@ -4874,7 +4947,21 @@
         return;
       }
       wheelRefreshPending = false;
-      wheelItems = sampleN(getFilteredPositions(), 20);
+      const pool = getFilteredPositions();
+      if (!pool || pool.length === 0) {
+        wheelItems = [];
+        drawWheel();
+        return;
+      }
+      if (pool.length >= 20) {
+        wheelItems = drawUniqueCards(20, 'wheelSlices');
+      } else {
+        const uniqueItems = shuffleArray(pool);
+        wheelItems = [];
+        for (let i = 0; i < 20; i++) {
+          wheelItems.push(uniqueItems[i % uniqueItems.length]);
+        }
+      }
       drawWheel();
     }
 
@@ -4966,16 +5053,40 @@
       const numSlices = wheelItems.length;
       const sliceAngleDeg = 360 / numSlices;
 
-      // Smart Anti-Repeat: filter out recently won positions
-      const availableIndices = [];
+      // Maintain pool validity for won history
+      const currentPool = getFilteredPositions();
+      const currentPoolIdSet = new Set(currentPool.map(p => p.id));
+      for (const wonId of antiRepeatDecks.wheelWonIds) {
+        if (!currentPoolIdSet.has(wonId)) antiRepeatDecks.wheelWonIds.delete(wonId);
+      }
+      if (antiRepeatDecks.wheelWonIds.size >= currentPool.length) {
+        antiRepeatDecks.wheelWonIds.clear();
+      }
+
+      // Anti-Repeat: exclude any slice that has already won in the current cycle
+      let availableIndices = [];
       for (let i = 0; i < numSlices; i++) {
-        if (!recentWinnerIds.includes(wheelItems[i].id)) {
+        if (!antiRepeatDecks.wheelWonIds.has(wheelItems[i].id)) {
           availableIndices.push(i);
         }
       }
 
-      // If all slices in the current wheel were recently picked, fall back to all of them
-      const candidateIndices = (availableIndices.length > 0) ? availableIndices : Array.from({ length: numSlices }, (_, i) => i);
+      // If all slices on current wheel have already won, refresh with fresh unwon slices before spinning!
+      if (availableIndices.length === 0 && currentPool.length > 0) {
+        shuffleWheelSlices();
+        const updatedNumSlices = wheelItems.length;
+        for (let i = 0; i < updatedNumSlices; i++) {
+          if (!antiRepeatDecks.wheelWonIds.has(wheelItems[i].id)) {
+            availableIndices.push(i);
+          }
+        }
+        if (availableIndices.length === 0) {
+          antiRepeatDecks.wheelWonIds.clear();
+          availableIndices = Array.from({ length: wheelItems.length }, (_, i) => i);
+        }
+      }
+
+      const candidateIndices = (availableIndices.length > 0) ? availableIndices : Array.from({ length: wheelItems.length }, (_, i) => i);
       const winningIndex = candidateIndices[Math.floor(Math.random() * candidateIndices.length)];
       const plannedWinner = wheelItems[winningIndex];
 
@@ -5029,6 +5140,7 @@
         if (landed.id !== plannedWinner.id) {
           console.warn('Wheel landing differs from plan; using the slice under the pointer', landed.id, plannedWinner.id);
         }
+        antiRepeatDecks.wheelWonIds.add(landed.id);
         recentWinnerIds.push(landed.id);
         if (recentWinnerIds.length > 6) recentWinnerIds.shift();
 
@@ -5714,7 +5826,9 @@
 
     function startSecretMatch() {
       const pool = getFilteredPositions();
-      matchDeck = sampleN(pool, matchDeckSize);
+      if (!pool || pool.length === 0) return;
+      const count = Math.min(matchDeckSize, pool.length);
+      matchDeck = drawUniqueCards(count, 'match');
       if (matchDeck.length === 0) return;
       matchCurrentStep = 0;
       matchCurrentPlayer = 1;
@@ -6186,19 +6300,30 @@
         }
         if (poses.length < totalCount) {
           const usedIds = new Set(poses.map(p => p.id));
-          const available = catalog.filter(p => !usedIds.has(p.id));
-          const shuffled = shuffleArray(available.slice());
+          const available = catalog.filter(p => !usedIds.has(p.id) && !antiRepeatDecks.dateNightSeenIds.has(p.id));
+          const fallbackAvail = available.length > 0 ? available : catalog.filter(p => !usedIds.has(p.id));
+          const shuffled = shuffleArray(fallbackAvail.slice());
           while (poses.length < totalCount && shuffled.length > 0) {
-            poses.push(shuffled.pop());
+            const p = shuffled.pop();
+            poses.push(p);
+            antiRepeatDecks.dateNightSeenIds.add(p.id);
           }
         }
         return poses.slice(0, totalCount);
       }
 
-      // Auto generation based on 4 Emotional Phases
+      // Auto generation based on 4 Emotional Phases (Zero-Repeat Across Journeys)
       const usedIds = new Set();
       function pickOneFrom(filterFn, fallbackPool) {
-        let pool = catalog.filter(p => !usedIds.has(p.id) && filterFn(p));
+        // Priority 1: Unused in this journey AND never seen in recent date night flows
+        let pool = catalog.filter(p => !usedIds.has(p.id) && !antiRepeatDecks.dateNightSeenIds.has(p.id) && filterFn(p));
+        if (pool.length === 0 && fallbackPool) {
+          pool = fallbackPool.filter(p => !usedIds.has(p.id) && !antiRepeatDecks.dateNightSeenIds.has(p.id));
+        }
+        // Priority 2: If unseen pool exhausted, allow recycling while keeping this journey duplicate-free
+        if (pool.length === 0) {
+          pool = catalog.filter(p => !usedIds.has(p.id) && filterFn(p));
+        }
         if (pool.length === 0 && fallbackPool) {
           pool = fallbackPool.filter(p => !usedIds.has(p.id));
         }
@@ -6208,6 +6333,11 @@
         if (pool.length === 0) return null;
         const picked = pool[Math.floor(Math.random() * pool.length)];
         usedIds.add(picked.id);
+        antiRepeatDecks.dateNightSeenIds.add(picked.id);
+        if (antiRepeatDecks.dateNightSeenIds.size > catalog.length * 0.75) {
+          antiRepeatDecks.dateNightSeenIds.clear();
+          usedIds.forEach(id => antiRepeatDecks.dateNightSeenIds.add(id));
+        }
         return picked;
       }
 
