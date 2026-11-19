@@ -135,57 +135,41 @@
     }
 
     .gallery-header {
-      padding: 14px 16px 10px;
+      padding: 12px 14px 10px;
       display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
+      flex-direction: column;
+      gap: 6px;
       border-bottom: 1px solid rgba(255, 255, 255, 0.07);
       background: rgba(22, 11, 35, 0.7);
     }
 
+    .gallery-header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+
     .gallery-badge {
-      display: inline-block;
-      font-size: 0.65rem;
+      display: inline-flex;
+      align-items: center;
+      font-size: 0.62rem;
       font-weight: 700;
-      letter-spacing: 2px;
+      letter-spacing: 1.2px;
       color: var(--champagne);
       background: rgba(255, 209, 102, 0.1);
       border: 1px solid rgba(255, 209, 102, 0.25);
-      padding: 2px 10px;
+      padding: 2px 8px;
       border-radius: 12px;
-      margin-bottom: 4px;
+      white-space: nowrap;
+      flex-shrink: 0;
     }
 
-    .gallery-title-wrap {
-      display: flex;
-      align-items: center;
-      gap: 6px;
-    }
-
-    .gallery-title-icon {
-      font-size: 1.25rem;
-    }
-
-    .gallery-title {
-      font-size: 1.25rem;
-      font-weight: 700;
-      color: #fff;
-      background: linear-gradient(135deg, #fff, #ffd166, #ff2e93);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      letter-spacing: -0.3px;
-    }
-
-    .gallery-subtitle {
-      font-size: 0.72rem;
-      color: var(--text-muted);
-      margin-top: 2px;
-    }
-
-    .gallery-header-right {
+    .gallery-header-controls {
       display: flex;
       align-items: center;
       gap: 8px;
+      flex-shrink: 0;
     }
 
     .gallery-counter-badge {
@@ -197,11 +181,13 @@
       padding: 3px 9px;
       border-radius: 12px;
       font-family: monospace;
+      white-space: nowrap;
+      display: inline-block;
     }
 
     .gallery-close-btn {
-      width: 32px;
-      height: 32px;
+      width: 30px;
+      height: 30px;
       border-radius: 50%;
       background: rgba(255, 255, 255, 0.08);
       border: 1px solid rgba(255, 255, 255, 0.15);
@@ -212,12 +198,50 @@
       align-items: center;
       justify-content: center;
       transition: all 0.2s ease;
+      flex-shrink: 0;
     }
 
     .gallery-close-btn:hover {
       background: rgba(255, 255, 255, 0.16);
       color: #fff;
       transform: scale(1.05);
+    }
+
+    .gallery-title-box {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      width: 100%;
+    }
+
+    .gallery-title {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #fff;
+      background: linear-gradient(135deg, #fff 15%, #ffd166 65%, #ff2e93 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: -0.2px;
+      white-space: nowrap;
+      line-height: 1.3;
+    }
+
+    .gallery-title-icon {
+      font-size: 1.15rem;
+      -webkit-text-fill-color: initial;
+    }
+
+    .gallery-subtitle {
+      font-size: 0.72rem;
+      color: #94a3b8;
+      letter-spacing: 0.2px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      line-height: 1.2;
     }
 
     .gallery-toolbar {
@@ -229,7 +253,15 @@
       background: rgba(14, 7, 23, 0.85);
     }
 
+    .gallery-search-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      width: 100%;
+    }
+
     .gallery-search-box {
+      flex: 1;
       position: relative;
       display: flex;
       align-items: center;
@@ -288,35 +320,44 @@
     }
 
     .gallery-cat-chip {
-      background: rgba(255, 255, 255, 0.04);
+      background: rgba(255, 255, 255, 0.05);
       border: 1px solid rgba(255, 255, 255, 0.1);
       color: #94a3b8;
-      font-size: 0.70rem;
-      padding: 3px 10px;
-      border-radius: 12px;
+      font-size: 0.72rem;
+      padding: 4px 10px;
+      border-radius: 14px;
       cursor: pointer;
       transition: all 0.2s ease;
+      white-space: nowrap;
       flex-shrink: 0;
+      font-family: inherit;
+    }
+
+    .gallery-cat-chip:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: #f8fafc;
+      border-color: rgba(255, 255, 255, 0.2);
     }
 
     .gallery-cat-chip.active {
-      background: linear-gradient(135deg, rgba(255, 46, 147, 0.25), rgba(162, 59, 114, 0.2));
+      background: rgba(255, 46, 147, 0.18);
       border-color: #ff2e93;
-      color: #fff;
-      font-weight: 600;
-      box-shadow: 0 0 8px rgba(255, 46, 147, 0.3);
+      color: #ff85be;
+      font-weight: 700;
+      box-shadow: 0 0 10px rgba(255, 46, 147, 0.25);
     }
 
     .gallery-status-bar {
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      gap: 6px;
+      width: 100%;
     }
 
     .gallery-status-chips {
       display: flex;
-      gap: 5px;
+      align-items: center;
+      gap: 6px;
+      width: 100%;
       overflow-x: auto;
       scrollbar-width: none;
     }
@@ -330,10 +371,11 @@
       border: 1px solid rgba(255, 255, 255, 0.08);
       color: #94a3b8;
       font-size: 0.68rem;
-      padding: 2px 8px;
+      padding: 3px 10px;
       border-radius: 10px;
       cursor: pointer;
       transition: all 0.2s ease;
+      white-space: nowrap;
       flex-shrink: 0;
     }
 
@@ -347,11 +389,12 @@
     .gallery-view-toggle {
       display: flex;
       align-items: center;
-      gap: 3px;
+      gap: 2px;
       background: rgba(255, 255, 255, 0.04);
       border: 1px solid rgba(255, 255, 255, 0.08);
       border-radius: 10px;
       padding: 2px;
+      flex-shrink: 0;
     }
 
     .gallery-density-btn {
@@ -359,10 +402,11 @@
       border: none;
       color: #64748b;
       font-size: 0.70rem;
-      padding: 2px 6px;
+      padding: 3px 6px;
       border-radius: 7px;
       cursor: pointer;
       transition: all 0.2s ease;
+      white-space: nowrap;
     }
 
     .gallery-density-btn.active {
@@ -4718,13 +4762,6 @@
       <div class="vault-content-container" id="vault-content-list">
         <!-- Injected via JS -->
       </div>
-
-      <!-- Secret Gallery Master Entrance inside Vault -->
-      <div style="padding: 10px 4px 4px; text-align: center;">
-        <button type="button" class="vault-gallery-link-btn" onclick="openSecretGallery(); closeVaultModal();">
-          <span>🖼️</span> ดูคลังภาพท่วงท่าทั้งหมด (444 ท่า)
-        </button>
-      </div>
     </div>
   </div>
 
@@ -7698,7 +7735,11 @@
       // Update counter badge
       const countBadge = document.getElementById('gallery-counter-badge');
       if (countBadge) {
-        countBadge.textContent = `${galleryFilteredList.length} / ${catalog.length} ท่า`;
+        if (galleryFilteredList.length === catalog.length) {
+          countBadge.textContent = `${catalog.length} ท่า`;
+        } else {
+          countBadge.textContent = `${galleryFilteredList.length} / ${catalog.length} ท่า`;
+        }
       }
 
       // Reset and render initial chunk
@@ -7860,27 +7901,38 @@
     <div class="gallery-modal-card">
       <!-- Gallery Header -->
       <div class="gallery-header">
-        <div class="gallery-header-left">
+        <!-- Top Row: Badge & Action Controls -->
+        <div class="gallery-header-top">
           <div class="gallery-badge">✦ MASTER VISUAL VAULT ✦</div>
-          <div class="gallery-title-wrap">
-            <span class="gallery-title-icon">🖼️</span>
-            <span class="gallery-title">คลังภาพท่วงท่าทั้งหมด</span>
+          <div class="gallery-header-controls">
+            <span class="gallery-counter-badge" id="gallery-counter-badge">444 ท่า</span>
+            <button type="button" class="gallery-close-btn" onclick="closeSecretGallery()" title="ปิดแกลเลอรี">✕</button>
           </div>
-          <div class="gallery-subtitle">444 ท่วงท่ากามสูตรและศิลปะแห่งความรัก</div>
         </div>
-        <div class="gallery-header-right">
-          <span class="gallery-counter-badge" id="gallery-counter-badge">444 ท่า</span>
-          <button class="gallery-close-btn" onclick="closeSecretGallery()" title="ปิดแกลเลอรี">✕</button>
+
+        <!-- Main Title & Subtitle (Full Width, Perfectly Balanced) -->
+        <div class="gallery-title-box">
+          <div class="gallery-title">
+            <span class="gallery-title-icon">🖼️</span>
+            <span class="gallery-title-text">คลังภาพท่วงท่าทั้งหมด</span>
+          </div>
+          <div class="gallery-subtitle">444 ทัศนศิลป์แห่งความรักและกามสูตร</div>
         </div>
       </div>
 
       <!-- Gallery Toolbar: Search & Filters -->
       <div class="gallery-toolbar">
-        <!-- Search Bar -->
-        <div class="gallery-search-box">
-          <span class="gallery-search-icon">🔍</span>
-          <input type="text" id="gallery-search-input" placeholder="ค้นหาชื่อท่า (ไทย / อังกฤษ)..." oninput="handleGallerySearch(this.value)" autocomplete="off" />
-          <button type="button" class="gallery-search-clear" id="gallery-search-clear" onclick="clearGallerySearch()" style="display: none;">✕</button>
+        <!-- Search Bar with Integrated View Density Switcher -->
+        <div class="gallery-search-row">
+          <div class="gallery-search-box">
+            <span class="gallery-search-icon">🔍</span>
+            <input type="text" id="gallery-search-input" placeholder="ค้นหาชื่อท่า (ไทย / อังกฤษ)..." oninput="handleGallerySearch(this.value)" autocomplete="off" />
+            <button type="button" class="gallery-search-clear" id="gallery-search-clear" onclick="clearGallerySearch()" style="display: none;">✕</button>
+          </div>
+          <div class="gallery-view-toggle">
+            <button type="button" class="gallery-density-btn active" id="gdensity-3" onclick="setGalleryDensity(3)" title="3 ช่อง (กะทัดรัด)">⊞ 3</button>
+            <button type="button" class="gallery-density-btn" id="gdensity-2" onclick="setGalleryDensity(2)" title="2 ช่อง (ใหญ่)">⊟ 2</button>
+          </div>
         </div>
 
         <!-- Category Scroll Bar -->
@@ -7895,17 +7947,13 @@
           <button type="button" class="gallery-cat-chip" data-cat="quick" onclick="setGalleryCategory('quick')">เร่งด่วน (11)</button>
         </div>
 
-        <!-- Status Filter Bar -->
+        <!-- Status Filter Bar (Full Width, Zero Cutoff) -->
         <div class="gallery-status-bar">
           <div class="gallery-status-chips">
             <button type="button" class="gallery-status-chip active" id="gstatus-all" onclick="setGalleryStatus('all')">ทั้งหมด</button>
             <button type="button" class="gallery-status-chip" id="gstatus-fav" onclick="setGalleryStatus('favorites')">❤️ ท่าโปรด</button>
             <button type="button" class="gallery-status-chip" id="gstatus-tried" onclick="setGalleryStatus('tried')">🗝️ ปลดล็อค</button>
             <button type="button" class="gallery-status-chip" id="gstatus-hidden" onclick="setGalleryStatus('hidden')">🚫 ซ่อนไว้</button>
-          </div>
-          <div class="gallery-view-toggle">
-            <button type="button" class="gallery-density-btn active" id="gdensity-3" onclick="setGalleryDensity(3)" title="3 ช่อง (กะทัดรัด)">⊞ 3</button>
-            <button type="button" class="gallery-density-btn" id="gdensity-2" onclick="setGalleryDensity(2)" title="2 ช่อง (ใหญ่)">⊟ 2</button>
           </div>
         </div>
       </div>
