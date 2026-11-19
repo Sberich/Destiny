@@ -89,6 +89,531 @@
       /* revealed on PIN success */
     }
 
+    
+    /* ========================================================
+       SECRET MASTER VISUAL GALLERY (10-TAP DESTINY TRIGGER)
+       ======================================================== */
+    #destiny-secret-trigger {
+      cursor: pointer;
+      user-select: none;
+      display: inline-block;
+      transition: transform 0.12s ease, color 0.2s ease;
+    }
+
+    #destiny-secret-trigger:active {
+      transform: scale(0.96);
+      color: #ffd166;
+    }
+
+    .gallery-modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(8, 5, 14, 0.95);
+      backdrop-filter: blur(25px);
+      -webkit-backdrop-filter: blur(25px);
+      z-index: 99990;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: max(10px, env(safe-area-inset-top)) 8px max(10px, env(safe-area-inset-bottom));
+    }
+
+    .gallery-modal-card {
+      background: rgba(18, 9, 29, 0.96);
+      border: 1px solid var(--glass-border);
+      border-radius: 24px;
+      width: 100%;
+      max-width: 620px;
+      height: 94vh;
+      max-height: 94vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      position: relative;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8), 0 0 35px rgba(255, 46, 147, 0.18);
+      animation: modalZoomIn 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .gallery-header {
+      padding: 14px 16px 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+      background: rgba(22, 11, 35, 0.7);
+    }
+
+    .gallery-badge {
+      display: inline-block;
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: var(--champagne);
+      background: rgba(255, 209, 102, 0.1);
+      border: 1px solid rgba(255, 209, 102, 0.25);
+      padding: 2px 10px;
+      border-radius: 12px;
+      margin-bottom: 4px;
+    }
+
+    .gallery-title-wrap {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .gallery-title-icon {
+      font-size: 1.25rem;
+    }
+
+    .gallery-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #fff;
+      background: linear-gradient(135deg, #fff, #ffd166, #ff2e93);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: -0.3px;
+    }
+
+    .gallery-subtitle {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .gallery-header-right {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .gallery-counter-badge {
+      background: rgba(255, 46, 147, 0.15);
+      border: 1px solid rgba(255, 46, 147, 0.35);
+      color: #ff9ecf;
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 3px 9px;
+      border-radius: 12px;
+      font-family: monospace;
+    }
+
+    .gallery-close-btn {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: #cbd5e1;
+      font-size: 0.9rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s ease;
+    }
+
+    .gallery-close-btn:hover {
+      background: rgba(255, 255, 255, 0.16);
+      color: #fff;
+      transform: scale(1.05);
+    }
+
+    .gallery-toolbar {
+      padding: 8px 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      background: rgba(14, 7, 23, 0.85);
+    }
+
+    .gallery-search-box {
+      position: relative;
+      display: flex;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 11px;
+      padding: 6px 10px;
+      gap: 7px;
+      transition: border-color 0.2s ease;
+    }
+
+    .gallery-search-box:focus-within {
+      border-color: rgba(255, 46, 147, 0.5);
+      box-shadow: 0 0 10px rgba(255, 46, 147, 0.18);
+    }
+
+    .gallery-search-icon {
+      font-size: 0.85rem;
+      opacity: 0.7;
+    }
+
+    #gallery-search-input {
+      flex: 1;
+      background: none;
+      border: none;
+      outline: none;
+      color: #f8fafc;
+      font-size: 0.82rem;
+      font-family: inherit;
+    }
+
+    #gallery-search-input::placeholder {
+      color: #64748b;
+    }
+
+    .gallery-search-clear {
+      background: none;
+      border: none;
+      color: #94a3b8;
+      font-size: 0.8rem;
+      cursor: pointer;
+      padding: 2px 5px;
+    }
+
+    .gallery-cat-bar {
+      display: flex;
+      gap: 6px;
+      overflow-x: auto;
+      white-space: nowrap;
+      padding-bottom: 2px;
+      scrollbar-width: none;
+    }
+
+    .gallery-cat-bar::-webkit-scrollbar {
+      display: none;
+    }
+
+    .gallery-cat-chip {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: #94a3b8;
+      font-size: 0.70rem;
+      padding: 3px 10px;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      flex-shrink: 0;
+    }
+
+    .gallery-cat-chip.active {
+      background: linear-gradient(135deg, rgba(255, 46, 147, 0.25), rgba(162, 59, 114, 0.2));
+      border-color: #ff2e93;
+      color: #fff;
+      font-weight: 600;
+      box-shadow: 0 0 8px rgba(255, 46, 147, 0.3);
+    }
+
+    .gallery-status-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .gallery-status-chips {
+      display: flex;
+      gap: 5px;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+
+    .gallery-status-chips::-webkit-scrollbar {
+      display: none;
+    }
+
+    .gallery-status-chip {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      color: #94a3b8;
+      font-size: 0.68rem;
+      padding: 2px 8px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      flex-shrink: 0;
+    }
+
+    .gallery-status-chip.active {
+      background: rgba(255, 209, 102, 0.15);
+      border-color: #ffd166;
+      color: #ffd166;
+      font-weight: 600;
+    }
+
+    .gallery-view-toggle {
+      display: flex;
+      align-items: center;
+      gap: 3px;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 10px;
+      padding: 2px;
+    }
+
+    .gallery-density-btn {
+      background: none;
+      border: none;
+      color: #64748b;
+      font-size: 0.70rem;
+      padding: 2px 6px;
+      border-radius: 7px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .gallery-density-btn.active {
+      background: rgba(255, 255, 255, 0.12);
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .gallery-grid-wrap {
+      flex: 1;
+      overflow-y: auto;
+      overscroll-behavior: contain;
+      position: relative;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      padding: 10px 10px 40px;
+    }
+
+    .gallery-grid.cols-2 {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+
+    .gallery-card {
+      background: rgba(26, 14, 40, 0.65);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 13px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+      user-select: none;
+      transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+      position: relative;
+    }
+
+    .gallery-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(255, 46, 147, 0.4);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5), 0 0 10px rgba(255, 46, 147, 0.2);
+    }
+
+    .gallery-card:active {
+      transform: scale(0.98);
+    }
+
+    .gallery-card.is-hidden {
+      opacity: 0.45;
+      filter: grayscale(0.5);
+    }
+
+    .gallery-card-thumb-wrap {
+      position: relative;
+      width: 100%;
+      padding-top: 100%; /* 1:1 Aspect Ratio */
+      background: #0d0615;
+      overflow: hidden;
+    }
+
+    .gallery-card-img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-card:hover .gallery-card-img {
+      transform: scale(1.05);
+    }
+
+    .gallery-card-num {
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      background: rgba(0, 0, 0, 0.7);
+      color: #cbd5e1;
+      font-size: 0.58rem;
+      font-weight: 700;
+      font-family: monospace;
+      padding: 1px 5px;
+      border-radius: 6px;
+      backdrop-filter: blur(4px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .gallery-card-cat-dot {
+      position: absolute;
+      top: 6px;
+      right: 6px;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      box-shadow: 0 0 6px rgba(0,0,0,0.8);
+    }
+
+    .cat-dot-classic { background: #60a5fa; box-shadow: 0 0 6px #60a5fa; }
+    .cat-dot-romantic { background: #f472b6; box-shadow: 0 0 6px #f472b6; }
+    .cat-dot-adventurous { background: #f87171; box-shadow: 0 0 6px #f87171; }
+    .cat-dot-chill { background: #34d399; box-shadow: 0 0 6px #34d399; }
+    .cat-dot-gspot { background: #fbbf24; box-shadow: 0 0 6px #fbbf24; }
+    .cat-dot-her_lead { background: #c084fc; box-shadow: 0 0 6px #c084fc; }
+    .cat-dot-him_lead { background: #38bdf8; box-shadow: 0 0 6px #38bdf8; }
+    .cat-dot-quick { background: #e879f9; box-shadow: 0 0 6px #e879f9; }
+
+    .gallery-card-hidden-pill {
+      position: absolute;
+      bottom: 4px;
+      left: 4px;
+      background: rgba(239, 68, 68, 0.85);
+      color: #fff;
+      font-size: 0.55rem;
+      font-weight: 700;
+      padding: 1px 5px;
+      border-radius: 5px;
+    }
+
+    .gallery-card-info {
+      padding: 5px 6px 3px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .gallery-card-name-th {
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: #f8fafc;
+      line-height: 1.2;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .gallery-card-name-en {
+      font-size: 0.62rem;
+      color: #94a3b8;
+      line-height: 1.2;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-top: 1px;
+    }
+
+    .gallery-card-actions {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 3px 4px 5px;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      background: rgba(15, 8, 22, 0.4);
+    }
+
+    .gca-btn {
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.09);
+      color: #94a3b8;
+      font-size: 0.70rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .gca-btn:hover {
+      background: rgba(255, 255, 255, 0.12);
+      transform: scale(1.1);
+    }
+
+    .gca-btn:active {
+      transform: scale(0.9);
+    }
+
+    .gca-fav.active {
+      background: rgba(255, 46, 147, 0.22);
+      border-color: #ff2e93;
+      color: #ff2e93;
+      box-shadow: 0 0 8px rgba(255, 46, 147, 0.35);
+    }
+
+    .gca-tried.active {
+      background: rgba(255, 209, 102, 0.22);
+      border-color: #ffd166;
+      color: #ffd166;
+      box-shadow: 0 0 8px rgba(255, 209, 102, 0.35);
+    }
+
+    .gca-hide.active {
+      background: rgba(239, 68, 68, 0.22);
+      border-color: #ef4444;
+      color: #ef4444;
+      box-shadow: 0 0 8px rgba(239, 68, 68, 0.35);
+    }
+
+    .vault-gallery-link-btn {
+      width: 100%;
+      background: linear-gradient(135deg, rgba(255, 209, 102, 0.15), rgba(255, 46, 147, 0.12));
+      border: 1px solid rgba(255, 209, 102, 0.35);
+      color: #ffd166;
+      font-size: 0.82rem;
+      font-weight: 700;
+      padding: 9px 14px;
+      border-radius: 12px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: all 0.2s ease;
+    }
+
+    .vault-gallery-link-btn:hover {
+      background: linear-gradient(135deg, rgba(255, 209, 102, 0.25), rgba(255, 46, 147, 0.2));
+      box-shadow: 0 0 14px rgba(255, 209, 102, 0.25);
+      transform: translateY(-1px);
+    }
+
+    .gallery-empty-state {
+      padding: 50px 20px;
+      text-align: center;
+      color: #94a3b8;
+    }
+
+    .empty-icon {
+      font-size: 2.2rem;
+      margin-bottom: 8px;
+      opacity: 0.6;
+    }
+
+    .empty-title {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #f1f5f9;
+      margin-bottom: 4px;
+    }
+
+    .empty-sub {
+      font-size: 0.78rem;
+      color: #64748b;
+    }
+
     /* Top Bar */
     .top-bar {
       display: flex;
@@ -3504,7 +4029,7 @@
   <div id="app-container">
     <!-- Top Bar -->
     <header class="top-bar">
-      <div class="brand-title">DESTINY VELVET</div>
+      <div class="brand-title"><span id="destiny-secret-trigger" onclick="handleDestinySecretTap(event)" title="Destiny Velvet">DESTINY</span> VELVET</div>
       <div style="display: flex; align-items: center; gap: 8px;">
         <button class="pwa-header-btn" id="pwa-header-install-btn" style="display: none;" onclick="triggerPWAInstall()"
           title="ติดตั้งเป็นแอป">
@@ -4193,6 +4718,13 @@
       <div class="vault-content-container" id="vault-content-list">
         <!-- Injected via JS -->
       </div>
+
+      <!-- Secret Gallery Master Entrance inside Vault -->
+      <div style="padding: 10px 4px 4px; text-align: center;">
+        <button type="button" class="vault-gallery-link-btn" onclick="openSecretGallery(); closeVaultModal();">
+          <span>🖼️</span> ดูคลังภาพท่วงท่าทั้งหมด (444 ท่า)
+        </button>
+      </div>
     </div>
   </div>
 
@@ -4353,7 +4885,7 @@
     // Blurred overlays re-blur whatever is animating behind them on every frame.
     // Track whether any overlay is open so the background sky can pause meanwhile.
     let overlayOpen = false;
-    const OVERLAY_IDS = ['result-modal', 'edu-modal', 'mini-tip-modal', 'lightbox-modal', 'vault-modal'];
+    const OVERLAY_IDS = ['result-modal', 'edu-modal', 'mini-tip-modal', 'lightbox-modal', 'vault-modal', 'gallery-modal'];
     function syncOverlayFlag() {
       overlayOpen = OVERLAY_IDS.some((id) => {
         const el = document.getElementById(id);
@@ -4474,6 +5006,23 @@
       // 0.5. Vault Modal
       const vm = document.getElementById('vault-modal');
       if (vm && vm.style.display === 'flex') {
+        closeVaultModal();
+        return;
+      }
+      // 0. Gallery modal
+      const gal = document.getElementById('gallery-modal');
+      if (gal && gal.style.display === 'flex') {
+        const res = document.getElementById('result-modal');
+        if (res && res.style.display === 'flex') {
+          closeModal();
+        } else {
+          closeSecretGallery();
+        }
+        return;
+      }
+      // 0.5. Vault modal
+      const vault = document.getElementById('vault-modal');
+      if (vault && vault.style.display === 'flex') {
         closeVaultModal();
         return;
       }
@@ -6723,6 +7272,34 @@
       if (btnTried) btnTried.classList.toggle('active', isTr);
       if (btnHide) btnHide.classList.toggle('active', isHid);
       if (hideLabel) hideLabel.textContent = isHid ? 'ซ่อนอยู่' : 'ซ่อนท่า';
+
+      // 2-Way Sync with Gallery Card if visible
+      const galCard = document.querySelector(`.gallery-card[data-id="${poseId}"]`);
+      if (galCard) {
+        galCard.classList.toggle('is-fav', isFav);
+        galCard.classList.toggle('is-tried', isTr);
+        galCard.classList.toggle('is-hidden', isHid);
+        const cardFavBtn = galCard.querySelector('.gca-fav');
+        if (cardFavBtn) {
+          cardFavBtn.classList.toggle('active', isFav);
+          cardFavBtn.innerHTML = isFav ? '❤️' : '🤍';
+        }
+        const cardTriedBtn = galCard.querySelector('.gca-tried');
+        if (cardTriedBtn) cardTriedBtn.classList.toggle('active', isTr);
+        const cardHideBtn = galCard.querySelector('.gca-hide');
+        if (cardHideBtn) cardHideBtn.classList.toggle('active', isHid);
+
+        const thumbWrap = galCard.querySelector('.gallery-card-thumb-wrap');
+        const pill = thumbWrap ? thumbWrap.querySelector('.gallery-card-hidden-pill') : null;
+        if (isHid && !pill && thumbWrap) {
+          const newPill = document.createElement('span');
+          newPill.className = 'gallery-card-hidden-pill';
+          newPill.textContent = 'ซ่อนอยู่';
+          thumbWrap.appendChild(newPill);
+        } else if (!isHid && pill) {
+          pill.remove();
+        }
+      }
     }
 
     function toggleCurrentPoseFavorite() {
@@ -6975,8 +7552,377 @@
           .catch(() => { });
       });
     }
+  
+    /* ========================================================
+       SECRET MASTER VISUAL GALLERY (10-TAP TRIGGER & ENGINE)
+       ======================================================== */
+    let destinyTapCount = 0;
+    let lastDestinyTapTime = 0;
+
+    let galleryCategory = 'all';
+    let gallerySearchQuery = '';
+    let galleryStatusFilter = 'all';
+    let galleryDensityCols = 3;
+    let galleryFilteredList = [];
+    let galleryRenderedCount = 0;
+    const GALLERY_CHUNK_SIZE = 36;
+    let gallerySavedScroll = 0;
+
+    function handleDestinySecretTap(e) {
+      if (e) {
+        e.preventDefault();
+        e.stopPropagation();
+      }
+      const now = Date.now();
+      if (now - lastDestinyTapTime > 1600) {
+        destinyTapCount = 0;
+      }
+      lastDestinyTapTime = now;
+      destinyTapCount++;
+
+      // Subtle tap feedback on higher taps (7, 8, 9)
+      if (destinyTapCount >= 7 && destinyTapCount < 10) {
+        playTone(600 + (destinyTapCount * 60), 'sine', 0.03);
+      }
+
+      if (destinyTapCount >= 10) {
+        destinyTapCount = 0;
+        // Triumphant 4-note celebration chord
+        [523.25, 659.25, 783.99, 1046.50].forEach((freq, idx) => {
+          setTimeout(() => playTone(freq, 'sine', 0.15), idx * 75);
+        });
+        if (navigator.vibrate) navigator.vibrate([40, 60, 80]);
+        openSecretGallery();
+      }
+    }
+
+    function openSecretGallery() {
+      const modal = document.getElementById('gallery-modal');
+      if (!modal) return;
+      modal.style.display = 'flex';
+      applyGalleryFilters();
+      playTone(523.25, 'sine', 0.1);
+    }
+
+    function closeSecretGallery() {
+      const modal = document.getElementById('gallery-modal');
+      if (modal) modal.style.display = 'none';
+    }
+
+    function onGalleryBackdropClick(e) {
+      if (e.target.id === 'gallery-modal') closeSecretGallery();
+    }
+
+    function setGalleryCategory(cat) {
+      galleryCategory = cat;
+      const chips = document.querySelectorAll('.gallery-cat-chip');
+      chips.forEach(btn => btn.classList.toggle('active', btn.dataset.cat === cat));
+      applyGalleryFilters();
+      playTone(580, 'sine', 0.04);
+    }
+
+    function setGalleryStatus(status) {
+      galleryStatusFilter = status;
+      ['all', 'favorites', 'tried', 'hidden'].forEach(s => {
+        const btn = document.getElementById(`gstatus-${s === 'favorites' ? 'fav' : s}`);
+        if (btn) btn.classList.toggle('active', s === status);
+      });
+      applyGalleryFilters();
+      playTone(540, 'sine', 0.04);
+    }
+
+    function setGalleryDensity(cols) {
+      galleryDensityCols = cols;
+      const grid = document.getElementById('gallery-grid');
+      if (grid) {
+        grid.classList.toggle('cols-3', cols === 3);
+        grid.classList.toggle('cols-2', cols === 2);
+      }
+      document.getElementById('gdensity-3').classList.toggle('active', cols === 3);
+      document.getElementById('gdensity-2').classList.toggle('active', cols === 2);
+      playTone(500, 'sine', 0.04);
+    }
+
+    let gallerySearchDebounce = null;
+    function handleGallerySearch(val) {
+      gallerySearchQuery = (val || '').trim().toLowerCase();
+      const clearBtn = document.getElementById('gallery-search-clear');
+      if (clearBtn) clearBtn.style.display = gallerySearchQuery ? 'block' : 'none';
+
+      clearTimeout(gallerySearchDebounce);
+      gallerySearchDebounce = setTimeout(() => {
+        applyGalleryFilters();
+      }, 150);
+    }
+
+    function clearGallerySearch() {
+      const inp = document.getElementById('gallery-search-input');
+      if (inp) inp.value = '';
+      gallerySearchQuery = '';
+      document.getElementById('gallery-search-clear').style.display = 'none';
+      applyGalleryFilters();
+    }
+
+    function applyGalleryFilters() {
+      const catalog = window.COUPLES_POSITIONS || [];
+      const favSet = new Set((userCollection && userCollection.favorites) || []);
+      const triedSet = new Set((userCollection && userCollection.tried) || []);
+      const hiddenSet = new Set((userCollection && userCollection.hidden) || []);
+
+      galleryFilteredList = catalog.filter(item => {
+        // 1. Category Filter
+        if (galleryCategory !== 'all' && item.category !== galleryCategory) return false;
+
+        // 2. Status Filter
+        if (galleryStatusFilter === 'favorites' && !favSet.has(item.id)) return false;
+        if (galleryStatusFilter === 'tried' && !triedSet.has(item.id)) return false;
+        if (galleryStatusFilter === 'hidden' && !hiddenSet.has(item.id)) return false;
+
+        // 3. Search Query Filter
+        if (gallerySearchQuery) {
+          const nameEn = (item.name || '').toLowerCase();
+          const nameTh = (item.nameTh || '').toLowerCase();
+          const desc = (item.descriptionTh || '').toLowerCase();
+          const id = (item.id || '').toLowerCase();
+          if (!nameEn.includes(gallerySearchQuery) &&
+              !nameTh.includes(gallerySearchQuery) &&
+              !desc.includes(gallerySearchQuery) &&
+              !id.includes(gallerySearchQuery)) {
+            return false;
+          }
+        }
+
+        return true;
+      });
+
+      // Update counter badge
+      const countBadge = document.getElementById('gallery-counter-badge');
+      if (countBadge) {
+        countBadge.textContent = `${galleryFilteredList.length} / ${catalog.length} ท่า`;
+      }
+
+      // Reset and render initial chunk
+      const grid = document.getElementById('gallery-grid');
+      const emptyState = document.getElementById('gallery-empty-state');
+      if (!grid) return;
+
+      grid.innerHTML = '';
+      galleryRenderedCount = 0;
+
+      if (galleryFilteredList.length === 0) {
+        if (emptyState) emptyState.style.display = 'block';
+      } else {
+        if (emptyState) emptyState.style.display = 'none';
+        renderNextGalleryChunk();
+      }
+
+      // Reset scroll to top
+      const wrap = document.getElementById('gallery-grid-wrap');
+      if (wrap) wrap.scrollTop = 0;
+    }
+
+    function escapeHtml(str) {
+      return String(str || '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+    }
+
+    function renderNextGalleryChunk() {
+      const grid = document.getElementById('gallery-grid');
+      if (!grid) return;
+
+      const nextBatch = galleryFilteredList.slice(galleryRenderedCount, galleryRenderedCount + GALLERY_CHUNK_SIZE);
+      if (nextBatch.length === 0) return;
+
+      const favSet = new Set((userCollection && userCollection.favorites) || []);
+      const triedSet = new Set((userCollection && userCollection.tried) || []);
+      const hiddenSet = new Set((userCollection && userCollection.hidden) || []);
+
+      const frag = document.createDocumentFragment();
+
+      nextBatch.forEach((item, idx) => {
+        const itemIdx = galleryRenderedCount + idx + 1;
+        const isFav = favSet.has(item.id);
+        const isTried = triedSet.has(item.id);
+        const isHidden = hiddenSet.has(item.id);
+
+        const card = document.createElement('div');
+        card.className = `gallery-card ${isFav ? 'is-fav' : ''} ${isTried ? 'is-tried' : ''} ${isHidden ? 'is-hidden' : ''}`;
+        card.dataset.id = item.id;
+        card.onclick = () => openGalleryItem(item.id);
+
+        const cleanTh = extractThaiName(item.nameTh);
+
+        card.innerHTML = `
+          <div class="gallery-card-thumb-wrap">
+            <img class="gallery-card-img" src="${normalizeImagePath(item.imageUrl)}" alt="${escapeHtml(item.name)}" loading="lazy" onerror="handleImageError(this)" />
+            <span class="gallery-card-num">#${item.index || itemIdx}</span>
+            <span class="gallery-card-cat-dot cat-dot-${item.category}"></span>
+            ${isHidden ? '<span class="gallery-card-hidden-pill">ซ่อนอยู่</span>' : ''}
+          </div>
+          <div class="gallery-card-info">
+            <div class="gallery-card-name-th">${cleanTh}</div>
+            <div class="gallery-card-name-en">${escapeHtml(item.name)}</div>
+          </div>
+          <div class="gallery-card-actions" onclick="event.stopPropagation()">
+            <button type="button" class="gca-btn gca-fav ${isFav ? 'active' : ''}" onclick="toggleGalleryFav('${item.id}', this)" title="ท่าโปรด">
+              ${isFav ? '❤️' : '🤍'}
+            </button>
+            <button type="button" class="gca-btn gca-tried ${isTried ? 'active' : ''}" onclick="toggleGalleryTried('${item.id}', this)" title="ปลดล็อค">
+              🗝️
+            </button>
+            <button type="button" class="gca-btn gca-hide ${isHidden ? 'active' : ''}" onclick="toggleGalleryHide('${item.id}', this)" title="ซ่อนท่า">
+              🚫
+            </button>
+          </div>
+        `;
+
+        frag.appendChild(card);
+      });
+
+      grid.appendChild(frag);
+      galleryRenderedCount += nextBatch.length;
+    }
+
+    function handleGalleryScroll() {
+      const wrap = document.getElementById('gallery-grid-wrap');
+      if (!wrap) return;
+      if (wrap.scrollTop + wrap.clientHeight >= wrap.scrollHeight - 300) {
+        if (galleryRenderedCount < galleryFilteredList.length) {
+          renderNextGalleryChunk();
+        }
+      }
+    }
+
+    function openGalleryItem(id) {
+      const catalog = window.COUPLES_POSITIONS || [];
+      const item = catalog.find(p => p.id === id);
+      if (!item) return;
+
+      const wrap = document.getElementById('gallery-grid-wrap');
+      if (wrap) gallerySavedScroll = wrap.scrollTop;
+
+      lastWinnerItem = item;
+      openModal(item);
+    }
+
+    function toggleGalleryFav(id, btn) {
+      if (!userCollection.favorites) userCollection.favorites = [];
+      const idx = userCollection.favorites.indexOf(id);
+      const isFav = idx === -1;
+      if (isFav) {
+        userCollection.favorites.push(id);
+        playTone(659.25, 'sine', 0.12);
+        setTimeout(() => playTone(880, 'sine', 0.2), 80);
+      } else {
+        userCollection.favorites.splice(idx, 1);
+        playTone(400, 'sine', 0.08);
+      }
+      saveUserCollection();
+      syncModalVaultActions(id);
+    }
+
+    function toggleGalleryTried(id, btn) {
+      if (!userCollection.tried) userCollection.tried = [];
+      const idx = userCollection.tried.indexOf(id);
+      const isTried = idx === -1;
+      if (isTried) {
+        userCollection.tried.push(id);
+        playTone(523.25, 'sine', 0.1);
+        setTimeout(() => playTone(659.25, 'sine', 0.12), 70);
+        setTimeout(() => playTone(1046.50, 'sine', 0.2), 140);
+      } else {
+        userCollection.tried.splice(idx, 1);
+        playTone(380, 'sine', 0.08);
+      }
+      saveUserCollection();
+      syncModalVaultActions(id);
+    }
+
+    function toggleGalleryHide(id, btn) {
+      if (!userCollection.hidden) userCollection.hidden = [];
+      const idx = userCollection.hidden.indexOf(id);
+      const isHidden = idx === -1;
+      if (isHidden) {
+        userCollection.hidden.push(id);
+        playTone(320, 'sine', 0.08);
+      } else {
+        userCollection.hidden.splice(idx, 1);
+        playTone(520, 'sine', 0.08);
+      }
+      saveUserCollection();
+      syncModalVaultActions(id);
+    }
+
   </script>
 
+
+  <!-- Master Visual Gallery Modal (Secret 10-Tap on DESTINY) -->
+  <div class="gallery-modal-backdrop" id="gallery-modal" onclick="onGalleryBackdropClick(event)">
+    <div class="gallery-modal-card">
+      <!-- Gallery Header -->
+      <div class="gallery-header">
+        <div class="gallery-header-left">
+          <div class="gallery-badge">✦ MASTER VISUAL VAULT ✦</div>
+          <div class="gallery-title-wrap">
+            <span class="gallery-title-icon">🖼️</span>
+            <span class="gallery-title">คลังภาพท่วงท่าทั้งหมด</span>
+          </div>
+          <div class="gallery-subtitle">444 ท่วงท่ากามสูตรและศิลปะแห่งความรัก</div>
+        </div>
+        <div class="gallery-header-right">
+          <span class="gallery-counter-badge" id="gallery-counter-badge">444 ท่า</span>
+          <button class="gallery-close-btn" onclick="closeSecretGallery()" title="ปิดแกลเลอรี">✕</button>
+        </div>
+      </div>
+
+      <!-- Gallery Toolbar: Search & Filters -->
+      <div class="gallery-toolbar">
+        <!-- Search Bar -->
+        <div class="gallery-search-box">
+          <span class="gallery-search-icon">🔍</span>
+          <input type="text" id="gallery-search-input" placeholder="ค้นหาชื่อท่า (ไทย / อังกฤษ)..." oninput="handleGallerySearch(this.value)" autocomplete="off" />
+          <button type="button" class="gallery-search-clear" id="gallery-search-clear" onclick="clearGallerySearch()" style="display: none;">✕</button>
+        </div>
+
+        <!-- Category Scroll Bar -->
+        <div class="gallery-cat-bar" id="gallery-cat-bar">
+          <button type="button" class="gallery-cat-chip active" data-cat="all" onclick="setGalleryCategory('all')">ทั้งหมด (444)</button>
+          <button type="button" class="gallery-cat-chip" data-cat="adventurous" onclick="setGalleryCategory('adventurous')">ผาดโผน (215)</button>
+          <button type="button" class="gallery-cat-chip" data-cat="chill" onclick="setGalleryCategory('chill')">ผ่อนคลาย (95)</button>
+          <button type="button" class="gallery-cat-chip" data-cat="romantic" onclick="setGalleryCategory('romantic')">โรแมนติก (63)</button>
+          <button type="button" class="gallery-cat-chip" data-cat="her_lead" onclick="setGalleryCategory('her_lead')">หญิงนำ (24)</button>
+          <button type="button" class="gallery-cat-chip" data-cat="classic" onclick="setGalleryCategory('classic')">คลาสสิก (20)</button>
+          <button type="button" class="gallery-cat-chip" data-cat="him_lead" onclick="setGalleryCategory('him_lead')">ชายนำ (16)</button>
+          <button type="button" class="gallery-cat-chip" data-cat="quick" onclick="setGalleryCategory('quick')">เร่งด่วน (11)</button>
+        </div>
+
+        <!-- Status Filter Bar -->
+        <div class="gallery-status-bar">
+          <div class="gallery-status-chips">
+            <button type="button" class="gallery-status-chip active" id="gstatus-all" onclick="setGalleryStatus('all')">ทั้งหมด</button>
+            <button type="button" class="gallery-status-chip" id="gstatus-fav" onclick="setGalleryStatus('favorites')">❤️ ท่าโปรด</button>
+            <button type="button" class="gallery-status-chip" id="gstatus-tried" onclick="setGalleryStatus('tried')">🗝️ ปลดล็อค</button>
+            <button type="button" class="gallery-status-chip" id="gstatus-hidden" onclick="setGalleryStatus('hidden')">🚫 ซ่อนไว้</button>
+          </div>
+          <div class="gallery-view-toggle">
+            <button type="button" class="gallery-density-btn active" id="gdensity-3" onclick="setGalleryDensity(3)" title="3 ช่อง (กะทัดรัด)">⊞ 3</button>
+            <button type="button" class="gallery-density-btn" id="gdensity-2" onclick="setGalleryDensity(2)" title="2 ช่อง (ใหญ่)">⊟ 2</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gallery Grid Container (Scrollable) -->
+      <div class="gallery-grid-wrap" id="gallery-grid-wrap" onscroll="handleGalleryScroll()">
+        <div class="gallery-grid cols-3" id="gallery-grid">
+          <!-- Injected via JS -->
+        </div>
+        <div class="gallery-empty-state" id="gallery-empty-state" style="display: none;">
+          <div class="empty-icon">🔍</div>
+          <div class="empty-title">ไม่พบท่วงท่าที่ตรงกับเงื่อนไข</div>
+          <div class="empty-sub">ลองเปลี่ยนคำค้นหา หรือรีเซ็ตตัวกรองหมวดหมู่</div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 
